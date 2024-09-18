@@ -1,1 +1,1 @@
-# PDF2NameSpace_Electorn
+# Create namespace for user uploaded PDFs

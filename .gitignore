@@ -1,0 +1,22 @@
+# Node modules
+node_modules/
+
+# Build directories
+dist/
+build/
+
+# PyInstaller build directories
+python/build/
+python/dist/
+
+# PyInstaller spec files
+python/*.spec
+
+# Conda environment directories
+env/
+.venv/
+venv/
+
+# Byte-compiled Python files
+__pycache__/
+*.pyc

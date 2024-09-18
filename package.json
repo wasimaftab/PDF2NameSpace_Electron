@@ -1,0 +1,32 @@
+{
+  "name": "PDF2NameSpace_Electorn",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "https://github.com/wasimaftab/PDF2NameSpace_Electorn.git",
+  "author": "Wasim Aftab <wasimgradapplication@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-builder --windows",
+    "build:mac": "electron-builder --mac",
+    "build:linux": "electron-builder --linux"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "electron": "^32.1.1",
+    "electron-builder": "^25.0.5"
+  },
+  "build": {
+    "appId": "com.yourcompany.pdfprocessor",
+    "files": [
+      "**/*",
+      "py/**",
+      "python/**"
+    ],
+    "extraFiles": [
+      "py/**"
+    ]
+  }
+}
