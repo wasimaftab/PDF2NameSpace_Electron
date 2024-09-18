@@ -33,6 +33,7 @@ ipcMain.on('select-pdf-folder', async (event) => {
 function startPythonProcess(folderPath, event) {
   // Determine the path to the Python executable based on the platform
   let pythonExecutablePath;
+  console.log('pythonExecutablePath = ' + pythonExecutablePath);
   if (process.platform === 'win32') {
     pythonExecutablePath = path.join(__dirname, 'py', 'app.exe');
   } else if (process.platform === 'darwin') {
