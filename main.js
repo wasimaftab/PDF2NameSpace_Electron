@@ -36,6 +36,17 @@ ipcMain.on('select-pdf-folder', async (event) => {
 function startPythonProcess(folderPath, event) {
   let scriptPath;
   let pythonExecutablePath;
+<<<<<<< HEAD
+=======
+  console.log('pythonExecutablePath = ' + pythonExecutablePath);
+  if (process.platform === 'win32') {
+    pythonExecutablePath = path.join(__dirname, 'py', 'app.exe');
+  } else if (process.platform === 'darwin') {
+    pythonExecutablePath = path.join(__dirname, 'py', 'app');
+  } else if (process.platform === 'linux') {
+    pythonExecutablePath = path.join(__dirname, 'py', 'app');
+  }
+>>>>>>> fee8f0f9be05005fe7b4ff981c76868f41c1ded6
 
   if (isDev) {
     // Development mode: Use 'python' command to run app.py

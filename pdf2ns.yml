@@ -82,4 +82,3 @@ dependencies:
       - tzdata==2024.1
       - urllib3==2.2.3
       - uvicorn==0.30.6
-prefix: /home/wasim/anaconda3/envs/pdf2ns
