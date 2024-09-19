@@ -6,7 +6,7 @@
   "author": "Wasim Aftab <wasimgradapplication@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "electron .",
+    "start": "cross-env NODE_ENV=development electron .",
     "build:win": "electron-builder --windows",
     "build:mac": "electron-builder --mac",
     "build:linux": "electron-builder --linux"
@@ -15,6 +15,7 @@
     "axios": "^1.7.7"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "electron": "^32.1.1",
     "electron-builder": "^25.0.5"
   },

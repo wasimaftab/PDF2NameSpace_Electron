@@ -4,6 +4,9 @@ const { spawn } = require('child_process');
 
 let pythonProcess;
 
+// Define isDev to determine the environment mode
+const isDev = process.env.NODE_ENV === 'development';
+
 function createWindow() {
   const win = new BrowserWindow({
     width: 800,
@@ -31,18 +34,34 @@ ipcMain.on('select-pdf-folder', async (event) => {
 });
 
 function startPythonProcess(folderPath, event) {
-  // Determine the path to the Python executable based on the platform
+  let scriptPath;
   let pythonExecutablePath;
-  if (process.platform === 'win32') {
-    pythonExecutablePath = path.join(__dirname, 'py', 'app.exe');
-  } else if (process.platform === 'darwin') {
-    pythonExecutablePath = path.join(__dirname, 'py', 'app');
-  } else if (process.platform === 'linux') {
-    pythonExecutablePath = path.join(__dirname, 'py', 'app');
-  }
 
-  // Spawn the Python process
-  pythonProcess = spawn(pythonExecutablePath, [folderPath]);
+  if (isDev) {
+    // Development mode: Use 'python' command to run app.py
+    pythonExecutablePath = 'python'; // Assumes 'python' is in PATH
+    scriptPath = path.join(__dirname, 'python', 'app.py');
+    console.log('scriptPath = ' + scriptPath);
+
+    // Set environment variables
+    const env = Object.assign({}, process.env, {
+      PINECONE_API_KEY: process.env.PINECONE_API_KEY,
+      PINECONE_INDEX_NAME: process.env.PINECONE_INDEX,
+    });
+
+    // Spawn the Python process
+    pythonProcess = spawn(pythonExecutablePath, [scriptPath, folderPath], { env });
+  } else {
+    // Production mode: Use the packaged executable
+    if (process.platform === 'win32') {
+      pythonExecutablePath = path.join(__dirname, 'py', 'app.exe');
+    } else {
+      pythonExecutablePath = path.join(__dirname, 'py', 'app');
+    }
+
+    // Spawn the packaged executable
+    pythonProcess = spawn(pythonExecutablePath, [folderPath], { env });
+  }
 
   pythonProcess.stdout.on('data', (data) => {
     const message = data.toString();
