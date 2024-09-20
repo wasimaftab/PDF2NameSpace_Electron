@@ -1,15 +1,23 @@
 from fastapi import FastAPI, HTTPException
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from pydantic import BaseModel
 import sys
 import os
 import pinecone
-import fitz  # PyMuPDF for PDF processing
+import pymupdf  # PyMuPDF for PDF processing
 import asyncio
 import json
 
 app = FastAPI()
 
 ##------- User defined function block -------##
+text_splitter = RecursiveCharacterTextSplitter(
+    # Set a really small chunk size, just to show.
+    chunk_size=1000,
+    chunk_overlap=0,
+    length_function=len,
+    is_separator_regex=False,
+)
 
 def generate_embedding(text):
     # TODO: Replace with actual embedding logic
@@ -33,10 +41,13 @@ def process_pdfs(folder_path):
 
                 try:
                     # Extract text from PDF
-                    doc = fitz.open(pdf_path)
+                    doc = pymupdf.open(pdf_path)
                     text = ""
                     for page in doc:
                         text += page.get_text()
+
+                    # Split the text recursively
+                    texts = text_splitter.create_documents([text])
 
                     # Generate embedding
                     embedding = generate_embedding(text)
@@ -84,7 +95,7 @@ if __name__ == "__main__":
 # import sys
 # import os
 # import pinecone
-# import fitz  # PyMuPDF for PDF processing
+# import pymupdf  # PyMuPDF for PDF processing
 # import asyncio
 # import json
 
@@ -129,7 +140,7 @@ if __name__ == "__main__":
 
 #                 # try:
 #                 #     # Extract text from PDF
-#                 #     doc = fitz.open(pdf_path)
+#                 #     doc = pymupdf.open(pdf_path)
 #                 #     text = ""
 #                 #     for page in doc:
 #                 #         text += page.get_text()
