@@ -26,30 +26,44 @@ function createWindow() {
   win.loadFile('index.html');
 }
 
-ipcMain.on('select-pdf-folder', async (event) => {
+// ipcMain.on('select-pdf-folder', async (event) => {
+//   const result = await dialog.showOpenDialog({
+//     properties: ['openDirectory'],
+//   });
+//   if (!result.canceled) {
+//     const folderPath = result.filePaths[0];
+//     event.reply('pdf-folder-selected', folderPath);
+
+//     // Start the Python executable
+//     startPythonProcess(folderPath, event);
+//   }
+// });
+
+ipcMain.handle('select-pdf-folder', async (event, namespace) => {
   const result = await dialog.showOpenDialog({
     properties: ['openDirectory'],
   });
   if (!result.canceled) {
     const folderPath = result.filePaths[0];
-    event.reply('pdf-folder-selected', folderPath);
+    event.sender.send('pdf-folder-selected', folderPath);
 
     // Start the Python executable
-    startPythonProcess(folderPath, event);
+    startPythonProcess(folderPath, namespace, event);
   }
 });
 
-function processPdfs(folderPath, event, retries = 5) {
+function processPdfs(folderPath, namespace, event, retries = 5) {
   axios
-    .post('http://127.0.0.1:8000/process-pdfs/', { folder_path: folderPath })
+    .post('http://127.0.0.1:8000/process-pdfs/', { folder_path: folderPath, namespace: namespace })
     .then((response) => {
-      event.reply('processing-complete', response.data.message);
+      // event.reply('processing-complete', response.data.message);
+      event.sender.send('processing-complete', response.data.message);
     })
     .catch((error) => {
       if (retries > 0) {
         // Wait and retry
         setTimeout(() => {
-          processPdfs(folderPath, event, retries - 1);
+          processPdfs(folderPath, namespace, event, retries - 1);
         }, 1000);
       } else {
         console.error(error);
@@ -59,10 +73,10 @@ function processPdfs(folderPath, event, retries = 5) {
 }
 
 
-function startPythonProcess(folderPath, event) {
+function startPythonProcess(folderPath, namespace, event) {
   if (isDev) {
     // Development mode: Assume FastAPI server is running separately
-    processPdfs(folderPath, event);
+    processPdfs(folderPath, namespace, event);
   } else {
     // Production mode: Start the Python process as before
     let pythonExecutablePath;

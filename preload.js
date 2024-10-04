@@ -2,7 +2,7 @@
 const { contextBridge, ipcRenderer } = require('electron');
 
 contextBridge.exposeInMainWorld('electronAPI', {
-  selectPdfFolder: () => ipcRenderer.send('select-pdf-folder'),
+  selectPdfFolder: (namespace) => ipcRenderer.invoke('select-pdf-folder', namespace),
   onPdfFolderSelected: (callback) => ipcRenderer.on('pdf-folder-selected', callback),
   onProcessingUpdate: (callback) => ipcRenderer.on('processing-update', callback),
   onProcessingComplete: (callback) => ipcRenderer.on('processing-complete', callback),

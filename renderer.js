@@ -1,6 +1,20 @@
 // renderer.js
 document.getElementById('select-folder').addEventListener('click', () => {
-    window.electronAPI.selectPdfFolder();
+  // Get the namespace value from the textarea
+  const namespaceInput = document.getElementById('namespace');
+  const namespace = namespaceInput.value.trim();
+
+  if (!namespace) {
+    Swal.fire({
+      icon: 'error',
+      title: 'Empty Namespace',
+      text: 'Namespace must not be empty string',
+  });
+    return;
+  } else {
+    console.log("namespace = " + namespace);
+  }   
+    window.electronAPI.selectPdfFolder(namespace);
   });
   
   window.electronAPI.onPdfFolderSelected((event, folderPath) => {

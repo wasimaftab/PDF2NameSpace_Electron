@@ -6,7 +6,8 @@
   "author": "Wasim Aftab <wasimgradapplication@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "uvicorn python.app:app --reload --port ${Fast_Port:-8000} & cross-env NODE_ENV=development electron .",
+    "prestart": "kill-port 8000",
+    "start": "concurrently --kill-others-on-fail \"uvicorn python.app:app --reload --port 8000\" \"cross-env NODE_ENV=development electron .\"",
     "build:win": "electron-builder --windows",
     "build:mac": "electron-builder --mac",
     "build:linux": "electron-builder --linux"
@@ -15,10 +16,13 @@
     "axios": "^1.7.7"
   },
   "devDependencies": {
+    "concurrently": "^9.0.1",
     "cross-env": "^7.0.3",
     "electron": "^32.1.1",
     "electron-builder": "^25.0.5",
-    "electron-reload": "^2.0.0-alpha.1"
+    "electron-reload": "^2.0.0-alpha.1",
+    "kill-port": "^2.0.1",
+    "wait-on": "^8.0.1"
   },
   "build": {
     "appId": "com.yourcompany.pdfprocessor",
