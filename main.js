@@ -68,6 +68,7 @@ function processPdfs(folderPath, namespace, event, retries = 5) {
       } else {
         console.error(error);
         event.reply('processing-update', `Error: ${error}`);
+        // event.sender.send('processing-update', `Error: ${error}`);
       }
     });
 }

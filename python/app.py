@@ -174,7 +174,7 @@ def push_vectors_into_pinecone(all_texts_citated, namespace, embedd_model):
     if namespace in index_stats["namespaces"]:
         offset = get_num_vectors_in_namespace(namespace)
         logger.info(f"Number of vectors in namespace {namespace}: {offset}")
-        # print(f"Number of vectors in namespace {namespace}: {offset}")
+        print(f"Number of vectors in namespace {namespace}: {offset}")
     else:
         offset = 0
         logger.info(f"The namespace {namespace} does not yet exist, will be created, hence in the beginning number of vectors in namespace {namespace} is: {offset}")
@@ -397,6 +397,7 @@ def process_pdfs(folder_path, namespace):
                     chunk.metadata['citation'] = citation
                     chunk.metadata['paper_id'] = idx+1
         push_vectors_into_pinecone(texts, namespace, embedd_model)
+        print(f"Just pushed {len(texts)} vectors into pinecone")
 
 
     # for root, dirs, files in os.walk(xml_folder_path):

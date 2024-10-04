@@ -6,8 +6,7 @@
   "author": "Wasim Aftab <wasimgradapplication@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "prestart": "kill-port 8000",
-    "start": "concurrently --kill-others-on-fail \"uvicorn python.app:app --reload --port 8000\" \"cross-env NODE_ENV=development electron .\"",
+    "start": "uvicorn python.app:app --reload --port 8000 & cross-env NODE_ENV=development electron .",
     "build:win": "electron-builder --windows",
     "build:mac": "electron-builder --mac",
     "build:linux": "electron-builder --linux"
