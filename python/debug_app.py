@@ -1,14 +1,14 @@
 import os
 os.system('clear')
 
-from fastapi import FastAPI, HTTPException
+# from fastapi import FastAPI, HTTPException
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from pydantic import BaseModel
 import sys
 from pinecone import Pinecone
-# import pymupdf  # PyMuPDF for PDF processing
-# import asyncio
-# import json
+import pymupdf  # PyMuPDF for PDF processing
+import asyncio
+import json
 import glob
 import requests
 import re
@@ -17,16 +17,14 @@ from grobid_client_python.grobid_client.grobid_client import GrobidClient
 from tqdm import tqdm
 import numpy as np
 import torch
-# from openai import OpenAI
+from openai import OpenAI
 from transformers import BertTokenizer, BertModel, AutoTokenizer, AutoModel
-import time
 import logging
-import humanize
-
+import time
+import pdb
 
 # import python.PMC_downloader_Utils.py as pmcd
-parent_directory = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-
+# parent_directory = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 ## Define the namespace
 namespaces = {'ns': 'http://www.tei-c.org/ns/1.0'}
 
@@ -37,7 +35,12 @@ log_file = "PDF2NS.log"
 logger_name = 'PDF2NS_logger'
 
 ## Start the fastapi app    
-app = FastAPI()
+# app = FastAPI()
+
+## Set up openai client
+syncClient = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
+EMBEDDING_MODEL = "text-embedding-ada-002"
+EMBEDDING_MODEL_BERT = "dmis-lab/biobert-base-cased-v1.2"
 
 ##------- User defined function block -------##
 
@@ -174,15 +177,16 @@ def push_vectors_into_pinecone(all_texts_citated, namespace, embedd_model, count
     
     ## Get the existing number of vectors in a namespace
     index_stats = index.describe_index_stats()
+    
     if namespace in index_stats["namespaces"]:
         offset = get_num_vectors_in_namespace(namespace)
-        logger.info(f"Number of vectors in namespace {namespace}: {offset}")
+        # logger.info(f"Number of vectors in namespace {namespace}: {offset}")
         print(f"Number of vectors in namespace {namespace}: {offset}")
     else:
         offset = 0
-        logger.info(f"The namespace {namespace} does not yet exist, will be created, hence in the beginning number of vectors in namespace {namespace} is: {offset}")
-        # print(f"The namespace {namespace} does not yet exist, will be created, hence number of vectors in namespace {namespace} will be: {offset}")
-                          
+        # logger.info(f"The namespace {namespace} does not yet exist, will be created, hence in the beginning number of vectors in namespace {namespace} is: {offset}")
+        print(f"The namespace {namespace} does not yet exist, will be created, hence number of vectors in namespace {namespace} will be: {offset}")
+    # pdb.set_trace()                   
     batch_size = 32  # process everything in batches of 32
     
     for i in tqdm(range(0, len(all_texts_citated), batch_size)):   
@@ -212,8 +216,7 @@ def push_vectors_into_pinecone(all_texts_citated, namespace, embedd_model, count
             paper_id = [{'paper_id': record.metadata['paper_id']} for record in records_batch]
             chunk_id = [{'chunk_id': record.metadata['chunk_id']} for record in records_batch]
             
-            
-            
+                        
             if len(meta) == len(cite):
                 for i, dict_item in enumerate(meta):
                     dict_item['citation'] = cite[i]['citation']
@@ -235,16 +238,16 @@ def push_vectors_into_pinecone(all_texts_citated, namespace, embedd_model, count
 
         ## upsert to Pinecone            
         # logger.info(f"Pushing {len(ids_batch)} vectors into Pinecone")     
-        logger.info(f"Pushing {len(ids_batch)} vectors into Pinecone namespace `{namespace}`")
+        print(f"Pushing {len(ids_batch)} vectors into Pinecone")
         try:
             index.upsert(vectors=list(to_upsert), namespace=namespace)
         except Exception as e:
             msg = f"Error pushing the vectors in to pinecone, actual exception is: {e}"
-
+            
         ## A small delay only after the first time a namespace is created
         if not count:
             time.sleep(15)
-            logger.info("A small delay only after the first time a namespace is created")
+            print("A small delay only after the first time a namespace is created")
             
             
     # pdb.set_trace()
@@ -252,7 +255,7 @@ def push_vectors_into_pinecone(all_texts_citated, namespace, embedd_model, count
     # Close the index and return (NOT REQUIRED in pinecone-client version ≥ 3.0.0)
     # index.close()
 
-#########################################################
+###############################################################################
 
 ## For WeiseEule paper revision
 def return_embeddings(lines_batch, model, tokenizer, max_length, openai_vec_len):
@@ -302,14 +305,13 @@ def get_text_embeddings(text_type, lines_batch, embedd_model, openai_vec_len):
 ###############################################################################
 
 def process_pdfs(folder_path, namespace):
-    start = time.time()
     embedd_model = "MedCPT"
     if not os.path.exists(folder_path):
         print("Error: Folder path does not exist.")
         sys.exit(1)
 
     print(f"Selected folder = {folder_path}")
-    print(f"parent_directory = {parent_directory}")
+    # print(f"parent_directory = {parent_directory}")
 
     if is_grobid_server_running():
         print("GROBID server is up and running")
@@ -322,8 +324,6 @@ def process_pdfs(folder_path, namespace):
                     output="./pdf2xml",
                     n=10,  # may want to adjust this based on the cores available
                     force=True)
-    end = time.time()
-    logger.info(f"Time taken to process PDFs: {humanize.precisedelta(end-start)}")
 
     xml_folder_path = "./pdf2xml"
     # xml_folder_path = "./pdf2xml_old"
@@ -337,7 +337,6 @@ def process_pdfs(folder_path, namespace):
     full_text = []
     citation_text = []
     count = 0
-    start = time.time()
     for idx, xml_file in enumerate(xml_files):
         # temp_xml_file = os.path.basename(xml_file)
         # tree = ET.parse(xml_folder_path + '/' + temp_xml_file)
@@ -408,145 +407,6 @@ def process_pdfs(folder_path, namespace):
                     chunk.metadata['chunk_id'] = chunk_idx
                     chunk.metadata['citation'] = citation
                     chunk.metadata['paper_id'] = idx+1
+        print(f"Number of chunks going to push_vectors_into_pinecone() is {len(texts)}")
         push_vectors_into_pinecone(texts, namespace, embedd_model, count)
         count += 1
-
-    end = time.time()
-    logger.info(f"Time taken to push vectors into namespace: {humanize.precisedelta(end-start)}")
-
-    # for root, dirs, files in os.walk(xml_folder_path):
-    #     for file in files:
-    #         if file.lower().endswith('.xml'):
-    #             xml_path = os.path.join(root, file)
-    #             print(f'Processing {xml_path}')
-
-                # sys.stdout.flush()
-
-                # try:
-                #     # Extract text from PDF (update the code to use GROBID)
-                #     doc = pymupdf.open(pdf_path)
-                #     text = ""
-                #     for page in doc:
-                #         text += page.get_text()
-
-                #     # Split the text recursively
-                #     texts = text_splitter.create_documents([text])
-
-                #     # Generate embedding
-                #     embedding = generate_embedding(text)
-
-                #     # Upsert to Pinecone
-                #     # index.upsert([(file, embedding)])
-
-                #     print(f'Successfully processed {pdf_path}')
-                #     sys.stdout.flush()
-
-                # except Exception as e:
-                #     print(f'Error processing {pdf_path}: {e}')
-                #     sys.stdout.flush()
-##------- User defined function block -------##
-
-## Health check endpoint
-@app.get("/health")
-def read_health():
-    return {"status": "OK"}
-
-# Define a Pydantic model for the request body
-class ProcessPDFsRequest(BaseModel):
-    folder_path: str
-    namespace: str
-
-# Define the /process-pdfs/ endpoint
-@app.post("/process-pdfs/")
-async def process_pdfs_endpoint(payload: ProcessPDFsRequest):
-    folder_path = payload.folder_path
-    namespace = payload.namespace
-    process_pdfs(folder_path, namespace)
-    return {"message": "Processing complete"}
-    
-# ... rest of your existing code ...
-if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        folder = sys.argv[1]
-        process_pdfs(folder)
-    else:
-        print('No folder path provided.')
-        sys.exit(1)
-
-
-
-# # app.py
-# from fastapi import FastAPI, HTTPException
-# import sys
-# import os
-# import pinecone
-# import pymupdf  # PyMuPDF for PDF processing
-# import asyncio
-# import json
-
-# app = FastAPI()
-
-# # check app status
-# @app.get("/health")
-# def read_health():
-#     return {"status": "OK"}
-
-# # Initialize Pinecone
-# PINECONE_API_KEY = os.getenv('PINECONE_API_KEY')
-# # PINECONE_ENVIRONMENT = os.getenv('PINECONE_ENVIRONMENT')
-# PINECONE_INDEX_NAME = os.getenv('PINECONE_INDEX')
-
-# # if not PINECONE_API_KEY or not PINECONE_ENVIRONMENT or not PINECONE_INDEX_NAME:
-# if not PINECONE_API_KEY or not PINECONE_INDEX_NAME:
-#     print("Error: Pinecone configuration not set.")
-#     sys.exit(1)
-
-# # pinecone.init(api_key=PINECONE_API_KEY)
-# # index = pinecone.Index(PINECONE_INDEX_NAME)
-
-# def generate_embedding(text):
-#     # TODO: Replace with actual embedding logic
-#     # For example, using OpenAI embeddings
-#     # embedding = openai.Embedding.create(input=text)
-#     # return embedding['data'][0]['embedding']
-#     return [0.0] * 512  # Dummy embedding for placeholder
-
-# def process_pdfs(folder_path):
-#     if not os.path.exists(folder_path):
-#         print("Error: Folder path does not exist.")
-#         sys.exit(1)
-
-#     for root, dirs, files in os.walk(folder_path):
-#         for file in files:
-#             if file.lower().endswith('.pdf'):
-#                 pdf_path = os.path.join(root, file)
-#                 print(f'Processing {pdf_path}')
-#                 sys.stdout.flush()
-
-#                 # try:
-#                 #     # Extract text from PDF
-#                 #     doc = pymupdf.open(pdf_path)
-#                 #     text = ""
-#                 #     for page in doc:
-#                 #         text += page.get_text()
-
-#                 #     # Generate embedding
-#                 #     embedding = generate_embedding(text)
-
-#                 #     # Upsert to Pinecone
-#                 #     index.upsert([(file, embedding)])
-
-#                 #     print(f'Successfully processed {pdf_path}')
-#                 #     sys.stdout.flush()
-
-#                 # except Exception as e:
-#                 #     print(f'Error processing {pdf_path}: {e}')
-#                 #     sys.stdout.flush()
-
-# if __name__ == "__main__":
-#     if len(sys.argv) > 1:
-#         folder = sys.argv[1]
-#         process_pdfs(folder)
-#     else:
-#         print('No folder path provided.')
-#         sys.exit(1)

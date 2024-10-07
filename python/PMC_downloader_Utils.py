@@ -929,7 +929,6 @@ def create_files_from_excel_columns(directory, df):
     logger.info("END Summary create_files_from_excel_columns()>>")
 ###############################################################################
 
-
 def sort_list(document_list):
     sorted_documents = sorted(
         document_list, key=lambda doc: doc.metadata['source'])
@@ -975,7 +974,7 @@ def remove_newline_multiple_spaces(string):
     string = re.sub(' +', ' ', string).strip()
     return string
 ###############################################################################      
-       
+
 ## For WeiseEule paper revision
 def return_embeddings(lines_batch, model, tokenizer, max_length, openai_vec_len):
     embeds = []
