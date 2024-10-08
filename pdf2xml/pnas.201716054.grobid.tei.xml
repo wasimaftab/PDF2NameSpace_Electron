@@ -7,18 +7,18 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		<fileDesc>
 			<titleStmt>
 				<title level="a" type="main">&lt;i&gt;KLU&lt;/i&gt; suppresses megasporocyte cell fate through SWR1-mediated activation of &lt;i&gt;WRKY28&lt;/i&gt; expression in &lt;i&gt;Arabidopsis&lt;/i&gt;</title>
-				<funder ref="#_CxAj9yf #_R6kNGar">
-					<orgName type="full">Newton Advanced Fellowship</orgName>
+				<funder ref="#_ywNMzht #_88CQ8qW #_52QNWB2">
+					<orgName type="full">unknown</orgName>
 				</funder>
-				<funder ref="#_mzAqhY8">
-					<orgName type="full">Scientific Research Foundation of Graduate School of Fujian Agriculture and Forestry University</orgName>
-				</funder>
-				<funder ref="#_aFnCmwB #_FAKypRQ #_HzsMSHv">
+				<funder ref="#_SgxX3bC #_wGXxNvw #_dYsSjCa">
 					<orgName type="full">National Natural Science Foundation of China</orgName>
 					<orgName type="abbreviated">NSFC</orgName>
 				</funder>
-				<funder ref="#_nuaVBmt #_97j9tZJ #_shebb3W">
-					<orgName type="full">unknown</orgName>
+				<funder ref="#_rEaw2r3 #_qEgDyHD">
+					<orgName type="full">Newton Advanced Fellowship</orgName>
+				</funder>
+				<funder ref="#_URSncMc">
+					<orgName type="full">Scientific Research Foundation of Graduate School of Fujian Agriculture and Forestry University</orgName>
 				</funder>
 			</titleStmt>
 			<publicationStmt>
@@ -262,7 +262,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		</fileDesc>
 		<encodingDesc>
 			<appInfo>
-				<application version="0.8.1" ident="GROBID" when="2024-10-07T13:40+0000">
+				<application version="0.8.1" ident="GROBID" when="2024-10-08T14:08+0000">
 					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
 					<ref target="https://github.com/kermitt2/grobid"/>
 				</application>
@@ -299,31 +299,31 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 <div><p>ACKNOWLEDGMENTS. We thank <rs type="person">Dr. W. Yang</rs> for sharing the pAKV:H2B-YFP marker, <rs type="person">R. Yadegari</rs> for providing the pDMC1:GFP marker, <rs type="person">R. Deal</rs> and <rs type="person">R. Meagher</rs> for sharing the H2A.Z and ARP6 antibodies, <rs type="person">Dr. B. Sun</rs> for the pKNU:<rs type="institution">KNU-Venus line</rs>, and <rs type="person">Z. Yang</rs>, <rs type="person">L. Xia</rs>, and <rs type="person">I. Lavagi</rs> for critical reading. This work was supported by <rs type="funder">National Natural Science Foundation of China (NSFC)</rs> Grants <rs type="grantNumber">31470284</rs> (to Y.Q.), <rs type="grantNumber">31522009</rs> (to Y.Q.), <rs type="grantNumber">U1605212</rs> (to Y.Q.), <rs type="grantNumber">31761130074</rs> (to Y.Q.), <rs type="grantNumber">31600249</rs> (to L.Z.), <rs type="grantNumber">31571264</rs> (to H.Z.), and <rs type="grantNumber">31700278</rs> (to Z.S.), <rs type="funder">Newton Advanced Fellowship</rs> <rs type="grantNumber">NA160391</rs> (to Y.Q.), and <rs type="funder">Scientific Research Foundation of Graduate School of Fujian Agriculture and Forestry University</rs> Grant <rs type="grantNumber">1122yb035</rs> (to L.Z.).</p></div>
 			</div>
 			<listOrg type="funding">
-				<org type="funding" xml:id="_aFnCmwB">
+				<org type="funding" xml:id="_SgxX3bC">
 					<idno type="grant-number">31470284</idno>
 				</org>
-				<org type="funding" xml:id="_FAKypRQ">
+				<org type="funding" xml:id="_wGXxNvw">
 					<idno type="grant-number">31522009</idno>
 				</org>
-				<org type="funding" xml:id="_HzsMSHv">
+				<org type="funding" xml:id="_dYsSjCa">
 					<idno type="grant-number">U1605212</idno>
 				</org>
-				<org type="funding" xml:id="_nuaVBmt">
+				<org type="funding" xml:id="_ywNMzht">
 					<idno type="grant-number">31761130074</idno>
 				</org>
-				<org type="funding" xml:id="_97j9tZJ">
+				<org type="funding" xml:id="_88CQ8qW">
 					<idno type="grant-number">31600249</idno>
 				</org>
-				<org type="funding" xml:id="_shebb3W">
+				<org type="funding" xml:id="_52QNWB2">
 					<idno type="grant-number">31571264</idno>
 				</org>
-				<org type="funding" xml:id="_CxAj9yf">
+				<org type="funding" xml:id="_rEaw2r3">
 					<idno type="grant-number">31700278</idno>
 				</org>
-				<org type="funding" xml:id="_R6kNGar">
+				<org type="funding" xml:id="_qEgDyHD">
 					<idno type="grant-number">NA160391</idno>
 				</org>
-				<org type="funding" xml:id="_mzAqhY8">
+				<org type="funding" xml:id="_URSncMc">
 					<idno type="grant-number">1122yb035</idno>
 				</org>
 			</listOrg>

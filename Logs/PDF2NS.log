@@ -17,3 +17,161 @@
 2024-10-07 15:41:25 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
 2024-10-07 15:41:27 - PDF2NS_logger - INFO - Pushing 30 vectors into Pinecone namespace `some_namespace`
 2024-10-07 15:41:28 - PDF2NS_logger - INFO - Time taken to push vectors into namespace: 29 seconds
+2024-10-08 14:41:05 - PDF2NS_logger - INFO - Time taken to process PDFs: 23 seconds
+2024-10-08 14:41:05 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 14:41:06 - PDF2NS_logger - INFO - The namespace some_namespace does not yet exist, will be created, hence in the beginning number of vectors in namespace some_namespace is: 0
+2024-10-08 14:41:06 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 14:41:08 - PDF2NS_logger - INFO - Pushing 30 vectors into Pinecone namespace `some_namespace`
+2024-10-08 14:41:24 - PDF2NS_logger - INFO - A small delay only after the first time a namespace is created
+2024-10-08 14:41:24 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 14:41:25 - PDF2NS_logger - INFO - Number of vectors in namespace some_namespace: 30
+2024-10-08 14:41:25 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 14:41:27 - PDF2NS_logger - INFO - Pushing 32 vectors into Pinecone namespace `some_namespace`
+2024-10-08 14:41:27 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 14:41:28 - PDF2NS_logger - INFO - Pushing 3 vectors into Pinecone namespace `some_namespace`
+2024-10-08 14:41:28 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 14:41:29 - PDF2NS_logger - INFO - Number of vectors in namespace some_namespace: 65
+2024-10-08 14:41:29 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 14:41:31 - PDF2NS_logger - INFO - Pushing 32 vectors into Pinecone namespace `some_namespace`
+2024-10-08 14:41:32 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 14:41:34 - PDF2NS_logger - INFO - Pushing 30 vectors into Pinecone namespace `some_namespace`
+2024-10-08 14:41:35 - PDF2NS_logger - INFO - Time taken to push vectors into namespace: 30 seconds
+2024-10-08 14:45:57 - PDF2NS_logger - INFO - Time taken to process PDFs: 3 seconds
+2024-10-08 14:45:57 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 14:45:58 - PDF2NS_logger - INFO - The namespace some_namespace does not yet exist, will be created, hence in the beginning number of vectors in namespace some_namespace is: 0
+2024-10-08 14:45:58 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 14:46:00 - PDF2NS_logger - INFO - Pushing 30 vectors into Pinecone namespace `some_namespace`
+2024-10-08 14:46:16 - PDF2NS_logger - INFO - A small delay only after the first time a namespace is created
+2024-10-08 14:46:16 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 14:46:17 - PDF2NS_logger - INFO - Number of vectors in namespace some_namespace: 30
+2024-10-08 14:46:17 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 14:46:19 - PDF2NS_logger - INFO - Pushing 32 vectors into Pinecone namespace `some_namespace`
+2024-10-08 14:46:19 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 14:46:20 - PDF2NS_logger - INFO - Pushing 3 vectors into Pinecone namespace `some_namespace`
+2024-10-08 14:46:20 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 14:46:21 - PDF2NS_logger - INFO - Number of vectors in namespace some_namespace: 65
+2024-10-08 14:46:21 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 14:46:23 - PDF2NS_logger - INFO - Pushing 32 vectors into Pinecone namespace `some_namespace`
+2024-10-08 14:46:24 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 14:46:26 - PDF2NS_logger - INFO - Pushing 30 vectors into Pinecone namespace `some_namespace`
+2024-10-08 14:46:27 - PDF2NS_logger - INFO - Time taken to push vectors into namespace: 29 seconds
+2024-10-08 14:47:02 - PDF2NS_logger - INFO - Time taken to process PDFs: 3 seconds
+2024-10-08 14:47:02 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 14:47:03 - PDF2NS_logger - INFO - The namespace some_namespace does not yet exist, will be created, hence in the beginning number of vectors in namespace some_namespace is: 0
+2024-10-08 14:47:03 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 14:47:05 - PDF2NS_logger - INFO - Pushing 30 vectors into Pinecone namespace `some_namespace`
+2024-10-08 14:47:21 - PDF2NS_logger - INFO - A small delay only after the first time a namespace is created
+2024-10-08 14:47:21 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 14:47:22 - PDF2NS_logger - INFO - Number of vectors in namespace some_namespace: 30
+2024-10-08 14:47:22 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 14:47:24 - PDF2NS_logger - INFO - Pushing 32 vectors into Pinecone namespace `some_namespace`
+2024-10-08 14:47:25 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 14:47:25 - PDF2NS_logger - INFO - Pushing 3 vectors into Pinecone namespace `some_namespace`
+2024-10-08 14:47:25 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 14:47:27 - PDF2NS_logger - INFO - Number of vectors in namespace some_namespace: 65
+2024-10-08 14:47:27 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 14:47:28 - PDF2NS_logger - INFO - Pushing 32 vectors into Pinecone namespace `some_namespace`
+2024-10-08 14:47:29 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 14:47:31 - PDF2NS_logger - INFO - Pushing 30 vectors into Pinecone namespace `some_namespace`
+2024-10-08 14:47:32 - PDF2NS_logger - INFO - Time taken to push vectors into namespace: 29 seconds
+2024-10-08 14:56:30 - PDF2NS_logger - INFO - Time taken to process PDFs: 3 seconds
+2024-10-08 14:56:30 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 14:56:30 - PDF2NS_logger - INFO - The namespace some_namespace does not yet exist, will be created, hence in the beginning number of vectors in namespace some_namespace is: 0
+2024-10-08 14:56:30 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 14:56:33 - PDF2NS_logger - INFO - Pushing 30 vectors into Pinecone namespace `some_namespace`
+2024-10-08 14:56:48 - PDF2NS_logger - INFO - A small delay only after the first time a namespace is created
+2024-10-08 14:56:48 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 14:56:49 - PDF2NS_logger - INFO - Number of vectors in namespace some_namespace: 30
+2024-10-08 14:56:49 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 14:56:51 - PDF2NS_logger - INFO - Pushing 32 vectors into Pinecone namespace `some_namespace`
+2024-10-08 14:56:52 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 14:56:53 - PDF2NS_logger - INFO - Pushing 3 vectors into Pinecone namespace `some_namespace`
+2024-10-08 14:56:53 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 14:56:54 - PDF2NS_logger - INFO - Number of vectors in namespace some_namespace: 65
+2024-10-08 14:56:54 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 14:56:56 - PDF2NS_logger - INFO - Pushing 32 vectors into Pinecone namespace `some_namespace`
+2024-10-08 14:56:57 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 14:56:58 - PDF2NS_logger - INFO - Pushing 30 vectors into Pinecone namespace `some_namespace`
+2024-10-08 14:56:59 - PDF2NS_logger - INFO - Time taken to push vectors into namespace: 29 seconds
+2024-10-08 15:47:58 - PDF2NS_logger - INFO - Time taken to process PDFs: 3 seconds
+2024-10-08 15:47:58 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 15:47:59 - PDF2NS_logger - INFO - Number of vectors in namespace some_namespace: 127
+2024-10-08 15:47:59 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 15:48:01 - PDF2NS_logger - INFO - Pushing 30 vectors into Pinecone namespace `some_namespace`
+2024-10-08 15:48:17 - PDF2NS_logger - INFO - A small delay only after the first time a namespace is created
+2024-10-08 15:48:17 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 15:48:19 - PDF2NS_logger - INFO - Number of vectors in namespace some_namespace: 157
+2024-10-08 15:48:19 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 15:48:20 - PDF2NS_logger - INFO - Pushing 32 vectors into Pinecone namespace `some_namespace`
+2024-10-08 15:48:21 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 15:48:22 - PDF2NS_logger - INFO - Pushing 3 vectors into Pinecone namespace `some_namespace`
+2024-10-08 15:48:22 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 15:48:23 - PDF2NS_logger - INFO - Number of vectors in namespace some_namespace: 192
+2024-10-08 15:48:23 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 15:48:25 - PDF2NS_logger - INFO - Pushing 32 vectors into Pinecone namespace `some_namespace`
+2024-10-08 15:48:26 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 15:48:28 - PDF2NS_logger - INFO - Pushing 30 vectors into Pinecone namespace `some_namespace`
+2024-10-08 15:48:28 - PDF2NS_logger - INFO - Time taken to push vectors into namespace: 30 seconds
+2024-10-08 15:57:38 - PDF2NS_logger - INFO - Time taken to process PDFs: 3 seconds
+2024-10-08 15:57:38 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 15:57:39 - PDF2NS_logger - INFO - Number of vectors in namespace some_namespace: 254
+2024-10-08 15:57:39 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 15:57:41 - PDF2NS_logger - INFO - Pushing 30 vectors into Pinecone namespace `some_namespace`
+2024-10-08 15:57:57 - PDF2NS_logger - INFO - A small delay only after the first time a namespace is created
+2024-10-08 15:57:57 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 15:57:58 - PDF2NS_logger - INFO - Number of vectors in namespace some_namespace: 284
+2024-10-08 15:57:58 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 15:58:00 - PDF2NS_logger - INFO - Pushing 32 vectors into Pinecone namespace `some_namespace`
+2024-10-08 15:58:01 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 15:58:02 - PDF2NS_logger - INFO - Pushing 3 vectors into Pinecone namespace `some_namespace`
+2024-10-08 15:58:02 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 15:58:03 - PDF2NS_logger - INFO - Number of vectors in namespace some_namespace: 319
+2024-10-08 15:58:03 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 15:58:05 - PDF2NS_logger - INFO - Pushing 32 vectors into Pinecone namespace `some_namespace`
+2024-10-08 15:58:06 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 15:58:08 - PDF2NS_logger - INFO - Pushing 30 vectors into Pinecone namespace `some_namespace`
+2024-10-08 15:58:09 - PDF2NS_logger - INFO - Time taken to push vectors into namespace: 30 seconds
+2024-10-08 15:59:45 - PDF2NS_logger - INFO - Time taken to process PDFs: 3 seconds
+2024-10-08 15:59:45 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 15:59:46 - PDF2NS_logger - INFO - Number of vectors in namespace some_namespace: 381
+2024-10-08 15:59:46 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 15:59:48 - PDF2NS_logger - INFO - Pushing 30 vectors into Pinecone namespace `some_namespace`
+2024-10-08 16:00:04 - PDF2NS_logger - INFO - A small delay only after the first time a namespace is created
+2024-10-08 16:01:01 - PDF2NS_logger - INFO - Time taken to process PDFs: 3 seconds
+2024-10-08 16:01:01 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 16:01:02 - PDF2NS_logger - INFO - Number of vectors in namespace some_namespace: 411
+2024-10-08 16:01:02 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 16:01:04 - PDF2NS_logger - INFO - Pushing 30 vectors into Pinecone namespace `some_namespace`
+2024-10-08 16:01:20 - PDF2NS_logger - INFO - A small delay only after the first time a namespace is created
+2024-10-08 16:01:20 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 16:01:21 - PDF2NS_logger - INFO - Number of vectors in namespace some_namespace: 441
+2024-10-08 16:01:21 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 16:01:23 - PDF2NS_logger - INFO - Pushing 32 vectors into Pinecone namespace `some_namespace`
+2024-10-08 16:01:24 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 16:01:24 - PDF2NS_logger - INFO - Pushing 3 vectors into Pinecone namespace `some_namespace`
+2024-10-08 16:01:25 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 16:01:26 - PDF2NS_logger - INFO - Number of vectors in namespace some_namespace: 476
+2024-10-08 16:01:26 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 16:01:27 - PDF2NS_logger - INFO - Pushing 32 vectors into Pinecone namespace `some_namespace`
+2024-10-08 16:01:28 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 16:01:30 - PDF2NS_logger - INFO - Pushing 30 vectors into Pinecone namespace `some_namespace`
+2024-10-08 16:01:31 - PDF2NS_logger - INFO - Time taken to push vectors into namespace: 30 seconds
+2024-10-08 16:08:48 - PDF2NS_logger - INFO - Time taken to process PDFs: 3 seconds
+2024-10-08 16:08:48 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 16:08:49 - PDF2NS_logger - INFO - Number of vectors in namespace some_namespace: 538
+2024-10-08 16:08:49 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 16:08:51 - PDF2NS_logger - INFO - Pushing 30 vectors into Pinecone namespace `some_namespace`
+2024-10-08 16:09:07 - PDF2NS_logger - INFO - A small delay only after the first time a namespace is created
+2024-10-08 16:09:07 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 16:09:08 - PDF2NS_logger - INFO - Number of vectors in namespace some_namespace: 538
+2024-10-08 16:09:08 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 16:09:10 - PDF2NS_logger - INFO - Pushing 32 vectors into Pinecone namespace `some_namespace`
+2024-10-08 16:09:11 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 16:09:11 - PDF2NS_logger - INFO - Pushing 3 vectors into Pinecone namespace `some_namespace`
+2024-10-08 16:09:12 - PDF2NS_logger - INFO - Inside push_vectors_into_pinecone()
+2024-10-08 16:09:13 - PDF2NS_logger - INFO - Number of vectors in namespace some_namespace: 573
+2024-10-08 16:09:13 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 16:09:14 - PDF2NS_logger - INFO - Pushing 32 vectors into Pinecone namespace `some_namespace`
+2024-10-08 16:09:15 - PDF2NS_logger - INFO - Inside get_text_embeddings(), text_type = chunk and max_length = 512
+2024-10-08 16:09:17 - PDF2NS_logger - INFO - Pushing 30 vectors into Pinecone namespace `some_namespace`
+2024-10-08 16:09:18 - PDF2NS_logger - INFO - Time taken to push vectors into namespace: 30 seconds

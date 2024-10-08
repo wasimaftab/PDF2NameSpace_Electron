@@ -16,10 +16,19 @@ document.getElementById('select-folder').addEventListener('click', () => {
   }   
     window.electronAPI.selectPdfFolder(namespace);
   });
+
+  window.electronAPI.onGrobidNotRunning(() => {
+    Swal.fire({
+      icon: 'error',
+      title: 'GROBID Server Not Running',
+      text: 'Please start the GROBID server before proceeding.',
+      confirmButtonText: 'OK',
+    });
+  });
   
   window.electronAPI.onPdfFolderSelected((event, folderPath) => {
     const output = document.getElementById('output');
-    output.textContent = `Selected folder: ${folderPath}\nProcessing...`;
+    output.textContent += `Selected folder: ${folderPath}\nProcessing...`;
   });
   
   window.electronAPI.onProcessingUpdate((event, message) => {

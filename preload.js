@@ -6,4 +6,5 @@ contextBridge.exposeInMainWorld('electronAPI', {
   onPdfFolderSelected: (callback) => ipcRenderer.on('pdf-folder-selected', callback),
   onProcessingUpdate: (callback) => ipcRenderer.on('processing-update', callback),
   onProcessingComplete: (callback) => ipcRenderer.on('processing-complete', callback),
+  onGrobidNotRunning: (callback) => ipcRenderer.on('grobid-not-running', callback),
 });

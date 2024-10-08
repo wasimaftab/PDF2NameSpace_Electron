@@ -3,6 +3,7 @@ const path = require('path');
 const { spawn } = require('child_process');
 const axios = require('axios');
 
+
 // Enable live reload for all the files inside your project directory
 require('electron-reload')(__dirname, {
   electron: require(`${__dirname}/node_modules/electron`)
@@ -39,7 +40,24 @@ function createWindow() {
 //   }
 // });
 
+async function isGrobidServerRunning(url = "http://localhost:8070") {
+  try {
+    const response = await axios.get(`${url}/api/isalive`, { timeout: 2000 });
+    return response.status === 200;
+  } catch (error) {
+    return false;
+  }
+}
+
 ipcMain.handle('select-pdf-folder', async (event, namespace) => {
+  // Check if GROBID server is running
+  const grobidRunning = await isGrobidServerRunning();
+  if (!grobidRunning) {
+    // Send a message to the renderer process to inform the user
+    event.sender.send('grobid-not-running');
+    return; // Do not proceed further
+  }
+
   const result = await dialog.showOpenDialog({
     properties: ['openDirectory'],
   });
@@ -67,50 +85,111 @@ function processPdfs(folderPath, namespace, event, retries = 5) {
         }, 1000);
       } else {
         console.error(error);
-        event.reply('processing-update', `Error: ${error}`);
-        // event.sender.send('processing-update', `Error: ${error}`);
+        // event.reply('processing-update', `Error: ${error}`);
+        event.sender.send('processing-update', `Error: ${error}`);
       }
     });
 }
 
 
+// function startPythonProcess(folderPath, namespace, event) {
+//   if (isDev) {
+//     // Development mode: Assume FastAPI server is running separately
+//     processPdfs(folderPath, namespace, event);
+//   } else {
+//     // Production mode: Start the Python process as before
+//     let pythonExecutablePath;
+//     if (process.platform === 'win32') {
+//       pythonExecutablePath = path.join(__dirname, 'py', 'app.exe');
+//     } else {
+//       pythonExecutablePath = path.join(__dirname, 'py', 'app');
+//     }
+
+//     // Set environment variables
+//     const env = Object.assign({}, process.env, {
+//       PINECONE_API_KEY: process.env.PINECONE_API_KEY,
+//       PINECONE_INDEX_NAME: process.env.PINECONE_INDEX,
+//     });
+
+//     // Spawn the packaged executable
+//     pythonProcess = spawn(pythonExecutablePath, [folderPath], { env });
+
+//     pythonProcess.stdout.on('data', (data) => {
+//       const message = data.toString();
+//       // event.reply('processing-update', message);
+//       event.sender.send('processing-update', message);
+//     });
+
+//     pythonProcess.stderr.on('data', (data) => {
+//       const error = data.toString();
+//       // event.reply('processing-update', `Error: ${error}`);
+//       event.sender.send('processing-update', `Error: ${error}`);
+//     });
+
+//     pythonProcess.on('close', (code) => {
+//       event.reply('processing-complete', `Python process exited with code ${code}`);
+//       pythonProcess = null;
+//     });
+//   }
+// }
+
+
 function startPythonProcess(folderPath, namespace, event) {
+  let pythonExecutablePath;
+  let scriptPath;
+  let args = [];
+
   if (isDev) {
-    // Development mode: Assume FastAPI server is running separately
-    processPdfs(folderPath, namespace, event);
+    // Development mode: Use the Python executable from your conda environment
+
+    if (process.platform === 'win32') {
+      // Windows: Specify the full path to your conda environment's python.exe
+      pythonExecutablePath = 'C:\\Users\\yourusername\\Anaconda3\\envs\\yourenv\\python.exe';
+    } else {
+      // Unix/Linux/MacOS: Specify the full path to your conda environment's python
+      pythonExecutablePath = '/home/wasim/anaconda3/envs/pdf2ns/bin/python';
+    }
+
+    // Path to your app.py script
+    scriptPath = path.join(__dirname, 'python', 'app.py');
+
+    // Arguments to pass to the Python script
+    args = [scriptPath, folderPath, namespace];
+
   } else {
-    // Production mode: Start the Python process as before
-    let pythonExecutablePath;
+    // Production mode: Use the packaged Python executable
     if (process.platform === 'win32') {
       pythonExecutablePath = path.join(__dirname, 'py', 'app.exe');
     } else {
-      pythonExecutablePath = path.join(__dirname, 'py', 'app');
+      pythonExecutablePath = path.join(__dirname, 'py', 'app'); // Adjust if necessary
     }
 
-    // Set environment variables
-    const env = Object.assign({}, process.env, {
-      PINECONE_API_KEY: process.env.PINECONE_API_KEY,
-      PINECONE_INDEX_NAME: process.env.PINECONE_INDEX,
-    });
-
-    // Spawn the packaged executable
-    pythonProcess = spawn(pythonExecutablePath, [folderPath], { env });
-
-    pythonProcess.stdout.on('data', (data) => {
-      const message = data.toString();
-      event.reply('processing-update', message);
-    });
-
-    pythonProcess.stderr.on('data', (data) => {
-      const error = data.toString();
-      event.reply('processing-update', `Error: ${error}`);
-    });
-
-    pythonProcess.on('close', (code) => {
-      event.reply('processing-complete', `Python process exited with code ${code}`);
-      pythonProcess = null;
-    });
+    // Arguments to pass to the packaged executable
+    args = [folderPath, namespace];
   }
+
+  // Set environment variables
+  const env = Object.assign({}, process.env, {
+    PINECONE_API_KEY: process.env.PINECONE_API_KEY,
+    PINECONE_INDEX_NAME: process.env.PINECONE_INDEX_NAME,
+  });
+
+  // Spawn the Python process
+  const pythonProcess = spawn(pythonExecutablePath, args, { env });
+
+  pythonProcess.stdout.on('data', (data) => {
+    const message = data.toString();
+    event.sender.send('processing-update', message);
+  });
+
+  pythonProcess.stderr.on('data', (data) => {
+    const error = data.toString();
+    event.sender.send('processing-update', `Error: ${error}`);
+  });
+
+  pythonProcess.on('close', (code) => {
+    event.sender.send('processing-complete', `Python process exited with code ${code}`);
+  });
 }
 
 

@@ -8,16 +8,16 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 			<titleStmt>
 				<title level="a" type="main">Molecular Architecture of the Essential Yeast Histone Acetyltransferase Complex NuA4 Redefines Its Multimodularity</title>
 				<funder>
-					<orgName type="full">WestGrid</orgName>
-				</funder>
-				<funder ref="#_qWRwKUv">
-					<orgName type="full">Natural Sciences and Engineering Research Council of Canada</orgName>
-				</funder>
-				<funder>
 					<orgName type="full">Compute Canada Calcul Canada</orgName>
 				</funder>
-				<funder ref="#_WMjZrCE #_tuGdsGD">
+				<funder ref="#_sXs4ppN">
+					<orgName type="full">Natural Sciences and Engineering Research Council of Canada</orgName>
+				</funder>
+				<funder ref="#_aMWRvN6 #_EcaMtud">
 					<orgName type="full">Canadian Institutes of Health Research</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">WestGrid</orgName>
 				</funder>
 			</titleStmt>
 			<publicationStmt>
@@ -155,7 +155,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		</fileDesc>
 		<encodingDesc>
 			<appInfo>
-				<application version="0.8.1" ident="GROBID" when="2024-10-07T13:40+0000">
+				<application version="0.8.1" ident="GROBID" when="2024-10-08T14:08+0000">
 					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
 					<ref target="https://github.com/kermitt2/grobid"/>
 				</application>
@@ -203,14 +203,14 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 <div><head>ACKNOWLEDGMENTS</head><p>This study was supported by a <rs type="grantName">Discovery Grant</rs> from <rs type="funder">Natural Sciences and Engineering Research Council of Canada</rs> (<rs type="grantNumber">418157-2012</rs>) to C.K.Y. and by Foundation Grants from the <rs type="funder">Canadian Institutes of Health Research</rs> to C.K.Y. (<rs type="grantNumber">FDN-143228</rs>) and J.C. (<rs type="grantNumber">FDN-143314</rs>). RELION 3D reconstruction computation was enabled by support provided by the <rs type="funder">WestGrid</rs> (www.westgrid.ca) and <rs type="funder">Compute Canada Calcul Canada</rs> (www.computecanada .ca) Hungabee cluster. Molecular graphics and analyses were performed with the <rs type="affiliation">UCSF Chimera</rs> package developed by the <rs type="institution">Resource for Biocomputing, Visualization, and Informatics at the University of California San Francisco</rs>. We are grateful to <rs type="person">Valerie Côté</rs> for technical assistance.</p></div>
 			</div>
 			<listOrg type="funding">
-				<org type="funding" xml:id="_qWRwKUv">
+				<org type="funding" xml:id="_sXs4ppN">
 					<idno type="grant-number">418157-2012</idno>
 					<orgName type="grant-name">Discovery Grant</orgName>
 				</org>
-				<org type="funding" xml:id="_WMjZrCE">
+				<org type="funding" xml:id="_aMWRvN6">
 					<idno type="grant-number">FDN-143228</idno>
 				</org>
-				<org type="funding" xml:id="_tuGdsGD">
+				<org type="funding" xml:id="_EcaMtud">
 					<idno type="grant-number">FDN-143314</idno>
 				</org>
 			</listOrg>
