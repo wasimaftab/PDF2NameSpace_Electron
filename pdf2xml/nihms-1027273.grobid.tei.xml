@@ -7,19 +7,19 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		<fileDesc>
 			<titleStmt>
 				<title level="a" type="main">Single-Cell Heterogeneity Analysis and CRISPR Screen Identify Key β-Cell-Specific Disease Genes</title>
-				<funder ref="#_FvHR8Gu #_c8a9zpf">
+				<funder ref="#_3hEuHqV #_guufvPG">
 					<orgName type="full">Sinai Health Care Foundation</orgName>
 				</funder>
-				<funder ref="#_xrWrHBf">
-					<orgName type="full">SFARI</orgName>
+				<funder ref="#_nVj2y6N #_cPPShGg">
+					<orgName type="full">National Institutes of Health</orgName>
+					<orgName type="abbreviated">NIH</orgName>
 				</funder>
-				<funder ref="#_UqZEWVC">
+				<funder ref="#_ySatNUh">
 					<orgName type="full">Clinical and Translational Science Collaborative</orgName>
 					<orgName type="abbreviated">CTSC</orgName>
 				</funder>
-				<funder ref="#_Q9W2Gkz #_Ua9uguR">
-					<orgName type="full">National Institutes of Health</orgName>
-					<orgName type="abbreviated">NIH</orgName>
+				<funder ref="#_3Pq8PBq">
+					<orgName type="full">SFARI</orgName>
 				</funder>
 			</titleStmt>
 			<publicationStmt>
@@ -312,7 +312,7 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 		</fileDesc>
 		<encodingDesc>
 			<appInfo>
-				<application version="0.8.1" ident="GROBID" when="2024-10-08T14:08+0000">
+				<application version="0.8.1" ident="GROBID" when="2024-10-09T13:53+0000">
 					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
 					<ref target="https://github.com/kermitt2/grobid"/>
 				</application>
@@ -365,22 +365,22 @@ xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.co
 <div><head>ACKNOWLEDGMENTS</head><p>This work was supported by grants from <rs type="funder">NIH</rs> (<rs type="grantNumber">R01DK113185</rs> to <rs type="person">Yan Li</rs> and <rs type="grantNumber">R01HG009658</rs> to F.J.), Mt. <rs type="funder">Sinai Health Care Foundation</rs> (<rs type="grantNumber">OSA510114</rs> to <rs type="person">Yan Li</rs> and <rs type="grantNumber">OSA510113</rs> to F.J.), a pilot award from <rs type="funder">Clinical and Translational Science Collaborative (CTSC) at Case Western Reserve University</rs> (<rs type="grantNumber">VSN639001</rs> to <rs type="person">Yan Li</rs>), and a pilot award from <rs type="funder">SFARI</rs> (<rs type="grantNumber">401625</rs> to F.J.).</p></div>
 			</div>
 			<listOrg type="funding">
-				<org type="funding" xml:id="_Q9W2Gkz">
+				<org type="funding" xml:id="_nVj2y6N">
 					<idno type="grant-number">R01DK113185</idno>
 				</org>
-				<org type="funding" xml:id="_Ua9uguR">
+				<org type="funding" xml:id="_cPPShGg">
 					<idno type="grant-number">R01HG009658</idno>
 				</org>
-				<org type="funding" xml:id="_FvHR8Gu">
+				<org type="funding" xml:id="_3hEuHqV">
 					<idno type="grant-number">OSA510114</idno>
 				</org>
-				<org type="funding" xml:id="_c8a9zpf">
+				<org type="funding" xml:id="_guufvPG">
 					<idno type="grant-number">OSA510113</idno>
 				</org>
-				<org type="funding" xml:id="_UqZEWVC">
+				<org type="funding" xml:id="_ySatNUh">
 					<idno type="grant-number">VSN639001</idno>
 				</org>
-				<org type="funding" xml:id="_xrWrHBf">
+				<org type="funding" xml:id="_3Pq8PBq">
 					<idno type="grant-number">401625</idno>
 				</org>
 			</listOrg>

@@ -1,3 +1,5 @@
+// main.js
+
 const { app, BrowserWindow, ipcMain, dialog } = require('electron');
 const path = require('path');
 const { spawn } = require('child_process');
@@ -26,19 +28,6 @@ function createWindow() {
 
   win.loadFile('index.html');
 }
-
-// ipcMain.on('select-pdf-folder', async (event) => {
-//   const result = await dialog.showOpenDialog({
-//     properties: ['openDirectory'],
-//   });
-//   if (!result.canceled) {
-//     const folderPath = result.filePaths[0];
-//     event.reply('pdf-folder-selected', folderPath);
-
-//     // Start the Python executable
-//     startPythonProcess(folderPath, event);
-//   }
-// });
 
 async function isGrobidServerRunning(url = "http://localhost:8070") {
   try {
@@ -92,106 +81,76 @@ function processPdfs(folderPath, namespace, event, retries = 5) {
 }
 
 
-// function startPythonProcess(folderPath, namespace, event) {
-//   if (isDev) {
-//     // Development mode: Assume FastAPI server is running separately
-//     processPdfs(folderPath, namespace, event);
-//   } else {
-//     // Production mode: Start the Python process as before
-//     let pythonExecutablePath;
-//     if (process.platform === 'win32') {
-//       pythonExecutablePath = path.join(__dirname, 'py', 'app.exe');
-//     } else {
-//       pythonExecutablePath = path.join(__dirname, 'py', 'app');
-//     }
-
-//     // Set environment variables
-//     const env = Object.assign({}, process.env, {
-//       PINECONE_API_KEY: process.env.PINECONE_API_KEY,
-//       PINECONE_INDEX_NAME: process.env.PINECONE_INDEX,
-//     });
-
-//     // Spawn the packaged executable
-//     pythonProcess = spawn(pythonExecutablePath, [folderPath], { env });
-
-//     pythonProcess.stdout.on('data', (data) => {
-//       const message = data.toString();
-//       // event.reply('processing-update', message);
-//       event.sender.send('processing-update', message);
-//     });
-
-//     pythonProcess.stderr.on('data', (data) => {
-//       const error = data.toString();
-//       // event.reply('processing-update', `Error: ${error}`);
-//       event.sender.send('processing-update', `Error: ${error}`);
-//     });
-
-//     pythonProcess.on('close', (code) => {
-//       event.reply('processing-complete', `Python process exited with code ${code}`);
-//       pythonProcess = null;
-//     });
-//   }
-// }
-
-
 function startPythonProcess(folderPath, namespace, event) {
   let pythonExecutablePath;
   let scriptPath;
   let args = [];
 
   if (isDev) {
-    // Development mode: Use the Python executable from your conda environment
-
     if (process.platform === 'win32') {
-      // Windows: Specify the full path to your conda environment's python.exe
       pythonExecutablePath = 'C:\\Users\\yourusername\\Anaconda3\\envs\\yourenv\\python.exe';
     } else {
-      // Unix/Linux/MacOS: Specify the full path to your conda environment's python
       pythonExecutablePath = '/home/wasim/anaconda3/envs/pdf2ns/bin/python';
     }
 
-    // Path to your app.py script
     scriptPath = path.join(__dirname, 'python', 'app.py');
-
-    // Arguments to pass to the Python script
-    args = [scriptPath, folderPath, namespace];
+    args = ['-u', scriptPath, folderPath, namespace];
 
   } else {
-    // Production mode: Use the packaged Python executable
     if (process.platform === 'win32') {
       pythonExecutablePath = path.join(__dirname, 'py', 'app.exe');
     } else {
-      pythonExecutablePath = path.join(__dirname, 'py', 'app'); // Adjust if necessary
+      pythonExecutablePath = path.join(__dirname, 'py', 'app');
     }
 
-    // Arguments to pass to the packaged executable
     args = [folderPath, namespace];
   }
 
-  // Set environment variables
   const env = Object.assign({}, process.env, {
     PINECONE_API_KEY: process.env.PINECONE_API_KEY,
     PINECONE_INDEX_NAME: process.env.PINECONE_INDEX_NAME,
   });
 
-  // Spawn the Python process
-  const pythonProcess = spawn(pythonExecutablePath, args, { env });
+   // Spawn the Python process
+   const pythonProcess = spawn(pythonExecutablePath, args, { env });
 
-  pythonProcess.stdout.on('data', (data) => {
-    const message = data.toString();
-    event.sender.send('processing-update', message);
-  });
+   pythonProcess.stdout.on('data', (data) => {
+     const message = data.toString();
+     event.sender.send('processing-update', message);
+   });
+ 
+   pythonProcess.stderr.on('data', (data) => {
+     const error = data.toString();
+     event.sender.send('processing-update', `Error: ${error}`);
+   });
 
-  pythonProcess.stderr.on('data', (data) => {
-    const error = data.toString();
-    event.sender.send('processing-update', `Error: ${error}`);
-  });
+  // const pythonProcess = spawn(pythonExecutablePath, args, {
+  //   env,
+  //   stdio: ['ignore', 'pipe', 'pipe'],
+  // });
+
+  // pythonProcess.stdout.setEncoding('utf8');
+  // pythonProcess.stdout.on('data', (data) => {
+  //   data.split(/\r?\n/).forEach((line) => {
+  //     if (line) {
+  //       event.sender.send('processing-update', line);
+  //     }
+  //   });
+  // });
+
+  // pythonProcess.stderr.setEncoding('utf8');
+  // pythonProcess.stderr.on('data', (data) => {
+  //   data.split(/\r?\n/).forEach((line) => {
+  //     if (line) {
+  //       event.sender.send('processing-update', `Error: ${line}`);
+  //     }
+  //   });
+  // });
 
   pythonProcess.on('close', (code) => {
     event.sender.send('processing-complete', `Python process exited with code ${code}`);
   });
 }
-
 
 app.whenReady().then(createWindow);
 

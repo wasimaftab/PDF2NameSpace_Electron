@@ -39,6 +39,6 @@ document.getElementById('select-folder').addEventListener('click', () => {
   
   window.electronAPI.onProcessingComplete((event, message) => {
     const output = document.getElementById('output');
-    output.textContent += `\n${message}\nProcessing complete.`;
+    output.textContent += `\n${message}\nProcessing complete.\n############\n############\n`;
   });
   
