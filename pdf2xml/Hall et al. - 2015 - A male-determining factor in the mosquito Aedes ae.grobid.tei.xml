@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A male-determining factor in the mosquito &lt;i&gt;Aedes aegypti&lt;/i&gt;</title>
+				<funder ref="#_y8swgBR #_bw5epfy #_rtA9zcf #_5ArJy65 #_Wq3K2e6 #_ANGhHN8 #_TzxX52c #_W35EYGQ #_GayFSgG">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Virginia Tech Institutional Biosafety Committee</orgName>
+				</funder>
+				<funder ref="#_H3guEN9">
+					<orgName type="full">National Science Foundation Graduate Research Fellowship</orgName>
+				</funder>
+				<funder ref="#_tRbnKBa">
+					<orgName type="full">National Institutes of Health</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Fralin Life Science Institute</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Virginia Agriculture Experimental Station</orgName>
+				</funder>
+				<funder ref="#_DGf97z7 #_9tfCqU6">
+					<orgName type="full">National Natural Science Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2015-06-12">2015-06-12</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Andrew</forename><forename type="middle">Brantley</forename><surname>Hall</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sanjay</forename><surname>Basu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Xiaofang</forename><surname>Jiang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Yumin</forename><surname>Qi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Vladimir</forename><forename type="middle">A</forename><surname>Timoshevskiy</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">James</forename><forename type="middle">K</forename><surname>Biedler</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Maria</forename><forename type="middle">V</forename><surname>Sharakhova</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Rubayet</forename><surname>Elahi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Michelle</forename><forename type="middle">A E</forename><surname>Anderson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Xiao-Guang</forename><surname>Chen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Igor</forename><forename type="middle">V</forename><surname>Sharakhov</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Zach</forename><forename type="middle">N</forename><surname>Adelman</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Zhijian</forename><surname>Tu</surname></persName>
+						</author>
+						<title level="a" type="main">A male-determining factor in the mosquito &lt;i&gt;Aedes aegypti&lt;/i&gt;</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Science</title>
+						<title level="j" type="abbrev">Science</title>
+						<idno type="ISSN">0036-8075</idno>
+						<idno type="eISSN">1095-9203</idno>
+						<imprint>
+							<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+							<biblScope unit="volume">348</biblScope>
+							<biblScope unit="issue">6240</biblScope>
+							<biblScope unit="page" from="1268" to="1270"/>
+							<date type="published" when="2015-06-12" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">DA52D08A3C72F7BC8950E8CEFA0733B2</idno>
+					<idno type="DOI">10.1126/science.aaa2850</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-10-22T14:59+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Sex determination in the mosquito Aedes aegypti is governed by a dominant male-determining factor (M factor) located within a Y chromosome-like region called the M locus. Here, we show that an M-locus gene, Nix, functions as an M factor in A. aegypti. Nix exhibits persistent M linkage and early embryonic expression, two characteristics required of an M factor. Nix knockout with clustered regularly interspaced short palindromic repeats (CRISPR)-Cas9 resulted in largely feminized genetic males and the production of female isoforms of two key regulators of sexual differentiation: doublesex and fruitless. Ectopic expression of Nix resulted in genetic females with nearly complete male genitalia. Thus, Nix is both required and sufficient to initiate male development. This study provides a foundation for mosquito control strategies that convert female mosquitoes into harmless males.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I</head><p>nsects employ diverse molecular mechanisms to determine sex <ref type="bibr" target="#b1">(1)</ref><ref type="bibr" target="#b2">(2)</ref><ref type="bibr" target="#b3">(3)</ref>. Sex is determined by X chromosome dosage in fruit flies (4), heterozygosity of the complementary sex determiner locus in honeybees <ref type="bibr" target="#b5">(5)</ref>, and a female-specific Piwi-interacting RNA in the silkworm Bombyx mori <ref type="bibr" target="#b6">(6)</ref>. Similar to mammals, sex determination in many insects is governed by an M factor located on a Y chromosome or homomorphic sex-determining chromosome <ref type="bibr" target="#b1">(1)</ref>. Despite the availability of genomic resources, no M factor has yet been characterized in any insect due to the difficulties of identifying genes in repeat-rich regions (1-3). Sex deter-mination in mosquitoes is of particular interest because only adult females transmit pathogens responsible for dengue and yellow fever <ref type="bibr" target="#b7">(7,</ref><ref type="bibr" target="#b8">8)</ref>. Consequently, a mosquito M factor would be useful in implementing vector control strategies where female mosquitoes are converted into harmless males <ref type="bibr" target="#b7">(7)</ref>.</p><p>Male development in Aedes aegypti is initiated by an M factor located on the homomorphic sexdetermining chromosome within a Y chromosomelike region called the M locus <ref type="bibr" target="#b9">(9)</ref><ref type="bibr" target="#b10">(10)</ref><ref type="bibr" target="#b11">(11)</ref>. The highly repetitive nature of the Aedes aegypti M locus has impeded the discovery of an M factor <ref type="bibr" target="#b3">(3,</ref><ref type="bibr" target="#b12">12,</ref><ref type="bibr" target="#b13">13)</ref>.</p><p>To overcome this bottleneck, we developed the chromosome quotient method to find malespecific (M-linked) genomic sequences by comparing the ratio of female to male alignments to reference sequences <ref type="bibr" target="#b12">(12,</ref><ref type="bibr" target="#b13">13)</ref>. First, we separately sequenced the genomes of males and females from two strains of A. aegypti: Liverpool and kh w . Then, we generated a rudimentary assembly using the male kh w strain data because repeatrich regions like the M locus are often underrepresented in Sanger-based genome assemblies <ref type="bibr" target="#b14">(14)</ref>. Next, we aligned the male and female Illumina data to this assembly and identified 164 contigs that were potentially M linked (defined as more than 5 times as many alignments from male data as from female data in both strains) (table <ref type="table">S1</ref>). Of the 164 sequences, 140 were either absent from RNA sequencing (RNA-seq) data altogether, absent from early embryo RNA-seq samples, or present in female-derived RNA-seq samples. Within the 24 remaining sequences, we identified only one new gene that is a distant homolog of transformer-2 (table <ref type="table">S2</ref>), which is involved in the splicing of doublesex (dsx) and fruitless (fru), two key regulators of sexual differentiation in Drosophila melanogaster (4). We named this gene Nix. Because of the tantalizing link to sex determination, we hypothesized that Nix may function as an M factor in A. aegypti.</p><p>The Nix cDNA spans 985 base pairs and encodes a 288-amino acid polypeptide containing two RNA recognition motifs (GenBank KF732822) (fig. <ref type="figure" target="#fig_0">S1</ref> and tables <ref type="table">S2</ref> and<ref type="table">S3</ref>). Primers for Nix amplified a polymerase chain reaction (PCR) product exclusively in male genomic DNA (Fig. <ref type="figure" target="#fig_0">1A</ref>). We previously described two transgenes (J2 and sensor) that closely flank the M locus <ref type="bibr" target="#b13">(13)</ref>. Fluorescence in situ hybridization (FISH) to mitotic chromosomes using M J2sensor /m males confirmed that the Nix signal localizes to only one homologous copy of chromosome 1 at position 1q21, the location of the M locus (Fig. <ref type="figure" target="#fig_0">1D</ref> and fig. <ref type="figure" target="#fig_1">S2</ref>) <ref type="bibr" target="#b11">(11)</ref>. Digital droplet PCR indicated that one haploid copy of Nix is present in males and zero copies of Nix are present in females (Fig. <ref type="figure" target="#fig_0">1E</ref>). Next, we analyzed whether recombination could separate Nix from the M locus. By screening 5000 individuals, we identified 19 recombinants where the J2 transgene was separated from the M locus <ref type="bibr" target="#b13">(13,</ref><ref type="bibr" target="#b15">15)</ref>. In females from a colony established from these individuals, we could not identify Nix by PCR, supporting the conclusion that Nix is located within the M locus (Fig. <ref type="figure" target="#fig_0">1B</ref>). Transcription of Nix was first detected 3 to 4 hours after oviposition (Fig. <ref type="figure" target="#fig_0">1C</ref> and fig. <ref type="figure" target="#fig_2">S3</ref>), corresponding to the beginning of the syncytial blastoderm stage before sex is established <ref type="bibr" target="#b16">(16)</ref>. Thus, Nix exhibits two necessary characteristics of an M factor: persistent M linkage and early embryonic expression. To investigate the role of Nix in mosquito development, we generated somatic loss-of-function mutants by injecting clustered regularly interspaced short palindromic repeats-Cas9 (CRISPR-Cas9) <ref type="bibr" target="#b17">(17,</ref><ref type="bibr" target="#b18">18)</ref> and synthetic guide RNAs (sgRNAs) targeting Nix into embryos oviposited by females that had mated with double-marked M J2sensor /m transgenic males (fig. <ref type="figure">S4</ref>). In the absence of any phenotypic changes, virtually all males resulting from this cross would be double-marked, whereas all females would be unmarked. Genetic lesions in Nix were confirmed by RNA-seq and DNA sequencing and were associated specifically with Nix guide RNA target sites (fig. <ref type="figure">S5</ref> and<ref type="figure">table S4</ref>).</p><p>Somatic knockout of Nix resulted in feminization or deformities in sexually dimorphic organs in more than two-thirds (55 of 79) of double-marked males (designated hereafter as nix -males), whereas unmarked females (control) were morphologically typical (Fig. <ref type="figure" target="#fig_1">2A</ref> and figs. S6 to S8). As somatic mosaics, levels of feminization were variable among nix -individuals. The phenotype of each nix -male was scored for the extent of feminization (table S5 and figs. S6 to S8). A common morphological feminization that appeared in 53% (42 of 79) of nix - males was the absence of one or both gonocoxites and gonostyli, features specific to male genitals used to grasp the female during mating (Fig. <ref type="figure" target="#fig_1">2E</ref> and figs. S6 and S7) <ref type="bibr" target="#b19">(19)</ref>. We also observed feminized antennae with fewer and shorter setae than normal males in 44% (35 of 79) of nix -males (Fig. <ref type="figure" target="#fig_1">2D</ref> and figs. S6 and S8).</p><p>We further investigated the molecular mechanism of the feminization of nix -males. Dsx and fru are essential genes in the sex-determination pathway of many insects, and differential splicing of each results in a downstream cascade that programs the development of sexually dimorphic traits <ref type="bibr" target="#b20">(20)</ref><ref type="bibr" target="#b21">(21)</ref><ref type="bibr" target="#b22">(22)</ref><ref type="bibr" target="#b23">(23)</ref>. We confirmed that nix -males produced female splice variants of both dsx and fru at 0.47 and 1.44 times the amounts in wild-type females, respectively (Fig. <ref type="figure" target="#fig_1">2, B</ref> and<ref type="figure">C</ref>; table <ref type="table">S6</ref>; and fig. <ref type="figure">S9</ref>). Using RNA-seq to examine the expression of sex-biased genes in nix -males, we found a global feminization of sex-biased gene expression consistent with the observed morphological feminization and the key regulatory functions of dsx and fru (Fig. <ref type="figure" target="#fig_1">2</ref>, F and G, and fig. <ref type="figure" target="#fig_0">S10</ref>). Thus, Nix is required to initiate male development and functions upstream of the two master regulators of sexual differentiation.</p><p>To determine whether Nix was sufficient for male determination, we investigated the effect of ectopic expression of Nix in genetic females. Embryos oviposited by females that had mated with double-marked M/m J2sensor transgenic males were injected with a plasmid expressing Nix under the control of the A. aegypti polyubiquitin promoter (fig. <ref type="figure">S4</ref>) <ref type="bibr" target="#b24">(24)</ref>. In this case, virtually all genetic females would be double-marked, whereas genetic males would be unmarked. In our first experiment, more than two-thirds (16 of 23) of the double-marked females (designated hereafter as nix + females) exhibited extensive masculinization or deformities of the genitalia (Fig. <ref type="figure" target="#fig_2">3A</ref>, table <ref type="table">S7</ref>, and fig. <ref type="figure" target="#fig_0">S11</ref>). Two male-specific structures of the external genitalia, the gonocoxites and gonostyli <ref type="bibr" target="#b19">(19)</ref>, were clearly visible in 43% (10 of 23) of nix + females, whereas a further 26% (6 of 23) had deformed genitalia (Fig. <ref type="figure" target="#fig_2">3, A</ref> and<ref type="figure">C</ref>, and table <ref type="table">S7</ref>). Testes were identified in 34% (8 of 23) of nix + females and accessory glands; vasa deferentia were identified in 60% (14 of 23) of nix + females (Fig. <ref type="figure" target="#fig_2">3</ref>, B to D; table S7; and fig. <ref type="figure" target="#fig_0">S11</ref>). In a second experiment, 27% (5 of 18) of nix + females exhibited masculinized or deformed genitalia (Fig. <ref type="figure" target="#fig_2">3A</ref> and table <ref type="table">S7</ref>). Thus, Nix is sufficient to initiate male development.  Using Illumina sequences from male genomic DNA and male RNA-seq, we identified a homolog of Nix in the Asian tiger mosquito, A. albopictus, with 52% identity at the amino acid level (e-value = 10 -71 ) (GenBank KP765684 and figs. S12 and S13). This gene is only found in male genomic DNA and is expressed in adult males and early embryos of A. albopictus, suggesting that Nix may be a conserved M factor in these Aedes mosquitoes. We also searched for Nix in other mosquito genera, including Culex and Anopheles, but found only autosomal or X-linked genes with RNA recognition motifs.</p><p>Here, we demonstrate that an M-locus gene, Nix, is an M factor in A. aegypti because it is both required and sufficient to initiate male development, although complete sex conversion has not been achieved in our transient assays. Nix encodes a potential splicing factor, and the absence of Nix shifts the alternative splicing of dsx and fru toward their female isoforms. The discovery of Nix provides an opportunity to characterize the remaining genes and interactions in the A. aegypti sex-determination pathway, which may be informative in unraveling the sex determination cascades of mosquitoes in general.</p><p>Aedes aegypti is a major vector for dengue, yellow fever, and chikungunya viruses, and only female mosquitoes feed on blood and transmit these pathogens. Thus, genetic control methods that introduce a male bias to reduce mosquito populations are attractive and potentially effective measures to reduce the incidence of mosquitoborne disease <ref type="bibr" target="#b7">(7,</ref><ref type="bibr" target="#b8">8)</ref>. When dosage compensation and sex determination are linked, as in the silkworm, manipulation of the sex-determination pathway results in sex-specific embryonic lethality due to misregulation of dosage compensation <ref type="bibr" target="#b6">(6)</ref>. In contrast, we have obtained partial sexchange phenotypes from both Nix knockout and ectopic expression, presumably because A. aegypti does not require dosage compensation. Thus, this study provides the foundation for developing mosquito control strategies by converting females into harmless males or selectively eliminating deadly females.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Nix is located within the M locus. (A) PCR for Nix in male and female genomic DNA. For all PCR experiments, a ribosomal protein gene, RPS7, was used as a positive control. (B) PCR for Nix in genomic DNA from recombinant female m J2sensor /m A. aegypti. (C) Reverse transcription PCR expression profile of Nix from 0-to 12-hour embryo cDNA starting at 0 to 1 hour in 1-hour increments. (D) FISH with a probe for Nix and the J2 transgene in mitotic chromosomes of J2 transgenic males. (E) Nix copy number as determined by digital droplet PCR (ddPCR) on male and female genomic DNA. Error bars, mean T SEM.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Knockout with CRISPR-Cas9 demonstrates that Nix is required for male development. (A) Phenotypes of injected individuals. (B) The female isoform of dsx (dsx F ) is present in nix -A. aegypti detected by ddPCR. Rel. Exp., relative expression. Error bars, mean T SEM. (C) The female isoform of fru (fru F ) is present in the nix -A. aegypti detected by ddPCR. Error bars, mean T SEM. (D) Feminization of the antennae in a nix -male individual. (E) Feminization in the genitals of a nix -male individual. (F and G) The log2 reads per kilobase per million mapped reads expression level heat map of the top 100 male-biased (F) and female-biased (G) genes in wild-type males, nix -males, and wild-type females. Two heat maps from nix -males are shown here. All other heat maps are shown in fig. S10.</figDesc><graphic coords="2,479.62,154.66,77.09,95.81" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Ectopic expression demonstrates that Nix is sufficient to initiate male development. (A) The phenotypes of nix + females.Thirty individuals were sacrificed at the larval stage to examine gene expression and therefore have an undetermined phenotype. (B) The number of nix + females with malespecific features from experiment 1. (C) Wild-type genitals compared with the genitals of a nix + female, which have gonocoxites and gonostyli. (D) Wildtype testes and ovaries compared with gonads of a nix + female, which had testes and accessory glands. Wild-type images and nix + images are viewed under 55x and 80x magnification, respectively. AG, accessory glands; VD, vas deferens.</figDesc><graphic coords="2,369.70,154.66,76.85,95.81" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1268" xml:id="foot_0"><p>12 JUNE 2015 • VOL 348 ISSUE 6240 sciencemag.org SCIENCE 1 Interdisciplinary PhD Program in Genetics, Bioinformatics, and Computational Biology, Virginia Polytechnic Institute and State University (Virginia Tech), Blacksburg, VA, USA. 2 Department of Biochemistry, Virginia Tech, Blacksburg, VA, USA. 3 Fralin Life Science Institute, Virginia Tech, Blacksburg, VA, USA. 4 Department of Entomology, Virginia Tech, Blacksburg, VA, USA. 5 School of Public Health and Tropical Medicine, Southern Medical University, Guangdong, People's Republic of China.*These authors contributed equally to this work. †Corresponding author. E-mail: jaketu@vt.edu (Z.T.); zachadel@vt.edu (Z.N.A.)</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>We thank <rs type="person">A. James</rs> and <rs type="person">C. Barillas-Mury</rs> for critical review of the manuscript. We thank <rs type="person">R. Saunders</rs> for mosquito care. Sequencing data used in this study have been submitted to the <rs type="institution">National Center for Biotechnology Information</rs> under accession numbers <rs type="grantNumber">KF732822</rs>, <rs type="grantNumber">KP765684</rs>, <rs type="grantNumber">KP842989-KP843003</rs>, <rs type="grantNumber">SRP044709</rs>, <rs type="grantNumber">SRP046160</rs>, <rs type="grantNumber">SRP047470</rs>, <rs type="grantNumber">SRP047401</rs>, <rs type="grantNumber">SRP034669</rs>, <rs type="grantNumber">SRP055126</rs>, and <rs type="grantNumber">SRP055127</rs>. The authors declare no competing financial interests. This research was supported by the <rs type="funder">National Institutes of Health</rs> grant <rs type="grantNumber">AI113643</rs>, the <rs type="funder">National Science Foundation Graduate Research Fellowship</rs> grant <rs type="grantNumber">DGE-1519168</rs>, the <rs type="funder">National Natural Science Foundation</rs> grant <rs type="grantNumber">81420108024</rs>, the <rs type="funder">Fralin Life Science Institute</rs>, and the <rs type="funder">Virginia Agriculture Experimental Station</rs>. This study was considered by the <rs type="funder">Virginia Tech Institutional Biosafety Committee</rs> and was determined not to fall under dual-use research of concern (DURC).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_y8swgBR">
+					<idno type="grant-number">KF732822</idno>
+				</org>
+				<org type="funding" xml:id="_bw5epfy">
+					<idno type="grant-number">KP765684</idno>
+				</org>
+				<org type="funding" xml:id="_rtA9zcf">
+					<idno type="grant-number">KP842989-KP843003</idno>
+				</org>
+				<org type="funding" xml:id="_5ArJy65">
+					<idno type="grant-number">SRP044709</idno>
+				</org>
+				<org type="funding" xml:id="_Wq3K2e6">
+					<idno type="grant-number">SRP046160</idno>
+				</org>
+				<org type="funding" xml:id="_ANGhHN8">
+					<idno type="grant-number">SRP047470</idno>
+				</org>
+				<org type="funding" xml:id="_TzxX52c">
+					<idno type="grant-number">SRP047401</idno>
+				</org>
+				<org type="funding" xml:id="_W35EYGQ">
+					<idno type="grant-number">SRP034669</idno>
+				</org>
+				<org type="funding" xml:id="_GayFSgG">
+					<idno type="grant-number">SRP055126</idno>
+				</org>
+				<org type="funding" xml:id="_tRbnKBa">
+					<idno type="grant-number">SRP055127</idno>
+				</org>
+				<org type="funding" xml:id="_H3guEN9">
+					<idno type="grant-number">AI113643</idno>
+				</org>
+				<org type="funding" xml:id="_DGf97z7">
+					<idno type="grant-number">DGE-1519168</idno>
+				</org>
+				<org type="funding" xml:id="_9tfCqU6">
+					<idno type="grant-number">81420108024</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">AND NOTES</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bachtrog</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLOS Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">1001899</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Tree of Sex, Sci. Data</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">140015</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Charlesworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Mank</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="page" from="9" to="31" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Salz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Erickson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Fly</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="60" to="70" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hasselmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">454</biblScope>
+			<biblScope unit="page" from="519" to="522" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kiuchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">509</biblScope>
+			<biblScope unit="page" from="633" to="636" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Papathanos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Malar. J</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>suppl. 2</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Wise De Valdez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="4772" to="4775" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Gilchrist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B S</forename><surname>Haldane</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hereditas</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="175" to="190" />
+			<date type="published" when="1947">1947</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A H</forename><surname>Mcclelland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. R. Soc. Trop. Med. Hyg</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page">4</biblScope>
+			<date type="published" when="1962">1962</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Newton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Southern</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetica</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="137" to="143" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Hall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">273</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Hall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="179" to="191" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Hoskins</surname></persName>
+		</author>
+		<idno>research0085.1- research0085.16</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">N</forename><surname>Adelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Morazzani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Myles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Insect Biochem. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="705" to="713" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Biedler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tae</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLOS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">33933</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jinek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">337</biblScope>
+			<biblScope unit="page" from="816" to="821" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">339</biblScope>
+			<biblScope unit="page" from="819" to="823" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<author>
+			<persName><forename type="first">N</forename><surname>Becker</surname></persName>
+		</author>
+		<title level="m">Mosquitoes and Their Control</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Kluwer Academic/ Plenum Publishers</publisher>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Burtis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="997" to="1010" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Salvemini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Evol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">41</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Salvemini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLOS ONE</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">48554</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Whyard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Parasit. Vectors</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">96</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A E</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Gross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Myles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">N</forename><surname>Adelman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Insect Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="441" to="449" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

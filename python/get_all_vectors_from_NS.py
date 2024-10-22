@@ -1,12 +1,15 @@
 ######################## Testing: extract all vectors from pinecone #########################
 import numpy as np
-import pycodes.QA_OpenAI_api_Utils as  qa
-import pycodes.PMC_downloader_Utils as pmcd
+# import QA_OpenAI_api_Utils as  qa
+# import PMC_downloader_Utils as pmcd
 import copy
 import time
 import pickle
 import json
 import sys
+import os
+from pinecone import Pinecone
+
 ## Select LLM and set temp
 # llm = "gpt-3.5-turbo"
 llm = "gpt-4"
@@ -16,13 +19,44 @@ temp = 0
 # embedd_model='biobert'
 # embedd_model='openai'
 embedd_model='MedCPT'
-namespace = 'some_namespace'
+# namespace = 'some_namespace'
+namespace = 'vv_namespace'
+
 # namespace = 'swr1_nua4_meiosis_1_key_paper_art_en_MedCPT'
 
 
 # query = "Find all results that connect msl-2 complex with dosage compensation?"
 # pdb.set_trace()
-index = pmcd.get_pinecone_index()
+def remove_values_key_pinecone_res(res):
+    data_without_values = []
+
+    for d in res:
+        # Deep copy the dictionary to prevent modifying the original object
+        dict_representation = copy.deepcopy(d.__dict__)
+
+        # Access the nested _data_store dictionary
+        data_store = dict_representation.get('_data_store', {})
+
+        # Remove 'values' key if it exists inside _data_store
+        if 'values' in data_store:
+            del data_store['values']
+
+        # Create the dictionary with the desired order
+        ordered_data_store = {
+            'id': data_store.get('id'),
+            'metadata': data_store.get('metadata'),
+            'score': data_store.get('score')
+        }
+
+        # Append to the new list
+        data_without_values.append(ordered_data_store)
+    return data_without_values
+
+def get_pinecone_index():
+    ## New approach After pinecone-client version ≥ 3.0.0
+    pc = Pinecone(api_key=os.environ['PINECONE_API_KEY'])  
+    index = pc.Index('test-index')
+    return index
 
 def get_matches_from_query(index, input_vector, namespace):
     print("\nsearching pinecone...")
@@ -79,7 +113,7 @@ def get_all_matches_from_index(index, num_dimensions, namespace=""):
             records.append(l)
     return {"all_matches": records, "all_ids": all_ids}
 
-index = pmcd.get_pinecone_index()
+index = get_pinecone_index()
 
 matches_ids_dict = get_all_matches_from_index(index, num_dimensions=1536, namespace=namespace)
 
@@ -94,7 +128,7 @@ for d in matches_ids_dict['all_matches']:
         unique_matches.append(d)
 
 ## There are empty values field, first remove that from each dict
-unique_matches_empty_removed = qa.remove_values_key_pinecone_res(unique_matches)
+unique_matches_empty_removed = remove_values_key_pinecone_res(unique_matches)
 
 ## Check indeed it has all the records
 unique_ids = []

@@ -1,0 +1,2986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Structural Variation of the X Chromosome Heterochromatin in the Anopheles gambiae Complex</title>
+				<funder ref="#_s35kuny #_Nhr9853 #_7tnHCrt #_FCkGY6b #_PeEGQR3 #_WtySYDa">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_qas847U">
+					<orgName type="full">Virginia Tech</orgName>
+				</funder>
+				<funder ref="#_SJbk95G #_9DDExee">
+					<orgName type="full">US NIH NIAID</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Genomics Bioinformatics and Computational Biology</orgName>
+					<orgName type="abbreviated">GBCB</orgName>
+				</funder>
+				<funder ref="#_a2AHZuD">
+					<orgName type="full">Russian Science Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-03-19">19 March 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Atashi</forename><surname>Sharma</surname></persName>
+							<email>atashi04@vt.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Entomology</orgName>
+								<orgName type="institution">Virginia Polytechnic and State University</orgName>
+								<address>
+									<postCode>24061</postCode>
+									<settlement>Blacksburg</settlement>
+									<region>VA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nicholas</forename><forename type="middle">A</forename><surname>Kinney</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Genomics Bioinformatics and Computational Biology</orgName>
+								<orgName type="institution">Virginia Polytechnic and State University</orgName>
+								<address>
+									<postCode>24061</postCode>
+									<settlement>Blacksburg</settlement>
+									<region>VA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Vladimir</forename><forename type="middle">A</forename><surname>Timoshevskiy</surname></persName>
+							<email>v.a.timoshevsky@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Entomology</orgName>
+								<orgName type="institution">Virginia Polytechnic and State University</orgName>
+								<address>
+									<postCode>24061</postCode>
+									<settlement>Blacksburg</settlement>
+									<region>VA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Maria</forename><forename type="middle">V</forename><surname>Sharakhova</surname></persName>
+							<idno type="ORCID">0000-0002-5790-3548</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Entomology</orgName>
+								<orgName type="institution">Virginia Polytechnic and State University</orgName>
+								<address>
+									<postCode>24061</postCode>
+									<settlement>Blacksburg</settlement>
+									<region>VA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Federal Research Center Institute of Cytology and Genetics</orgName>
+								<orgName type="laboratory">Laboratory of Evolutionary Genomics of Insects</orgName>
+								<orgName type="institution">Siberian Branch of the Russian Academy of Sciences</orgName>
+								<address>
+									<postCode>630090</postCode>
+									<settlement>Novosibirsk</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="laboratory">Laboratory of Ecology, Genetics and Environmental Protection</orgName>
+								<orgName type="institution">Tomsk State University</orgName>
+								<address>
+									<postCode>634050</postCode>
+									<settlement>Tomsk</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Igor</forename><forename type="middle">V</forename><surname>Sharakhov</surname></persName>
+							<email>msharakh@vt.edu</email>
+							<idno type="ORCID">0000-0003-0752-3747</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Entomology</orgName>
+								<orgName type="institution">Virginia Polytechnic and State University</orgName>
+								<address>
+									<postCode>24061</postCode>
+									<settlement>Blacksburg</settlement>
+									<region>VA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Genomics Bioinformatics and Computational Biology</orgName>
+								<orgName type="institution">Virginia Polytechnic and State University</orgName>
+								<address>
+									<postCode>24061</postCode>
+									<settlement>Blacksburg</settlement>
+									<region>VA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Federal Research Center Institute of Cytology and Genetics</orgName>
+								<orgName type="laboratory">Laboratory of Evolutionary Genomics of Insects</orgName>
+								<orgName type="institution">Siberian Branch of the Russian Academy of Sciences</orgName>
+								<address>
+									<postCode>630090</postCode>
+									<settlement>Novosibirsk</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Cytology and Genetics</orgName>
+								<orgName type="institution">Tomsk State University</orgName>
+								<address>
+									<postCode>634050</postCode>
+									<settlement>Tomsk</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Structural Variation of the X Chromosome Heterochromatin in the Anopheles gambiae Complex</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-03-19">19 March 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E2DAC3BAFA6B3D5BABA76CB65C2C74EB</idno>
+					<idno type="DOI">10.3390/genes11030327</idno>
+					<note type="submission">Received: 19 February 2020; Accepted: 16 March 2020;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-10-22T14:59+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Anopheles</term>
+					<term>heterochromatin</term>
+					<term>mosquito</term>
+					<term>mitotic chromosome</term>
+					<term>sex chromosome</term>
+					<term>satellite DNA</term>
+					<term>X chromosome</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Heterochromatin is identified as a potential factor driving diversification of species. To understand the magnitude of heterochromatin variation within the Anopheles gambiae complex of malaria mosquitoes, we analyzed metaphase chromosomes in An. arabiensis, An. coluzzii, An. gambiae, An. merus, and An. quadriannulatus. Using fluorescence in situ hybridization (FISH) with ribosomal DNA (rDNA), a highly repetitive fraction of DNA, and heterochromatic Bacterial Artificial Chromosome (BAC) clones, we established the correspondence of pericentric heterochromatin between the metaphase and polytene X chromosomes of An. gambiae. We then developed chromosome idiograms and demonstrated that the X chromosomes exhibit qualitative differences in their pattern of heterochromatic bands and position of satellite DNA (satDNA) repeats among the sibling species with postzygotic isolation, An. arabiensis, An. merus, An. quadriannulatus, and An. coluzzii or An. gambiae. The identified differences in the size and structure of the X chromosome heterochromatin point to a possible role of repetitive DNA in speciation of mosquitoes. We found that An. coluzzii and An. gambiae, incipient species with prezygotic isolation, share variations in the relative positions of the satDNA repeats and the proximal heterochromatin band on the X chromosomes. This previously unknown genetic polymorphism in malaria mosquitoes may be caused by a differential amplification of DNA repeats or an inversion in the sex chromosome heterochromatin.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The major malaria vector in Africa Anopheles gambiae has been a subject of extensive research over the past few decades. Initially described as a single species, An. gambiae was later subdivided into a complex of morphologically indistinguishable species by crossing experiments <ref type="bibr" target="#b0">[1,</ref><ref type="bibr">2]</ref>, fixed differences in polytene chromosome arrangement and distinct adaptations <ref type="bibr" target="#b2">[3,</ref><ref type="bibr">4]</ref>, differences in Intergenic Sequence (IGS) and Internal Transcribed Spacer (ITS) regions in the ribosomal DNA (rDNA) <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>, and by whole-genome divergence <ref type="bibr" target="#b6">[7]</ref><ref type="bibr">[8]</ref><ref type="bibr" target="#b8">[9]</ref>. Members of the An. gambiae complex differ in genetic diversity and they include major vectors, minor vector, and nonvectors <ref type="bibr" target="#b2">[3,</ref><ref type="bibr">4,</ref><ref type="bibr" target="#b9">10]</ref>. The current list of the species includes An. arabiensis, An. amharicus, An. bwambae, An. coluzzii, An. fontenillei, An. gambiae, An. merus, An. melas, and An. quadriannulatus [4, <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b8">9]</ref>.</p><p>The majority of interspecies crosses in the An. gambiae complex produce fertile females and sterile males [2, <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref> in agreement with Haldane's rule <ref type="bibr" target="#b14">[15]</ref>. However, the most closely related species An. coluzzii and An. gambiae do not have postzygotic reproductive barriers as in laboratory conditions they readily mate and lay viable eggs that produce fertile hybrid males and females <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17]</ref>. If the An. gambiae complex originated as recently as 526 thousand years ago, the An. coluzzii and An. gambiae lineages split from the common ancestor only ~61 thousand years ago <ref type="bibr" target="#b17">[18]</ref>. The recently diverged species An. gambiae sensu stricto and An. coluzzii have been initially considered as the S and M molecular forms of An. gambiae <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref> based on specific single nucleotide polymorphism (SNP) differences of ITS2 sequences <ref type="bibr">[19,</ref><ref type="bibr" target="#b19">20]</ref>. Later studies demonstrated that the two forms also differ in genome sequence <ref type="bibr">[8]</ref>, gene expression [21], larval ecology <ref type="bibr">[22]</ref>, larval behavior in the presence of predators <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b23">24]</ref>, adult swarming behavior <ref type="bibr" target="#b24">[25]</ref>, and adult mate recognition <ref type="bibr" target="#b16">[17,</ref><ref type="bibr">26]</ref>. Thus, these data show evidence for ecological, behavioral, and genome-wide differentiation between An. coluzzii and An. gambiae.</p><p>Cytogenetic analysis of the polytene chromosomes banding patterns, including fixed chromosomal inversions, is an established tool for distinguishing species of malaria mosquitoes <ref type="bibr" target="#b2">[3,</ref><ref type="bibr">4,</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref>. In addition, cytogenetic analysis of mitotic chromosomes demonstrated interspecific differences in sex chromosome heterochromatin between An. gambiae and An. arabiensis (named An. gambiae species a and B at that time) <ref type="bibr" target="#b29">[30]</ref>. Staining with the Hoechst fluorescent dye has shown that the presence and brightness of X-chromosome heterochromatic bands differ between the two species <ref type="bibr" target="#b30">[31]</ref>. More recently, heterochromatin variation of mitotic Y chromosomes among species of the An. gambiae complex has been clearly demonstrated <ref type="bibr" target="#b31">[32]</ref>. Intraspecific polymorphism in the X and Y chromosome heterochromatin has also been observed in both natural and laboratory populations of An. gambiae <ref type="bibr" target="#b29">[30,</ref><ref type="bibr" target="#b30">31]</ref>, but is unclear if the previously observed variations can be related to possible differences between the more recently described incipient species An. coluzzii and An. gambiae s.s. <ref type="bibr" target="#b6">[7]</ref>. This information can be useful because vector control to be successful must consider full spectrum of genetic and phenotypic variation within vector species. Further, it has been suggested that polymorphism in sex chromosome heterochromatin may affect fertility and sexual behavior of mosquitoes <ref type="bibr" target="#b32">[33]</ref>, but the lack of understanding of heterochromatin structure and function prevent researchers from mechanistic understanding of the phenotypic effects.</p><p>Sequencing of the An. gambiae genome provided important information regarding its organization <ref type="bibr" target="#b33">[34]</ref>. It has been demonstrated that repetitive DNA component represent a substantial portion in of the An. gambiae genome (33%) that is higher than in Drosophila melanogaster genome where repeats make up approximately 24% of the genome <ref type="bibr" target="#b34">[35,</ref><ref type="bibr" target="#b35">36]</ref>. The majority of repetitive DNA in the An. gambiae genome is tightly packed in heterochromatin around the centromeres <ref type="bibr" target="#b36">[37]</ref>. Difficulty with sequencing of heterochromatin led to underrepresentation of heterochromatic sequences in the An. gambiae genome assembly <ref type="bibr" target="#b33">[34]</ref>. Moreover, the repetitive nature of these sequences poses an impediment in mapping them correctly to chromosomes. Subsequent attempts to map heterochromatic genomic scaffolds led to an addition of ~16 Mb of heterochromatin to the genome of the An. gambiae PEST strain <ref type="bibr" target="#b37">[38]</ref>. Further progress was made by predicting functions of 232 heterochromatin genes [39] and by mapping genes on the heterochromatin-euchromatin boundary of the polytene chromosome map <ref type="bibr">[40]</ref>. Bioinformatics analysis of so called "unknown chromosome" or ~42 Mb of unmapped sequences in An. gambiae PEST genome demonstrated that it has characteristics of heterochromatin <ref type="bibr">[39]</ref>. Although both An. gambiae and An. coluzzii genome assemblies are now available <ref type="bibr">[39,</ref><ref type="bibr" target="#b40">41]</ref>, corresponding information of their entire heterochromatin on a chromosome map is still missing. Likewise, sequencing of five other species from the An. gambiae complex also excluded the majority of heterochromatic sequences from the genome assembly <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b41">42]</ref>.</p><p>Comparison of An. gambiae (the former S form) and An. coluzzii (the former M form) genomes identified pericentromeric autosomal and X-chromosome regions of high differentiation, termed "speciation islands," or "islands of genomic divergence" <ref type="bibr" target="#b42">[43,</ref><ref type="bibr" target="#b43">44]</ref>. These regions largely correspond to pericentromeric heterochromatin. Overlaps between the heterochromatin and the islands of genomic divergence are 91% in the X chromosome, 97% in the 2L arm, and 94% in the 3L arm <ref type="bibr">[39]</ref>. Other studies emphasized that the highest genomic divergence between these nascent species occurred within the 4 Mb of mapped heterochromatin on the X chromosome <ref type="bibr">[8,</ref><ref type="bibr">45,</ref><ref type="bibr" target="#b45">46]</ref>. A recent population genomic analysis of 765 field-collected mosquitoes across Africa has demonstrated that sequences in the pericentromeric X heterochromatin show the greatest separation between An. coluzzii and An. gambiae populations on a neighbor-joining tree <ref type="bibr" target="#b46">[47]</ref>. The study also analyzed the An. coluzzii and An. gambiae genomes for CRISPR/Cas9 target sites; it found that 5474 genes had at least one viable target after excluding target sites with nucleotide variation. Interestingly, targetable genes are spread non-uniformly across the genome, falling predominantly in pericentromeric heterochromatic regions, where levels of variation are lower <ref type="bibr" target="#b46">[47]</ref>. However, the full spectrum of heterochromatin variation and molecular composition of the X-chromosome heterochromatin in malaria mosquitoes remains unknown. Because repetitive DNA is underreplicated <ref type="bibr" target="#b47">[48]</ref>, polytene chromosomes have limited applications in studies of heterochromatin. In comparison, mitotic chromosomes are a promising system for evolutionary studies of heterochromatin in malaria mosquitoes.</p><p>In this study, we examined similarities and differences in heterochromatin patterns within X mitotic chromosomes among the major malaria vectors An. gambiae, An. coluzzii, An. arabiensis, minor vector An. merus, and zoophilic non-vector An. quadriannulatus. The correspondence of pericentric heterochromatin between the metaphase and polytene X chromosome was established for An. gambiae. We report quantitative differences in molecular organization of heterochromatin among members of the An. gambiae complex and highlight shared polymorphism of the heterochromatin structure among strains of the incipient species An. gambiae and An. coluzzii. The identified variation in heterochromatin is discussed with respect to the phylogenetic relationships among the species and a possible role of heterochromatin in speciation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Mosquito Strains and Colony Maintenance</head><p>Laboratory colonies examined for this study were provided by the Biodefense and Emerging Infections Research Resources Repository and included colonies of An. gambiae PIMPERENA (MRA-861), An. gambiae KISUMU1 (MRA-762), An. gambiae ZANU (MRA-594), An. coluzzii SUA2La (MRA-765), An. coluzzii MOPTI (MRA-763), An. coluzzii MALI-NIH (MRA-860), An. arabiensis DONGOLA 2Ra2Rb3R (MRA-1235), An. quadriannulatus SANGWE (MRA-1155), and An. merus MAF (MRA-1156). The species and strains used in this study are presented in Table <ref type="table">S1</ref>. All mosquitoes were reared at 27 • C, with 12:12 light:dark cycle and 70% relative humidity. Authentication of the species was done using PCR diagnostics <ref type="bibr" target="#b48">[49,</ref><ref type="bibr" target="#b49">50]</ref>. Larvae were fed fish food and adult mosquitoes were fed 1% sugar water. To induce oviposition, females were fed defibrinated sheep blood (Colorado Serum Co., Denver, Colorado, USA) using artificial blood feeders. To perform interspecies crosses between An. gambiae and An. coluzzii, male and female pupae were separated to ensure virginity of adult mosquitoes. We differentiated males and females at the pupal stage using sex-specific differences in the shape of their terminalia <ref type="bibr" target="#b50">[51]</ref>. After the emergence of adults, crossing experiments were performed by combining 30 females and 15 males in a single cage. Five days after random mating, the females were fed sheep blood. Two days later, an egg dish, covered with moist filter paper to keep the eggs from drying out, was put into the cage to obtain F1 hybrid larvae for cytogenetic analyses. Any possible colony contamination during the experiment was ruled out by verifying all the strains for their respective species using intentional mismatch primers (IMP) as described elsewhere <ref type="bibr">[19]</ref>. All the strains showed the expected band size, with An. gambiae strains around 330 bp and An. coluzzii strains around 460 bp.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Chromosome Preparation</head><p>Preparations from early 4th instar larvae of lab colonies were made from leg and wing imaginal discs, as previously described <ref type="bibr" target="#b51">[52]</ref>. Both male and female larvae were immobilized on ice for 10 min, and then dissected in a drop of cold, freshly prepared, hypotonic solution (0.075 M potassium chloride). After decapitating the head, the thorax was opened using dissecting scissors (Fine Science Tools, Foster City, CA, USA), followed by removal of the gut and fat from the body. a fresh drop of hypotonic solution was added to the preparation for 10 min, followed by fixation in a drop of modified Carnoy's solution (ethanol:glacial acetic acid, 3:1) for 1 min. Next, a drop of freshly prepared 50% propionic acid was added, and the imaginal discs were covered with a 22 × 22 mm coverslip. After 5 min, the preparations were squashed using the flat rubber end of a pencil and dipped in liquid nitrogen until the bubbling stopped. Coverslips were removed using a sharp blade and slides were transferred to cold 50% ethanol and stored at -20 • C. After 2 h, slides were dehydrated in a series of 70%, 80%, and 100% ethanol. Preparations with the highest number of metaphase plates were chosen for in situ hybridization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">C 0 t DNA Preparation and DNA Probe Labeling</head><p>To identify the position of the centromere in chromosome X, we prepared the repetitive DNA fraction using a previously described method <ref type="bibr" target="#b51">[52]</ref>. Genomic DNA was isolated from 500 g of non-bloodfed adult An. coluzzii MOPTI mosquitoes using a Qiagen Blood and Cell culture DNA Maxi kit (Qiagen, Hilden, Germany). Isolated C 0 t1 repetitive fraction was precipitated with isopropanol and labelled by nick-translation in 50 µl, containing 1 µg DNA, 0.05 mM each of unlabeled dATP, dCTP, and dGTP, and 0.015 mM of dTTP, 1 µl of fluorescein-dUTP, 0.05 mg/ml of BSA, 5 µl of 10× nick-translation buffer, 20 U of DNA-polymerase I, and 0.0012 U of DNase, at 15 • C for 2.5 h. Primers for 18S rDNA and satDNA repeats from An. gambiae AgY53A, AgY477-AgY53B, AgY477, and AgY53C were obtained, as previously described <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b52">53]</ref> (Table <ref type="table">S2</ref>). An Immomix PCR kit (Bioline, Inc., Taunton, MA, USA) was used to label satellites by incorporating Cy3 and Cy5 fluorescently labeled nucleotides (Enzo Life Sciences, Inc., Farmingdale, NY, USA) directly into the PCR reaction. Each 25 µl PCR mix consisted of 35-40 ng genomic DNA, 0.3 U Taq polymerase, 1× PCR buffer, 200 µM each of dATP, dCTP, and dGTP, and 65 µM dTTP, and 0.5 µl Cy3-dUTP or 0.5 µl Cy5-dUTP (Enzo Life Sciences, Inc., Farmingdale, NY, USA). Thermocycling was performed using ImmoMix TM (Bioline Inc., Taunton, MA, USA) beginning with a 95 • C incubation for 10 min followed by 35 cycles of 95 • C for 30 sec, 52 • C for 30 sec, 72 • C for 45 sec, 72 • C for 5 min, and a final hold at 4 • C. Bacterial Artificial Chromosome (BAC) clones 05F01 (GenBank accession: AL142298, AL142299), 179F22 (GenBank accession: BH373300, BH373306), and 01K23 (GenBank accession: AL607293, AL607294) <ref type="bibr" target="#b33">[34]</ref> were labelled by nick-translation in 50 µl, containing 1 µg DNA, 0.05 mM each of unlabeled dATP, dCTP, and dGTP and 0.015 mM of dTTP, 1 µl of Cy3-dUTP (or another fluorochrome), 0.05 mg/ml of BSA, 5 µl of 10× nick-translation buffer, 20 U of DNA-polymerase I, and 0.0012 U of DNase at 15 • C for 2.5 h.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Fluorescence in situ Hybridization (FISH)</head><p>Suitable slides with &gt;10 metaphase plates were selected for FISH, which was performed as previously described <ref type="bibr" target="#b51">[52,</ref><ref type="bibr" target="#b53">54]</ref>. Briefly, slides with good preparations were treated with 0.1 mg/ml RNase at 37 • C for 30 min. After washing twice with 2× saline-sodium citrate (SSC) for 5 min, slides were digested with 0.01% pepsin and 0.037% HCl solution for 5 min at 37 • C. After washing slides twice in 1× phosphate-buffered saline (PBS) for 5 min at room temperature, preparations were fixed in 3.7% formaldehyde for 10 min at RT. Slides were then washed in 1× PBS and dehydrated in a series of 70%, 80%, and 100% ethanol for 5 min at RT. Then, 10 µl of probes were mixed, added to the preparations, and incubated overnight at 37 • C. After washing slides in 1× SSC at 60 • C for 5 min, 4× SSC/NP40 solution at 37 • C for 10 min, and 1× PBS for 5 min at room temperature (RT), preparations were counterstained with a DAPI-antifade solution (Life Technologies, Carlsbad, CA, USA) and kept in the dark for at least 2 h before visualization with a fluorescence microscope.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Image Acquisition and Chromosome Measurements</head><p>Chromosome slide preparations were viewed with an Olympus BX61 fluorescence microscope (Olympus, Tokyo, Japan) using BioView software (BioView Inc., Billerica, MA, USA) at 1000× magnification. For idiogram development, metaphase plates were measured and analyzed from 5 larvae per strain. a total of 40 metaphase plates were used to measure chromosome lengths in An. coluzzii. For sibling species An. arabiensis, An. quadriannulatus, and An. merus, 11-13 metaphase plates were used to measure chromosome lengths (Table <ref type="table">S3</ref>). Chromosome images were inverted using Adobe Photoshop CS6 (Adobe Inc., San Jose, CA, USA) and measured using the ruler tool at 1000× magnification. a statistical Tukey's test or a nonparametric Kruskal-Wallis rank sum test followed by a Dunn's test were performed to compare chromosome length between the species using JMP13 software (SAS Institute Inc., Cary, NC, USA) or R software (RStudio, Boston, MA, USA). Fluorescence intensities of proximal and distal X chromosome heterochromatin bands were measured using Adobe Photoshop CS6 (Adobe Inc., San Jose, CA, USA) and compared between three strains of An. gambiae and three strains of An. coluzzii. About forty measurements for each band were taken from forty sister chromatids of twenty X chromosomes for each strain. Pairwise comparisons between strains were performed using Student's t-test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">Quantative Analysis of Fluorescent Signal Positions</head><p>Chromosomal positions of satDNA AgY477-AgY53B and AgY477, and the proximal DAPI band were identified and compared in three strains of An. gambiae and three strains of An. coluzzii. a custom MATLAB script <ref type="bibr" target="#b54">[55]</ref> was written and used to measure the position of fluorescence peaks in individual channels <ref type="bibr" target="#b56">[56]</ref>. The program was automated to measure the position of each satDNA and DAPI peak along the length of the X chromosome. The output provided the maximum likelihood of a combination of probe positions. The results were compared within and between species. The MATLAB program consisted of two user-guided steps followed by a third step of automated analysis. In the first step, sex chromosomes were identified by the user on mitotic slide preparations from An. gambiae and An. coluzzii strains. In the second step, the boundary of each identified sex chromosome was traced by a trained user. In an automated step, the pattern of heterochromatin and satDNA fluorescence was averaged longitudinally along the user-defined boundary. Program output displayed fluorescence intensity graphically from chromosome centromere to telomere. Peak fluorescence intensity was used to automatically infer the order of the heterochromatin and satDNA probes. User guidance was deliberately introduced to eliminate the pitfalls of full automation. In particular, user guidance was critical for accurate identification of sex chromosomes in the imaged mitotic slide preparations. Longitudinal averaging of fluorescence intensity during the program's automated analysis was robust to the boundary of each chromosome traced by the user.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Correspondence Between Heterochromatin of the Polytene and Mitotic X Chromosome in Anopheles gambiae</head><p>Using FISH with a C 0 t1 fraction of repetitive DNA, 18S rDNA, and heterochromatic BAC clones, we attempted to establish the correspondence of pericentric heterochromatin between the metaphase and polytene X chromosome in An. gambiae. The most repetitive C 0 t1 DNA fraction should presumably represent the centromeric satellites of the mitotic chromosomes corresponding to the most proximal regions of polytene arms. C 0 t analysis is the process of renaturation of single stranded DNA to its complementary sequence <ref type="bibr" target="#b57">[57]</ref>. The analysis is based on the observation that the more repetitive DNA sequences require a shorter time to re-anneal following denaturation. DNA fractions with C 0 t1 values equal to 1.0 × 10 -4 -1.0 × 10 -1 are considered as highly repetitive DNA fractions <ref type="bibr" target="#b57">[57]</ref>. We expected C 0 t1 to map to narrow regions corresponding to centromeres in mitotic chromosomes. While that was the case for autosomes, in X chromosomes the C 0 t1 DNA probe localized to a wide region, including the entire proximal heterochromatin band adjacent to the rDNA locus (Figure <ref type="figure" target="#fig_0">1A</ref>). Thus, hybridization of the C 0 t1 DNA fraction could be indicative of the centromere positions in autosomes, but we could not precisely determine the location of the centromere on the X chromosome in An. gambiae. We mapped three heterochromatic BAC clones, 05F01, 179F22, and 01K23, to the distal heterochromatin band of mitotic chromosomes in An. coluzzii (Figure <ref type="figure" target="#fig_0">1B</ref>). According to the An. gambiae PEST genome assembly <ref type="bibr" target="#b37">[38]</ref>, these BAC clones are located in the most proximal heterochromatic region 6 in the X polytene chromosome map (Figure <ref type="figure" target="#fig_0">1C</ref>). BAC clone 05F01 is mapped to scaffold AAAB01008973 (X: 20,698,730-20,818,594), BAC clone 01K23 is mapped to scaffold AAAB01008967 (X: 23,512,846-23569864), and BAC clone 179F22 is mapped to scaffold AAAB01008976 (X: 23,930,050-24,043,835) <ref type="bibr" target="#b37">[38]</ref>. These results demonstrate that the assembled euchromatic part of the X chromosome occupies no more than half of the total X chromosome length (Figure <ref type="figure" target="#fig_0">1C</ref>). Although polytene chromosomes are significantly larger than mitotic chromosomes, heterochromatin is under-replicated <ref type="bibr" target="#b47">[48]</ref> and represented by diffuse structures without clear banding patterns [39], while heterochromatin in mitotic chromosomes is much more prevalent and detailed (Figure <ref type="figure" target="#fig_0">1D</ref>). Because the An. gambiae PEST X chromosome genome assembly ends at the coordinate 24,393,108, our data indicate that the assembled heterochromatin largely corresponds to the distal heterochromatic band of the mitotic X chromosome. Only few copies of 18S rDNA sequences are found in the assembled X chromosome. Thus, most of the rDNA repeats and more proximal regions of the X chromosome heterochromatin are absent from the mapped genome assembly. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Variation in Heterochromatin Morphology Among Sibling Species of the An. gambiae Complex</head><p>We analyzed the heterochromatin morphology in species of the An. gambiae complex originating from different parts of Africa (Figure <ref type="figure" target="#fig_1">2A</ref>) and diverging from each other from ~61,000 to ~526,000 years ago <ref type="bibr" target="#b17">[18]</ref> (Figure <ref type="figure" target="#fig_1">2B</ref>). We studied mid-metaphase chromosomes obtained from imaginal discs of the 4th instar larvae of An. gambiae, An. coluzzii, An. arabiensis, An. merus, and An. quadriannulatus. Chromosomes at this stage provide reproducible heterochromatin patterns verified across multiple individuals. DAPI, a counter-stain that preferentially stains AT-rich DNA, was utilized to augment the natural banding patterns resulting from heterochromatin variation between and within species. To simplify the comparison, all fluorescence images were inverted, and converted to gray-scale images (Figure <ref type="figure" target="#fig_2">3</ref>). The number and size of the X chromosome heterochromatin bands varied across the sibling species. Differences in the X chromosome heterochromatin pattern were clearly visible between all species with postzygotic reproductive isolation (Figure <ref type="figure" target="#fig_2">3</ref>). Two relatively small heterochromatin bands can be seen in An. gambiae and An. coluzzii (Figure <ref type="figure" target="#fig_2">3A,</ref><ref type="figure">B</ref>). The KISUMU strain of An. gambiae often shows polymorphism in the size of the heterochromatin between different X chromosomes, even within one individual (Figures <ref type="figure" target="#fig_0">1D</ref> and<ref type="figure" target="#fig_2">3A</ref>) Extended heterochromatin is observed in X chromosomes of An. arabiensis, An. quadriannulatus, and An. merus (Figure <ref type="figure" target="#fig_2">3C</ref>). The pattern of fluorescence intensity of the heterochromatic bands differs among species as well. An. gambiae and An. coluzzii possess a dense heterochromatin block on the end proximal to the putative centromere. This is followed by a dull fluorescence area to which the 18S rDNA locus is mapped. a light distal band is present immediately next to the rDNA locus, marking the assembled heterochromatin in the current An. gambiae PEST genome assembly <ref type="bibr" target="#b37">[38]</ref>. a large dark heterochromatin band is visible in the An. arabiensis X chromosome. Our results for An. gambiae and An. arabiensis corroborated with those for the natural populations of these species in a previous study <ref type="bibr" target="#b37">[38]</ref>. In contrast, An. quadriannulatus, a zoophilic non-vector species of the An. gambiae complex, has one light and two dark heterochromatin bands. The longest X chromosome was found in An. merus, the marshy saltwater resident of the An. gambiae complex. The An. merus X chromosome contains three large heterochromatin blocks and a large rDNA locus making it comparable in length to the autosomes. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Molecular Variation of Heterochromatin Among Species of the An. gambiae Complex</head><p>We analyzed similarities and differences in the molecular content of the heterochromatin among sibling species. We performed FISH with 18S rDNA and previously identified satDNA sequences AgY53A, Ag53C, AgY477, and the genomic fragment AgY477-AgY53B that contains partial sequences of satellites AgY477 and AgY53B as well as a junction region <ref type="bibr" target="#b52">[53]</ref> (Table <ref type="table">S2</ref>). In An. gambiae PIMPERENA, satellites AgY53A and AgY477-AgY53B hybridized to single locations in the tip and base of the X chromosome proximal heterochromatin band, respectively (Figure <ref type="figure" target="#fig_3">4A,</ref><ref type="figure">B</ref>). This is in sharp contrast to An. merus, where AgY477-AgY53B hybridized with four distinct regions of the X chromosome heterochromatin (Figure <ref type="figure" target="#fig_3">4C</ref>). Interestingly, AgY477-AgY53B hybridized differently in An. coluzzii SUA compared with An. gambiae PIMPERENA; AgY477-AgY53B is found in the base of the X chromosome proximal heterochromatin band of An. coluzzii SUA (Figure <ref type="figure" target="#fig_3">4D</ref>). Satellite AgY477 has also been mapped to the base of the X chromosome proximal heterochromatin band of An. gambiae ZANU <ref type="bibr" target="#b31">[32]</ref>. As described in the following results section, localization of these satellites represents shared variation among strains of An. gambiae and An. coluzzii. Unlike AgY53A and AgY477-AgY53B, satellite Ag53C is not sex chromosome-specific <ref type="bibr" target="#b52">[53]</ref>; it hybridized with pericentromeric regions of autosomes in An. coluzzii MOPTI (Figure <ref type="figure" target="#fig_3">4E</ref>). The 18S rDNA probe was mapped to the space between two dense heterochromatic bands on the X chromosome in An. quadriannulatus (Figure <ref type="figure" target="#fig_3">4F</ref>). Previously, it was demonstrated that the AgY477-AgY53B sequence is immediately adjacent to the rDNA locus on the X chromosome of An. quadriannulatus <ref type="bibr" target="#b31">[32]</ref>. Both AgY477-AgY53B and AgY477 co-localize at the very tip of the X chromosome outside the major dense heterochromatin band in An. arabiensis (Figure <ref type="figure" target="#fig_3">4G</ref>). Hybridization of each of these satellites, together with 18S rDNA, demonstrated that, unlike in An. gambiae or An. coluzzii, AgY477 (Figure <ref type="figure" target="#fig_3">4H</ref>) and AgY477-AgY53B (Figure <ref type="figure" target="#fig_3">4I</ref>) are separated from the rDNA locus by the large band of dense heterochromatin in An. arabiensis. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Shared Heterochromatin Variation Between An. coluzzii and An. gambiae</head><p>To visualize the rDNA locus, we performed FISH of the 18S rDNA probe with mitotic chromosomes. Within all strains of An. gambiae and An. coluzzii, the rDNA locus was mapped between the proximal and distal heterochromatin bands (Figure <ref type="figure" target="#fig_0">S1</ref>). We noticed variation in the size of the rDNA locus both among the strains of An. gambiae and An. coluzzii and between homologous chromosomes within individual mosquitoes. The intra-strain polymorphism in the size of the rDNA locus was especially obvious in KISUMU, ZANU, and MOPTI. This polymorphism may suggest variation in the rDNA copy number.</p><p>To better resolve the relative satDNA positions among multiple mosquito strains, we generated F1 hybrids between laboratory strains of An. gambiae and An. coluzzii. F1 hybrid larvae resulting from the An. gambiae × An. coluzzii crosses were analyzed for heterochromatin morphology and satDNA location. Qualitative and quantitative differences in the pattern of heterochromatin blocks, rDNA loci, and satDNA location were clearly observed between homoeologous X chromosomes within the F1 hybrids. Different positions and sizes of the AgY477-AgY53B and AgY477 FISH signals with respect to the proximal heterochromatin band can be seen between homoeologous X chromosomes in F1 An. gambiae PIMPERENA × An. coluzzii MOPTI (Figure <ref type="figure" target="#fig_4">5A</ref>). Different sizes of the proximal heterochromatin band and the rDNA locus can be seen between homoeologous X chromosomes in F1 An. gambiae ZANU × An. coluzzii MALI (Figure <ref type="figure" target="#fig_4">5B</ref>). Also, different sizes of the hybridization signals from AgY477 and 18S rDNA can be seen between homologous X chromosomes in F1 An. coluzzii MOPTI × An. gambiae KISUMU (Figure <ref type="figure" target="#fig_4">5C</ref>). Using a custom MATLAB script <ref type="bibr" target="#b56">[56]</ref>, the position of the satDNA repeats with respect to the proximal heterochromatin band was mapped on the X chromosomes in An. gambiae and An. coluzzii strains. Because sequences of AgY477-AgY53B and AgY477 overlap, it is technically unfeasible to distinguish between the signals when mapping their distance from the proximal heterochromatin band. Therefore, we combined the fluorescence signals of AgY477-AgY53B and AgY477 and mapped them with respect to the fluorescence DAPI peak of the heterochromatin. The advantages of our automated analysis are twofold. First, fluorescent signals in each image possess a degree of overlap, which masks the order of fluorescent peaks from centromere to telomere; however, the order of peaks is easily detected using our automated analysis. Second, observation alone is insufficient to determine the distance between fluorescent peaks, which are generally separated by fewer than 10 pixels. Determining the distance between nearby peaks is made tractable in our pipeline; however, even this computational approach remains limited by microscopic resolution. Images of the mitotic sex chromosomes were captured using 1000× magnification; neighboring pixels at this resolution represent a distance of 0.05 µm. Thus, peaks spaced closer than 0.05 µm were prone to falsely inverted order. Nonetheless, peak orders were generally resolvable by aggregating multiple images averaged for multiple individuals of each strain. We measured the distance from satellites to the fluorescence DAPI peak and the linear order of the peaks. For example, the order of the satDNA and DAPI peaks is switched between An. gambiae PIMPERENA and An. coluzzii MOPTI (Figure <ref type="figure" target="#fig_5">6A</ref>). Distribution patterns of signal intensities for satellites and DAPI along the X chromosomes also differ between An. gambiae PIMPERENA and An. coluzzii MOPTI (Figure <ref type="figure" target="#fig_5">6B</ref>). Our mapping results revealed that the strains differed in the pattern of satDNA and DAPI peak relative positions and distance on the X chromosome (Figure <ref type="figure" target="#fig_5">6C</ref>). Clustering analysis showed that An. gambiae PIMPERENA and An. coluzzii MALI depicted the same pattern of satDNA, followed by the DAPI band, while An. coluzzii MOPTI, An. coluzzii SUA, and An. gambiae ZANU clustered together showing the DAPI peak followed by the satDNA locus (Figure <ref type="figure" target="#fig_5">6D</ref>). Interestingly, An. gambiae KISUMU had an almost 1:1 ratio of the direct and the reverse satDNA-DAPI band order indicating that this strain is maintaining high polymorphism in their X chromosome heterochromatin. Thus, our data shows the dynamism of the heterochromatin at the molecular level in the important malaria vectors. We found no evidence for clustering the strains by species, indicating that this heterochromatin variation is shared between An. coluzzii and An. gambiae either as ancestral polymorphism or by ongoing hybridization between the incipient species. We also compared the average fluorescence intensities of the proximal and distal X chromosome heterochromatin between three strains of An. gambiae and three strains of An. coluzzii. a statistical analysis, using Student's t-test, revealed no specific pattern when strains were compared with respect to the species. Most strains were significantly different from each other in their fluorescence intensities of the proximal band (P &lt; 0.05), except for SUA-PIMPERENA (P = 0.06), SUA-ZANU (P = 0.16), ZANU-PIMPERENA (P = 0.61), and MALI-KISUMU (P = 0.74). MOPTI was significantly different from every other strain (Figure <ref type="figure" target="#fig_1">S2A</ref>). Comparison of fluorescence intensities of the distal heterochromatin band revealed a similar pattern for pairwise comparison between strains of both species. Most strains were significantly different from each other (P &lt; 0.05), except for PIMPERENA-KISUMU (P = 0.07), ZANU-MALI (P = 0.11), and KISUMU-SUA (P = 0.89) (Figure <ref type="figure" target="#fig_1">S2B</ref>). Overall, the fluorescence intensities of both X chromosome heterochromatin bands vary among the strains, regardless of their species identity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">X Chromosome Idiograms for Species of the An. gambiae Complex</head><p>To construct idiograms, we measured the lengths of the chromosomes (Table <ref type="table">S3</ref>) and conducted a statistical pairwise Tukey's test between the sibling species. Our analysis revealed that the total X chromosome lengths were significantly different for all species pairs, except between An. quadriannulatus and An. arabiensis (P = 0.64). Due to the possibility that the X chromosome length data violated the assumption of equal variance, we repeated statistical analyses using a nonparametric Kruskal-Wallis rank sum test followed by a Dunn's test. These analyses resulted in qualitatively identical results (Figure <ref type="figure" target="#fig_6">7</ref>, Table <ref type="table">S4</ref>). The polytene X chromosomes in all these species are similar in length; hence, the difference in mitotic X chromosomes can be attributed to the variation in heterochromatin. We also conducted a statistical pairwise Tukey's test for autosomes between the sibling species. We found that, unlike the X chromosome, the autosomal lengths do not significantly differ between the species (Figure <ref type="figure" target="#fig_6">7</ref>, Table <ref type="table">S5</ref>). This finding demonstrates the contrasting patterns of the sex chromosome and autosome evolution and highlights the rapids evolutionary changes in the X chromosome heterochromatin.</p><p>Based on mitotic chromosome measurements, banding patterns, and repeat mapping, we constructed X chromosome idiograms for An. gambiae, An. coluzzii, An. arabiensis, An. quadriannulatus, and An. merus. FISH with the genomic fragment AgY477-AgY53B revealed its multiple locations in the X chromosome heterochromatin bands in An. merus but a single location in the pericentric heterochromatin in other sibling species. These features were placed on respective idiograms for easy comparison of molecular features within heterochromatin among species (Figure <ref type="figure" target="#fig_7">8</ref>). The identified differences in the X chromosome size and heterochromatin structure are consistent with An. gambiae, An. coluzzii, An. arabiensis, An. quadriannulatus grouping together while An. merus being a separate lineage in the species phylogeny <ref type="bibr" target="#b17">[18]</ref> (Figure <ref type="figure" target="#fig_1">2B</ref>). The An. merus X chromosome has the largest amount of heterochromatin among the X chromosomes of sibling species. Moreover, An. merus is the only species in this study with the rDNA locus located in the L arm of the X chromosome suggesting a fixed pericentric inversion that differentiate An. merus from the other species. The developed idiograms will facilitate future studies of genetic variation in repeat-rich heterochromatic regions of malaria mosquitoes from the An. gambiae complex. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>Mosquitoes, with their small number of diploid chromosomes, 2n = 6, present a convenient model to investigate the molecular organization of their genomes and chromosome evolution <ref type="bibr" target="#b58">[58]</ref>. Since polytene chromosomes are well-developed in Anopheles mosquitoes, they are often preferred over mitotic chromosomes for gene mapping <ref type="bibr">[40,</ref><ref type="bibr" target="#b59">59]</ref>. Analysis of polytene chromosomes has been useful for identifying genomic variations in euchromatin. Comparative genome mapping within the Anopheles genus has demonstrated that the euchromatic portion of the X chromosome is the fastest evolving by genomic rearrangements <ref type="bibr" target="#b41">[42,</ref><ref type="bibr" target="#b60">60]</ref>. However, under-replication of heterochromatin in polytene chromosomes makes them less suitable for mapping repetitive elements of the genome. In this study, we utilized metaphase mitotic chromosomes for repeat mapping and for studying heterochromatin variation among species in the An. gambiae complex. Since the genome of An. gambiae was first published <ref type="bibr" target="#b33">[34]</ref>, polytene chromosomes have been used to improve the heterochromatin assembly and to characterize its genetic content <ref type="bibr" target="#b37">[38]</ref><ref type="bibr">[39]</ref><ref type="bibr">[40]</ref>. Here, we established the correspondence of pericentric heterochromatin between the metaphase and polytene X chromosome of An. gambiae, and demonstrated that at least half of the An. gambiae X chromosome length is heterochromatic. Future long-read sequencing and assembly of the heterochromatin in malaria mosquitoes may yield important insights into structural and functional organization of the sex chromosomes, as demonstrated for Drosophila <ref type="bibr" target="#b61">[61]</ref>.</p><p>Our comparative analysis of the X chromosome pericentric heterochromatin identified qualitative differences among sibling species, An. arabiensis, An. merus, An. quadriannulatus, and An. coluzzii or An. gambiae, with postzygotic isolation. The identified fixed variations included the number and pattern of heterochromatic bands and chromosomal location of the satDNA repeats. A common emerging theme from studies performed in Drosophila suggests that heterochromatin plays an important role in hybrid incompatibility <ref type="bibr" target="#b62">[62]</ref><ref type="bibr" target="#b63">[63]</ref><ref type="bibr" target="#b64">[64]</ref><ref type="bibr" target="#b65">[65]</ref><ref type="bibr">[66]</ref>. Rapidly evolving heterochromatic repeats and heterochromatin-binding proteins are considered major players in the evolution of intrinsic reproductive isolation. Reproductively isolated Drosophila species have different satDNA content and localization within heterochromatin <ref type="bibr" target="#b64">[64,</ref><ref type="bibr" target="#b67">67]</ref>. Evolutionary forces lead to a great variation in the copy number and types of heterochromatin repeats between closely related species. As repetitive DNA elements replicate, mechanisms such as unequal crossover, rolling circle replication, and segmental duplication become sources of genome evolution <ref type="bibr" target="#b68">[68,</ref><ref type="bibr" target="#b69">69]</ref>. Thus, our study supports observations from other organisms that sex chromosomes have a propensity to accumulate species-specific differences in heterochromatin <ref type="bibr" target="#b70">[70]</ref>.</p><p>SatDNA repeats are seen as prime candidates to trigger genome instability in interspecies hybrids <ref type="bibr" target="#b71">[71]</ref>. They have been implicated in disruption of chromosome pairing, abnormal heterochromatin packaging, and selfish post-meiotic drive substitutions in Drosophila hybrids <ref type="bibr" target="#b67">[67]</ref>. Disruption of chromosome pairing and synapsis is observed frequently in interspecies hybrids of various organisms. Interestingly, sex chromosomes more often than autosomes drive speciation and hybrid incompatibilities <ref type="bibr" target="#b70">[70]</ref>. For example, pairing of X and Y chromosomes is more adversely affected than that of autosomes during the prophase I in male hybrids between Campbell's dwarf hamster and the Djungarian hamster <ref type="bibr" target="#b72">[72]</ref>. a recent work has clarified that the autosomes of male hybrids between these hamster species undergo pairing and recombination normally as their parental forms do, but the heterochromatic arms of the X and Y chromosomes show a high frequency of asynapsis and recombination failure <ref type="bibr">[73]</ref>. It was proposed that asynapsis of heterospecific chromosomes in prophase I may provide a recurrently evolving trigger for the meiotic arrest of interspecific F1 hybrids of mice <ref type="bibr" target="#b74">[74,</ref><ref type="bibr" target="#b75">75]</ref>. Our recent study showed that meiotic failures in sterile F1</p><p>A. merus × A. coluzzii hybrids are accompanied by the disruption of sex chromosome pairing and insufficient chromosome condensation. These cytogenetic abnormalities lead to a premature equational division and formation of diploid immotile sperm <ref type="bibr" target="#b13">[14]</ref>. Demonstrated here, qualitative inter-species differences in heterochromatin suggest that they may be responsible for incompatibilities of sibling species from the An. gambiae complex.</p><p>Unlike species with postzygotic isolation, An. coluzzii and An. gambiae do not show fixed differences in the pattern of the X chromosome pericentric heterochromatin. An early study observed an intra-specific polymorphism of the X chromosome heterochromatin among lab strains of An. gambiae <ref type="bibr" target="#b30">[31]</ref>. The described polymorphism was based on the Hoechst staining of the heterochromatin. Here, we studied the pattern of heterochromatic bands or location of satDNA in multiple strains of An. coluzzii and An. gambiae, incipient species with prezygotic isolation. We found that, although the strains may differ from each other, the species do share variation in the relative positions of the fluorescence intensity peaks for the satDNA repeats and the proximal DAPI-positive heterochromatin band of the X chromosomes. The mechanism behind this inversion-like genetic polymorphism in malaria mosquitoes could be a rapid differential amplification of satellite repeats or actual structural rearrangement in the sex chromosome heterochromatin. It is possible that further evolution of heterochromatin in An. coluzzii and An. gambiae will contribute to higher genetic differentiation, and will eventually lead to postzygotic reproductive isolation between some populations of these important disease vectors. Extensive studies of Drosophila species show that heterochromatin, in general, and satellite DNA, in particular, can be a source of tremendous genetic variation <ref type="bibr" target="#b76">[76]</ref><ref type="bibr" target="#b77">[77]</ref><ref type="bibr" target="#b78">[78]</ref><ref type="bibr" target="#b79">[79]</ref><ref type="bibr" target="#b80">[80]</ref>. Heterochromatin can also modulate differential gene expression and cause variable phenotypes, including differences in immune response <ref type="bibr" target="#b81">[81,</ref><ref type="bibr">82]</ref>. It is possible that changes in repetitive sequences can have fitness consequences upon which selection will act. a population genomics study in D. melanogaster found that satDNA repeats often show population differentiation, but the population structure inferred from overall satellite quantities does not recapitulate the expected population relationships based on the demographic history of this species <ref type="bibr" target="#b79">[79]</ref>. Moreover, some satellites have likely been involved in antagonistic interactions, as inferred from negative correlations among them.</p><p>The rDNA locus is immediately adjacent to the heterochromatin bands of the X chromosome. Its variation in size, among and within species, suggests polymorphism of the rDNA copy number. Natural polymorphism in the number of rDNA copies has been recorded in vertebrate and invertebrate animals, both among and within species <ref type="bibr" target="#b83">[83]</ref>. Associations between the heterochromatin or rDNA variation and organismal phenotypes have also been demonstrated. a study in Drosophila showed that heterochromatin formation prolongs lifespan and controls ribosomal RNA synthesis <ref type="bibr" target="#b84">[84]</ref>. Another study demonstrated that rDNA copy number decreases during aging, and that this age-dependent decrease in rDNA copy number is transgenerationally heritable <ref type="bibr">[85]</ref>. In humans, the number of rDNA repeats can vary from 250 to 670 copies per diploid genome <ref type="bibr" target="#b86">[86]</ref>, and the changes in rDNA copy number can affect genome-wide gene expression <ref type="bibr" target="#b87">[87]</ref>. Natural variation in rDNA and heterochromatin may contribute to genome evolution, formation of reproductive barriers, and eventually to diversification of species <ref type="bibr" target="#b88">[88]</ref><ref type="bibr" target="#b89">[89]</ref><ref type="bibr" target="#b90">[90]</ref>. Genomics studies of the heterochromatin in natural populations of An. coluzzii and An. gambiae can determine the actual levels of polymorphism and divergence in satDNA and rDNA copy number variation. These studies may also identify heterochromatin variations that correlate with specific environmental adaptations or behaviors of the malaria vectors.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>We discovered a new type of shared cytogenetic polymorphism in the incipient species, An. gambiae and An. coluzzii-an inversion of the satDNA location with respect to the proximal heterochromatin band. This finding suggests mechanisms of rapid differentiation of the sex chromosome heterochromatin during evolution: genomic rearrangement or differential amplification of heterochromatic repeats. Future genome sequencing using long-read technologies will be crucial for determining the precise nature of the observed polymorphism. Our study also demonstrated X chromosome heterochromatin divergence among mosquito species with post-zygotic isolation, which manifests in species-specific localization of repetitive DNA as well as size and number of heterochromatin bands. The identified differences in heterochromatin support the basal phylogenetic position of An. merus and point to the role of heterochromatin in speciation. The differences in molecular organization of the sex chromosome heterochromatin may impair meiotic synapsis during meiosis in sterile inter-species male hybrids. We suggest that inter-species divergence of heterochromatin structure represents a cytogenetic threshold that triggers the evolutionary shift from prezygotic to postzygotic isolation. The new idiograms developed here for the sibling species will aid in future studies of heterochromatin organization and evolution in these malaria mosquitoes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Materials:</head><p>The following are available online at <ref type="url" target="http://www.mdpi.com/2073-4425/11/3/327/s1">http://www.mdpi.com/2073-4425/11/3/327/s1</ref>, Figure <ref type="figure" target="#fig_0">S1</ref>: FISH of 18S rDNA with the X chromosomes in strains of An. gambiae and An. coluzzii.  <ref type="table">S1</ref>: Mosquito strains used in the study of the X chromosome heterochromatin., Table <ref type="table">S2</ref>: Probes and primer sequences used for FISH., Table <ref type="table">S3</ref>: Length of mitotic chromosomes in species of the An. gambiae complex. Table <ref type="table">S4</ref>: Statistical analyses of the X chromosome lengths using a nonparametric Kruskal-Wallis rank sum test followed by a Dunn's test., Table <ref type="table">S5</ref>: Statistical analyses of the chromosome lengths using Tukey's honestly significant difference test.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Comparison of the X heterochromatin structure between mitotic and polytene chromosomes. (A) Multicolor fluorescence in situ hybridization (FISH) of a C 0 t1 fraction of repetitive DNA and 18S rDNA with mitotic chromosomes of An. gambiae PIMPERENA; scale bar is 2 µm. (B) FISH mapping of BAC clones 05F01 (yellow), 179F22 (red), and 01K23 (green) to the distal heterochromatin block on the X chromosome of the An. coluzzii MOPTI strain. Chromosomes are counter-stained with DAPI. (C) Relative positions of heterochromatic blocks and DNA probes of the polytene and mitotic X chromosome idiograms. rDNA = 18S rDNA probe. Repetitive DNA = C 0 t1 fraction of repetitive DNA. C = putative centromere. (D) Relative sizes of mitotic and polytene chromosomes in the KISUMU strain of An. gambiae. Chromosomes are counter-stained with YOYO-1. Polytene chromosome physical map is from [38].</figDesc><graphic coords="6,192.81,356.78,209.66,270.14" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Geographical distribution of species and phylogeny of the An. gambiae complex. (A) a map of Africa with approximal distribution of species and places of origin of the laboratory strains. (B) Species phylogeny based on the X chromosome genomic sequences (redrawn from [18]). Times of species divergence in million years (Myrs) are shown at the tree nodes.</figDesc><graphic coords="7,101.08,160.12,393.12,196.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Metaphase karyotypes of females in species from the An. gambiae complex. (A) An. gambiae strains. (B) An. coluzzii strains. (C) An. arabiensis, An. quadriannulatus, and An. merus strains. Black and dark gray blocks correspond to compact and diffuse heterochromatin, respectively. X chromosomes are labeled. Species names are indicated in italics and strain names are capitalized.</figDesc><graphic coords="8,144.76,87.89,305.76,302.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Mapping of repetitive DNA elements to mitotic chromosomes of species from the An. gambiae complex. (A) FISH of AgY477-AgY53B (green) and 18S rDNA (red) in An. gambiae PIMPERENA. (B) FISH of satellite AgY53A (green) and 18S rDNA (red) in An. gambiae PIMPERENA. (C) FISH of AgY477-AgY53B (green) and 18D rDNA (red) in An. merus. (D) FISH of AgY477-AgY53B (green) and 18S rDNA (red) in An. coluzzii SUA. (E) FISH of satellite Ag53C (yellow) and 18D rDNA (red) in An. coluzzii MOPTI. (F) FISH of 18S rDNA (red) in An. quadriannulatus. (G) FISH of satellite AgY477 (red) and AgY477-AgY53B (green) in An. arabiensis. (H) FISH of satellite AgY477 (red) and 18D rDNA (green) in An. arabiensis. (I) FISH of 18S rDNA (green) and AgY477-AgY53B (red) in An. arabiensis. Scale bar = 2 µm.</figDesc><graphic coords="9,112.12,87.89,371.04,347.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Variation in the pattern of heterochromatin blocks, rDNA loci, and satDNA location on the X chromosomes in F1 female hybrids between An. gambiae and An. coluzzii. (A) FISH of AgY477-AgY53B (green) and AgY477 (red) in F1 An. gambiae PIMPERENA × An. coluzzii MOPTI. (B) FISH of AgY477 (red) and 18S rDNA (green) in F1 An. gambiae ZANU × An. coluzzii MALI. (C) FISH of AgY477 (red) and 18S rDNA (green) in F1 An. coluzzii MOPTI × An. gambiae KISUMU. Scale bar = 2 µm.</figDesc><graphic coords="10,122.68,167.10,349.92,256.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Polymorphism of the X heterochromatin structure among the An. gambiae and An. coluzzii strains. (A) Distance and order frequency of FISH signal and DAPI band intensity peaks in An. gambiae PIMPERENA and An. coluzzii MOPTI. (B) Distribution patterns of signal intensities for satellites and DAPI along the X chromosomes in An. gambiae PIMPERENA and An. coluzzii MOPTI. (C) Relative positions of satellite peak distance and width with respect to the proximal heterochromatin band for six strains of An. gambiae and An. coluzzii. (D) Clustering of the An. gambiae and An. coluzzii strains based on the relative positions of satellite peak distance and width with respect to the proximal heterochromatin band.</figDesc><graphic coords="11,109.78,235.20,375.72,419.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Lengths of the metaphase chromosomes in species from the An. gambiae complex.</figDesc><graphic coords="12,86.14,396.88,423.00,104.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Idiograms of metaphase karyotypes of species from the An. gambiae complex. (A) An idiogram of metaphase karyotypes of An. gambiae and An. coluzzii. (B) Comparison of the X chromosome idiograms among species from the An. gambiae complex. Left and right arms are labeled with L and R, respectively. Black bands correspond to condensed heterochromatin. Dark gray bands correspond to diffuse heterochromatin. White areas represent the rDNA locus. Light gray areas show euchromatin. The area of constriction represents the putative centromere. Mapping of the BAC clones and satDNA repeats AgY53A and AgY53C were performed only with An. coluzzii or An. gambiae. Two different positions of AgY477-AgY53B on the X chromosome of An. gambiae and An. coluzzii represent polymorphism among strains.</figDesc><graphic coords="13,84.82,127.12,425.64,219.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head></head><label></label><figDesc>(A) An. gambiae strains: PIMPERENA, ZANU, KISUMU. (B) An. coluzzii strains: MALI, SUA, MOPTI. Scale bar = 1 µM. Red = 18S rDNA, Blue = DAPI., Figure S2: Fluorescence intensities of X chromosome heterochromatin in three strains of An. gambiae and three strains of An. coluzzii. (A) Fluorescence intensities of the proximal heterochromatin band. (B) Fluorescence intensities of the distal heterochromatin band., Table</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments:</head><p>The following reagents were obtained through the <rs type="institution">Biodefense and Emerging Infections Research Resources Repository, NIAID, NIH: An</rs>. arabiensis, Strain DONGOLA 2Ra, 2Rb/b and <rs type="grantNumber">3R</rs>, <rs type="grantNumber">MRA-1235</rs>, contributed by <rs type="person">Ellen M. Dotson</rs>; <rs type="person">An. coluzzii</rs>, <rs type="person">Strain MALI-NIH</rs>, Eggs, MRA-860, contributed by <rs type="person">Nora J. Besansky</rs>; <rs type="person">An. coluzzii</rs>, <rs type="person">Strain MOPTI</rs>, Eggs, MRA-763, contributed by <rs type="person">Gregory C. Lanzaro</rs>; <rs type="person">An. coluzzii</rs>, <rs type="person">Strain SUA2La</rs>, Eggs, MRA-765, contributed by <rs type="person">Alessandra della Torre</rs>; An. gambiae, Strain <rs type="grantNumber">KISUMU1</rs>, Eggs, MRA-762, contributed by Vincent Corbel; An. gambiae, <rs type="person">Strain PIMPERENA</rs> (S form), Eggs, MRA-861, contributed by <rs type="person">Nora J. Besansky</rs>; An. gambiae, <rs type="person">Strain ZANU</rs>, <rs type="grantNumber">MRA-594</rs>, contributed by <rs type="person">Hilary Ranson</rs> and <rs type="person">Frank H. Collins</rs>; An. merus, Strain MAF, MRA-<rs type="grantNumber">1156</rs>, contributed by <rs type="person">Maureen Coetzee</rs>; and An. quadriannulatus, <rs type="person">Strain SANGWE</rs>, Eggs, MRA-<rs type="grantNumber">1155</rs>, contributed by <rs type="person">Willem Takken</rs>. We thank <rs type="person">Semen Bondarenko</rs> for his help with statistical analysis using R, <rs type="person">Jiangtao Liang</rs> for useful discussions, as well as <rs type="person">Jean Clarke</rs>, <rs type="person">Kristin Rose</rs>, and <rs type="person">Janet Webster</rs> for proofreading the text.</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding:</head><p>The chromosome mapping and analyses were supported by the <rs type="funder">US NIH NIAID</rs> grants <rs type="grantNumber">R21AI099528</rs> and <rs type="grantNumber">R21AI135298</rs> to I.V.S., the graduate program in <rs type="funder">Genomics Bioinformatics and Computational Biology (GBCB)</rs> of <rs type="funder">Virginia Tech</rs> to N.A.K., the <rs type="institution">Fralin Life Sciences Institute</rs>, and the <rs type="institution">USDA National Institute of Food</rs> and <rs type="person">Agriculture Hatch</rs> project <rs type="grantNumber">223822</rs> to I.V.S. The development of chromosome idiograms was supported by the <rs type="funder">Russian Science Foundation</rs> grant No. <rs type="grantNumber">19-14-00130</rs> to M.V.S.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_s35kuny">
+					<idno type="grant-number">3R</idno>
+				</org>
+				<org type="funding" xml:id="_Nhr9853">
+					<idno type="grant-number">MRA-1235</idno>
+				</org>
+				<org type="funding" xml:id="_7tnHCrt">
+					<idno type="grant-number">KISUMU1</idno>
+				</org>
+				<org type="funding" xml:id="_FCkGY6b">
+					<idno type="grant-number">MRA-594</idno>
+				</org>
+				<org type="funding" xml:id="_PeEGQR3">
+					<idno type="grant-number">1156</idno>
+				</org>
+				<org type="funding" xml:id="_WtySYDa">
+					<idno type="grant-number">1155</idno>
+				</org>
+				<org type="funding" xml:id="_SJbk95G">
+					<idno type="grant-number">R21AI099528</idno>
+				</org>
+				<org type="funding" xml:id="_9DDExee">
+					<idno type="grant-number">R21AI135298</idno>
+				</org>
+				<org type="funding" xml:id="_qas847U">
+					<idno type="grant-number">223822</idno>
+				</org>
+				<org type="funding" xml:id="_a2AHZuD">
+					<idno type="grant-number">19-14-00130</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Author Contributions: Conceptualization, M.V.S., and I.V.S.; methodology, A.S., N.A.K., V.A.T., and I.V.S.; software, N.A.K.; validation, A.S., M.V.S., and I.V.S.; formal analysis, A.S., N.A.K. and I.V.S.; investigation, A.S., N.A.K., and V.A.T.; resources, I.V.S.; data curation, A.S., N.A.K, M.V.S., and I.V.S.; writing-original draft preparation, A.S., M.V.S., and I.V.S.; writing-review and editing, I.V.S.; visualization, A.S., N.A.K., V.A.T.; supervision, M.V.S., and I.V.S.; project administration, I.V.S.; funding acquisition, M.V.S. and I.V.S. All authors have read and agreed to the published version of the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p>The authors declare no conflict of interest. The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The Five Mating Types in the Anopheles Gambiae Complex</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Davidson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Riv. Malariol</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="167" to="183" />
+			<date type="published" when="1964">1964</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The Anopheles gambiae Complex</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Davidson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Paterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Coluzzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Mason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Micks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Genetics of Insect Vectors of Diesease</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wright</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><surname>Pal</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Amsterdam, The Netherlands; London, UK; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier Publishing Company</publisher>
+			<date type="published" when="1967">1967</date>
+			<biblScope unit="page" from="211" to="249" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Chromosomal differentiation and adaptation to human environments in the Anopheles gambiae complex</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Coluzzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sabatini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Petrarca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Di Deco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. R. Soc. Trop. Med. Hyg</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="483" to="497" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">V. a polytene chromosome analysis of the Anopheles gambiae species complex</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Coluzzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sabatini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Della Torre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Di Deco</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Petrarca</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1077769</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">298</biblScope>
+			<biblScope unit="page" from="1415" to="1418" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Speciation within Anopheles gambiae-The glass is half full</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Della Torre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Costantini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Besansky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Caccone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Petrarca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Powell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Coluzzi</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1078170</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">298</biblScope>
+			<biblScope unit="page" from="115" to="117" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Molecular evidence of incipient speciation within Anopheles gambiae s.s. in West Africa</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Della Torre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fanello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Akogbeto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dossou-Yovo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Favia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Petrarca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Coluzzi</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1365-2583.2001.00235.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Insect Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="9" to="18" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Anopheles coluzzii and Anopheles amharicus, new members of the Anopheles gambiae complex</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Coetzee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Hunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wilkerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Della Torre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Coulibaly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Besansky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zootaxa</title>
+		<imprint>
+			<biblScope unit="volume">3619</biblScope>
+			<biblScope unit="page" from="246" to="274" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Widespread divergence between incipient Anopheles gambiae species revealed by whole genome sequences</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Lawniczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Emrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Holloway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Regier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Olson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Redmond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fulton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Appelbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Godfrey</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1195755</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">330</biblScope>
+			<biblScope unit="page" from="512" to="514" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">a new species in the major malaria vector complex sheds light on reticulated species evolution</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Barron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Paupy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rahola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Akone-Ella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Ngangue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Wilson-Bahun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pombi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kengne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Costantini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Simard</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-019-49065-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2019">2019. 14753</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Evolution of Anopheles gambiae in Relation to Humans and Malaria</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Besansky</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-ecolsys-102710-145028</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Ecol. Evol. Syst</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="111" to="132" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The genetics of inviability and male sterility in hybrids between Anopheles gambiae and An. arabiensis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Slotman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Della Torre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Powell</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/genetics.167.1.275</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">167</biblScope>
+			<biblScope unit="page" from="275" to="287" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Cross-Species Y Chromosome Function Between Malaria Vectors of the Anopheles gambiae Species Complex</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bernardini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Galizi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wunderlich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Taxiarchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kranjc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kyrou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hammond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nolan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N K</forename><surname>Lawniczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Papathanos</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/genetics.117.300221</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">207</biblScope>
+			<biblScope unit="page" from="729" to="740" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Haldane&apos;s rule in taxa lacking a hemizygous X</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Presgraves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Orr</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.282.5390.952</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<biblScope unit="page" from="952" to="954" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Premeiotic and meiotic failures lead to hybrid male sterility in the Anopheles gambiae complex</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Sharakhov</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rspb.2019.1080</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<date type="published" when="2019">2019. 20191080</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Sex ratio and unisexual sterility in hybrid animals</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B S</forename><surname>Haldane</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF02983075</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Genet</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="101" to="109" />
+			<date type="published" when="1922">1922</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Evaluating the effect of postmating isolation between molecular forms of Anopheles gambiae (Diptera: Culicidae)</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diabate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Dabire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Millogo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lehmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1603/0022-2585(2007)44[60:ETEOPI]2.0.CO;2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Med. Entomol</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="60" to="64" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Experimental swap of Anopheles gambiae&apos;s assortative mating preferences demonstrates key role of X-chromosome divergence island in incipient sympatric speciation</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Aboagye-Antwi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Alhafez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Weedall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brothwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kandola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fofana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Olohan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Betancourth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Ekechukwu</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pgen.1005141</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="page">11</biblScope>
+			<date type="published" when="2015">2015. 1005141</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Coalescent Analysis of Phylogenomic Data Confidently Resolves the Species Relationships in the Anopheles gambiae Species Complex</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Thawornwattana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dalquen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="2512" to="2527" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">IMP PCR primers detect single nucleotide polymorphisms for Anopheles gambiae species identification, Mopti and Savanna rDNA types, and resistance to dieldrin in Anopheles arabiensis</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Wilkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">I</forename><surname>Howell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Q</forename><surname>Benedict</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1475-2875-5-125</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Malar. J</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Insertion polymorphisms of SINE200 retrotransposons within speciation islands of Anopheles gambiae molecular forms</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Santolamazza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mancini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Simard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Della Torre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Malar. J</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">163</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Prominent intraspecific genetic divergence within Anopheles gambiae sibling species triggered by habitat discontinuities across a riverine landscape</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Caputo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Nwakanma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Caputo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jawara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Oriero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hamid-Adiamoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Konate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Petrarca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pinto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="4574" to="4589" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Larval habitat segregation between the molecular forms of the mosquito Anopheles gambiae in a rice field area of Burkina Faso</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gimonneau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pombi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Choisy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Morand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Dabire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Simard</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2915.2011.00957.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">West Africa. Med. Vet. Entomol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="9" to="17" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Distribution of the members of Anopheles gambiae and pyrethroid knock-down resistance gene (kdr) in Guinea-Bissau</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Dabire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diabate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Agostinho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Manga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Faye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Baldet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull. Soc. Pathol. Exot</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="119" to="123" />
+			<date type="published" when="2008">2008</date>
+			<pubPlace>West Africa</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Behavioural responses of Anopheles gambiae sensu stricto M and S molecular form larvae to an aquatic predator in Burkina Faso</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gimonneau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pombi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Dabire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diabate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Morand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Simard</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1756-3305-5-65</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Parasit. Vectors</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">65</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">DNA analysis of transferred sperm reveals significant levels of gene flow between molecular forms of Anopheles gambiae</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tripet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">T</forename><surname>Toure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Norris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Lanzaro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1725" to="1732" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Gene expression divergence between malaria vector sibling species Anopheles gambiae and An. coluzzii from rural and urban Yaounde Cameroon</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Cassone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kamdem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Hahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Costantini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Besansky</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/mec.12733</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="2242" to="2259" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Cytogenetic analysis of Anopheles ovengensis revealed high structural divergence of chromosomes in the Anopheles nili group</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Sharakhova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Peery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Antonio-Nkondjio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ndo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Awono-Ambene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Simard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Sharakhov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.meegid.2013.03.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Infect. Genet. Evol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="341" to="348" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Cytogenetic analysis and distribution of the malaria mosquito Anopheles beklemishevi</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">N</forename><surname>Stegnii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Novikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Kabanova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zool. ZH</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="873" to="876" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Chromosome analysis of the malarial mosquitoes Anopheles atroparvus and A. maculipennis (Diptera, Culicidae)</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">N</forename><surname>Stegnii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Kabanova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zool. ZH</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="207" to="225" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Fluorescence banding techniques in the identification of sibling species of the Anopheles gambiae complex</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Santini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pimpinelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Coluzzi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/hdy.1977.11</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Heredity (Edinb)</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="105" to="108" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Intraspecific polymorphism of sex chromosome heterochromatin in two species of the Anopheles gambiae complex</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bonaccorsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Santini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pimpinelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Colluzzi</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00292226</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chromosoma</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="57" to="64" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Radical remodeling of the Y chromosome in a recent radiation of malaria mosquitoes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Papathanos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">S</forename><surname>Akbari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Assour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Bergman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cagnetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Crisanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dottorini</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1525164113</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<date type="published" when="2016">2016</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>E2114-E2123. [CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Y chromosome controls mating behaviour on Anopheles mosquitoes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fraccaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tiepolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Laudani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Marchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Jayakar</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/265326a0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">265</biblScope>
+			<biblScope unit="page" from="326" to="328" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The genome sequence of the malaria mosquito Anopheles gambiae</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Holt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Subramanian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Halpern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Sutton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Charlab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Nusskern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wincker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wides</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1076181</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">298</biblScope>
+			<biblScope unit="page" from="129" to="149" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The Release 5.1 annotation of Drosophila melanogaster heterochromatin</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Mungall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Karpen</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1139815</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">316</biblScope>
+			<biblScope unit="page" from="1586" to="1591" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Interspersion of repetitive and nonrepetitive DNA sequences in the Drosophila melanogaster genome</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Manning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Schmid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Davidson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0092-8674(75)90121-X</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="141" to="155" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The mosquito genome: Organization, evolution and manipulation</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Besansky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Collins</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0169-4758(92)90262-Z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Parasitol. Today</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="186" to="192" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Update of the Anopheles gambiae PEST genome assembly</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Sharakhova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Hammond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">F</forename><surname>Lobo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Krzywinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Unger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Hillenmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Bruggner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Birney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="page" from="8" to="R13" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Genome mapping and characterization of the Anopheles gambiae heterochromatin</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Sharakhova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Brusentsova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Leman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Sharakhov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genom</title>
+		<imprint>
+			<biblScope unit="page">459</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">High-resolution cytogenetic map for the African malaria vector Anopheles gambiae</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Sharakhova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Sharakhov</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2583.2010.01025.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Insect Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="675" to="682" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Kingan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Heaton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cudini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Lambert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Baybayan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Galvin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Durbin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Korlach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Lawniczak</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/genes10010062</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Assembly from a Single Mosquito Using PacBio Sequencing. Genes</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Mosquito genomics. Highly evolvable malaria vectors: The genomes of 16 Anopheles mosquitoes</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Neafsey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Waterhouse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Abai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Aganezov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Alekseyev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Amon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Arca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Arensburger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Artemov</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1258522</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">347</biblScope>
+			<date type="published" when="2015">2015. 1258522</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Genomic islands of speciation in Anopheles gambiae</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Hahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Nuzhdin</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pbio.0030285</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biol</title>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note>3, e285. [CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Genetic association of physically unlinked islands of genomic divergence in incipient species of Anopheles gambiae</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Simard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Costantini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Besansky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="925" to="939" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Breakdown in the process of incipient speciation in Anopheles gambiae</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Nwakanma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Neafsey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jawara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Adiamoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Loua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Konate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dia</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/genetics.112.148718</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">193</biblScope>
+			<biblScope unit="page" from="1221" to="1231" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">SNP genotyping defines complex gene-flow boundaries among African malaria vector mosquitoes</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Neafsey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Lawniczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Redmond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Coulibaly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Traore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sagnon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Costantini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Wiegand</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1193036</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">330</biblScope>
+			<biblScope unit="page" from="514" to="517" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Genetic diversity of the African malaria vector Anopheles gambiae</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Miles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Harding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Botta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Clarkson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Antao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kozak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schrider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Redmond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Sharakhov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">552</biblScope>
+			<biblScope unit="page" from="96" to="100" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Polytene chromosomes, heterochromatin, and position effect variegation</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">F</forename><surname>Zhimulev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Genet</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="1" to="555" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Identification of single specimens of the Anopheles gambiae complex by the polymerase chain reaction</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Brogdon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Collins</surname></persName>
+		</author>
+		<idno type="DOI">10.4269/ajtmh.1993.49.520</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Trop. Med. Hyg</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="520" to="529" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Simultaneous identification of species and molecular forms of the Anopheles gambiae complex by PCR-RFLP</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fanello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Santolamazza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Della Torre</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1365-2915.2002.00393.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med. Vet. Entomol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="461" to="464" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Benedict</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Dotson</surname></persName>
+		</author>
+		<ptr target="https://www.beiresources.org/Portals/2/VectorResources/2016" />
+		<title level="m">%20Methods%20in%20Anopheles% 20Research%20full%20manual.pdf</title>
+		<imprint>
+			<date type="published" when="2015-12-12">2015. 12 December 2019</date>
+			<biblScope unit="page">408</biblScope>
+		</imprint>
+	</monogr>
+	<note>Methods in Anopheles Research</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Fluorescent in situ Hybridization on Mitotic Chromosomes of Mosquitoes</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Timoshevskiy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Sharakhov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Sharakhova</surname></persName>
+		</author>
+		<idno type="DOI">10.3791/4215</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Vis. Exp</title>
+		<imprint>
+			<biblScope unit="page">4215</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Satellite DNA from the Y chromosome of the malaria vector Anopheles gambiae</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Krzywinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sangare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Besansky</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/genetics.104.034264</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">169</biblScope>
+			<biblScope unit="page" from="185" to="196" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Mosquitoes (Diptera)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Sharakhova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Timoshevskiy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Peery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Sharakhov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Protocols for Cytogenetic Mapping of Arthropod Genomes; Sharakhov, I.V</title>
+		<meeting><address><addrLine>Boca Raton, FL, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Taylor &amp; Francis Group</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="93" to="170" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Matlab</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Matlab</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>Version 7.10.0 (R2010a</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">The MathWorks Inc</title>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<pubPlace>Natick, MA, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">MATLAB Script to Measure the Position of Fluorescence Peaks on Chromosomes</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kinney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Sharakhov</surname></persName>
+		</author>
+		<idno type="DOI">10.6084/m9.figshare.11782140.v1</idno>
+		<ptr target="https://doi.org/10.6084/m9.figshare.11782140.v1" />
+	</analytic>
+	<monogr>
+		<title level="j">Figshare. Software. Available online</title>
+		<imprint>
+			<date type="published" when="2020-01">January 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">FISH with and Without COT1 DNA</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Trifonov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">V</forename><surname>Vorobieva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Serdyukova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Rens</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-662-52959-1_11</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Fluorescence In Situ Hybridization (FISH)-Application Guide</title>
+		<meeting><address><addrLine>Germany</addrLine></address></meeting>
+		<imprint>
+			<publisher>Berlin/Heidelberg</publisher>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Chromosomal localization and copy number of 18S + 28S ribosomal RNA genes in evolutionarily diverse mosquitoes (Diptera, Culicidae)</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Rai</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1601-5223.1990.tb00094.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Hereditas</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="277" to="289" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Localization of repetitive DNA sequences in the pericentromeric heterochromatin of malarial mosquitoes of the &quot;Anopheles maculipennis&quot; complex</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">G</forename><surname>Grushko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rusakova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Sharakhova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Sharakhov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">N</forename><surname>Stegnii</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tsitologiia</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="240" to="245" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Genome analysis of a major urban malaria vector mosquito, Anopheles stephensi</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Peery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">G</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Waterhouse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Komissarov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Riehl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shouche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Sharakhova</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13059-014-0459-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">459</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Heterochromatin-Enriched Assemblies Reveal the Sequence and Organization of the Drosophila melanogaster Y Chromosome</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Larracuente</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/genetics.118.301765</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">211</biblScope>
+			<biblScope unit="page" from="333" to="348" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Two Dobzhansky-Muller genes interact to cause hybrid lethality in Drosophila</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Brideau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Flores</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maheshwari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Barbash</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1133953</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">314</biblScope>
+			<biblScope unit="page" from="1292" to="1295" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Genetics and lineage-specific evolution of a lethal hybrid incompatibility between Drosophila mauritiana and its sibling species</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Cattani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Presgraves</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/genetics.108.098392</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">181</biblScope>
+			<biblScope unit="page" from="1545" to="1555" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">The Hmr and Lhr hybrid incompatibility genes suppress a broad range of heterochromatic repeats</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Satyaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Cuykendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Brideau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kwak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Aruna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Ferree</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Barbash</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pgen.1004240</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2014">2014. 1004240</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Incompatibility between X chromosome factor and pericentric heterochromatic region causes lethality in hybrids between Drosophila melanogaster and its sibling species</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Cattani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Presgraves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="549" to="559" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">The Hybrid Incompatibility Genes Lhr and Hmr Are Required for Sister Chromatid Detachment During Anaphase but Not for Centromere Function</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Blum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bonaccorsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marzullo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Palumbo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Yamashita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Barbash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gatti</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/genetics.117.300390</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">207</biblScope>
+			<biblScope unit="page" from="1457" to="1472" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">How can satellite DNA divergence cause reproductive isolation? Let us count the chromosomal ways</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Ferree</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Prasad</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2012/430136</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genet. Res. Int</title>
+		<imprint>
+			<biblScope unit="volume">430136</biblScope>
+			<date type="published" when="2012">2012. 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">The role of repetitive DNA in structure and evolution of sex chromosomes in plants</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kejnovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hobza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cermak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Kubat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vyskot</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/hdy.2009.17</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Heredity</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="533" to="541" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Junk DNA promotes sex chromosome evolution</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Matsunaga</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/hdy.2009.36</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Heredity</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="525" to="526" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Deakin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Potter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>O'neill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ruiz-Herrera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Cioffi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D B</forename><surname>Eldridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fukui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Marshall Graves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Grutzner</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/genes10080627</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chromosomics: Bridging the Gap between Genomes and Chromosomes. Genes</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Beyond speciation genes: An overview of genome stability in evolution and speciation</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Dion-Cote</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Barbash</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.gde.2017.07.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Genet. Dev</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="17" to="23" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Abnormal pairing of X and Y sex chromosomes during meiosis I in interspecific hybrids of Phodopus campbelli and P. sungorus</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ishishita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tsuboi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ohishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tsuchiya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Matsuda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">9435</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Chromosome Synapsis and Recombination in Male-Sterile and Female-Fertile Interspecies Hybrids of the Dwarf Hamsters (Phodopus, Cricetidae)</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">I</forename><surname>Bikchurina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">V</forename><surname>Tishakova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Kizilova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Romanenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Serdyukova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Torgasheva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Borodin</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/genes9050227</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genes</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Mechanistic basis of infertility of mouse intersubspecific hybrids</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bhattacharyya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gregorova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Mihola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Anger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sebestova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Denny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Simecek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Forejt</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1219126110</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="468" to="E477" />
+			<date type="published" when="2013">2013</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">X chromosome control of meiotic chromosome synapsis in mouse inter-subspecific hybrids</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bhattacharyya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reifova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gregorova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Simecek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gergelits</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mistrik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Martincova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pialek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Forejt</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pgen.1004088</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2014">2014. 1004088</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<monogr>
+		<title level="m" type="main">Comparative Analysis of Satellite DNA in the Drosophila melanogaster Species Complex</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jagannathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Warsinger-Pepe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Watase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Yamashita</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/g3.116.035352</idno>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="693" to="704" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Hawaiian Drosophila genomes: Size variation and evolutionary expansions</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Craddock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Gall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jonas</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10709-016-9882-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genetica</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="page" from="107" to="124" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<monogr>
+		<title level="m" type="main">Dissecting the Satellite DNA Landscape in Three Cactophilic Drosophila Sequenced Genomes</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>De Lima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Svartman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C S</forename><surname>Kuhn</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/g3.117.042093</idno>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="2831" to="2843" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Correlated variation and population differentiation in satellite DNA abundance among lines of Drosophila melanogaster</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Grenier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Barbash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Clark</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1421951112</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="18793" to="18798" />
+			<date type="published" when="2014">2014</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Simple and Complex Centromeric Satellites in Drosophila Sibling Species</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Talbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kasinathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Henikoff</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/genetics.117.300620</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">208</biblScope>
+			<biblScope unit="page" from="977" to="990" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Epigenetic effects of polymorphic Y chromosomes modulate chromatin components, immune response, and sexual conflict</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lemos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Branco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Hartl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="15826" to="15831" />
+			<date type="published" when="2010">2010</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">How do y-chromosomes modulate genome-wide epigenetic states: Genome folding, chromatin sinks, and gene expression</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">O</forename><surname>Francisco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lemos</surname></persName>
+		</author>
+		<idno type="DOI">10.7150/jgen.8043</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Genom</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="94" to="103" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Evolutionary trends in animal ribosomal DNA loci: Introduction to a new online database</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sochorova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Galvez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Symonova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kovarik</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00412-017-0651-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chromosoma</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="141" to="150" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Heterochromatin formation promotes longevity and represses ribosomal RNA synthesis</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Larson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tsurumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gaur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Eickbush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">X</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<date type="published" when="2012">2012, 8, e1002473</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<monogr>
+		<title level="m" type="main">Transgenerational dynamics of rDNA copy number in Drosophila male germline stem cells</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Watase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Warsinger-Pepe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Yamashita</surname></persName>
+		</author>
+		<idno type="DOI">10.7554/eLife.32421</idno>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">7</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Abundance of ribosomal RNA gene copies in the genomes of schizophrenia patients</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Chestkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Jestkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Ershova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">E</forename><surname>Golimbet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">V</forename><surname>Lezheiko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Y</forename><surname>Kolesina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Porokhovnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Lyapunova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Izhevskaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Kutsev</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.schres.2018.01.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Schizophr. Res</title>
+		<imprint>
+			<biblScope unit="volume">197</biblScope>
+			<biblScope unit="page" from="305" to="314" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Ribosomal DNA copy number is coupled with gene expression variation and mitochondrial abundance in humans</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Gibbons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Branco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lemos</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms5850</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Reproductive isolation in a nascent species pair is associated with aneuploidy in hybrid offspring</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Dion-Cote</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Symonova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bernatchez</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rspb.2014.2862</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. R. Soc. B Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<date type="published" when="2015">2015. 20142826</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Standing chromosomal variation in Lake Whitefish species pairs: The role of historical contingency and relevance for speciation</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Dion-Cote</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Symonova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Lamaze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pelikanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bernatchez</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/mec.13816</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="178" to="192" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Integrative rDNAomics-Importance of the Oldest Repetitive Fraction of the Eukaryote Genome</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Symonova</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/genes10050345</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genes</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

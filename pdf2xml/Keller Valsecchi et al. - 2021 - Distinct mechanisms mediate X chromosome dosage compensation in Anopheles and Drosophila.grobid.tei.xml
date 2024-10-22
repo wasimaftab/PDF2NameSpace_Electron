@@ -1,0 +1,2277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Distinct mechanisms mediate X chromosome dosage compensation in Anopheles and Drosophila</title>
+				<funder ref="#_7jar4J8 #_Byk7SuN #_RAysrZS">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_FrgZkym">
+					<orgName type="full">DFG</orgName>
+				</funder>
+				<funder ref="#_8UKtzqx">
+					<orgName type="full">Agence Nationale de la Recherche</orgName>
+					<orgName type="abbreviated">ANR</orgName>
+				</funder>
+				<funder ref="#_pcTqwQz">
+					<orgName type="full">German Research Foundation (DFG)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Human Frontier Science Program</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-10-20">20 October, 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="middle">Isabelle</forename><surname>Keller Valsecchi</surname></persName>
+							<idno type="ORCID">0000-0003-4135-5927</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute of Immunobiology and Epigenetics</orgName>
+								<address>
+									<settlement>Freiburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Universit é de Strasbourg</orgName>
+								<orgName type="institution" key="instit2">Centre National de la Recherche Scientifique (CNRS</orgName>
+								<address>
+									<addrLine>UPR9022, Inserm U1257</addrLine>
+									<settlement>Strasbourg</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Molecular Biology (IMB)</orgName>
+								<address>
+									<settlement>Mainz</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Felicia</forename><surname>Basilicata</surname></persName>
+							<idno type="ORCID">0000-0002-1111-9459</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute of Immunobiology and Epigenetics</orgName>
+								<address>
+									<settlement>Freiburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Molecular Biology (IMB)</orgName>
+								<address>
+									<settlement>Mainz</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Plamen</forename><surname>Georgiev</surname></persName>
+							<idno type="ORCID">0000-0002-1111-9459</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute of Immunobiology and Epigenetics</orgName>
+								<address>
+									<settlement>Freiburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><surname>Akhtar</surname></persName>
+							<email>akhtar@ie-freiburg.mpg.de</email>
+							<idno type="ORCID">0000-0001-8973-6193</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute of Immunobiology and Epigenetics</orgName>
+								<address>
+									<settlement>Freiburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Claudia</forename><forename type="middle">Isabelle</forename><surname>Keller Valsecchi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Eric</forename><surname>Marois</surname></persName>
+						</author>
+						<title level="a" type="main">Distinct mechanisms mediate X chromosome dosage compensation in Anopheles and Drosophila</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-10-20">20 October, 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3728F44B97A519439EECC66B31E41A02</idno>
+					<idno type="DOI">10.26508/lsa.202000996</idno>
+					<note type="submission">Received 16 December 2020 | Revised 27 June 2021 | Accepted 28 June 2021 |</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-10-22T14:59+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Sex chromosomes induce potentially deleterious gene expression imbalances that are frequently corrected by dosage compensation (DC). Three distinct molecular strategies to achieve DC have been previously described in nematodes, fruit flies, and mammals. Is this a consequence of distinct genomes, functional or ecological constraints, or random initial commitment to an evolutionary trajectory? Here, we study DC in the malaria mosquito Anopheles gambiae. The Anopheles and Drosophila X chromosomes evolved independently but share a high degree of homology. We find that Anopheles achieves DC by a mechanism distinct from the Drosophila MSL complex-histone H4 lysine 16 acetylation pathway. CRISPR knockout of Anopheles msl-2 leads to embryonic lethality in both sexes. Transcriptome analyses indicate that this phenotype is not a consequence of defective X chromosome DC. By immunofluorescence and ChIP, H4K16ac does not preferentially enrich on the male X. Instead, the mosquito MSL pathway regulates conserved developmental genes. We conclude that a novel mechanism confers X chromosome up-regulation in Anopheles. Our findings highlight the pluralism of gene-dosage buffering mechanisms even under similar genomic and functional constraints.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Chromosome-wide copy number alterations are typically linked to developmental failure and diseases such as cancer. Heteromorphic sex chromosomes are a notable exception. To account for potentially deleterious expression imbalances in XY males in comparison with XX females, X chromosomes are often subjected to dosage compensation (DC) <ref type="bibr" target="#b48">(Samata &amp; Akhtar, 2018)</ref>. In Dipterans such as fruit flies or mosquitos, sex chromosomes have formed multiple times <ref type="bibr" target="#b59">(Vicoso &amp; Bachtrog, 2015)</ref> and show high evolutionary turnover <ref type="bibr" target="#b23">(Herpin &amp; Schartl, 2015)</ref>. RNA-seq studies revealed that X chromosome DC in multiple Dipteran genera occurs by up-regulation of the single male X <ref type="bibr" target="#b45">(Rose et al, 2016)</ref>. Owing to their short generation times and related, yet rapidly evolving genomes, Dipteran species are excellent models to understand how cells co-opt pathways to keep chromosome-wide gene dosage alterations in check. Dipterans have also been intensively studied as some of its species are prominent disease vectors, for example, the malaria-transmitting mosquito Anopheles gambiae. Understanding the processes responsible for sex differentiation and regulation of heteromorphic sex chromosomes is highly relevant as these factors are among the most promising targets for gene-drive strategies aiming at preventing transmission of infectious diseases by vector control <ref type="bibr" target="#b29">(Kyrou et al, 2018)</ref>.</p><p>DC in the fruit fly Drosophila melanogaster (Dmel) is mediated by association of the male-specific lethal (MSL) complex with the X chromosome in males. Via deposition of histone H4 lysine 16 acetylation (H4K16ac), the MSL complex enhances transcription to achieve approximately twofold up-regulated expression of X-linked genes <ref type="bibr" target="#b34">(Lucchesi &amp; Kuroda, 2015;</ref><ref type="bibr" target="#b48">Samata &amp; Akhtar, 2018)</ref>. Loss of MSL complex member genes results in male-specific lethality, whereas females remain unaffected <ref type="bibr" target="#b6">(Belote &amp; Lucchesi, 1980)</ref>. Key to establishing MSL-DC is its subunit MSL2, which is male-specifically expressed and recruits the complex to the X chromosome <ref type="bibr" target="#b4">(Bashaw &amp; Baker, 1995)</ref>. H4K16ac enrichment on the X as well as other characteristic features of the MSL-DC system are conserved in other drosophilids, for example, the distantly related Drosophila virilis or Drosophila busckii <ref type="bibr" target="#b3">(Alekseyenko et al, 2013;</ref><ref type="bibr" target="#b43">Renschler et al, 2019)</ref>. The MSL complex is also present in mammals, but its in vivo functions remain poorly characterized and mammalian DC is mediated by X chromosome inactivation in females via an entirely different pathway <ref type="bibr" target="#b26">(Keller &amp; Akhtar, 2015)</ref>.</p><p>Like Drosophila, the malaria mosquito A. gambiae (Agam) achieves DC by hypertranscription of the male X <ref type="bibr" target="#b12">(Deitz et al, 2018)</ref>. The Dmel and Agam X chromosomes evolved independently from the same ancestral autosome <ref type="bibr" target="#b62">(Zdobnov et al, 2002)</ref>. It remains unclear whether X upregulation in mosquitos is achieved by the same molecular machinery as in drosophilids or whether different mechanisms may arise in these contexts. This is of particular interest, as similar functional constraints and gene contents have shaped the acquisition of DC on newly evolving sex chromosomes in these lineages. Hence, comparing Agam with Dmel offers an excellent opportunity to study whether the independent evolution of sex chromosomes is accompanied by the acquisition of the same DC mechanism.</p><p>Here, we analyzed whether the MSL complex-H4K16ac pathway confers X chromosome-wide DC in Agam. Expression analyses indicate that unlike in Drosophila, the MSL complex subunits are expressed in both males and females in Anopheles. Loss of Anopheles msl-2 affects both sexes, where zygotic KO induces an early embryonic lethal phenotype and germ line KO is results in sterility. Transcriptome analyses indicate that msl-2 KO embryos do not display a global perturbation of X-linked gene expression. Furthermore, ChIP-seq and immunofluorescence show that H4K16ac is neither enriched on the male mosquito X chromosome nor displays a sexually dimorphic pattern. Instead, the MSL-H4K16 pathway appears to be involved in regulating developmental genes. Our study highlights that X chromosome DC can be achieved by entirely different molecular strategies even in very similar genomic contexts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>MSL complex members are expressed in both male and female A. gambiae Cytogenetic and genomic studies suggest that the ancestral dipteran karyotype consisted of six chromosomal pairs commonly referred to as Muller elements A-F <ref type="bibr" target="#b59">(Vicoso &amp; Bachtrog, 2015)</ref>. Two independent evolutionary events resulted in Muller element A becoming sex-linked in Drosophila and Anopheles (Fig <ref type="figure" target="#fig_0">1A</ref>) <ref type="bibr" target="#b30">(Landeen &amp; Presgraves, 2013;</ref><ref type="bibr" target="#b59">Vicoso &amp; Bachtrog, 2015)</ref>. The X chromosomes of these species exhibit considerable homology (Fig 1B <ref type="bibr" target="#b62">[Zdobnov et al, 2002]</ref>), with around half of the Agam X-linked genes sharing an annotated X-linked orthologue in Dmel <ref type="bibr">(Fig 1C)</ref>.</p><p>To elucidate whether the MSL complex mediates DC in Agam, we first analyzed the amino acid sequence conservation of the core MSL subunits MSL1, MSL2, MSL3, and MOF, as well as the associated RNA helicase MLE <ref type="bibr">(Table S1 and Fig 1D;</ref><ref type="bibr"></ref> note that the high evolutionary turnover of noncoding RNAs hinders the computational identification of putative orthologues of Dmel roX1 and roX2 <ref type="bibr" target="#b40">[Quinn et al, 2016]</ref>). The highest degree of conservation was found for MLE (57% identity) and MOF (61% identity), the latter of which displays a shortened N-terminus in Anopheles compared to Drosophila. MSL3 displays a similar length and more than 50% similarity for both the chromo-and MRG domains. The RING and CXC domains of MSL2 are also conserved, but the flexible linker regions adjacent to these structured domains are substantially extended in Anopheles. The DNA binding CXC domain of Agam MSL2 appears more similar to mammalian than Drosophila MSL2 (Fig <ref type="figure" target="#fig_0">S1A</ref>). There is no annotated Agam msl-1 gene and extensive BLAST searches using the fulllength protein failed to identify a bona-fide orthologue of MSL1. Because MSL1 is largely unstructured <ref type="bibr" target="#b22">(Hallacli et al, 2012)</ref>, the overall sequence level conservation may be rather low. Indeed, individual domain searches revealed hits for the coiled-coil and PEHE regions, albeit at rather low fidelity (Table <ref type="table">S1</ref>; note that even mammalian and Drosophila MSL1 show &lt;20% amino acid similarity despite providing the same scaffolding function to the complex).</p><p>Assessing the expression level of the core MSL complex members by RT-qPCR from adult Anopheles, we found a modestly biased expression of mof and mle in males <ref type="bibr">(Fig 1E,</ref><ref type="bibr">statistical</ref> analyses in Table <ref type="table">S1</ref>). Since entire adult mosquitos contain the gonads, which could be introducing a bias, we also analyzed published RNA-seq data <ref type="bibr" target="#b38">(Papa et al, 2017)</ref> of dissected carcasses (soma) and reproductive tissues (germline) (Fig S1B ; modEncode and RT-qPCR data from Dmel as a comparison in Fig <ref type="figure" target="#fig_0">S1C</ref> and<ref type="figure">D</ref>). In this RNA-seq dataset, Agam msls were all classified as not sex-biased. This discrepancy could be a consequence of differences in sensitivity (RT-qPCR versus RNA-seq), or alternatively, other tissues with malebiased expression present in the sample analyzed by us.</p><p>Next, we turned our attention to the expression pattern of msls during Anopheles embryogenesis (mixed-sex data from <ref type="bibr" target="#b19">Goltsev et al [2009]</ref>). msl-3 and mof mRNA levels drop along development, whereas mle and msl-2 appear continuously expressed <ref type="bibr">(Fig 1F)</ref>. In Drosophila, msl-2 and mle expression exhibits a different pattern during embryogenesis, with a pronounced induction shortly after zygotic genome activation (ZGA) ( <ref type="bibr" target="#b32">[Lott et al, 2011;</ref><ref type="bibr" target="#b49">Samata et al, 2020]</ref></p><formula xml:id="formula_0">, Fig S1E).</formula><p>In Drosophila, both sexes express <ref type="bibr">MOF and MLE proteins (Fig 1G and H [Kotlikova et al, 2006;</ref><ref type="bibr" target="#b11">Conrad et al, 2012]</ref>), and at least in some tissues, MSL1 and MSL3 are not only present in males, but also in females <ref type="bibr" target="#b10">(Chlamydas et al, 2016;</ref><ref type="bibr">McCarthy et al, 2019 Preprint)</ref>. However, posttranscriptional mechanisms prevent MSL2 protein expression in females thereby providing the DC function specifically to males <ref type="bibr" target="#b5">(Beckmann et al, 2005)</ref>. As antibodies against Agam MSL2 are unavailable, we assessed its protein production by polysome profiling. This revealed that unlike Drosophila, MSL2 protein is produced in both male and female mosquitos <ref type="bibr">(Figs 1I and S1F)</ref>.</p><p>msl-2 KO in A. gambiae triggers sex-independent phenotypes Our observation that unlike Drosophila, MSL2 is expressed in both male and female mosquitos prompted us to investigate whether it is involved in sex-specific functions or in a more general role in gene expression regulation. We generated transgenic Agam for conditional KO of the Agam msl-2 gene by CRISPR/Cas9 (Fig 2A, see the Materials and Methods section). We crossed vasa-Cas9 mothers with msl-2 gRNA transgenic fathers, where Cas9 protein is maternally deposited into the fertilized egg. This results in msl-2 KO shortly after the onset of zygotic transcription of the paternally provided gRNA transgenes <ref type="bibr">(Fig 2A)</ref>. Compared to the controls, which completed embryonic development within around 42 h followed by hatching <ref type="bibr" target="#b18">(Goltsev et al, 2007)</ref>, the msl-2 KO progeny displayed an arrest in early embryogenesis <ref type="bibr">(Figs 2B and S2A)</ref>. To analyze cell death, we performed TUNEL stainings in embryos collected at 6, 16 and 24 h after egg laying. TUNEL-stained cells could be detected in msl-2 KO embryos around 16 h after egg laying and this became much more pronounced after 24 h of development <ref type="bibr">(Figs 2C and S2B)</ref>. Compared to Dmel, where MSL2 loss results in male-specific lethality beginning to manifest at the third instar larval stage (after around 5 d of development), this severe early embryonic phenotype affecting both sexes was unexpected. However, it was in line with expression analyses by RT-qPCR (see above), where both msl-2 and msl-3 are highly transcribed at ZGA, which occurs around 2-4 h after egg laying <ref type="bibr">(Figs 2A and S2C)</ref>. RNA levels of early patterning genes such as hunchback, elovl or eve as well as msl-3 or the X-linked AGAP000634 appeared rather unaffected in msl-2 KO Agam (see below for transcriptome-wide analyses). RT-PCR from these mixedsex populations collected at different time points after fertilization Note that the mosquito Aedes aegyptii does not contain a differentiated sex chromosome. (B) Circos plot of pairs of synteny blocks that were generated over genomic regions of at least 100 kb among Drosophila melanogaster and Anopheles gambiae genomes. Synteny blocks on the Dmel X chromosome are shaded in orange, autosomes in grey. (C) Bar plot illustrating the chromosomal location of 1:1 orthologues of all A. gambiae genes in the D. melanogaster genome. If a given A. gambiae gene does not contain an annotated D. melanogaster orthologue, the bar is colored in black, X-linked genes in orange and genes on the autosomal arms in grey. Orthologues were revealed that there were both males (assessed by expression of Yob <ref type="bibr" target="#b28">[Krzywinska et al, 2016]</ref>) and females (assessed by female-spliced Dsx <ref type="bibr" target="#b29">[Kyrou et al, 2018]</ref>) among the transcriptionally active population <ref type="bibr">(Fig 2D)</ref>. This was validated by single-embryo genotyping by qPCR, where we detected approximately equal numbers of males and females in the F1 embryos across different developmental time points <ref type="bibr">(Fig 2E)</ref>. Therefore, the proportion between the two sexes is unchanged by msl-2 KO throughout embryogenesis until their arrest, indicating that both sexes are equally affected upon loss of MSL2.</p><p>In Drosophila, the loss of msl-2 is linked to a bulk decrease of its downstream epigenetic mark, H4K16ac. When comparing Anopheles wild-type and msl-2 KO embryo extracts by Western blot, we found no scorable differences in H4K16ac levels <ref type="bibr">(Fig 2F)</ref>. In summary, these findings point towards an essential function for MSL2 in both male and female mosquitos early in embryogenesis that is distinct from Drosophila.</p><p>We next crossed msl-2 gRNA-expressing mothers with vasa-Cas9 transgenic fathers, which induces a KO in germ line tissues of the F1 progeny. When F1 males were crossed to wild-type females, normal numbers of eggs were laid but those did not hatch, indicating that the F1 males were sterile (pictures of testis in Fig <ref type="figure" target="#fig_2">S2D</ref>). F1 females displayed a drastic atrophy of the ovaries and failed to lay eggs even after two consecutive blood meals, whereas in the control, a single blood feeding reliably triggered ovary development and egg laying <ref type="bibr">(Fig 2G)</ref>. This phenotype is again distinct from Drosophila, where msl-2 KO females are fertile <ref type="bibr" target="#b6">(Belote &amp; Lucchesi, 1980)</ref>. We performed immunofluorescence stainings of H4K16ac in female F1 KO ovaries (Fig 2H ; note the different scale bars and overall differences in organ size in control compared with KO). A range in severity of phenotypes was observable. Most females displayed a complete absence of the germ line tissue, where only the wild-type somatic ovary epithelium was present. Some individuals exhibited a defective ovarian tissue that still contained an oocyte. Overall, the tissue architecture and morphology were drastically compromised upon msl-2 KO in the female germ line (Videos 1 and 2). We conclude that MSL2 is essential for faithful progression of embryonic and germ line development in both male and female mosquitos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MSL2 confers gene-by-gene regulation on all chromosomes</head><p>The early embryonic and pronounced germ line msl-2 KO phenotypes could be a consequence of an additional function of the MSL complex in mosquitos compared with Drosophila, which could mask a phenotype related to regulating the Anopheles X chromosome. To analyze this, we characterized the transcriptome alterations upon loss of msl-2 in Anopheles embryos, in particular with regards to the chromosomal location. We analyzed two different time points: 6-7 h after egg laying with n = 3 biological replicates and 15 h after egg laying with n = 2 biological replicates (Fig S3A ; we also generated a single dataset at 24 h after egg laying, which was only considered for qualitative analyses). Because it is not possible to phenotypically separate sexes at this stage, we performed RNA-seq experiments from mixed embryo populations. To validate that this approach per se permits capturing effects on DC of the X, we performed an equivalent experiment from a mixed male and female Dmel embryo population <ref type="bibr">(Fig 3A)</ref>. We scored differentially expressed (DE) genes using DESeq2 with a falsediscovery rate (FDR) cutoff of &lt;0.05 in control versus msl-2 KO (Fig <ref type="table">S3B</ref> and<ref type="table">Tables S2</ref> and<ref type="table">S3</ref>). As expected from the role of Dmel MSL2 in regulating the X chromosome, we made the following observations in the Drosophila dataset: First, X-linked genes are significantly overrepresented among all down-regulated genes in the msl-2 KO embryos (Fig 3B, 717 of 1,304 genes, Fisher's exact test P = 1.65645 × 10 -273 ). Second, genes on the X chromosome are globally down-regulated, irrespective of whether a gene is scored as DE or not <ref type="bibr">(Fig 3C,</ref><ref type="bibr">statistical</ref> analyses in Table <ref type="table">S1</ref>). Furthermore, autosomes are moderately up-regulated. Third, the fold change/ extent of the down-regulation occurs in a range that is consistent with an approximately twofold, DC-like effect (Fig 3A; log 2 FC of -0.415 assuming a 50:50 male:female population, where males are affected by twofold and females are unaffected; grey bar). Indeed, the majority of the downregulated genes (1,103 of 1,304) are reduced to 25-75% of control levels. We conclude that X-linked perturbations due to defective DC can be reliably scored from such a mixedpopulation experiment.</p><p>For Anopheles, we first inspected the earlier dataset around 6-7 h after egg laying, and found few gene expression changes in msl-2 KO embryos <ref type="bibr">(Fig S3C and D)</ref>. A total of five significantly down-regulated genes (FDR &lt; 0.05) included msl-2 itself, three transcripts directly adjacent to msl-2, and the orthologue of Dmel mira, an actin/myosin binding protein. These limited changes suggest that the aforementioned phenotypes <ref type="bibr">(Fig 2)</ref> likely arise from loss of msl-2, rather than from Cas9 off-target effects. Because ZGA occurs after around 3 h of development <ref type="bibr" target="#b18">(Goltsev et al, 2007)</ref>, this also implies that ZGA and early embryo development occurs faithfully without msl-2. We turned our attention to the 15 h after egg laying time point, where we found 566 down-regulated transcripts, as well as 360 up-regulated transcripts (  <ref type="table">S1</ref>. (E) RT-qPCR analysis of polyA+ RNA levels of the indicated genes in adult A. gambiae females and males. The mRNA level of each gene was normalized to Rps4 and expressed relative to the expression level in males. The bar plot represents the mean ± SEM with overlaid data points reflecting one biological replicate. Rps4, RpL32, and RPL19 are control genes, AGAP000634 and GPRMTH2 are representative X-linked and autosomal genes, respectively. Significance was evaluated by a Wilcoxon rank sum test, *P-value &lt; 0.05, **P-value &lt; 0.01, details in Table <ref type="table">S1</ref>. (F) Line plot representing the mean log 2 expression levels of msl genes during A. gambiae embryogenesis. The data from <ref type="bibr" target="#b19">Goltsev et al (2009)</ref> was obtained from VectorBase. (G) Cropped immunoblots of male and female extracts of msl-2::HA (endogenously tagged) D. melanogaster heads. RNA Polymerase 2 (POL2) serves as loading control. (H), as in (G), Tubulin serves as loading control. The asterisk indicates the major isoform of MSL3 that is only expressed in males, the band detected at 50 kD is unspecific. The band below 50 kD accumulates only in females. (I) Left: schematic representation of the polysome profiling strategy to assess the protein expression of msls. Extracts are fractionated on a sucrose gradient to separate mRNA that associates with actively translating ribosomes from free/not-translated RNA. Right: bar plot displaying the relative enrichment of msls and controls (not translated: U6 snRNA; translated: Rps4 mRNA) in the polysomal fractions. The data for all fractions individually is reported in Fig S1F . The barplot represents the mean ± SEM with overlaid data points reflecting one polysome profiling experiment/biological replicate. were affected by at least 75% or more (Tables <ref type="table">S2</ref> and<ref type="table">S3</ref> and<ref type="table">Fig 3D</ref>). An overall down-regulation of the X chromosome or an up-regulation of autosomes was also not detectable in the Anopheles dataset (Fig <ref type="figure" target="#fig_3">3F</ref> and Table <ref type="table">S1</ref>). We conclude that loss of MSL2 in Anopheles embryos leads to global changes in gene expression affecting all chromosomes (for functional analyses on MSL2-evoked transcriptome alterations not related to X-chromosome-wide DC see below).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tissue-specific distribution of histone H4 lysine 16 acetylation in A. gambiae</head><p>The induction of a subnuclear territory enriched for an epigenetic mark in one of the sexes (H4K16ac in male Dmel, histone H3 lysine 27 trimethylation [H3K27me3] in female mammals, and histone H4 lysine 20 monomethylation [H4K20me1] in hermaphrodite Caenorhabditis elegans) is a characteristic feature of all known DC systems <ref type="bibr" target="#b61">(Wells et al, 2012)</ref>. To analyze this, we performed immunostainings in adult male and female mosquitos and characterized the tissue-specific enrichment of H4K16ac, in particular with regards to the presence of a X chromosome territory (Fig <ref type="figure" target="#fig_4">4A</ref>). H4K16ac exhibited homogeneous staining of the entire nucleus in male midguts (panel 4) and Malpighian tubules (panel 3). The testis (panels 1 and 2) showed a staining pattern where H4K16ac levels were varying across the different cellular stages of sperm differentiation. The early germ cells appeared enriched, wereas the more mature, transcriptionally inert stages (e.g., spermatocytes) were depleted of H4K16ac. This cell type-specific pattern of H4K16ac in the testis was antagonized by the presence of the repressive mark H3K27me3 (Fig <ref type="figure" target="#fig_4">S4A</ref>). In females, the midguts and Malpighian tubules displayed a similar staining pattern for H4K16ac as in males (Fig 4B, panels 2 and 3; Fig <ref type="figure" target="#fig_4">4C</ref> and<ref type="figure">D</ref> for a comparison of Agam to the X chromosome territory in Dmel). The somatic cells of the ovaries showed a high staining intensity and the oocyte itself was H4K16ac-positive. Similar to males, H3K27me3 was homogeneously staining the female nucleus and showed a tissue-specific distribution, where H4K16ac high cells displayed low levels of H3K27me3 and vice versa (Fig <ref type="figure" target="#fig_4">S4B</ref>). However, despite extensive analyses, we could not identify any cell type in adult Anopheles that showed a nuclear substructure akin to a putative X chromosomal territory that is marked by H4K16ac.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genome-wide profiles reveal H4K16ac on active genes in mosquitos</head><p>The fact that H4K16ac is not associated with a territory in Anopheles could be a consequence of a less pronounced X chromosome enrichment and hence, immunofluorescence not being sensitive enough to score it. We therefore generated high-resolution MNase-ChIP-seq profiles of H4K16ac, as well as a total H3 control from adult male and female mosquitos. We segmented the genome into 2 kb bins and analyzed the Input normalized ChIP enrichment on each of the chromosomal arms <ref type="bibr">(Fig 5A)</ref>. Although this approach readily revealed H4K16ac enrichment on the Dmel male X chromosome <ref type="bibr" target="#b58">(Valsecchi et al, 2018)</ref>, both Anopheles males and females looked rather similar to Drosophila females. Next, we used an unsupervised clustering approach to identify different enrichment patterns at male in comparison with female transcription start sites (TSSs) <ref type="bibr">(Fig 5B)</ref>. In Drosophila, this approach revealed a Cluster 1, which displays a markedly higher and broad enrichment of H4K16ac in males, but not females. Cluster 1 consisted exclusively of X-chromosomal genes <ref type="bibr">(Fig 5C)</ref>. Cluster 2 shows a TSS-proximal H4K16ac signal in both males and females. In contrast to Drosophila, the clustering approach did not reveal differences at TSS between male and female mosquitos (Fig 5B ) and/or a predominant enrichment of X-linked genes in any of the clusters (Fig <ref type="figure" target="#fig_5">5C</ref>). Overall, the H4K16ac enrichment on genes was highly correlated between Agam males and females, but did not show the striking enrichment as on Dmel male X-linked genes (Fig <ref type="figure" target="#fig_5">S5A</ref> and<ref type="figure">B</ref>; see Fig <ref type="figure" target="#fig_5">S5C</ref> for Dmel H4K16ac data from different tissues). In line with H4K16ac promoting transcription, the level of H4K16ac on Anopheles genes (low to high by ChIP enrichment in quartiles Q1-Q4) was correlating with low to high read counts at the RNA expression level in RNA-seq (Fig <ref type="figure" target="#fig_5">S5D</ref>). Agam genes that showed the highest levels of H4K16ac were involved in biological processes broadly involving cellular metabolism and provided molecular functions such as "RNA binding," "signaling receptor activity" or "molecular transducer activity" (Fig <ref type="figure" target="#fig_6">S6A</ref>). Our findings were corroborated by visual inspection of the ChIP data in the genome browser (Fig <ref type="figure" target="#fig_5">5D</ref> and<ref type="figure">E</ref>). Compared to the H3 control, H4K16ac in Anopheles appeared clearly enriched on individual, active genes on both X and autosomes. This indicates that TSS-proximal H4K16ac promotes gene expression in a similar fashion in Agam males and females and thereby serving a more general role in gene regulation, instead of sex-specific functions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. gambiae MSL2 regulates conserved developmental genes</head><p>The aforementioned observations indicate that the MSL complex-H4K16ac pathway is unlikely to mediate chromosome-wide DC in Agam. We were therefore interested in which functions and generegulatory networks MSL2 might be controlling. To this end, we analyzed our RNA-seq dataset for the enrichment of distinctive features among the DE genes. This revealed that DE genes in msl-2 KO embryos tend to be significantly longer than average in the Anopheles genome (e.g., at the level of coding sequence, transcript length, gene span as well as the number of exons, Figs <ref type="figure" target="#fig_6">6A</ref> and<ref type="figure" target="#fig_6">S6B</ref>). Furthermore, we found a significantly higher fraction of Drosophila orthologues in the msl-2 KO DE group than expected (Fisher's test P = 6.34 × 10 -18 ) indicating that the Anopheles MSL-regulated genes tend to be conserved among Dipterans <ref type="bibr">(Fig 6B,</ref><ref type="bibr">left panel)</ref>. There was no difference between the expected and DE gene groups at the sequence level (% identity of the orthologues) (Fig 6B, right panel). We next analyzed the features of the proteins encoded by msl-2 KO DE genes using the STRING database of known and predicted protein-protein interactions (Fig <ref type="figure" target="#fig_6">6C</ref>) <ref type="bibr" target="#b54">(Szklarczyk et al, 2018)</ref>. We find that the proteins encoded by the Top400 DE genes (msl-2 KO versus control) display significantly more protein-protein interactions than expected, indicating that they are highly interactive. If the targets regulated by MSL2 tend to frequently engage in proteinprotein interactions and are part of multisubunit complexes, this may explain why their expression levels need to be tightly controlled by chromatin-regulatory pathways such as the H4K16ac-MSL pathway: poorly controlled expression could lead to stoichiometry imbalances, proteotoxicity and aggregation <ref type="bibr" target="#b8">(Brennan et al, 2019)</ref>.</p><p>Analysis of the functional domains of MSL2 targets with the Pfam database revealed an enrichment of "homeobox domain," which is a well-known module of developmental transcription factors, but also various other domains mediating processes occurring at the cellular surface <ref type="bibr">(Fig 6D)</ref>. We also performed Gene Ontology term   analyses <ref type="bibr">(Fig 6E and F)</ref>, where we found misregulated biological processes such as "multicellular organism development," "tissue development," "tissue morphogenesis," or "cell differentiation" and cellular components such as "plasma membrane," "cell periphery," "extracellular space," or "cell junction." A prominent example in the down-regulated genes group was the A. gambiae HOX cluster <ref type="bibr">(Fig 6G)</ref>. HOX genes encode homeodomain-containing transcription factors that provide specificity and positioning information along the anterior-posterior axis and are conserved master regulators for setting up animal body plans <ref type="bibr" target="#b17">(Gehring et al, 2009)</ref>. Other misregulated genes include SPZ6 (chromosome 2L), a Sp ätzle-like cytokine involved in signalling and embryo patterning, or the OSIRIS family members Osi7, Osi9, and Osi14 (chromosome 2R), a conserved dosage-sensitive gene family encoding putative transmembrane receptors. Collectively, this indicates that the MSL complex fine-tunes the expression of conserved genes that participate in highly intertwined developmental-regulatory networks orchestrating Anopheles embryogenesis. A perturbation of this function could provide a likely explanation for the early arrest of msl-2 KO embryos (Fig <ref type="figure" target="#fig_2">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>In this study, we have explored the MSL complex-H4K16ac pathway and its involvement in X chromosome DC in the malaria mosquito A. gambiae. We find similarities, but also notable differences to the related Dipteran D. melanogaster, where these factors have been most extensively characterized. Zygotic msl-2 KO Anopheles embryos fail to develop beyond the segmentation stage. In RNA-seq, we detect misexpression of key developmental-regulatory genes, including the Hox cluster. Genes affected upon msl-2 KO tend to contain more exons, display a higher degree of conservation and participate in more protein-protein interactions than expected. Minor changes in the intertwined gene-regulatory networks operating in a highly precise manner during development can cumulatively lead to severe phenotypes, such as the ones observed by us and therefore explain why they require the fine-tuning by the MSL complex. Indeed, the fine-tuning of developmental-regulatory genes appears to be a common theme for MSL function in insects up to mammals <ref type="bibr" target="#b58">(Valsecchi et al, 2018)</ref>.</p><p>However, the time point of phenotype manifestation at only few hours of embryonic development in Anopheles is very distinct from the effect of MSL loss in Drosophila and mammals. In fruit flies, loss of msls results in lethality occurring at the third instar larval stage (after around 5 d of development) <ref type="bibr" target="#b6">(Belote &amp; Lucchesi, 1980)</ref>. The early Anopheles phenotype is also very different from the consequences of MSL3 loss in humans, which is associated with global developmental delay post birth affecting both male and female individuals <ref type="bibr" target="#b5">(Basilicata et al, 2018)</ref>. The reasons for these various time points of phenotype manifestation will need to be carefully dissected in future studies. They could, for example, be related to differences in maternally deposited factors that might allow faithful embryogenesis despite a zygotic loss, the presence of speciesspecific isoforms and paralogues or differences in stage-specific gene-regulatory networks in a given species.</p><p>In Anopheles, MSL2 is expressed in both males and females, and zygotic or germ line KO affects both sexes. Germ line-specific loss of msl-2 results in sterility that is accompanied by severe atrophy of germline tissue. This is different from Drosophila, where MSL2 is male-specifically expressed, zygotic loss of msl-2 is known to only affect males and KO females are fully fertile <ref type="bibr" target="#b5">(Beckmann et al, 2005)</ref>. If the fine-tuning of developmental genes appears to be the "ancient" function of the MSL complex, how can it be achieved in Drosophila females, if the component that provides the chromatin targeting function to the complex (MSL2) is not present? We note that other MSL proteins, for example, MOF, can bind nucleic acids <ref type="bibr" target="#b2">(Akhtar et al, 2000)</ref>, making it possible that a subcomplex devoid of MSL2 <ref type="bibr" target="#b49">(Samata et al, 2020</ref>) could be taking on these roles. In addition, other protein or ncRNA components could substitute for MSL2. One potential candidate is the protein CLAMP <ref type="bibr" target="#b51">(Soruco et al, 2013)</ref>, which aids recruitment of the MSL complex and is expressed in both sexes. Last but not least, some studies conversely suggest that MSL2 could indeed be expressed to some degree in females <ref type="bibr" target="#b9">(Cheetham &amp; Brand, 2018)</ref>. Future studies will have to dissect the stage-and tissue-specific compositions and functions of the MSL complex in Drosophila.</p><p>The second intriguing question that arises is by which mechanism the MSL complex became co-opted to specifically target the male X chromosome in drosophilids. MSL2 is a DNA binding protein <ref type="bibr" target="#b15">(Fauth et al, 2010)</ref> but the DNA binding CXC domain of MSL2 is dispensable for DC in vivo <ref type="bibr" target="#b56">(Tikhonova et al, 2019)</ref>. However, MSL2 also binds roX RNAs <ref type="bibr" target="#b24">(Ilik et al, 2013)</ref>, which are not present in species other than Drosophila <ref type="bibr" target="#b40">(Quinn et al, 2016)</ref>. Indeed, by virtue of a condensate-forming mechanism, MSL2-roX interaction governs stable association with the X <ref type="bibr" target="#b57">(Valsecchi et al, 2021)</ref>. The evolution of this species-specific RNA-protein interaction module therefore provides targeting to the X chromosome in Drosophila, but probably not other dipterans.</p><p>Another noteworthy aspect of our study is that X chromosome up-regulation in mosquitos is unlikely to be provided by the MSL-H4K16ac pathway. In our RNA-seq, loss of msls in Drosophila is associated with global X chromosome down-regulation. However, an alternative model of inverse DC proposes that loss of msl genes induces autosomal up-regulation, instead of X down-regulation <ref type="bibr" target="#b7">(Birchler, 2016)</ref>. Indeed, we do observe a moderate up-regulation in our Drosophila data, which would be consistent with this idea. Whereas our datasets do not allow us to unambiguously distinguish sequence identity in the target Dmel orthologue. The statistical significance was evaluated by comparing the % sequence identity for all orthologues (n = 971) versus expected using a Wilcoxon test. between these two models for Drosophila, our Anopheles dataset does not provide any evidence for skewed expression of an entire chromosome, neither the X nor autosomes. In addition, our ChIPseq profiles show neither evidence of global X chromosome enrichment nor a sexually dimorphic pattern on a gene-by-gene level. Furthermore, H4K16ac does not form the typical X chromosome "territory" in immunofluorescence indicating that the deposition of this mark is not a universal feature for DC in Dipterans. This is reminiscent of another dipteran, Sciara, where mle and H4K16ac appear to play no role in DC <ref type="bibr" target="#b47">(Ruiz et al, 2000)</ref>. However, different from Anopheles, whose X chromosome is directly comparable to Drosophila, Sciara possesses a peculiar sex chromosome system undergoing imprinted elimination. The anole lizard, a reptile, displays enrichment of H4K16ac on the X chromosome of males compared to females <ref type="bibr" target="#b35">(Marin et al, 2017)</ref>. A study in monarch butterflies revealed a dichotomy of epigenetic marks on the neoZ chromosome, where both up-regulation (by H4K16ac) and dampening (by H4K20me1) DC mechanisms seem to operate concurrently in the same species <ref type="bibr" target="#b21">(Gu et al, 2019</ref>). Yet in both cases, it remains unclear whether H4K16ac is deposited by the MSL complex or another enzyme. Multiple mechanisms have been proposed to be modulating gene-dosage imbalance ranging from transcription, RNA stability as well as protein turnover <ref type="bibr" target="#b13">(Disteche, 2016)</ref>. In light of the multitude of mechanisms involved in X chromosome regulation in different species, it will be interesting to further explore the epigenome of A. gambiae <ref type="bibr">(Ruiz et al, 2021)</ref>. Nevertheless, our data suggests that gene content appears not to be the main driver that governs the molecular pathway by which X chromosome DC is achieved. Elegant studies have demonstrated that Dipteran sex chromosomes show a high evolutionary turnover <ref type="bibr" target="#b59">(Vicoso &amp; Bachtrog, 2015)</ref>. Our data adds on these findings and highlights that the complexity of dosage balancing mechanisms is probably much higher than previously anticipated. This fascinating diversity opens exciting opportunities for future evolutionary and mechanistic studies in Dipteran and other non-model organisms.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mosquito rearing and transgenesis</head><p>A. gambiae mosquitos were maintained in standard insectary conditions (26-28°C, 75-80% humidity, and 12-/12-h light/dark cycle). Loss of function of msl-2 (AGAP000553) was achieved by crossing transgenic mosquitos expressing Cas9 to transgenic partners expressing four different guide RNAs targeting exons of msl-2. The 20-nucleotide msl-2-specific sequences in the gRNAs were GATGAGTCCGCTGGGTGGTG, GAGCGTGAGCGTGGAGGAGG, GCGCAAGAG-CCTCAGCTGTG, GTGGTAATGTTCACGATGCG. Each gRNA was cloned under the control of the AGAP013557 U6 promoter in a cloning vector compatible with Golden Gate Cloning. The four gRNA modules were then assembled by Golden Gate Cloning in transgenesis plasmid pDSARN <ref type="bibr" target="#b60">(Volohonsky et al, 2015)</ref>. The full sequence of the resulting plasmid, pDSARN-4xMSL2gRNA can be provided upon request. Transgenic mosquitos were generated by inserting this plasmid in the Agam attP site of docking line X1 <ref type="bibr" target="#b60">(Volohonsky et al, 2015)</ref>. The resulting transgenic line was called gMSL2 and made homozygous by COPAS sorting of neonate larvae carrying two copies of the DsRedNLS fluorescence transgenesis marker. As crossing partners of gMSL2 mosquitos, two different Cas9 parental lines were tested, both expressing Cas9 inserted in the X1 locus under the control of the germ line vasa promoter <ref type="bibr" target="#b39">(Papathanos et al, 2009)</ref>: one (YC9) encodes native Cas9 from Streptococcus pyogenes and carries a YFP transgenesis fluorescent marker; the other (eSpC9) is a Cas9 mutant less prone to offtarget cutting <ref type="bibr" target="#b50">(Slaymaker et al, 2016)</ref> and carries a DsRedNLS fluorescent marker. We initially attempted to generate heritable msl-2 mutations by crossing Cas9-expressing to gRNA-expressing mosquitos to recover mutant progeny as described in <ref type="bibr" target="#b14">Dong et al (2018)</ref>. However, the lethality and sterility of F1 crosses prevented this approach. Instead, we produced msl-2 knockout embryos by crossing Cas9 females with gRNA males. In this case, maternal deposition of active Cas9 in the oocyte and zygotic expression of gRNAs from the paternal copy of the U6-gRNA transgene resulted in 99% and 95% lethality using YC9 and eSpC9, respectively. The 1-5% escaper larvae presumably resulted from residual MSL2 function in embryos with incomplete mutagenesis or mutations preserving the gene's function. Most of these larvae died during development. Crossing Cas9 males to gRNA females produced normal F1 progeny, but CRISPR-Cas9 activity in the developing germ line resulted in atrophy of the male and female gonad and sterility of these F1 mosquitos. Note that when using vasa-Cas9 fathers for crosses, we usually observe no significant contribution of paternal Cas9 protein via the sperm of the father.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Polysome profiling</head><p>Flash-frozen male and female mosquitos were homogenized in 6 mM Na 2 HPO 4 , 4 mM NaH 2 PO 4 , 1% NP-40, 150 mM KCl, 5 mM MgCl 2, 1 mM EGTA, 50 mM NaF, 0.1 mM Na 3 VO 4 , 1 mM PMSF, 1× complete protease inhibitors, and 0.1 mg/ml cycloheximide and the extract was clarified by centrifugation. 140 OD (260 nm) of the extract were layered on a 15-60% sucrose gradient followed by centrifugation at 39,000 rpm for 3 h in a SW40 Rotor. After collecting the fractions, RNA was isolated from the fractions using phenol-chloroform extraction followed by isopropanol precipitation. RNA recovery was determined with a Qubit RNA assay. cDNA was synthesized from 100 ng RNA using the GoScript Reverse Transcription System (Promega) with random primers and subsequently quantified by qRT-PCR. The data were analyzed as described in <ref type="bibr" target="#b25">Keller et al (2012)</ref> calculating the RNA enrichment relative to the total amount of RNA in a given fraction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Protein extracts and Western blots</head><p>Extracts from adult Drosophila were prepared by collecting 10 adult male or female flies aged 12-24 h after eclosion, which were decapitated, and heads were homogenized in 50 μl 1× Roti-Load. Anopheles extracts were prepared by bead-beating entire mosquitos in 1× Roti-Load. Samples were incubated for 5 min at 70°C and 10-20 μl used for separation by SDS-PAGE. Proteins were transferred overnight at 60 mA or 1 h 11 min at 111 V to polyvinylidene fluoride (PVDF) membranes using a Bio-Rad Wet Tank Blotting System in Tris-Glycine Transfer-Buffer with 10% methanol. The membranes were blocked for 30 min in 5% milk in PBS-0.1% Tween before incubation with primary antibodies in 0.5% milk PBS-0.1% Tween. Primary antibodies were used at the following dilutions: anti-HA (Mouse, #MMS-101P, 1:5,000; Covance), anti-MOF (Rabbit, MNase reaction before treatment in a Bioruptor Pico (10 cycles, 30 s ON/OFF). After clarification by centrifugation (10 min at 12,000g), the supernatant was used for immunoprecipitation. 1 μl of anti-acetyl-Histone H4 (Lys16) Antibody, 07-329; Merck Millipore or 0.5 μl of Histone H3 antibody (mAb), MABI 0301 (39763; Active Motif) were used for immunoprecipitations followed by washes, elution by reverse cross-linking, RNase A, and Proteinase K treatment according to standard procedures. DNA was purified by phenol-chloroform extraction followed by ethanol precipitation. Libraries were made with a NEBNext UltraTM II DNA Library Prep Kit for Illumina (E7645; New England Biolabs) according to the manufacturer's instructions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Processing of RNA-seq and ChIP-seq datasets</head><p>For quality control, we used FastQC version: v0.11.3. For RNA-seq, pairedend reads were mapped with RNA STAR (Galaxy version 2.5.2b-0) to AgamP4_ensembl or dm6_ensembl with default parameters. Mapping statistics are reported in Table <ref type="table">S1</ref>. The raw read counts per gene were obtained with featureCounts <ref type="bibr">(1.4.6.p5)</ref>. This was followed by differential expression analysis with DESeq2, R version 3.0.2. DESeq2 normalizes the read counts with a linear model, where counts for genes are modeled using a negative binomial distribution with fitted mean and a gene-specific dispersion parameter (details in <ref type="bibr" target="#b33">Love et al [2014]</ref>). Table <ref type="table">S1</ref> reports statistical analyses for the Drosophila RNA-seq dataset for both the conventional DESeq2 standard normalization as well as where the data are normalized to the rRNA reads (note that rRNA species are typically present in RNA-seq data despite the polyA enrichment in the kit for mRNA-Seq). For the latter analysis, we also used DESeq2 and specified the rRNA genes read counts to be used for size factor estimation. For ChIP-seq, paired-end reads were mapped to AgamP4_ensembl with bowtie2 (Galaxy version v2.2.6.2) using default parameters. To generate coverage box plots for H4K16ac or H3 ChIP on each of the chromosomal arms, we used deepTools bamCompare v2.4.2 to calculate the readCount normalized log 2 ratio versus the Input per 1 kb bin. To generate read-Count normalized coverage bigwig files, we calculated the log 2 ratio versus the Input using a bin size of 5 bp with deepTools bamCompare </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1</head><label>1</label><figDesc>Figure 1 MSL complex members are expressed in both male and female Anopheles gambiae. (A) Schematic representation of the evolution of the X chromosomes in the indicated species from the ancient Dipteran karyotype consisting of Muller elements A-F. Note that the mosquito Aedes aegyptii does not contain a differentiated sex chromosome. (B) Circos plot of pairs of synteny blocks that were generated over genomic regions of at least 100 kb among Drosophila melanogaster and Anopheles gambiae genomes. Synteny blocks on the Dmel X chromosome are shaded in orange, autosomes in grey. (C) Bar plot illustrating the chromosomal location of 1:1 orthologues of all A. gambiae genes in the D. melanogaster genome. If a given A. gambiae gene does not contain an annotated D. melanogaster orthologue, the bar is colored in black, X-linked genes in orange and genes on the autosomal arms in grey. Orthologues were</figDesc><graphic coords="3,81.30,77.61,449.56,575.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>Fig 3D). Distinct from Drosophila (orange bars in Fig 3B, Fisher's exact test in Dmel P = 1.65645 × 10 -273 , see above), the fraction of X-linked, down-regulated genes in Anopheles tends to only reflect the overall obtained from VectorBase. (D) Amino acid sequence conservation of the individual domains of D. melanogaster MSL proteins obtained by BLASTP in A. gambiae. Detailed results are reported in Table</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2</head><label>2</label><figDesc>Figure 2 msl-2 knockout in Anopheles gambiae triggers sex-independent phenotypes distinct from Drosophila. (A) Top: schematic representation of the A. gambiae msl-2 gene and position of the four gRNAs that were used to generate gRNA-expressing transgenic mosquitos. Bottom: RT-qPCR analysis of msl-2 RNA levels in F1 progeny of vasa-Cas9 mothers crossed with control (left, grey bars) or msl-2 gRNA (right, blue bars) transgenic fathers. Each bar represents the progeny of one cross collected at the indicated time points after egg laying. (B) as in (A), representative pictures of control or msl-2 gRNAexpressing transgenic F1 progeny embryos collected at the indicated time points after egg laying. The pictures were obtained with a 40× magnification on an inverted microscope. (C) as in (A), representative TUNEL staining and corresponding bright field (BF) images of msl-2 gRNA-expressing transgenic F1 progeny embryos collected at</figDesc><graphic coords="5,59.30,77.61,493.48,575.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Transcriptome alterations upon loss of msl-2 in Drosophila melanogaster and Anopheles gambiae embryos. (A) RNA-seq experiments were conducted on Drosophila melanogaster F1 embryos obtained from crosses of msl-2 Δ /CyO-GFP fathers with msl-2 Δ /CyO-GFP mothers. Non-fluorescent msl-2 Δ /msl-2 Δ null mutant embryos (abbreviated as msl-2) were compared with fluorescent msl-2 Δ /CyO-GFP heterozygous controls. MA-Plots showing normalized counts versus the log 2 (fold change) obtained with DESeq2. Differentially expressed (DE) genes (false-discovery rate &lt; 0.05) are colored in red and the number of DE genes is reported in each panel. The grey-shaded bar indicates the expected log2FC position of down-regulated genes with a dosage compensation-like effect affected in only males but not females in a 50:50 mixed-sex population. See TableS1for mapping statistics. (B) RNA-seq as in (A), Bar plot for the number of DE genes with respect to their location on the chromosomal arms. (C) RNA-seq as in (A), Density plots of the log 2 (fold change) obtained with DESeq2 for genes on each of the indicated chromosomal arms. All genes were taken into account for the analyses, irrespective of whether they are scored as DE or not. (D) RNA-seq experiments were conducted on A. gambiae F1 embryos collected at 15 h after egg laying obtained from crosses of vasa-Cas9 mothers with control or msl-2 gRNA-expressing fathers. MA-Plots showing normalized counts versus the log 2 (fold change) obtained with DESeq2. DE genes (false-discovery rate &lt; 0.05) are colored in red and the number of DE genes is reported in each panel. See TableS1for mapping statistics. (E) RNA-seq as in (D), Bar plot for the number of DE genes with respect to their location on the chromosomal arms. (F), RNA-seq as in (D), Density plots of the log 2 (fold change) obtained with DESeq2 for genes on each of the indicated chromosomal arms. All genes were taken into account for the analyses, irrespective of whether they are scored as DE or not.</figDesc><graphic coords="6,49.78,77.61,512.55,333.13" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Tissue-specific distribution of Histone H4 Lysine 16 acetylation in Anopheles gambiae. (A) Immunofluorescence for H4K16ac (green) in adult male A. gambiae organs. The areas 1 and 2 highlight the testis, 3 the Malpighian tubules, and 4 the gut. The pictures are orthogonal projections of a z-stack with scale bar = 100 μm. The panels 1-4 on the right are single z-planes, where the highlighted areas were imaged at a higher magnification, scale bar = 20 μm. DAPI is shown in blue. (B) as in (A), but in adult female A. gambiae organs. The areas 1 highlight the ovary, 2 the Malpighian tubules and 3 the gut. The image labelled "zoom" shows a closeup of the ovarian area highlighted with the solid white rectangle (same image cropped and zoomed). (C) close-up of nuclei in Malpighian tubules (polyploid) or guts (diploid) that are highlighted with a solid white rectangle in (A, B). (D) Immunofluorescence for H4K16ac (green) in male and female Drosophila salivary glands (polyploid) and guts (diploid). The pictures are single z-planes with scale bar = 20 μm and DAPI shown in blue. The bottom panel shows a close-up of one nucleus in each males and females (same image zoomed).</figDesc><graphic coords="8,84.53,77.61,443.11,575.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Genome-wide profiles reveal H4K16ac on active genes, but no male-specific X chromosome enrichment. (A) ChIP-seq profiles for total Histone H3 and H4K16ac in Anopheles gambiae were generated from dissected adult midguts, in Drosophila melanogaster from L3 third instar larvae. Box plots show the mean log 2 (fold change) ChIP versus Input enrichments per 1 kb bin on each of the chromosomal arms. The biological replicates were merged (also see the Materials and Methods section). (B) as in (A), three unsupervised K-means clusters were generated from the log 2 (fold change) H4K16ac ChIP versus Input data. The transcription start site of each Agam or Dmel gene served as a reference point, while plotting the mean enrichment profile ± 1 kb. (C) as in (B), the bar plots show the chromosomal location of the genes present in clusters 1-3 compared to the overall number of genes on each of the chromosomal arms. (D) as in (A), genome browser snapshots of the normalized ChIP enrichment in Agam males and females on example regions of the X chromosome (top) and autosome (bottom). (E) as in (A), genome browser snapshots of the normalized ChIP enrichment in Dmel males and females on an example region on the X chromosome.</figDesc><graphic coords="9,82.21,77.61,447.75,575.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Transcriptome analyses reveal a role for Anopheles MSL2 in regulating conserved developmental-regulatory genes. (A) RNA-seq as in Fig 3D and n = 926 msl-2 DE genes in A. gambiae embryos (msl-2 KO versus control, false-discovery rate &lt; 0.05, 15 h after egg laying) were analyzed for overrepresentation concerning the numbers of exons versus the expected distribution using the ShinyGo (v0.61) gene-set enrichment tool (Ge et al, 2020). (B) RNA-seq as in Fig 3D, left: msl-2 DE genes or all A. gambiae genes (expected) were analyzed for the presence of an Ensembl BioMart orthologue (black: no orthologue, light blue: low confidence orthologue, blue: high confidence orthologue). The statistical significance was evaluated by comparing underrepresentation in the "no orthologue" group (DE, n = 204 genes without orthologue) versus expected using a Fisher's exact test. Right: msl-2 DE genes or all A. gambiae genes (expected) were analyzed for % of</figDesc><graphic coords="10,84.19,77.61,443.79,575.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>(C) RNA-seq as in Fig 3D, Protein-protein interaction network and statistical significance obtained on STRING (v11.0) (Szklarczyk et al, 2018) using the Top400 (by Padj) DE genes. (D) RNA-seq as in Fig 3D, enriched functional protein domains and statistical significance obtained from Pfam using the ShinyGo (v0.61) gene-set enrichment tool (Ge et al, 2020). (E) RNA-seq as in Fig 3D, Gene Ontology (GO) analysis of biological processes enrichment of msl-2 DE genes. Enriched GO Terms were visualized with REVIGO. (F) RNA-seq as in Fig 3D, GO analysis of cellular components enrichment of DE genes upon msl-2 KO in A. gambiae. (G) RNA-seq as in Fig 3D, Genome browser snapshots of the normalized read coverage in control (top, black) and msl-2 KO embryos (bottom, blue) at the A. gambie HOX cluster on chromosome 2R. The two tracks represent two different biological replicates.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Duplicate reads and reads with a mapping quality &lt;10 were removed, the X chromosome was ignored for scaling. The bigwig files were then used to generate k-means clusters with deepTools plotHeatmap v2.4.2, calculation of the mean enrichment for each gene using multi-BigwigSummary v2.4.2 and analysis with the IGV genome browser. GOterm analyses were conducted with the PANTHER Overrepresentation Test and Fisher analyses with Bonferroni correction on http:// geneontology.org/ and visualized using REVIGO (http://revigo.irb.hr/r). Circos plots visualizing the homology between A. gambiae and D. melanogaster chromosomes were obtained with SyMAP Version v4.2 (default parameters). Previously published data were Drosophila H4K16ac ChIP-seq from (modEncode Consortium et al, 2010;<ref type="bibr" target="#b52">Straub et al, 2013;</ref><ref type="bibr" target="#b58">Valsecchi et al, 2018;</ref><ref type="bibr" target="#b49">Samata et al, 2020)</ref>, A. gambiae RNA expression data from<ref type="bibr" target="#b38">Papa et al (2017)</ref> and<ref type="bibr" target="#b19">Goltsev et al (2009)</ref>. D. melanogaster modEncode RNA-seq data were obtained from FlyBase.StatisticsAll statistics were calculated with R Studio (v1.3.959). In the box plots the line that divides the box into two parts represents the median, box bottom, and top edges represent interquartile ranges (IQR, 0.25 th to 0.75 th quartile [Q1-Q3]), whiskers represent Q1 -1.5*IQR (bottom), Q3 + 1.5*IQR (top). Bar plots represent the mean ± SEM with overlaid data points representing independent experiments. Results were considered significant at FDR (P-value) below 0.05. ns, not significant; NA, not analyzed; SEM, standard error of the mean. Unless otherwise indicated statistical tests were two-sided.Protein sequences were retrieved from FlyBase (http://flybase.org) and VectorBase (https://www.vectorbase.org/). Protein alignments were created on Clustal Omega (https://www.ebi.ac.uk/Tools/msa/ clustalo/). Results of BLAST searches (BLASTP, 2.2.29+) are reported in TableS1. Lists of 1:1 orthologues were obtained via the Biomart tool on VectorBase.Bowtie2 (https://github.com/BenLangmead/bowtie2)<ref type="bibr" target="#b31">(Langmead &amp; Salzberg, 2012)</ref>; deepTools2 (https://deeptools.readthedocs.io/en/latest/)<ref type="bibr" target="#b42">(Ramírez et al, 2016)</ref>; Galaxy (https://github.com/bgruening/galaxytools)<ref type="bibr" target="#b20">(Grüning et al, 2017)</ref>; IGV (https://software.broadinstitute.org/software/ igv/)<ref type="bibr" target="#b44">(Robinson et al, 2011)</ref>; R (https://www.r-project.org); DESeq2 (http://bioconductor.org/packages/DESeq2/); GoTerm analysis (http://geneontology.org/) (The Gene Ontology Consortium, 2019); REVIGO (http://revigo.irb.hr/r)<ref type="bibr" target="#b53">(Supek et al, 2011)</ref>; STRING (https:// string-db.org/)<ref type="bibr" target="#b54">(Szklarczyk et al, 2018)</ref>; ShinyGO (http://bioinformatics. sdstate.edu/go/)<ref type="bibr" target="#b16">(Ge et al, 2020)</ref>.</figDesc><table><row><cell>RT-qPCR primers Anopheles gambiae gene msl-2 (exon1) msl-2 (exon2) msl-2 (exon3) mle mof AGAP000634 GPRMTH2 Rps4 RpL32/Rp49 RPL19 U6 snRNA Hunchback elovl eve Yob Yob (RT-PCR) Dsx (RT-PCR) ctrl1 (RT-PCR) ctrl2 (RT-PCR) Drosophila melanogaster gene roX2 RpL32 v2.4.2. Protein sequences and alignments</cell><cell>ID_fwd ck1235 ck1239 ck1241 ck1642 ck1638 mb54 mb46 mb36 ck1277 ck1719 ck1253 ck1275 ck1279 ck1273 ck1672 mb42 Dsx1F mb38 S7for ID_fwd q146 q148</cell><cell>Sequence ACTTCAAGTGCAATTCCGGC CCCACCATCAAAACCGTGTC CTACCTGCCCACAAACGTCA GCAAACCGATCATGGAAGCG AACAACCCAGCGAAGCAGATA TAAGCGCGGGAAGCTATAAA ACGGTGGAGTTCGTTACCTG GCTGCCGCTGGTGATCTT GCTATGATAAACTCGCTCCCAA AGCGTACCAAGGTTCGTGAG AGCATGGCCCTTTAAGTCAC ACTACGCCACCAAGTACTGC GCTTCATTGGCGTCAAGTACTTT CGGCTCCTATGCTAACCCAG CCCCTACCCAAGGTACGGAT CGCGCACTTGTTTATACTGTTAC AAAGCACACCAGCGGATCG ATCGCTATGGTGTTCGGTTC GGCGATCATCATCTACGTGC Sequence GCCATCGAAAGGGTAAATTG ATCGGTTACGGATCGAACAA</cell><cell>ID_rev ck1236 ck1240 ck1242 ck1643 ck1639 mb55 mb47 mb37 ck1278 ck1720 ck1254 ck1276 ck1280 ck1274 ck1673 mb43 Dsx1R mb39 S7rev ID_rev q147 q149</cell><cell>Sequence CACGGCAGTATCGAGTAGGC AAACTTGTTGCCACTTTCCGC TGCAAATACTGCGACCCGTA CCTGGCCCGAGTTGATGTAA AAAAATCGTTCACCGCTCCCA TTGTTGAAGCAGGAGCACAG CTGCTTCACCTTTTGCTTCC TCGTCACCTCGCTGTTGGT TCATCAGCACCTCCAGCTC GCGGTCTCCTCTTCCTTAGC AGGCGTTGCTATGCCTTGAT GGTGTACCGTCCAGGTTCAG TCGCGGCCAGCATGTAGT TGCTGACATGCTGTTTGCAC ACCTGATGGAACTGATACACGG CGAAAGGGAAAGTTACGAGC CACCGAGATGTTCTCGTCC GCTGCAAACTTCGGCTATTC GTAGCTGCTGCAAACTTCGG Sequence CTTGCTTGATTTTGCTTCGG GACAATCTCCTTGCGCTTCT</cell></row><row><cell>msl-2 (RA)</cell><cell>q158</cell><cell>CAATCCCGTCAGAGGTTGTAG</cell><cell>q159</cell><cell>TCCACTGCTTCCTCCATTTC</cell></row><row><cell>msl-2 (RB)</cell><cell>q156</cell><cell>ACAGTCACCTACACAAACCG</cell><cell>q157</cell><cell>GCGTCCTCAAAATCTTTCTGC</cell></row><row><cell>msl-1</cell><cell>q160</cell><cell>GACGACGAAGATGACGAGAATAG</cell><cell>q161</cell><cell>CTTCCTCAGTTCTGGCGTTTA</cell></row><row><cell>mle</cell><cell>q164</cell><cell>TTGGACCTTCCTGTCGTAAAC</cell><cell>q165</cell><cell>CATCCTGTTGCGAGGAATCTAT</cell></row><row><cell>mof</cell><cell>q166</cell><cell>CACCCACGACGACATTATCTAC</cell><cell>q167</cell><cell>AGGTGGTCTTGAATGGTCTTG</cell></row><row><cell>msl-3</cell><cell>q168</cell><cell>CCGGAGATGGCCGATTAAAG</cell><cell>q169</cell><cell>CTCCTGTGGCACATGGTTATAG</cell></row><row><cell>Bioinformatic and web resources</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>X chromosome dosage compensation in Anopheles Keller Valsecchi et al. https://doi.org/10.26508/lsa.202000996 vol 4 | no 9 | e202000996</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>https://doi.org/10.26508/lsa.202000996 vol 4 | no 9 | e202000996</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank the <rs type="institution">Max Planck Institute of Immunobiology and Epigenetics</rs> facilities and the <rs type="institution" subtype="infrastructure">IMB Microscopy Core Facility</rs> for support. We thank <rs type="person">Marc Bayer</rs> and <rs type="person">Sarah Toscano</rs> for contributing initial analyses to set up the project, as well as <rs type="person">Devon Ryan</rs> and <rs type="person">Gina Renschler</rs> for help with data processing and bioinformatic analyses. We thank <rs type="person">Gina Renschler</rs>, <rs type="person">Maria Shvedunova</rs>, and <rs type="person">Agata Kalita</rs> for their input on the manuscript. CI <rs type="person">Keller Valsecchi</rs> was supported by a <rs type="funder">Human Frontier Science Program</rs> long-term fellowship (000233/2014-L). This study was supported by the <rs type="funder">German Research Foundation (DFG)</rs> under <rs type="programName">Germany's Excellence Strategy</rs> (<rs type="grantNumber">CIBSS-EXC-2189-Project ID 390939984</rs>). Mosquito production and insectarium operation were supported by <rs type="funder">Agence Nationale de la Recherche</rs> grant #<rs type="grantNumber">ANR-11-EQPX-0022</rs>. This work was supported by the <rs type="funder">DFG</rs> under the <rs type="grantNumber">CRC 992</rs> (project <rs type="grantNumber">A02</rs>) and <rs type="grantNumber">CRC 1381</rs> (project <rs type="grantNumber">B3</rs>) awarded to <rs type="person">A Akhtar</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_pcTqwQz">
+					<idno type="grant-number">CIBSS-EXC-2189-Project ID 390939984</idno>
+					<orgName type="program" subtype="full">Germany&apos;s Excellence Strategy</orgName>
+				</org>
+				<org type="funding" xml:id="_8UKtzqx">
+					<idno type="grant-number">ANR-11-EQPX-0022</idno>
+				</org>
+				<org type="funding" xml:id="_FrgZkym">
+					<idno type="grant-number">CRC 992</idno>
+				</org>
+				<org type="funding" xml:id="_7jar4J8">
+					<idno type="grant-number">A02</idno>
+				</org>
+				<org type="funding" xml:id="_Byk7SuN">
+					<idno type="grant-number">CRC 1381</idno>
+				</org>
+				<org type="funding" xml:id="_RAysrZS">
+					<idno type="grant-number">B3</idno>
+				</org>
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">IMB Microscopy Core Facility</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability</head><p>RNA-seq and ChIP-seq data have been deposited to the Gene Expression Omnibus under the accession number GSE153780. All other relevant data supporting the key findings of this study are available within the article and its supplementary files or from the corresponding authors upon request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RNA expression analysis</head><p>Samples were homogenized in TRIzol Reagent (15596026; Thermo Fisher Scientific) followed by RNA purification using a Direct-zol RNA MiniPrep kit or Direct-zol RNA Microprep (R2050 or R2062; Zymo Research) according to the manufacturer's instruction. cDNA was synthesized with the GoScript Reverse Transcription System (Promega) with random or oligo dT primers as indicated according to the manufacturer's instructions. For stranded polyA+ mRNA-Seq Library Preparation, the TruSeq stranded mRNA sample preparation kit (RS-122-2101; Illumina) was used.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Quantitative real-time PCR</head><p>qPCR was performed on a Roche LightCycler II using FastStart Universal SYBR Green Master (04913914001; Roche) in a 7-μl reaction at 300 nM final primer concentration. Cycling conditions as recommended by the manufacturer were applied. We corrected for primer efficiency using serial dilutions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Semiquantitative RT-PCR</head><p>Semiquantitative RT-PCR was conducted with a one-step <ref type="bibr">RT-PCR kit (210210;</ref><ref type="bibr">QIAGEN)</ref>, where the reverse transcription with a genespecific primer and subsequent PCR is conducted in a single reaction. 2.5 ng of RNA template was used in a total reaction mix of 10 μl as of the manufacturers' instructions. The cycling was conducted as follows: 30 min at 50°C, 15 min at 95°C (1 cycle); 40 s at 94°C, 40 s at 55°C, and 60 s at 72°C (28 cycles); 10 min at 72°C (1 cycle). Products were separated by 1.6% agarose gel electrophoresis in Tris-Borate buffer and stained with SYBR Safe-DNA Gel Stain (S33102; Thermo Fisher Scientific). Gels were scanned using a Typhoon FLA scanner (GE Healthcare Life Sciences).</p><p>Drosophila rearing conditions D. melanogaster were reared on a corn flour-molasses fruit fly medium (1 liter water, 12 g agar-agar threads, 18 g bakery yeast, 10 g soya flour, 80 g corn flour, 22 g molasses, 80 g malt extract, 2.4 g 4-hydroxibenzoic acid methylester [Nipagin], and 6.25 ml propionic acid) at 25°C, 70% relative humidity, and 12-h dark/12-h light cycle. All experiments were conducted at 25°C unless otherwise indicated. White-eyed (w 1118 ) Oregon-R or endogenously tagged msl-2::HA <ref type="bibr" target="#b58">(Valsecchi et al, 2018)</ref> was used as a wild-type strain.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunofluorescence and TUNEL staining</head><p>Tissues were stained according to standard procedures. In brief, tissues were fixed in 4% formaldehyde in PEM (0.1 M PIPES (pH 6.9), 1 mM EGTA, and 1 mM MgCl 2 ) for 20 min and washed three times with PBS. Samples were blocked for 1 h rocking with freshly prepared 0.5% BSA, 0.2% Triton X-100 in 1× PBS solution followed by overnight incubation with primary antibody <ref type="bibr">1:200;</ref><ref type="bibr"></ref> Merck Millipore], anti-H3K27me3 [Mouse, C15200181-50, 1:300; Diagenode]; staining validated also with anti-H3K27me3 [Rabbit, 9733, 1:250; Cell Signalling]). After Alexa fluorophore-labelled secondary antibody incubation (1:300), samples were thoroughly washed with PT (0.2% Triton X-100 in 1× PBS) before dissection of organs and mounting. Slides were mounted using ProLong Gold Antifade Mountant with DAPI (P36935; Thermo Fisher Scientific) and imaged using a Zeiss LSM880 Airyscan Microscope. For the TUNEL staining, embryos were dechorionated before fixation in 4% PFA. Embryos were washed three times for 5 min in PBS + 0.5% Triton X-100, followed by another three washes in PBS + 0.2% Tween-20. This was followed by TUNEL staining with the In Situ Cell Death Detection Kit, TMR red (12156792910; Sigma-Aldrich) following the procedures described in the manual. The embryos were mounted in ProLong Diamond Antifade Mountant (P36961; Thermo Fisher Scientific) and images obtained using a fluorescence spinning disc confocal microscope, VisiScope 5 Elements (Visitron Systems GmbH), which is based on a Ti-2E (Nikon) stand and equipped with a spinning disc unit (CSU-W1, 50 μm pinhole; Yokogawa). The set-up was controlled by the VisiView 5.0 software and images were acquired with a 20× air objective (CSI Plan Apo Lambda, NA 0.75; Nikon) and a sCMOS camera (BSI; Photometrics). 3D stacks of images were recorded for each sample, the exposure time was set to 200 ms for each channel. Maximum intensity projections of z-stacks and image processing were performed in Fiji (version 2.0.0-rc-68/1.52 h). The immunofluorescence stainings have been replicated in n independent experiments: H4K16ac (n = 4 for both males and females), H3K27me3 (n = 4 males, n = 2 females for Cell Signalling Antibody; n = 2 for both males and females for mouse Diagenode antibody), TUNEL (n = 2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ChIP</head><p>ChIP was performed as described in <ref type="bibr" target="#b58">Valsecchi et al (2018)</ref>. In brief, midguts of A. gambiae were dissected in PBS and fixed in 0.2% formaldehyde for 15 min at RT. The fixation was stopped by addition of Glycine and the fixative was removed. Midguts were homogenized in buffer G1 (5 mM Hepes [pH 7.4], 20 mM KCl, 10 mM MgCl 2 , 0.5% Tween-20, and 20% Glycerol containing 1 × Complete Protease Inhibitors) at 4°C. The homogenate was cleared through a sucrose cushion (G1 + 30% sucrose). Nuclei were washed once in (10 mM Tris [pH 8.0], 5 mM MgCl 2 , 1 mM CaCl 2 , 10 mM NaCl, 0.1% IGEPAL CA-630, and 0.25 M Sucrose) and then resuspended in Aline buffer (20 mM Tris [pH 8.0], 5 mM MgCl 2 , 1 mM CaCl 2 , 10 mM NaCl, 1% Triton X-100, and 0.25 M Sucrose). This was followed by MNase digestion at 25°C for 15 min typically using 0.5-1 μl Micrococcal Nuclease (M0247; New England Biolabs, amounts optimized depending on the batch). 10× High Salt Buffer (200 mM EDTA and 4 M NaCl) was added to stop the</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Information</head><p>Supplementary Information is available at <ref type="url" target="https://doi.org/10.26508/lsa.202000996">https://doi.org/10.26508/lsa. 202000996</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head><p>CI Keller Valsecchi: conceptualization, data curation, formal analysis, supervision, funding acquisition, validation, investigation, visualization, methodology, project administration, and writingoriginal draft, review, and editing. E Marois: conceptualization, resources, funding acquisition, validation, investigation, visualization, methodology, and writing-review and editing. MF Basilicata: formal analysis, supervision, validation, investigation, visualization, methodology, project administration, and writingreview and editing. P Georgiev: conceptualization, resources, investigation, methodology, project administration, and writing-review and editing. A Akhtar: conceptualization, resources, supervision, funding acquisition, methodology, project administration, and writing-review and editing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of Interest Statement</head><p>The authors declare that they have no conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Ilik et al, 2013]), anti-RNA Pol2 (Mouse clone 4H8, 101</title>
+	</analytic>
+	<monogr>
+		<title level="m">000; Active Motif), anti-MSL3 (Rat, 1:1,000 [Raja et al, 2010]), anti-MSL1 (Rabbit, 1:3,000 [Raja et al, 2010]), anti-Tubulin (Mouse, 44928, 1:5,000; Abcam), anti-RPB3 (Rabbit</title>
+		<meeting><address><addrLine>Rat, 1</addrLine></address></meeting>
+		<imprint>
+			<biblScope unit="volume">307</biblScope>
+			<biblScope unit="page">0</biblScope>
+		</imprint>
+	</monogr>
+	<note>Raja et al, 2010]), anti-MLE. Valsecchi et al, 2018]), anti-H4K16ac (Rabbit, 07-329, 1:3,000</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<author>
+			<persName><forename type="first">Merck</forename><surname>Milipore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">)</forename><surname>Anti-Acetyl-Histone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H3</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Secondary antibodies (1:10,000) used were antimouse IgG HRP (NXA931), anti-rat IgG HRP (NA935V), and anti-rabbit IgG HRP (NA934) from Sigma-Aldrich. Blots were developed using Lumi-Light Western Blotting substrate</title>
+		<meeting><address><addrLine>Roche; Bio-Rad</addrLine></address></meeting>
+		<imprint>
+			<date>12015200001</date>
+			<biblScope unit="page" from="6" to="599" />
+		</imprint>
+	</monogr>
+	<note>Merck Milipore), anti-H3 (Mouse, 39763 1:5,000; Active Motif), and anti-H4 (61521, 1:1,000; Active Motif</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Chromodomains are protein-RNA interaction modules</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Akhtar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Becker</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/35030169</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">407</biblScope>
+			<biblScope unit="page" from="405" to="409" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Conservation and de novo acquisition of dosage compensation on newly evolved sex chromosomes in Drosophila</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Alekseyenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Ellison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Gorchakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">B</forename><surname>Kaiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Toda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Walton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bachtrog</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/gad.215426.113</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genes Dev</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="853" to="858" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The msl-2 dosage compensation gene of Drosophila encodes a putative DNA-binding protein whose expression is sex specifically regulated by Sex-lethal</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Bashaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Baker</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/dev.121.10.3245</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Development</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="3245" to="3258" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">De novo mutations in MSL3 cause an X-linked syndrome marked by impaired histone H4 lysine 16 acetylation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Basilicata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Bruel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Semplicio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cik</forename><surname>Valsecchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">¸t</forename><surname>Aktas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Duffourd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rumpf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Morton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bache</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Szymanski</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2005.06.011</idno>
+		<idno>doi:10.1016/ j.cell.2005.06.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Genet</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="529" to="540" />
+			<date type="published" when="2005">2018. 2005</date>
+		</imprint>
+	</monogr>
+	<note>Cell</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Male-specific lethal mutations of Drosophila melanogaster</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Belote</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Lucchesi</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/genetics/96.1.165</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="165" to="186" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Parallel universes for models of X chromosome dosage compensation in Drosophila: A review</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Birchler</surname></persName>
+		</author>
+		<idno type="DOI">10.1159/000445924</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cytogenet Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">148</biblScope>
+			<biblScope unit="page" from="52" to="67" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Protein aggregation mediates stoichiometry of protein complexes in aneuploid cells</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Brennan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Vaites</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Wells</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Santaguida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Paulo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Storchova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Harper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Marsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Amon</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/gad.327494.119</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genes Dev</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1031" to="1047" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">RNA-DamID reveals cell-type-specific binding of roX RNAs at chromatin-entry sites</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Cheetham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Brand</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41594-017-0006-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Struct Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="109" to="114" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Functional interplay between MSL1 and CDK7 controls RNA polymerase II Ser5 phosphorylation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chlamydas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Holz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Samata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chelmicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Georgiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pelechano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dündar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dasmeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mittler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">T</forename><surname>Cadete</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nsmb.3233</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Struct Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="580" to="589" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The MOF chromobarrel domain controls genomewide H4K16 acetylation and spreading of the MSL complex</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Conrad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Cavalli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Holz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hallacli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kind</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ilik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Vaquerizas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Luscombe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Akhtar</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.devcel.2011.12.016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Cell</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="610" to="624" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The effect of hybridization on dosage compensation in member species of the Anopheles gambiae species complex</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Deitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Takken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Slotman</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/gbe/evy108</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol Evol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1663" to="1672" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Dosage compensation of the sex chromosomes and autosomes</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Disteche</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.semcdb.2016.04.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Semin Cell Dev Biol</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="9" to="18" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">CRISPR/Cas9 -mediated gene knockout of Anopheles gambiae FREP1 suppresses malaria parasite infection</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Simões</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Marois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dimopoulos</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.ppat.1006898</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">1006898</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The DNA binding CXC domain of MSL2 is required for faithful targeting the Dosage Compensation Complex to the X chromosome</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fauth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Müller-Planitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Straub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Becker</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkq026</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="3209" to="3221" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">ShinyGO: A graphical gene-set enrichment tool for animals and plants</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">X</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yao</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btz931</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="2628" to="2629" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Evolution of the Hox gene complex from an evolutionary ground state</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Gehring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Kloter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Suga</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0070-2153(09)88002-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Top Dev Biol</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="35" to="61" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Evolution of the dorsal-ventral patterning network in the mosquito</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Goltsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fuse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Frasch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Zinzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lanzaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Levine</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/dev.02863</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anopheles gambiae. Development</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="2415" to="2424" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Developmental and evolutionary basis for drought tolerance of the Anopheles gambiae embryo</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Goltsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Rezende</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Vranizan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lanzaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Valle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Levine</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ydbio.2009.02.038</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Biol</title>
+		<imprint>
+			<biblScope unit="volume">330</biblScope>
+			<biblScope unit="page" from="462" to="470" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The RNA workbench: Best practices for RNA and high-throughput sequencing bioinformatics in Galaxy</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Grüning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fallmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yusuf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Will</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Erxleben</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Eggenhofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Houwaart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Batut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Videm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bagnacani</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkx409</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="560" to="W566" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Dichotomy of dosage compensation along the neo Z chromosome of the monarch butterfly</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Andolfatto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Walters</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cub.2019.09.056</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Biol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="4071" to="4077" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Msl1-mediated dimerization of the dosage compensation complex is essential for male X-chromosome regulation in Drosophila</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hallacli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lipp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Georgiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Spielman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cusack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Akhtar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kadlec</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.molcel.2012.09.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="587" to="600" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Plasticity of gene-regulatory networks controlling sex determination: Of masters, slaves, usual suspects, newcomers, and usurpators</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Herpin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schartl</surname></persName>
+		</author>
+		<idno type="DOI">10.15252/embr.201540667</idno>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO Rep</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1260" to="1274" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Tandem stem-loops in roX RNAs act together to mediate X chromosome dosage compensation in Drosophila</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Ilik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Quinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Georgiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tavares-Cadete</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Maticzka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Toscano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Spitale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Luscombe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Backofen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.molcel.2013.07.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="156" to="173" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">HP1(Swi6) mediates the recognition and destruction of heterochromatic RNA transcripts</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Adaixo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stunnenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Woolcock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bühler</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.molcel.2012.05.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="215" to="227" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The MSL complex: Juggling RNA-protein interactions for dosage compensation and beyond</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Akhtar</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.gde.2015.03.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Genet Dev</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The Drosophila dosage compensation complex binds to polytene chromosomes independently of developmental changes in transcription</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Kotlikova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">V</forename><surname>Demakova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">F</forename><surname>Semeshin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Shloma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Boldyreva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Kuroda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">F</forename><surname>Zhimulev</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/genetics.105.045286</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">172</biblScope>
+			<biblScope unit="page" from="963" to="974" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A maleness gene in the malaria mosquito Anopheles gambiae</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Krzywinska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Dennison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Lycett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Krzywinski</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aaf5605</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">353</biblScope>
+			<biblScope unit="page" from="67" to="69" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A CRISPR-Cas9 gene drive targeting doublesex causes complete population suppression in caged Anopheles gambiae mosquitoes</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kyrou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Hammond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Galizi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kranjc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Burt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Beaghton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nolan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Crisanti</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nbt.4245</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="1062" to="1066" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Evolution: From autosomes to sex chromosomes-and back</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Landeen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Presgraves</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cub.2013.08.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Biol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="848" to="R850" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Fast gapped-read alignment with Bowtie 2</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Langmead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Salzberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.1923</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Methods</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="357" to="359" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Noncanonical compensation of zygotic X transcription in early Drosophila melanogaster development revealed through single-embryo RNAseq</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Lott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Villalta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Schroth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Tonkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Eisen</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pbio.1000590</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1000590</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Love</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Anders</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13059-014-0550-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">550</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Dosage compensation in Drosophila</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Lucchesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Kuroda</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/cshperspect.a019398</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harb Perspect Biol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">19398</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Convergent origination of a Drosophila-like dosage compensation mechanism in a reptile lineage</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Marin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cortez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lamanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Pradeepa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Leushkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Julien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liechti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Halbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Brüning</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/gr.223727.117</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1974" to="1987" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">MSL3 coordinates a transcriptional and translational meiotic program in female Drosophila</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mccarthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sarkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Upadhyay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Forni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Buszczak</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/2019.12.18.879874</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BioRxiv</title>
+		<imprint>
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+	<note>Preprint posted December 19</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Identification of functional elements and regulatory circuits by Drosophila modENCODE</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roy</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">modEncode Consortium</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ernst</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">modEncode Consortium</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Kharchenko</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">modEncode Consortium</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kheradpour</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">modEncode Consortium</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Negre</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">modEncode Consortium</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Eaton</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">modEncode Consortium</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Landolin</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">modEncode Consortium</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Bristow</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">modEncode Consortium</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ma</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">modEncode Consortium</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Lin</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">modEncode Consortium</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1126/science.1198374</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">330</biblScope>
+			<biblScope unit="page" from="1787" to="1797" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Rapid evolution of female-biased genes among four species of Anopheles malaria mosquitoes</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Papa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Windbichler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Waterhouse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cagnetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D'</forename><surname>Amato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Persampieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lawniczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mkn</forename><surname>Nolan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Papathanos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1101/gr.217216.116</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1536" to="1548" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The vasa regulatory region mediates germline expression and maternal transmission of proteins in the malaria mosquito Anopheles gambiae: A versatile tool for genetic control strategies</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Papathanos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Windbichler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Menichelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Burt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Crisanti</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2199-10-65</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">65</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Rapid evolutionary turnover underlies conserved lncRNA-genome interactions</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Quinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Georgiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Ilik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Akhtar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Chang</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/gad.272187.115</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genes Dev</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="191" to="207" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The nonspecific lethal complex is a transcriptional regulator in Drosophila</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Raja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Charapitsa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Conrad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Vaquerizas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gebhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Holz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kadlec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fraterman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Luscombe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Akhtar</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.molcel.2010.05.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="827" to="841" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">deepTools2: A next generation web server for deep-sequencing data analysis</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ramírez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Ryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Grüning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bhardwaj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kilpert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Heyne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dündar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Manke</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkw257</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="160" to="W165" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Hi-C guided assemblies reveal conserved regulatory topologies on X and autosomes despite extensive genome shuffling</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Renschler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Richard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Valsecchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Toscano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Arrigoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ramírez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Akhtar</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/gad.328971.119</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genes Dev</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1591" to="1612" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Integrative genomics viewer</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Thorvaldsdóttir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Winckler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Guttman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Lander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Getz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Mesirov</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nbt.1754</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="24" to="26" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Dosage compensation in the african malaria mosquito Anopheles gambiae</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Krzywinska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Revuelta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ferretti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Krzywinski</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/gbe/evw004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol Evol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="411" to="425" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The regulatory genome of the malaria vector Anopheles gambiae: Integrating chromatin accessibility and gene expression</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Ruiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Ranford-Cartwright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gómez-Díaz</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nargab/lqaa113</idno>
+	</analytic>
+	<monogr>
+		<title level="j">NAR Genom Bioinform</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">113</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Evolution of dosage compensation in Diptera: The gene maleless implements dosage compensation in Drosophila (Brachycera suborder) but its homolog in Sciara (Nematocera suborder) appears to play no role in dosage compensation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Ruiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Esteban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Doñoro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Goday</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/genetics/156.4.1853</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">156</biblScope>
+			<biblScope unit="page" from="1853" to="1865" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Dosage compensation of the X chromosome: A complex epigenetic assignment involving chromatin regulators and long noncoding RNAs</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Samata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Akhtar</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-biochem-062917-011816</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Biochem</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="323" to="350" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Intergenerationally maintained histone H4 lysine 16 acetylation is instructive for future gene activation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Samata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alexiadis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Richard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Georgiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nuebler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kulkarni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Renschler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Basilicata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Zenk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shvedunova</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2020.05.026</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page">23</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Rationally engineered Cas9 nucleases with improved specificity</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Slaymaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zetsche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">X</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aad5227</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">351</biblScope>
+			<biblScope unit="page" from="84" to="88" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">The CLAMP protein links the MSL complex to the X chromosome during Drosophila dosage compensation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Soruco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chery</forename><forename type="middle">J</forename><surname>Bishop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Siggers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tolstorukov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Leydon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Sugden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">U</forename><surname>Goebel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+		<idno type="DOI">10.1101/gad.214585.113</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genes Dev</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1551" to="1556" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Different chromatin interfaces of the Drosophila dosage compensation complex revealed by high-shear ChIP-seq</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Straub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zabel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Gilfillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Feller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Becker</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/gr.146407.112</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="473" to="485" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">REVIGO summarizes and visualizes long lists of gene ontology terms</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Supek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bošnjak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Škunca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Šmuc</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0021800</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">21800</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">STRING v11: Protein-protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Szklarczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Gable</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lyon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Junge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wyder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huerta-Cepas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Simonovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Doncheva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bork</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gky1131</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page">613</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">The gene ontology resource: 20 years and still GOing strong</title>
+		<author>
+			<persName><forename type="first">The</forename><surname>Gene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ontology</forename><surname>Consortium</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gky1055</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">The simultaneous interaction of MSL2 with CLAMP and DNA provides redundancy in the initiation of dosage compensation in Drosophila males</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Tikhonova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fedotova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bonchuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Mogila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Larschan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Georgiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Maksimenko</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/dev.179663</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Development</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="page">179663</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">RNA nucleation by MSL2 induces selective X chromosome compartmentalization</title>
+		<author>
+			<persName><forename type="first">Cik</forename><surname>Valsecchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Basilicata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Georgiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gaub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seyfferth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kulkarni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Panhale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Semplicio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Manjunath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Holz</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-020-2935-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">589</biblScope>
+			<biblScope unit="page" from="137" to="142" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Facultative dosage compensation of developmental genes on autosomes in Drosophila and mouse embryonic stem cells</title>
+		<author>
+			<persName><forename type="first">Cik</forename><surname>Valsecchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Basilicata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Semplicio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Georgiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Gutierrez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Akhtar</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-018-05642-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">3626</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Numerous transitions of sex chromosomes in Diptera</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vicoso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bachtrog</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pbio.1002078</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">1002078</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Tools for Anopheles gambiae transgenesis</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Volohonsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Terenzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Soichot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Naujoks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nolan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Windbichler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kapps</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Smidler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vittu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Costa</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/g3.115.016808</idno>
+	</analytic>
+	<monogr>
+		<title level="j">G3 (Bethesda)</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1151" to="1163" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Finding a balance: How diverse dosage compensation strategies modify histone h4 to regulate transcription</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Wells</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Csankovszki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Custer</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2012/795069</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genet Res Int</title>
+		<imprint>
+			<biblScope unit="page">795069</biblScope>
+			<date type="published" when="2012">2012. 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Comparative genome and proteome analysis of Anopheles gambiae and Drosophila melanogaster</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Zdobnov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Von</forename><surname>Mering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Letunic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Torrents</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Suyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Copley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Christophides</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Thomasova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Holt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Subramanian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1077061</idno>
+		<ptr target="https://creativecommons.org/licenses/by/4.0/)" />
+	</analytic>
+	<monogr>
+		<title level="m">License: This article is available under a Creative Commons License</title>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="volume">298</biblScope>
+			<biblScope unit="page" from="149" to="159" />
+		</imprint>
+	</monogr>
+	<note>Attribution 4.0 International, as</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

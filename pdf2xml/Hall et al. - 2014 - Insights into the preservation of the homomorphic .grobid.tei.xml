@@ -1,0 +1,1404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Insights into the Preservation of the Homomorphic Sex-Determining Chromosome of Aedes aegypti from the Discovery of a Male-Biased Gene Tightly Linked to the M-Locus</title>
+				<funder ref="#_g6rwjUX">
+					<orgName type="full">Fralin Life Science Institute</orgName>
+				</funder>
+				<funder ref="#_hqT7mqA #_huvpkeG #_pZ44vSE">
+					<orgName type="full">National Institutes of Health Grants</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2014-01-06">January 6, 2014</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Andrew</forename><surname>Brantley Hall</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<address>
+									<country>Virginia Tech</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Program of Genetics, Bioinformatics, and Computational Biology</orgName>
+								<address>
+									<country>Virginia Tech</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Fralin Life Science Institute</orgName>
+								<address>
+									<region>Virginia Tech</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Vladimir</forename><forename type="middle">A</forename><surname>Timoshevskiy</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Entomology</orgName>
+								<address>
+									<country>Virginia Tech</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Fralin Life Science Institute</orgName>
+								<address>
+									<region>Virginia Tech</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Maria</forename><forename type="middle">V</forename><surname>Sharakhova</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Entomology</orgName>
+								<address>
+									<country>Virginia Tech</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Fralin Life Science Institute</orgName>
+								<address>
+									<region>Virginia Tech</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xiaofang</forename><surname>Jiang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Program of Genetics, Bioinformatics, and Computational Biology</orgName>
+								<address>
+									<country>Virginia Tech</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Fralin Life Science Institute</orgName>
+								<address>
+									<region>Virginia Tech</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sanjay</forename><surname>Basu</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Entomology</orgName>
+								<address>
+									<country>Virginia Tech</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Fralin Life Science Institute</orgName>
+								<address>
+									<region>Virginia Tech</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michelle</forename><forename type="middle">A E</forename><surname>Anderson</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Entomology</orgName>
+								<address>
+									<country>Virginia Tech</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Fralin Life Science Institute</orgName>
+								<address>
+									<region>Virginia Tech</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wanqi</forename><surname>Hu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<address>
+									<country>Virginia Tech</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Fralin Life Science Institute</orgName>
+								<address>
+									<region>Virginia Tech</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Igor</forename><forename type="middle">V</forename><surname>Sharakhov</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Program of Genetics, Bioinformatics, and Computational Biology</orgName>
+								<address>
+									<country>Virginia Tech</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Entomology</orgName>
+								<address>
+									<country>Virginia Tech</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Fralin Life Science Institute</orgName>
+								<address>
+									<region>Virginia Tech</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zach</forename><forename type="middle">N</forename><surname>Adelman</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Program of Genetics, Bioinformatics, and Computational Biology</orgName>
+								<address>
+									<country>Virginia Tech</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Entomology</orgName>
+								<address>
+									<country>Virginia Tech</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Fralin Life Science Institute</orgName>
+								<address>
+									<region>Virginia Tech</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zhijian</forename><surname>Tu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<address>
+									<country>Virginia Tech</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Program of Genetics, Bioinformatics, and Computational Biology</orgName>
+								<address>
+									<country>Virginia Tech</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Fralin Life Science Institute</orgName>
+								<address>
+									<region>Virginia Tech</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Insights into the Preservation of the Homomorphic Sex-Determining Chromosome of Aedes aegypti from the Discovery of a Male-Biased Gene Tightly Linked to the M-Locus</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2014-01-06">January 6, 2014</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DCF7D653ADAA88E766D85C21686E23B5</idno>
+					<idno type="DOI">10.1093/gbe/evu002</idno>
+					<note type="submission">Accepted: December 29, 2013 Data deposition: This project has been deposited at the NCBI SRA under the accession SRP023515 and GenBank under the accession KF150020.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-10-22T14:59+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>sex-determination</term>
+					<term>sex chromosomes</term>
+					<term>chromosome quotient</term>
+					<term>myo-sex</term>
+					<term>nonrecombining region</term>
+					<term>sexual antagonism</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The preservation of a homomorphic sex-determining chromosome in some organisms without transformation into a heteromorphic sex chromosome is a long-standing enigma in evolutionary biology. A dominant sex-determining locus (or M-locus) in an undifferentiated homomorphic chromosome confers the male phenotype in the yellow fever mosquito Aedes aegypti. Genetic evidence suggests that the M-locus is in a nonrecombining region. However, the molecular nature of the M-locus has not been characterized. Using a recently developed approach based on Illumina sequencing of male and female genomic DNA, we identified a novel gene, myo-sex, that is present almost exclusively in the male genome but can sporadically be found in the female genome due to recombination. For simplicity, we define sequences that are primarily found in the male genome as male-biased. Fluorescence in situ hybridization (FISH) on A. aegypti chromosomes demonstrated that the myo-sex probe localized to region 1q21, the established location of the M-locus. Myo-sex is a duplicated myosin heavy chain gene that is highly expressed in the pupa and adult male. Myo-sex shares 83% nucleotide identity and 97% amino acid identity with its closest autosomal paralog, consistent with ancient duplication followed by strong purifying selection. Compared with males, myo-sex is expressed at very low levels in the females that acquired it, indicating that myo-sex may be sexually antagonistic. This study establishes a framework to discover male-biased sequences within a homomorphic sex-determining chromosome and offers new insights into the evolutionary forces that have impeded the expansion of the nonrecombining M-locus in A. aegypti.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>In Aedes and Culex mosquitoes, male development is initiated by a dominant male-determining locus (M-locus) located on a homomorphic sex-determining chromosome <ref type="bibr" target="#b29">(McClelland 1962;</ref><ref type="bibr" target="#b36">Newton et al. 1974)</ref>. On the other hand, Anopheles mosquitoes have fully differentiated heteromorphic sex chromosomes where the male-determining locus resides on the nonrecombining Y chromosome <ref type="bibr" target="#b13">(Clements 1992;</ref><ref type="bibr" target="#b28">Marın and Baker 1998)</ref>. Evolutionary models suggest that homomorphic sex-determining chromosomes may eventually progress into heteromorphic sex chromosomes <ref type="bibr" target="#b11">(Charlesworth et al. 2005)</ref>. After the acquisition of a sex-determining locus, linkage between sexually antagonistic genes and the sex-determining-locus is favored and may lead to an initial suppression of recombination followed by progressive expansion of the nonrecombining region, transforming a homomorphic sex-determining chromosome into a heteromorphic sex chromosome <ref type="bibr" target="#b4">(Bull 1983;</ref><ref type="bibr" target="#b10">Charlesworth B and Charlesworth D 2000;</ref><ref type="bibr" target="#b11">Charlesworth et al. 2005;</ref><ref type="bibr">Bachtrog 2006;</ref><ref type="bibr" target="#b12">Charlesworth and Mank 2010;</ref><ref type="bibr" target="#b2">Bachtrog 2013</ref>). However, this fate is not inevitable because examples of old homomorphic sex-chromosomes have been observed <ref type="bibr" target="#b12">(Charlesworth and Mank 2010)</ref>.</p><p>Aedes aegypti has three pairs of chromosomes, with chromosome 1 the shortest, chromosome 2 the longest, and chromosome 3 of medium length <ref type="bibr" target="#b38">(Rai 1963;</ref><ref type="bibr" target="#b44">Sharakhova et al. 2011;</ref><ref type="bibr" target="#b45">Timoshevskiy et al. 2013</ref>). The M-locus has been mapped to chromosome 1, band 1q21 <ref type="bibr" target="#b29">(McClelland 1962)</ref>. For simplicity, we follow the nomenclature proposed by <ref type="bibr" target="#b33">Motara and Rai (1978)</ref> and refer to the copy of chromosome 1 with the M-locus, the M-chromosome, and the copy without the M-locus, the m-chromosome. Genetic evidence suggests that there is a nonrecombining M-locus in A. aegypti <ref type="bibr" target="#b42">(Severson et al. 2002;</ref><ref type="bibr" target="#b47">Toups and Hahn 2010)</ref>. There are also cytological differences between the M-locus and the mlocus, consistent with clear differentiation between the loci <ref type="bibr" target="#b32">(Motara and Rai 1977;</ref><ref type="bibr" target="#b33">Motara and Rai 1978)</ref>. The M-locus can be found in noncanonical locations in other Culicinae mosquitoes <ref type="bibr" target="#b17">(Ferdig et al. 1998;</ref><ref type="bibr" target="#b48">Venkatesan et al. 2009</ref>), indicating either translocation or turnover of the sex-determining gene. However, the M-locus of A. aegypti and Culex pipiens are linked to the same markers, suggesting that the A. aegypti M-locus likely shares a common origin with C. pipiens <ref type="bibr" target="#b27">(Malcolm et al. 1998;</ref><ref type="bibr" target="#b31">Mori et al. 1999)</ref>. Thus, the sex-determining chromosome of the yellow fever and dengue fever mosquito A. aegypti may have remained stubbornly homomorphic because of the evolutionary divergence between the Aedes and Culex lineages. It is suggested that the common ancestor of the mosquito family had a homomorphic sexdetermining chromosome <ref type="bibr" target="#b47">(Toups and Hahn 2010)</ref>.</p><p>Despite the publication of the A. aegypti genome, sequences from the M-locus remain uncharacterized <ref type="bibr" target="#b35">(Nene et al. 2007</ref>). In species with well-defined heteromorphic sex chromosomes such as Drosophila and Anopheles, Y chromosome sequences have proven resistant to traditional methods of sequence assembly because of the repetitive nature of the Y <ref type="bibr" target="#b6">(Carvalho 2002;</ref><ref type="bibr" target="#b25">Krzywinski et al. 2004</ref><ref type="bibr" target="#b24">Krzywinski et al. , 2006))</ref>. In fact, Y chromosome sequences are rarely annotated in published genomes of nonmodel organisms <ref type="bibr" target="#b7">(Carvalho et al. 2009)</ref>. Recent advances in sequencing technologies have allowed for the identification of more Y chromosome sequences. We identified a single Y chromosome gene in Anopheles mosquitoes by comparing male Illumina data to female Illumina data <ref type="bibr" target="#b15">(Criscione et al. 2013)</ref>. We also identified six more Y chromosome genes in Anopheles mosquitoes using a more efficient approach called the chromosome quotient (abbreviated CQ) <ref type="bibr" target="#b19">(Hall et al. 2013)</ref>.</p><p>In this study, we applied the CQ method to A. aegypti, a species with a homomorphic sex-determining chromosome, and identified sequences that were primarily present in the male genome but were sporadically present in the female genome due to recombination. In this study we call sequences primarily present in the male genome male-biased sequences, without implying patterns of gene expression. The malebiased sequences discovered by the CQ method include: a novel gene, myo-sex, and the full-length bacterial artificial chromosome (BAC) clone NDL62N22. Based on homology, strong purifying selection, and differential expression between males and recombinant females, myo-sex appears to be a functionally important myosin heavy-chain gene with the possibility for sexually antagonistic effects. Myo-sex is a product of an ancient duplication event, and it is tightly linked to the Mlocus. We discuss alternative scenarios that may begin to explain why myo-sex has not been incorporated into the nonrecombining M-locus and shed light on the maintenance of homomorphic M chromosome in A. aegypti.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CQ Analysis</head><p>The CQ method was originally devised as an approach to identify Y chromosome sequences <ref type="bibr" target="#b19">(Hall et al. 2013)</ref>, and it is adapted here to identify male-specific or male-biased sequences in A. aegypti. The CQ method is based on the principle that male-specific or male-biased sequences should be present in male sequence data and absent from female sequence data. This simple principle is complicated by the presence of nearly identical autosomal paralogs and repetitive sequences. Thus, instead of searching for sequences exclusive to the male sequence data, female alignments are permitted as long as there are at least five times more alignments from the male (CQ 0.2). The selection of this CQ cutoff is described below and at the beginning of the Results section. Interference from repetitive sequences is reduced by using extremely strict alignment parameters. For an alignment to be valid, it must align with 100% nucleotide over the entire extent of the Illumina (Illumina, San Diego, CA) read. Bowtie, the ultrafast short-read aligner, is used for alignment <ref type="bibr" target="#b26">(Langmead et al. 2009</ref>). To reduce the rate of false positives, a threshold for the number of male alignments is used. For this study, the threshold was set at 30.</p><p>Male and female Illumina sequence data were generated to perform the CQ method in A. aegypti. Genomic DNA was isolated separately from ten male and six virgin female Liverpool strain A. aegypti. The Qiagen (Hilden, Germany) DNeasy Blood and Tissue kit was used to isolate the DNA following the manufacturer-suggested protocols. The male and female genomic DNA samples were each subjected to two lanes of Illumina sequencing on a HiSeq 1000 producing 99-bp paired-end reads. The coverage of the resulting reads was approximately 63Â for males and 65Â for females. The male and female sequence data were deposited to the National Center for Biotechnology Information Sequence Read Archive (NCBI SRA) (SRP023515).</p><p>A control for the CQ method was performed on known A. aegypti autosomal sequences for normalization and to quantify the rate of false positives. Known autosomal supercontigs <ref type="bibr" target="#b35">(Nene et al. 2007)</ref> were retrieved and repetitive sequences annotated by RepeatMasker, and gaps represented by Ns were removed generating 7,713 sequences. CQs were calculated for the 7,713 sequences with the male and female Illumina sequence data. These autosomal sequences had a median CQ of 1.274, slightly higher than the expected CQ of 1, indicating there was more female sequence data than male sequence data. Subsequently, we normalized all CQs by 1.274.</p><p>We then calculated the CQs for the A. aegypti IB12 strain supercontigs (version AaegL1), contigs (version AaegL1), transcripts (version AaegL1.3), expressed sequence tag (ESTs) (Aedes-aegypti_EST-CLIPPED_2012-12.fa.gz), and BAC-ends (Aedes-aegypti-Liverpool_BAC-ENDS_2012-12.fa.gz). These sequences were all downloaded from VectorBase (Vectorbase.org). We noticed that there was a relatively high rate of apparent false-positive sequences, so we set CQ 0.2 as the cutoff for further analysis of male-specific or male-biased candidates.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Further Bioinformatics Analysis of Candidate Male-Biased Sequences</head><p>Two additional steps were implemented to identify male-specific or male-biased genes among the sequences mentioned above with CQs less than 0.2. First, these sequences were compared with RNA-seq data spanning developmental time points from embryo to adult, including separate adult male and female sequence data (SRA SRP009679) <ref type="bibr" target="#b3">(Biedler et al. 2012)</ref>. The transcriptome sequence data was compared with all the sequences with BlastN requiring 100% nucleotide identity with an e-value less than 1 Â 10 À5 . Second, to further ensure male-specificity or male-bias, candidate sequences were compared with the male and female Illumina sequence data, using BlastN (e-value cutoff set at 1 Â 10 À5 ). This step employs relaxed search parameters and thus allows us to filter sequences that only have slight variations between males and females.</p><p>Obtaining the Sequence of the Full-Length Myo-sex Transcript Reverse transcription PCR (RT-PCR) was used to connect the five myosin ESTs. Phire II DNA polymerase (Thermo Scientific, Pittsburgh, PA) was used for RT-PCR following the manufacturer-suggested protocol. cDNA was made from Liverpool A. aegypti pupa. RNA was isolated using the mirVana RNA isolation kit (Life Technologies, Carlsbad, CA) following the manufacturer protocol for total RNA isolation. cDNA was then synthesized with SuperScript RT (Life Technologies). The PCR products were run on 1% agarose gels and gel-purified with the GE gel purification kit (GE Healthcare, United Kingdom) following the manufacturer-suggested protocol. The RT-PCR products were cloned into the pGEM-T Easy vector (Promega, Madison, WI) or CloneJET vector (Thermo Scientific) and sequenced. The 5 0 and 3 0 rapid amplification of cDNA ends (RACE) was performed to obtain the terminal ends of the myo-sex transcript. The SMARTer RACE cDNA Amplification kit (Clonetech Laboratories, Mountain View, CA) was used to perform RACE following the manufacturersuggested protocol. RACE-ready cDNA was synthesized from pupa cDNA. The RACE PCR products were cloned into the pGEM-T EASY vector and sequenced. Vector sequences were removed from the sequence results using NCBI VecScreen. Assembly was performed with Cap3 <ref type="bibr" target="#b20">(Huang and Madan 1999)</ref>. The sequence was corrected with the consensus of pupa RNA-seq using CLC Genomics <ref type="bibr">Workbench (www. clcbio.com, last accessed January 14, 2014)</ref>. The assembled myo-sex transcript was submitted to GenBank (KF150020) and is available in the supplementary materials (supplementary file S1, Supplementary Material online). The primers used for RT-PCR and RACE are available in the supplementary materials (supplementary table S1, Supplementary Material online).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Generating Transgenic Lines with Transgenes Flanking the M-Locus</head><p>The methods for the generation of the sensor transgenic strain are detailed in <ref type="bibr" target="#b0">Adelman et al. (2008)</ref>. To generate transgenic line J2, A. aegypti Liverpool strain embryos (n ¼ 663) were injected with 300 ng/ml pGL3-PUb-Mos1 and 500 ng/ml PUb-DsRED construct as previously described <ref type="bibr" target="#b5">(Carpenetti et al. 2012)</ref>. G 0 injection survivors with DsRED somatic transient expression (10.7%) were crossed to Liverpool strain of the opposite gender, resulting in the establishment of five pools designated J1-J5 (two female, three male). Eight positive individuals out of 400 total screened were identified from line J2. Mosquitoes for this study were reared using techniques and conditions described in <ref type="bibr" target="#b1">Aryan et al. (2013)</ref>. Before crossing with the 3xP3-sensor strain, the J2 transgene insertion was moved into the kh w genetic background.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fluorescence In Situ Hybridization</head><p>Fluorescence in situ hybridization (FISH) was performed on mitotic and polytene chromosomes using the methods described in <ref type="bibr" target="#b46">Timoshevskiy et al. (2012)</ref>. Polytene chromosomes were prepared using salivary glands of the fourth instar larvae and mitotic chromosomes were prepared using imaginal discs from the fourth instar larvae. Slides were placed in 2Â salinesodium citrate buffer (SSC) for 30 min at 37 C, pretreated with 0.1 mg/ml of pepsin for 5 min at 37 C, denatured in 70% formamide in 2Â SSC at 72 C for 2min, and</p><p>The Homomorphic Sex-Determining Chromosome of A. aegypti GBE Genome Biol. Evol. 6(1):179-191. doi:10.1093/gbe/evu002 Advance Access publication January 6, 2014 dehydrated in a series of cold (À20 C) ethanol (70%, 80%, 100%) for 3-5 min each. Hybridization mix contained: 50% formamide, 10% dextran sulfate, 100 ng of each probe per slide, and 3 mg of unlabeled repetitive DNA fractions per probe. DNA/probe mix was precipitated by adding one-tenth volume of sodium acetate and 2 vols. of 100% ethanol. The DNA pellet was dissolved in "master mix" (10 ml per slide) that contained 50% formamide, 10% dextran sulfate, and 1.2Â SSC. After that, DNA was denatured at 96 C for 7 min. Denatured DNA was placed on ice for 1 min and incubated at 37 C for 30 min for prehybridization with unlabeled repetitive DNA fractions (C 0 t3 DNA). Repetitive DNA fractions were isolated from A. aegypti genomic DNA. DNA was denatured and allowed to reassociate at 60 C in 1.2Â SSC for 15-150 min depending on concentration. Single-stranded DNA was digested using S 1 nuclease (Invitrogen Corporation, Carlsbad, CA). Ten microliters of hybridization mix was placed on a slide, which had been preheated to 37 C, under a 22 Â 22 mm coverslip, and glued by rubber cement. Slides were hybridized at 37 C in a dark humid chamber overnight. After hybridization, slides were dipped for washing in a Coplin jar with 0.4ÂSSC, 0.3% Nanodept-40 at 72 C for 2 min, and then in 2Â SSC, 0.1% Nanodept-40 at room temperature for 5 min. Thereafter, slides were counterstained using Prolong with 4 0 ,6-diamidino-2-phenylindole (DAPI) (Invitrogen Corporation) or incubated with 1-mm YOYO-1 solution in 1Â PBS for 10 min in the dark, rinsed in 1Â phosphate buffered saline (PBS), and then enclosed in antifade Prolong Gold (Invitrogen Corporation) under a coverslip. Slides were analyzed using a Zeiss LSM 510 Laser Scanning Microscope (Carl Zeiss Microimaging, Thornwood, NY) at 1,000Â magnification.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Myo-sex Expression Analysis</head><p>The RNA used for the expression profile of myo-sex was isolated using the mirVana RNA isolation kit (Life Technologies) following the manufacturer protocols for total RNA isolation. cDNA was then synthesized with the SuperScript III RT kit (Life Technologies) following the manufacturer-suggested protocols. Using cDNA spanning developmental time points, RT-PCR was performed on myo-sex using Phire II DNA polymerase (Thermo Scientific). The PCR products were verified to be myo-sex by sequencing. For the expression profile, 27 cycles were used with a melting temperature of 63 C. To further assess myo-sex expression in Liverpool adult females, cDNA samples from virgin females and blood-fed females were amplified for 32 cycles (supplementary fig. <ref type="figure">S1</ref>, Supplementary Material online). To assess the expression of myo-sex in recombinant females that acquired myo-sex, both RT-PCR and quantitative RT-PCR (qRT-PCR) were performed. qRT-PCR were performed using the SYBR Green-based GoTaq qPCR kit from Promega (Madison, WI) on a ABI 7300 real-time PCR system (Life Technologies). Three biological replicates were included and a ribosomal protein gene RPS7 was used to normalize expression. Relative expression levels were quantified using ÁCt relative quantification method with RPS7 as the endogenous control <ref type="bibr" target="#b41">(Sengul and Tu 2010)</ref>. All primers are available in supplementary table S1, Supplementary Material online.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Myo-sex Evolutionary Analysis</head><p>The dN/dS ratio of myo-sex was calculated using JCoDA using a sliding window size of 200, and a jump size of 20. The Yang and Neilson dN/dS substitution model was used. The myo-sex phylogeny was generated with MrBayes (Huelsenbeck and Ronquist 2001) using MUSCLE <ref type="bibr" target="#b16">(Edgar 2004</ref>) for the alignments. The alignments and parameters used for phylogenetic inference are provided in supplementary file S2, Supplementary Material online. For the synteny figure, orthologs were assigned by OrthoDB <ref type="bibr" target="#b50">(Waterhouse et al. 2011</ref>) and relative positions assigned by VectorBase.</p><p>An Extremely Male-Biased BAC Clone CQ analysis of BAC-ends identified several BACs as malespecific or highly male-biased candidates, and one such BAC was sequenced after PCR verification with male and female genomic DNA as templates. DNA was isolated from BAC NDL62N22 and was sequenced with PacBio sequencing. A single SMRT cell of PacBio sequencing (Pacific Biosciences, CA) was performed on the A. aegypti BAC clone NDL62N22 along with five other BACs from different species for a different project. The resulting PacBio sequences were assembled by Russell Durrett at the Weill Cornell Medical College using the Hierarchical Genome Assembly Process (HGAP) from PacBio. The resulting contig contained the BAC cloning vector, which was subsequently removed. The resulting BAC was 94,552-bp long. The sequence of BAC NDL62N22 is provided in the supplementary materials (supplementary file S1, Supplementary Material online).</p><p>Male-Specific Amplification of Myo-sex and BAC Clone NDL62N22 DNA was isolated from adult mosquitoes using the DNAzol (Life Technologies) reagent following the manufacturer protocols. Genomic DNA samples were isolated from pools of five individuals. PCR was performed in 25 males and 25 females from both the Liverpool and kh w strains using 30 cycles with a melting temperature of 63 C. The PCR products were verified to be the expected product by sequencing. Phire II DNA polymerase (Thermo Scientific) was used for the PCR following the manufacturer-specified protocol. All primer sequences used in this study are available in supplementary table S1, Supplementary Material online.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Identification of Candidate Male-Biased Genomic Sequences in A. aegypti</head><p>Separate male and female Illumina sequence data were generated from adults of the Liverpool strain of A. aegypti, resulting in coverage of 65Â and 63Â, respectively (SRA: SRP023515). To select a cutoff CQ for screening candidate male-specific sequences, we calculated CQs for supercontigs with known autosomal positions <ref type="bibr" target="#b35">(Nene et al. 2007)</ref>. Each known autosomal supercontig was split at gaps denoted by Ns and bases masked by repeat masker. Chromosome quotients were calculated for 7,713 of the resulting autosomal sequences (fig. <ref type="figure">1</ref>). Only seven of the split supercontig sequences had CQs less than 0.2, and only one had a CQ of zero. Thus, 0.2 was chosen as the cutoff for further analysis of male-specific or male-biased candidates.</p><p>We searched for sequences with alignments only from the male sequence data using various reference data sets from A. aegypti including: the A. aegypti IB12 strain supercontigs, contigs, annotated transcripts, Rockefeller strain ESTs, and Liverpool strain BAC-ends (fig. <ref type="figure">1</ref>) <ref type="bibr" target="#b23">(Krebs et al. 2002;</ref><ref type="bibr" target="#b22">Jime ´nez et al. 2004</ref>). As expected, the overwhelming majority of sequences had CQs distributed around one, the CQ expected for sequences present in equal numbers in males and females. Each set of reference sequences had sequences with alignments only from the male sequence data or many more male alignments than female alignments (table <ref type="table" target="#tab_2">1</ref>). In the current study, our focus was the identification of male-specific or male-biased genes, not slight sequence variations that may exist between the male and female samples nor highly repetitive sequences. Thus, putative genes were identified by comparing the sequences with CQs less than 0.2 to the NCBI nonredundant protein database and transcriptome sequence data spanning developmental time points from embryo to adult, including separate adult males and females (SRA SRP009679; <ref type="bibr" target="#b3">Biedler et al. 2012)</ref>. No genes were identified in the supercontigs or contigs with CQs less than 0.2. We identified 28 transcripts with CQs less than 0.2. However, further analysis showed that none of the transcripts had characteristics of male-biased genes. Twenty-two either showed no evidence of transcription or had transcription in females according to our transcriptome analysis. The six remaining transcripts derive from contigs that do not appear to be male-biased based on CQ analysis. None of the 28 transcripts were male-biased when relaxed BlastN parameters were used for comparison to the male and female Illumina data. Due to our lack of success finding male-biased genes in the published genome sequences, we focused on the unassembled ESTs and BACs: the ESTs because they were automatically candidates for genes, and the BACs because sequencing full-length malebiased BAC clones could result in the identification of genes.</p><p>Candidate male-biased EST and BAC sequences were further narrowed down by using relaxed alignment parameters to map the male and female Illumina data to the potential male-biased sequences with BlastN. Even with the relaxed alignment parameters, 15 of the ESTs and 17 BAC-ends appeared unique or highly biased to the male sequence data. Analysis of the BAC sequences is described in a later section. Eight of the ESTs were removed because they had alignments from the adult female transcriptome data. The seven remaining ESTs were compared with the genome with BlastN. One of the seven aligned with 97% nucleotide identity to a long contig that is not male biased. BlastX was used to compare the remaining six ESTs to the NCBI nonredundant protein database. One EST was eliminated as bacterial contamination. The remaining five ESTs aligned to myosin heavy chain genes, with e-values less than 1 Â 10 À40 and had CQs of zero (table <ref type="table" target="#tab_1">2</ref>).</p><p>Discovery of Myo-sex, an Extremely Male-Biased Myosin Heavy-Chain Gene When compared with the A. aegypti transcripts with BlastN and BlastX, the five remaining ESTs all aligned to the A. aegypti gene AAEL005656 with approximately 83% nucleotide identity and 97% amino acid identity. RT-PCR and subsequent sequencing confirmed that all five ESTs derived from the same novel male-biased gene. Primers were also designed for 5 0 and 3 0 RACE to identify the terminal portions of the transcript. The full-length 5,990 bp myosin-gene transcript was assembled using the sequencing results of the RT-PCR and RACE products. We call this gene "myo-sex" because it is homologous to a myosin heavy chain gene and is male-biased. Myo-sex is not represented in the current A. aegypti genome assembly. However, a BlastN search of the A. aegypti trace database used for genome assembly found 20 alignments with greater than 98% identity, indicating that its absence from the current assembly is likely a reflection of poor assembly or low coverage near the M-locus. FISH experiments described below are consistent with our interpretation.</p><p>To verify that myo-sex is a male-specific gene, PCR was performed on five pools of male (n ¼ 5 per pool) and five pools of female (n ¼ 5 per pool) genomic DNA from both the Liverpool and kh w strains of A. aegypti. Primers for myosex amplified a PCR product in male-genomic DNA from both the Liverpool and kh w strains of A. aegypti but not from female genomic DNA from either strain (fig. <ref type="figure" target="#fig_1">2</ref>). Amplicons were cloned and sequenced, and verified to be myo-sex. A ribosomal protein gene (RPS7) was amplified in both males and females to validate the integrity of the genomic DNA. The CQ of the assembled myo-sex transcript is zero, and even with relaxed BlastN parameters, few female reads align (table 2), further asserting that myo-sex is male-specific in our sequencing data. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Myo-sex Hybridizes to the M-Locus and Can Undergo Recombination with the M-Chromosome</head><p>To further verify that myo-sex was truly male-specific, we sought to determine its physical location within the A. aegypti genome. We took advantage of several transgenic strains in our possession. <ref type="bibr" target="#b0">Adelman et al. (2008)</ref> described a transposon insertion strain (referred to here as "sensor") marked with a green fluorescent protein that resides 0.40 cM from the sexlocus on the m-chromosome. The 0.40 cM recombination distance is an average of three replicates that range from 0.12 to 0.64, and the variability may be related to the location of the sensor transgene in the rDNA repeats. During the course of other experiments, we obtained a second transgenic strain (J2, marked with DsRED) that appeared to be sex-linked as well. The J2 insertion recombined from the m-chromosome to the M-chromosome at a frequency of approximately 1.24% (fig. <ref type="figure">3A</ref>). Subsequent crossing with sensor mosquitoes allowed us to establish both M-chromosome and m-chromosome strains containing both transgenes (fig. <ref type="figure">3A</ref>). Calculated recombination distances between sex/sensor, sex/J2, and sensor/J2 established that these two transgenes flank the M-locus (fig. <ref type="figure">3B</ref>). There are fewer J2-M and more M-sensor recombinants in the F3 than expected according to their respective average recombination frequencies, which may in part result from the previously observed variability in recombination distance <ref type="bibr" target="#b0">(Adelman et al. 2008)</ref>. FISH was performed on mitotic chromosomes of both M J2sensor /m and m/m J2sensor individuals (fig. <ref type="figure">3C</ref> and<ref type="figure">D</ref>). In both cases, myo-sex and the J2/ sensor transgene colocalized to only one copy of the q-arm of chromosome 1, band 1q21, the established location of the sex-determining locus. The fact that myo-sex hybridized to a single m J2sensor chromosome suggests that this gene recombined alongside the J2 transgene during the creation of the double-marked strain. In contrast, if myo-sex was truly autosomal, the myo-sex probe should have hybridized to both copies of chromosome 1. Hybridization to polytene chromosomes confirmed the colocalization of the sex-linked transgenes and myo-sex (fig. <ref type="figure">3E</ref>). We conclude that myo-sex is a novel A. aegypti gene that is proximal to the M-locus and therefore present primarily in the male genome but can sporadically appear in the female genome due to recombination.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Known Autosomal Sequences</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Contigs</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Myo-sex Expression Profile, Evolutionary Origin, and Selective Pressure</head><p>The expression profile of myo-sex was generated with cDNA spanning developmental time points (fig. <ref type="figure">4A</ref>). RT-PCR was performed using total RNA isolated from: 1-12-h embryos, 12-24-h embryos, 24-36-h embryos, 36-48-h embryos, 48-60-h embryos, 0-2-day larva, 2-4-day larva, 0-2-day pupa, adult females, adult males, male heads, male thorax, and male abdomens. The highest level of expression from RT-PCR appears in the pupa, with dark bands also appearing in the adult male, and male thorax. No bands were observed in the female samples where myo-sex was absent (fig. <ref type="figure">4A</ref> and supplementary fig. <ref type="figure">S1</ref>, Supplementary Material online). The general expression profile shown in figure <ref type="figure">4A</ref> was consistent with RNAseq analysis (supplementary table <ref type="table" target="#tab_1">S2</ref>, Supplementary Material online). As expected, genomic DNA PCR indicated that myosex is present in all five of the recombinant m/m J2sensor females tested (data not shown). In the recombinant females,    <ref type="table" target="#tab_2">1</ref>, total sequences is the number of sequences for which CQs were calculated, with greater than or equal to 30 alignments from the male sequence data.</p><p>The Homomorphic of A. aegypti GBE Genome Biol. Evol. 6(1):179-191. doi:10.1093/gbe/evu002 Advance Access publication January 6, 2014 however, RT-PCR showed only a very faint myo-sex band (fig. <ref type="figure">4B</ref>). Similarly, qRT-PCR analysis indicated that myo-sex transcript level in the recombinant females that acquired myo-sex was equivalent to the background level observed in females without the myo-sex gene, both of which were hundreds of fold lower than that of the males (supplementary fig. <ref type="figure">S1</ref>, Supplementary Material online).</p><p>Phylogenetic analysis suggests that myo-sex is a close paralog of AAEL005656 (fig. <ref type="figure">5</ref>). We also examined the gene synteny of its paralogs: AAEL005656 and the slightly more distant</p><formula xml:id="formula_0">A C D E B FIG.</formula><p>3.-Myo-sex hybridizes to the location of the A. aegypti M-locus and can still recombine with the m-chromosome. (A) Using two transgenic strains of A. aegypti with sex-linked insertions, sensor and J2, a transgenic strain of A. aegypti was generated that has transgenes flanking the M-locus on the Mchromosome, and a separate transgenic strain was generated with the two transgenes corresponding positions on the m-chromosome. Note that one of the 43 transgenic recombinants died before we can determine its sex. (B) A representation of the relative position of the transgenes with respect to the M-locus and the m-locus. Numbers represent linkage in centimorgans. FISH on mitotic chromosomes from the kh w strain of A. aegypti in males (C) and females (D) with probes for J2 and myo-sex. In (C), the blue J2 signal spans the entire presumed M-locus and the surrounding region. (E) FISH on male polytene chromosome shows that the myo-sex signal is fully within the J2 signal, indicating that myo-sex is located between the J2 and sensor transgenes. Myo-sex was present in the transgenic strain with the transgenes on the m-chromosome. When J2 recombined with the m-chromosome to generate this transgenic line, myo-sex also moved to the m-chromosome with J2 indicating that myo-sex can still recombine.</p><p>AAEL005733. Based on the assignment of scaffolds to chromosomes in the A. aegypti genome, AAEL005733 is located on chromosome 2, while the position of AAEL005656 is unknown <ref type="bibr" target="#b35">(Nene et al. 2007</ref>). AAEL005656 appears to be an insertion that occurred after the divergence of Aedes and Culex mosquitoes. The gene synteny around AAEL005733 is conserved in A. aegypti, Anopheles gambiae and C. quinquefasciatus (fig. <ref type="figure">6</ref>). These results suggest that AAEL005733 represents the ancestral gene, and that a duplication of AAEL005733 produced AAEL005656/myo-sex. Although it is not clear whether AAEL005656 or myo-sex came first, it is likely that the duplication happened after the divergence between Aedes and Culex (figs. <ref type="figure">5</ref> and<ref type="figure">6</ref>).</p><p>Myo-sex and AAEL005656 align well along their entire open reading frames and have a nucleotide identity of 83%. The predicted amino acid sequences of AAEL005656 and myo-sex have an amino-acid identity of 97%. Using the coding sequences of AAEL005656 and myo-sex, we calculated the ratio of nonsynonymous to synonymous mutations FIG. <ref type="figure">5</ref>.-The phylogeny of myo-sex and other myosin heavy genes in insects. The phylogeny suggests that both myo-sex and AAEL005656 originated after the evolutionary divergence of Aedes and Culex mosquitoes. The protein IDs for the genes represented in the phylogeny are as follows: A. aegypti (AAEL005656-PA), A. aegypti (AAEL005733-PB), C. quinquefasciatus (CPIJ000848-RA), C. quinquefasciatus (CPIJ000849-PA), C. quinquefasciatus (CPIJ000853-PA), Anopheles gambiae (AGAP010147-PA), Rhodnius prolixus (RPRC012274-PA), Tribolium castaneum (XP_001814139.1), Glossina morsitans (GMOY005703-PA), Drosophila melanogaster (FBpp0080463), Lutzomyia longipalpis (LLOTMP009501-PA), and Papilo xuthus (BAG30740.1). We note that the current CPIJ000853 protein model in Vectorbase lacks approximately 350 residues at the N-terminus and contains a 200 residue insertion compared with other proteins in the alignment (supplementary file S2, Supplementary Material online). A semimanual reannotation of the CPIJ000853 genomic sequence recovered a protein sequence that is 94% identical to AAEL005733 (supplementary file S1, Supplementary Material online). The reannotated CPIJ000853 grouped together with AAEL005733 with credibility value of 1 in the new phylogeny (not shown). The Homomorphic Sex-Determining Chromosome of A. aegypti (dN/dS). The dN/dS ratio of myo-sex to AAEL005656 was 0.0107, indicating strong purifying selection.</p><p>The Sequence of BAC-Clone NDL62N22 Is Male-Biased in the Liverpool Strain But Not the kh w Strain of A. aegypti Nine of the 17 BACs that had male-specific or highly malebiased BAC-end sequences were from a library that is no longer available. Four of the remaining eight had BAC-end sequences that were nearly identical to multiple other sequences in the genome, which makes specific PCR for these BAC-ends very difficult. We tested all four BACs for which we could design specific PCR primers. One primer set designed to amplify the BAC clone NDL62N22 (CC867386.1) amplified a male-specific PCR product from Liverpool genomic DNA (fig. <ref type="figure" target="#fig_1">2</ref>), while the other three BAC-ends did not produce male-specific PCR products. Genomic DNA was isolated from BAC NDL62N22 and PacBio sequencing was performed. The PacBio sequencing reads were assembled using the PacBio HGAP assembler resulting in a single 94,552-bp contig. The T7 and SP6 BAC-ends align to the beginning and end of the contig, respectively. No genes were found in the 94,500-bp contig. Although primers for the BAC NDL62N22 amplified a male-specific PCR product in the Liverpool strain of A. aegypti, the same primers amplified a PCR product in both males and females in the kh w strain of A. aegypti (fig. <ref type="figure" target="#fig_1">2</ref>). To further verify that BAC NDL62N22 is malebiased in the Liverpool strain, the full-length BAC sequence was cut into 1,000-bp fragments, and CQs were calculated for each of these fragments. The CQs for the 1,000-bp pieces clearly show male-biased segments throughout the length of the BAC with Liverpool sequence data (supplementary fig. <ref type="figure" target="#fig_1">S2</ref>, Supplementary Material online). Using FISH on mitotic chromosomes of transgenic kh w mosquitoes, the BAC hybridized to 1q21, the established location of the sex-determining locus (fig. <ref type="figure">7</ref>). The BAC NDL62N22 hybridized to both the M-locus and the m-locus, confirming that it is not male-biased in kh w strain of A. aegypti, consistent with the PCR results (fig. <ref type="figure" target="#fig_1">2B</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Discovery of the Myo-sex Gene and Implications to Finding the M-Factor in a Homomorphic Sex-Determining Chromosomes</p><p>We identified extremely male-biased sequences around the A. aegypti M-locus using the CQ method, which was originally designed to identify Y chromosome sequences. Thus, we have shown that such a differential genomics approach can be used to identify male-biased sequences in species with a homomorphic sex-determining chromosome.</p><p>In this study, we identified two extremely male-biased sequences: myo-sex, a novel myosin heavy chain gene, and a full-length BAC clone NDL62N22. Myo-sex is the first A. aegypti gene that is passed primarily from fathers to sons and not inherited equally between males and females in the manner of a typical autosomal gene. However, myo-sex is not male-limited because recombination can still occur. Earlier work suggests that there is a nonrecombining M-locus in A. aegypti <ref type="bibr" target="#b42">(Severson et al. 2002;</ref><ref type="bibr" target="#b47">Toups and Hahn 2010)</ref>. Thus, neither myo-sex nor BAC NDL62N22 are located within the A. aegypti M-locus. Genes in the nonrecombining M-locus such as the M-factor are more likely to have male-specific sequences than sequences in the recombining regions of the genome. In theory, genes in the nonrecombining M-locus should be easier to detect with the CQ method than myosex because they contain male-specific rather than malebiased sequences. However, we did not identify the dominant male-determining gene from the M-locus of A. aegypti.</p><p>The genome of A. aegypti was sequenced with Sanger technology, which has a well-known bias against heterochromatic sequences. Sequencing the M-locus is further complicated by the fact that the genomic DNA used for genome sequencing was derived from both male and female genomic DNA, relegating the M-locus to one-quarter the coverage of autosomal sequences <ref type="bibr" target="#b8">(Carvalho et al. 2003)</ref>. The estimated coverage of the A. aegypti genome sequencing used in genome assembly was only 7.63Â, meaning that the M-locus has less than 2Â coverage. Combined with the bias against heterochromatic sequences, the actual coverage of the M-locus may be considerably lower. Low coverage of the M-locus is probably a contributing factor as why we did not identify male-biased genes from the supercontigs, contigs, or transcripts of the A. aegypti genome. Thus, the current assembly of the A. aegypti genome is uninformative when looking for candidates for the M-factor.</p><p>CQ analysis of unassembled sequences, in this case ESTs and BAC-ends, proved more successful than CQ analysis of the assembled genome for the identification of a male-biased sequence. However, future analysis undertaken on new data sets may be more effective than ESTs or BAC-ends. Given that the M-factor is likely expressed in early embryos, CQ analysis of assembled transcripts from deep-coverage early embryonic RNA-seq data may lead to candidates for this sought-after male-determining factor. CQ analysis of genomic assemblies obtained from deep coverage, clone-independent methods such as Illumina sequencing may also lead to identification of gene fragments from the M-locus <ref type="bibr" target="#b19">(Hall et al. 2013)</ref>.</p><p>We cannot rule out that the A. aegypti M-locus was recently derived because there is evidence that the M-locus can be found in noncanonical locations in other Culicinae mosquitoes, a subfamily that includes Aedes and Culex <ref type="bibr" target="#b17">(Ferdig et al. 1998;</ref><ref type="bibr" target="#b48">Venkatesan et al. 2009)</ref>, indicating either translocation or turnover of the sex-determining gene. If so, the M-factor may be an allelic gene variation that is unique to the males or it is duplicated from a nearly identical autosomal paralog, either of which will be difficult to detect with the CQ method. However, the two scenarios described above are less likely in A. aegypti because previous studies suggest that the M-locus of A. aegypti and C. pipiens are linked to the same markers <ref type="bibr" target="#b27">(Malcolm et al. 1998;</ref><ref type="bibr" target="#b31">Mori et al. 1999)</ref>. There are also cytological differences between the Mlocus and the m-locus, consistent with clear differentiation between the loci <ref type="bibr">(Motara and</ref><ref type="bibr">Rai 1977, 1978)</ref>. Given sufficient genomic coverage and transcriptome sequence data, the M-factor is likely to be discovered with the CQ method.</p><p>Is Myo-sex an Example of a Sexually Antagonistic Gene near the Nonrecombining M-Locus?</p><p>Our findings suggest that myo-sex is functionally important because it is under strong purifying selection. Although the nucleotide identity between myo-sex and its closest paralog, AAEL005656, is only 83%, the amino acid identity is 97%. Another indication of the potential functional importance of myo-sex is its apparently high level of temporally regulated expression. Myo-sex is highly expressed in adult males but not in females as myo-sex is rarely found in the female genome. However, in the rare females that acquired myosex through recombination, myo-sex is expressed at a much lower level than it is expressed in males (fig. <ref type="figure">4</ref>). Such reduction of transcript level could result from a number of mechanisms, including the loss of a distant myo-sex enhancer during recombination, repression of myo-sex expression near the m-locus, or simply that myo-sex had evolved a male-specific pattern of expression. Regardless of the mechanism, such an intriguing expression pattern may suggest that myo-sex is sexually antagonistic, being advantageous to males and/or deleterious to females. The impact of loss of myo-sex function in males and gain of myo-sex function in females may or may not be easy to discern in the laboratory. It is also important to point out that the recombinant individuals shown in figure <ref type="figure">3</ref> may not be good subjects to investigate the effect of gain or loss of myo-sex function because any observed phenotype could not be solely attributed to myo-sex. As a significant portion of the chromosomal arm participated in the recombination event, other yet-to-be-discovered genes in the M region may also have been gained or lost. Thus, true gainof-function experiments such as ectopic expression of the myo-sex transgene and true loss-of-function experiments such as site-specific knockout of myo-sex are needed to determine the function of this gene in male-specific morphology or behavior. Myo-sex is tightly linked to the M-locus and rarely found in females (figs 2 and 3). The potential role of myo-sex in the expansion of the nonrecombining, sex-determining</p><p>The Homomorphic Sex-Determining Chromosome of A. aegypti region is discussed below in the context of sexual antagonism <ref type="bibr" target="#b11">(Charlesworth et al. 2005;</ref><ref type="bibr" target="#b12">Charlesworth and Mank 2010)</ref>.</p><p>Recombination Dynamics Near the M-Locus and the Preservation of Homomorphic Sex-Determining Chromosomes As discussed above, the A. aegypti M-locus shares a common ancestor with C. pipiens suggesting that the M-locus is ancient <ref type="bibr" target="#b27">(Malcolm et al. 1998;</ref><ref type="bibr" target="#b31">Mori et al. 1999</ref>). The evolutionary forces that limit the expansion of the nonrecombining M-locus and thus maintain chromosome homomorphy are unknown <ref type="bibr" target="#b47">(Toups and Hahn 2010)</ref>. We have shown that myo-sex still undergoes recombination, and recombination was detected by screening several thousand individuals. Our transgene-aided analysis of recombination is much more sensitive than the traditional linkage mapping analysis, in which often less than a few hundred individuals are analyzed. Sexually antagonistic or not, myo-sex is extremely malebiased and shows drastically different allele frequencies between the sexes and favors reduced recombination with the M-locus <ref type="bibr" target="#b4">(Bull 1983;</ref><ref type="bibr" target="#b39">Rice 1984</ref><ref type="bibr" target="#b40">Rice , 1987;;</ref><ref type="bibr" target="#b37">Patten and Haig 2009;</ref><ref type="bibr" target="#b12">Charlesworth and Mank 2010)</ref>. The duplication that produced myo-sex likely happened long ago because myo-sex has diverged 17% at the nucleotide level from its closest autosomal paralog despite strong purifying selection. It is thus fascinating that myo-sex has not been incorporated into the nonrecombining M-locus in the intervening time. This could be caused by the lack of sexually antagonistic genes around the M-locus that would benefit from incorporation into a nonrecombining region. Sexual antagonism could be resolved with sex-specific expression, thus alleviating the need for a large nonrecombining region <ref type="bibr" target="#b49">(Vicoso et al. 2013)</ref>. The lack of significant expression of myo-sex in the females that acquired myo-sex is interesting in this regard. Even if myo-sex is sexually antagonistic, the selective pressure to remove myo-sex from the female genome by incorporating it into the nonrecombining M-locus may be low because myo-sex expression is hardly detectable when it occasionally found itself in the females. On the other hand, leaky expression of myo-sex when present in females may confer sufficient selective pressure to keep myo-sex male-biased or closely linked to the M-locus.</p><p>Another scenario that could contribute to the persistence of recombination between myo-sex and the M-locus is that the M-locus may be flanked by recombination hotspots, which may have a high intrinsic rate of recombination. Recombination hotspots are well known in yeast and humans <ref type="bibr" target="#b18">(Gerton et al. 2000;</ref><ref type="bibr" target="#b34">Myers et al. 2005)</ref>, and they are also recently characterized in detail in Drosophila <ref type="bibr" target="#b9">(Chan et al. 2012;</ref><ref type="bibr" target="#b14">Comeron et al. 2012)</ref>. Minisatellites are associated with such recombination hotspots in insects and spiders <ref type="bibr" target="#b30">(Mita et al. 1994;</ref><ref type="bibr" target="#b43">Sezutsu and Yukuhiro 2000)</ref>. A genomic analysis of chromosomally mapped supercontigs demonstrated that the band 1q21, in which the A. aegypti M-locus resides, has an elevated coverage of minisatellites when compared with the neighboring regions <ref type="bibr">(Sharakhova M, unpublished data)</ref>. Although recombination hotspots can change locations, the M-locus of both A. aegypti and C. pipiens are proximal to the tandem repeated ribosomal genes <ref type="bibr" target="#b45">(Timoshevskiy et al. 2013)</ref>, which could promote recombination. Thus, it is possible that the nonrecombining M-locus is near recombination hotspots, which sets a higher threshold against the expansion of the nonrecombination region.</p><p>We also identified a BAC clone that is extremely malebiased in the Liverpool strain of A. aegypti, but not malebiased in the kh w strain of A. aegypti. Even in kh w where the BAC is not male-biased, the BAC is located directly adjacent to the M-locus. Interstrain variation in male-biased sequences is noteworthy as it suggests ongoing plasticity near the M-locus. Comparative analysis between strains of A. aegypti will likely allow us to narrow in on the M-locus, which may be conserved between different strains.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>FIG. 1.-The distribution of CQs from A. aegypti including: (A) known autosomal sequences, (B) all scaffolds, (C) all contigs, (D) all transcripts, (E) ESTs, and (F) BAC-ends. Arrows in (E) and (F) indicate peaks in the distribution of CQs near zero, the CQ expected for male-biased sequences.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIG. 2</head><label>2</label><figDesc>FIG.2.-Genomic DNA amplification of myo-sex and BAC NDL62N22 from five pools of five male and female mosquitoes from the (A) Liverpool and (B) kh w strains of A. aegypti. A ribosomal protein gene (RPS7) was amplified in both male and female samples to verify the integrity of the genomic DNA.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>FIG. 4.-Myo-sex expression. (A) The expression profile of myo-sex from RT-PCR on cDNA spanning developmental time points. PCR products indicate expression of myo-sex in the larva, pupa, and adult male. A ribosomal protein gene (RPS7) was amplified in both male and females samples to verify the integrity of the cDNA. (B) RT-PCR on males and recombinant females. cDNA were synthesized from ten pooled individuals in each sample. The recombinant females were the m/m J2sensor females shown in figure 3A. Thirty-two cycles of amplification were performed.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>FIG.7.-FISH on mitotic chromosomes with probes for BAC NDL62N22 in males hybridize to both the M-chromosome and the m-chromosome, indicating that the BAC is not male-biased in the kh w strain of A. aegypti. The signal is observed at band 1q21, the established location of the sex-determining locus.</figDesc><graphic coords="10,226.97,513.55,65.04,161.06" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>The Homomorphic Sex-Determining Chromosome of A. aegypti</figDesc><table /><note><p><p>GBE</p>Genome Biol. Evol. 6(1):179-191. doi:10.1093/gbe/evu002 Advance Access publication January 6, 2014</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>The CQs and the Ratio of Alignments Based on Relaxed BlastN Parameters to the Five Male-Biased Myosin ESTs and the Assembled Myo-sex Transcript (KF150020)</figDesc><table><row><cell>Sequence</cell><cell>Female</cell><cell>Male</cell><cell>CQ</cell><cell>Female</cell><cell>Male</cell><cell>Ratio of</cell></row><row><cell></cell><cell>Alignments</cell><cell>Alignments</cell><cell></cell><cell>Alignments</cell><cell>Alignments</cell><cell>Alignments</cell></row><row><cell></cell><cell>Bowtie</cell><cell>Bowtie</cell><cell></cell><cell>BlastN</cell><cell>BlastN</cell><cell></cell></row><row><cell>BQ789600.1</cell><cell>0</cell><cell>34</cell><cell>0</cell><cell>0</cell><cell>125</cell><cell>0</cell></row><row><cell>BQ789612.1</cell><cell>0</cell><cell>63</cell><cell>0</cell><cell>5</cell><cell>175</cell><cell>0.028</cell></row><row><cell>BQ789634.1</cell><cell>0</cell><cell>74</cell><cell>0</cell><cell>36</cell><cell>147</cell><cell>0.245</cell></row><row><cell>BQ789633.1</cell><cell>0</cell><cell>79</cell><cell>0</cell><cell>5</cell><cell>177</cell><cell>0.028</cell></row><row><cell>DV248113.1</cell><cell>0</cell><cell>91</cell><cell>0</cell><cell>0</cell><cell>149</cell><cell>0</cell></row><row><cell>Myo-sex transcript</cell><cell>0</cell><cell>899</cell><cell>0</cell><cell>180</cell><cell>1,820</cell><cell>0.098</cell></row></table><note><p>NOTE.-Sequences starting with BQ and DV are ESTs from VectorBase.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 1</head><label>1</label><figDesc>The Total Number of Sequences and the Number of Sequences with CQs less than 0.2 from the A. aegypti Scaffolds, Contigs, Transcripts, ESTs, and BAC-Ends</figDesc><table><row><cell>Sequences</cell><cell>Total Sequences</cell><cell>CQs &lt; 0.2</cell></row><row><cell>Known autosomal sequences</cell><cell>7,713</cell><cell>7</cell></row><row><cell>Supercontigs</cell><cell>4,505</cell><cell>40</cell></row><row><cell>Contigs</cell><cell>35,292</cell><cell>106</cell></row><row><cell>Transcripts</cell><cell>16,106</cell><cell>28</cell></row><row><cell>ESTs</cell><cell>221,753</cell><cell>747</cell></row><row><cell>BAC-ends</cell><cell>79,413</cell><cell>1,423</cell></row></table><note><p>NOTE.-In Table</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="180" xml:id="foot_0"><p>Genome Biol. Evol. 6(1):179-191. doi:10.1093/gbe/evu002 Advance Access publication January 6, 2014 Downloaded from https://academic.oup.com/gbe/article/6/1/179/666593 by guest on 04 July 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="182" xml:id="foot_1"><p>Genome Biol. Evol. 6(1):179-191. doi:10.1093/gbe/evu002 Advance Access publication January 6, 2014 Downloaded from https://academic.oup.com/gbe/article/6/1/179/666593 by guest on 04 July 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Downloaded from https://academic.oup.com/gbe/article/6/1/179/666593 by guest on 04 July 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="184" xml:id="foot_3"><p>Genome Biol. Evol. 6(1):179-191. doi:10.1093/gbe/evu002 Advance Access publication January 6, 2014 Downloaded from https://academic.oup.com/gbe/article/6/1/179/666593 by guest on 04 July 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="186" xml:id="foot_4"><p>Genome Biol. Evol. 6(1):179-191. doi:10.1093/gbe/evu002 Advance Access publication January 6, 2014 Downloaded from https://academic.oup.com/gbe/article/6/1/179/666593 by guest on 04 July 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_5"><p>Genome Biol. Evol. 6(1):179-191. doi:10.1093/gbe/evu002 Advance Access publication January 6, 2014</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="188" xml:id="foot_6"><p>Genome Biol. Evol. 6(1):179-191. doi:10.1093/gbe/evu002 Advance Access publication January 6, 2014 Downloaded from https://academic.oup.com/gbe/article/6/1/179/666593 by guest on 04 July 2024</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The authors thank <rs type="person">David Severson</rs> for providing the BAC clones and <rs type="person">Russell Durrett</rs> for running HGAP on the PacBio sequence data. The authors also thank <rs type="person">Frank Criscione</rs> for making the cDNA used for the expression profile and thank <rs type="person">Randy Saunders</rs> for mosquito care. This work was supported by <rs type="funder">National Institutes of Health Grants</rs> (<rs type="grantNumber">AI 77680</rs>, <rs type="grantNumber">AI105575</rs>, <rs type="grantNumber">AI094289</rs>, and <rs type="grantNumber">AI88035</rs>); and the <rs type="funder">Fralin Life Science Institute</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_hqT7mqA">
+					<idno type="grant-number">AI 77680</idno>
+				</org>
+				<org type="funding" xml:id="_huvpkeG">
+					<idno type="grant-number">AI105575</idno>
+				</org>
+				<org type="funding" xml:id="_pZ44vSE">
+					<idno type="grant-number">AI094289</idno>
+				</org>
+				<org type="funding" xml:id="_g6rwjUX">
+					<idno type="grant-number">AI88035</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Material</head><p>Supplementary files S1-S2, tables S1-S2, and figures S1-S2 are available at Genome Biology and Evolution online (<ref type="url" target="http://www.gbe.oxfordjournals.org/">http:// www.gbe.oxfordjournals.org/</ref>).</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">A transgenic sensor strain for monitoring the RNAi pathway in the yellow fever mosquito</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">N</forename><surname>Adelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Morazzani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Myles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aedes aegypti. Insect Biochem Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="705" to="713" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Germline excision of transgenes in Aedes aegypti by homing endonucleases</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Myles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">N</forename><surname>Adelman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Genetics Dev</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="578" to="585" />
+			<date type="published" when="2006">2013. 2006</date>
+		</imprint>
+	</monogr>
+	<note>A dynamic view of sex chromosome evolution</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Y-chromosome evolution: emerging insights into processes of Y-chromosome degeneration</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bachtrog</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Genet</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="113" to="124" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Identification of early zygotic genes in the yellow fever mosquito Aedes aegypti and discovery of a motif involved in early zygotic genome activation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Biedler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tae</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">33933</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Evolution of sex determining mechanisms</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Bull</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1983">1983</date>
+			<publisher>The Benjamin/Cummings Publishing Company, Inc</publisher>
+			<pubPlace>San Francisco (CA)</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Robust heatinducible gene expression by two endogenous hsp70-derived promoters in transgenic Aedes aegypti</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Carpenetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Myles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">N</forename><surname>Adelman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Insect Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="97" to="106" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Origin and evolution of the Drosophila Y chromosome</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Carvalho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Genet Dev</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="664" to="668" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Origin and evolution of Y chromosomes: Drosophila tales</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Carvalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Koerich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Clark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Genet</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="270" to="277" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Y chromosome and other heterochromatic sequences of the Drosophila melanogaster genome: how far can we go?</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Carvalho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetica</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="227" to="237" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Genome-wide fine-scale recombination rate variation in Drosophila melanogaster</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Jenkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Song</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1003090</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The degeneration of Y chromosomes</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Charlesworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Charlesworth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philos Trans R Soc Lond B Biol Sci</title>
+		<imprint>
+			<biblScope unit="volume">355</biblScope>
+			<biblScope unit="page" from="1563" to="1572" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Steps in the evolution of heteromorphic sex chromosomes</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Charlesworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Charlesworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Marais</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Heredity</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="118" to="128" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The birds and the bees and the flowers and the trees: lessons from genetic mapping of sex determination in plants and animals</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Charlesworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Mank</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="page" from="9" to="31" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Clements</surname></persName>
+		</author>
+		<title level="m">The biology of mosquitoes. Development, nutrition and reproduction</title>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>Chapman &amp; Hall</publisher>
+			<date type="published" when="1992">1992</date>
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The many landscapes of recombination in Drosophila melanogaster</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Comeron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ratnappan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bailin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1002905</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A unique Y gene in the Asian malaria mosquito Anopheles stephensi encodes a small lysinerich protein and is transcribed at the onset of embryonic development</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Criscione</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Saunders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Insect Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="433" to="441" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">MUSCLE: a multiple sequence alignment method with reduced time and space complexity</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Edgar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">113</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Development of a comparative genetic linkage map for Armigeres subalbatus using Aedes aegypti RFLP markers</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Ferdig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Taft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Severson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Christensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="41" to="47" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Global mapping of meiotic recombination hotspots and coldspots in the yeast Saccharomyces cerevisiae</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Gerton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="page" from="11383" to="11390" />
+			<date type="published" when="2000">2000</date>
+			<pubPlace>U S A.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Six novel Y chromosome genes in Anopheles mosquitoes discovered by independently sequencing males and females</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Hall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">273</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">CAP3: a DNA sequence assembly program</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Madan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="868" to="877" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">MrBayes: Bayesian inference of phylogenetic trees</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Huelsenbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ronquist</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="754" to="755" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Characterization of an Aedes aegypti bacterial artificial chromosome (BAC) library and chromosomal assignment of BAC clones for physical mapping quantitative trait loci that influence Plasmodium susceptibility</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jime ´nez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Debruyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lovin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Severson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Insect Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="37" to="44" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Use of subtracted libraries and macroarray to isolate developmentally specific genes from the mosquito</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Krebs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Brzoza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Lan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aedes aegypti. Insect Biochem Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="1757" to="1767" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Gene finding on the Y: fruitful strategy in Drosophila does not deliver in Anopheles</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Krzywinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Chrystal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Besansky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetica</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="369" to="375" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Isolation and characterization of Y chromosome sequences from the African malaria mosquito Anopheles gambiae</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Krzywinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Nusskern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Kern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Besansky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">166</biblScope>
+			<biblScope unit="page" from="1291" to="1302" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Ultrafast and memoryefficient alignment of short DNA sequences to the human genome</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Langmead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Trapnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Salzberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">25</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A sex-linked Ace gene, not linked to insensitive acetylcholinesterase-mediated insecticide resistance in Culex pipiens</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Malcolm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Insect Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="107" to="120" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The evolutionary dynamics of sex determination</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Marın</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">281</biblScope>
+			<biblScope unit="page" from="1990" to="1994" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Sex-linkage in Aedes aegypti</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mcclelland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans R Soc Trop Med Hyg</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<date type="published" when="1962">1962</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Highly repetitive structure and its organization of the silk fibroin gene</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ichimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>James</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Evol</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="583" to="592" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Comparative linkage maps for the mosquitoes (Culex pipiens and Aedes aegypti) based on common RFLP loci</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Severson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Christensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hered</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="160" to="164" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Chromosomal differentiation in two species of Aedes and their hybrids revealed by Giemsa C-banding</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Motara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Rai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chromosoma</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="125" to="132" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<author>
+			<persName><forename type="first">M</forename><surname>Motara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Giemsa C-banding patterns in Aedes (Stegomyia) mosquitoes</title>
+		<imprint>
+			<date type="published" when="1978">1978</date>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="51" to="58" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">A fine-scale map of recombination rates and hotspots across the human genome</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bottolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mcvean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Donnelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">310</biblScope>
+			<biblScope unit="page" from="321" to="324" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Genome sequence of Aedes aegypti, a major arbovirus vector</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Nene</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">316</biblScope>
+			<biblScope unit="page" from="1718" to="1723" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">X and Y chromosomes of Aedes aegypti (L.) distinguished by Giemsa C-banding</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Newton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Southern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Wood</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chromosoma</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="41" to="49" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Maintenance or loss of genetic variation under sexual and parental antagonism at a sex-linked locus</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Patten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Haig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Evolution</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="2888" to="2895" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">A comparative study of mosquito karyotypes</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Entomol Soc Am</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="160" to="170" />
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Sex chromosomes and the evolution of sexual dimorphism</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Rice</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Evolution</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="735" to="742" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The accumulation of sexually antagonistic genes as a selective agent promoting the evolution of reduced recombination between primitive sex chromosomes</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Rice</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Evolution</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="911" to="914" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Expression analysis and knockdown of two antennal odorant-binding protein genes in Aedes aegypti</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Sengul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Insect Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">171</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Linkage map organization of expressed sequence tags and sequence tagged sites in the mosquito</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Severson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Meece</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lovin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Saha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Morlais</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aedes aegypti. Insect Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="371" to="378" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Dynamic rearrangement within the Antheraea pernyi silk fibroin gene is associated with four types of repetitive units</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sezutsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yukuhiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Evol</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="329" to="338" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Imaginal discs-a new source of chromosomes for genome mapping of the yellow fever mosquito Aedes aegypti</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Sharakhova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Negl Trop Dis</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">1335</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">An integrated linkage, chromosome, and genome map for the yellow fever mosquito Aedes aegypti</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Timoshevskiy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Severson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Sharakhov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Sharakhova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Negl Trop Dis</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2013">2013. 2052</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Fluorescent in situ hybridization on mitotic chromosomes of mosquitoes</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Timoshevskiy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Sharakhov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Sharakhova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vis Exp</title>
+		<imprint>
+			<biblScope unit="page">4215</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Retrogenes reveal the direction of sex-chromosome evolution in mosquitoes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Toups</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Hahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="page" from="763" to="766" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">An initial linkage map of the West Nile Virus vector Culex tarsalis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Venkatesan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">W</forename><surname>Broman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sellers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Rasgon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Insect Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="453" to="463" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Sex-biased gene expression at homomorphic sex chromosomes in emus and its implication for sex chromosome evolution</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vicoso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">B</forename><surname>Kaiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bachtrog</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="6453" to="6458" />
+			<date type="published" when="2013">2013</date>
+			<pubPlace>U S A.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">OrthoDB: the hierarchical catalog of eukaryotic orthologs in 2011</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Waterhouse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Zdobnov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tegenfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Kriventseva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="283" to="D288" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,2574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Anopheles gambiae Comparative Genome and Proteome Analysis of</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Evgeny</forename><forename type="middle">M</forename><surname>Zdobnov</surname></persName>
+						</author>
+						<title level="a" type="main">Anopheles gambiae Comparative Genome and Proteome Analysis of</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5A8733ED57F10B6496368DC94AB50A3A</idno>
+					<idno type="DOI">10.1126/science.1077061</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-10-22T14:59+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"> <ref type="bibr">1661 (2002)</ref><p>. <ref type="bibr" target="#b73">16</ref>. A mate pair is a set of two sequence reads derived from either end of a clone insert such that their relative orientation and distance apart are known. 17. Unitigs are sets of sequence reads that have been uniquely assembled into a single contiguous sequence such that no fragment in the unitig overlaps a fragment not in the unitig. The depth of reads in a unitig and the mate pair structure between it and other unitigs are used to determine whether a given unitig has single or multiple copies in the genome. We define contigs as sets of overlapping unitigs. Unlike scaffolds, which comprise ordered and oriented contigs, unitigs and contigs do not have internal gaps. 18. A nucleotide position was considered to be a SND if the respective column of the multialignment satisfied the following three criteria. First, two different bases (A, C, G, T, or unknown) had to be observed, each in at least two fragments. Second, the total number of fragments covering the column had to be Յ15 [halfway between single (10ϫ) and double (20ϫ) coverage] to reduce the frequency of false positives resulting from overcollapsed repeats. Third, we eliminated all but one of a run of adjacent SND columns so that block mismatches or (more likely) block indels (insertions/deletions) were counted only once. 19. SND "balance" is the ratio of the number of fragments showing the second most frequent character in a column to the number showing the most frequent character. 20. SND "association" shows, for a sliding window of 100 kb, the fraction of polymorphic columns that can be partitioned into two consistent haplotypes. For an SND column A of the multiple sequence alignment and the previous such column B, each fragment might have one of four possible haplotype phases: AB, Ab, aB, or ab, where the upper-and lowercase letters indicate alternative nucleotides. We say that columns A and B are consistent if only two of these four haplotypes are present. For the test to be nontrivial, we require that at least two fragments be observed with each of the two haplotype phases.</p><p>Comparison of the genomes and proteomes of the two diptera Anopheles gambiae and Drosophila melanogaster, which diverged about 250 million years ago, reveals considerable similarities. However, numerous differences are also observed; some of these must reflect the selection and subsequent adaptation associated with different ecologies and life strategies. Almost half of the genes in both genomes are interpreted as orthologs and show an average sequence identity of about 56%, which is slightly lower than that observed between the orthologs of the pufferfish and human (diverged about 450 million years ago). This indicates that these two insects diverged considerably faster than vertebrates. Aligned sequences reveal that orthologous genes have retained only half of their intron/exon structure, indicating that intron gains or losses have occurred at a rate of about one per gene per 125 million years. Chromosomal arms exhibit significant remnants of homology between the two species, although only 34% of the genes colocalize in small "microsyntenic" clusters, and major interarm transfers as well as intra-arm shuffling of gene order are detected.</p><p>The fruit fly Drosophila melanogaster (in the following, Drosophila) and the malaria mosquito Anopheles gambiae (in the following, Anopheles) are both highly adapted, successful dipteran species that diverged about 250 million years ago <ref type="bibr" target="#b58">(1,</ref><ref type="bibr" target="#b59">2)</ref>. They share a broadly similar body plan and a considerable number of other features, but they are also substantially different in terms of ecology, morphology, life style, and genome size [the Anopheles genome is twice the size of that of Drosophila <ref type="bibr" target="#b60">(3)</ref><ref type="bibr" target="#b61">(4)</ref><ref type="bibr" target="#b62">(5)</ref>]. A prominent difference is the ability of Anopheles to feed on the blood of specific hosts. Hematophagy is essential for the female mosquito to produce eggs and propagate; it also has been exploited by viruses and parasites that use Anopheles as a vehicle for transmission among vertebrates. Hematophagy is linked to specific host-seeking abilities as well as to nutritional challenges and requirements distinct from those of Drosophila. Here we aim to compare the two genomes as well as the derived proteomes to understand how they reflect the common and distinct features of the species.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conservation of the Proteomes</head><p>Extent of similarity at the protein level. We first compared the genomes at the protein level, considering The proteins were classified into four categories, according to their evolutionary relationships (Fig. <ref type="figure">1</ref>). The first includes Anopheles proteins with one clearly identifiable counterpart in Drosophila and vice versa [1:1 orthologs <ref type="bibr" target="#b63">(6)</ref>]. The function of these proteins is most likely conserved <ref type="bibr" target="#b63">(6,</ref><ref type="bibr" target="#b64">7)</ref>. We used two different approaches (reciprocal best matches and derivation of orthologous groups; see materials and methods) that produced similar results, identifying 6089 protein pairs as clear orthologs (that is, 47% of the Anopheles and 44% of the Drosophila proteins). The second category includes 1779 Anopheles proteins (Fig. <ref type="figure">1</ref>) that belong to orthologous groups <ref type="bibr" target="#b64">(7)</ref> in which gene duplication has occurred in one or both species after divergence [that is, paralogy <ref type="bibr" target="#b63">(6)</ref>], resulting in "many-to-many" orthologs. The third category includes 3590 Anopheles predicted proteins (Fig. <ref type="figure">1</ref>) that have homologs in Drosophila and/or other species but without easily discernable orthologous relationships (for example, homologs might only share a domain or be divergent members of larger families). A subset of this group in Anopheles consists of 1283 proteins (Fig. <ref type="figure">1</ref>) that show little or no homology in Drosophila but instead have best matches to other species. Finally, for the remaining proteins (1437 in Anopheles and 2570 in Drosophila), no detectable homologs were found in any other species with a fully sequenced genome; these might be encoded by new or quickly evolving genes. These genes are clearly the shortest when compared to the genes of the other categories (Fig. <ref type="figure">1</ref>).</p><p>All the above numbers and derived estimates are necessarily approximations. It must be emphasized that the annotation of genomes and proteomes is an ongoing effort and that various limitations here and elsewhere can lead to over-or underestimates affecting genes and particular biological systems (table <ref type="table" target="#tab_4">S1</ref>). It is likely that, as in other animal genomes, some Anopheles genes have not been sequenced yet (they might be located in highly polymorphic regions or in highly repetitive contexts); the assembly has some errors [in Anopheles, two different and sometimes very divergent haplotypes caused con-siderable assembly difficulties <ref type="bibr" target="#b62">(5)</ref>]; gene predictions are subject to a considerable error rate, in particular at the exon level; and homology-based analysis methods sometimes lack the sensitivity and selectivity required for precise statements (table <ref type="table" target="#tab_4">S1</ref>). Yet current data and methods do produce results exceeding the 70% accuracy level <ref type="bibr" target="#b65">(8)</ref>, and thus general conclusions should be reasonably reliable.</p><p>The core of conserved proteins. The 1:1 orthologs (6089 pairs) can be considered the conserved core. Although automated gene predictions may sometimes be imperfect and incomplete [for instance, because of the presence of unannotated small exons (fig. <ref type="figure">S1</ref> and table S1, footnote d)], identities are usually distributed throughout much of the length of the orthologs' sequence. The average sequence identity is 56%, as compared to 61% for the 7350 orthologs shared by the genomes of humans <ref type="bibr" target="#b66">(9)</ref> and pufferfish <ref type="bibr" target="#b67">(10)</ref>, which diverged approximately 450 million years age <ref type="bibr" target="#b67">(10)</ref>. This indicates that insect proteins diverge at a higher rate than vertebrate proteins, possibly because insects have a substantially shorter life cycle, a different reproductive strategy, and a larger effective population size, and may experience different selective pressures.</p><p>Putative effects of selection are also evident in the wide range of sequence similarities among the 6089 orthologs of Anopheles and Drosophila (Fig. <ref type="figure">2A</ref>). Differences in average sequence similarity are observed among 11 functional classes based on Gene Ontology <ref type="bibr" target="#b68">(11)</ref> classification and manual assignment; proteins involved in immunity 1 European Molecular Biology Laboratory, Meyerhofstrasse 1, 69117 Heidelberg, Germany. 2 Wellcome Trust Center for Human Genetics, Roosevelt Drive, Oxford OX3 7BN, UK. 3 Celera Genomics, 45 West Gude Drive, Rockville, MD 20850, USA. <ref type="foot" target="#foot_0">4</ref> Department of Biological Sciences, Center for Molecular Microbiology and Infection, Imperial College, London SW7 2AZ, UK. 5 University of Arizona, Tucson, AZ 85721-0088, USA. 6 European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK. 7 Institute of Cytology and Genetics, Sibirian Division of the Russian Academy of Sciences, 630090 Novosibirsk, Russia. 8 University of California, Berkeley, CA 94720 -3200, USA. 9 Institute for Molecular Biology and Biotechnology, Foundation for Research and Technology Hellas, Post Office Box 1527, GR-711 10 Heraklion, Crete, Greece, and University of Crete, GR-711 10 Heraklion, Crete, Greece. 10 Colorado State University, Fort Collins, CO 80523-1671, USA. 11 The Institute for Genomic Research, 9712 Medical Center Drive, Rockville, MD 20850, USA. 12 Faculty of Life Sciences, Bar-Ilan University, Ramat-Gan, Israel. 13 Genoscope/Centre National de Sequencage and CNRS-UMR 8030, 2 rue Gaston Cremieux, 91057 Evry Cedex 06, France. 14  show the highest divergence rates [see also <ref type="bibr" target="#b69">(12)</ref>], and structural proteins are the most conserved (Fig. <ref type="figure">2B</ref>). Notwithstanding these indications of rapid gene divergence, the orthologous proteins constitute a core of conserved functions and contribute to basic biological processes. An example is genes involved in early embryonic development. Recent descriptions in Anopheles albitarsis <ref type="bibr" target="#b70">(13)</ref> indicate that the basic events in early embryogenesis are conserved between Drosophila and Anopheles. In a compilation of 315 early developmental genes in Drosophila (fig. <ref type="figure">S2</ref> and materials and methods), 251 genes showed a clear single ortholog in Anopheles, and manual processing added another 14 single matches. Thus, ϳ85% of the developmental genes have single orthologs: a much higher percentage than the 47% noted for the genome as a whole. The conservation of gene content is also seen in specific signaling pathways. For example, almost all members of the decapentaplegic signaling pathway are represented by individual orthologous genes: the upstream regulator (dl), the ligand (dpp), extracellular accessory proteins for shaping the ligand gradient (sog and tok), the receptors (put, tkv, and sax), the intracellular signaling partners (mad and med), and a downstream target (shn). Only two elements of the pathway appear to be missing in Anopheles: the negative regulator brinker and the ligand scw. brinker is dispensable for some instances of dpp signaling in Drosophila <ref type="bibr" target="#b71">(14)</ref>, so it might be a relatively recent addition to the pathway.</p><p>Family expansions and reductions. Differences in functions are suggested by increases and decreases in protein family sizes. They can indicate adaptations to environment and life strategies, leading to changes in cellular and phenotypic features. Family expansions can be measured in several ways depending on how narrowly a protein family is defined and what resolution is required. At a low resolution, an established measure is the difference in domain content of the genomes, as reflected in the InterPro resource <ref type="bibr" target="#b72">(15,</ref><ref type="bibr" target="#b73">16)</ref>, which contains manually curated domain collections such as PFAM <ref type="bibr" target="#b74">(17)</ref> and SMART <ref type="bibr" target="#b75">(18)</ref>. A complementary approach is cluster analysis of homologous protein families in both Anopheles and Drosophila, which does not require the existence of annotated domains. A higher resolution is provided by the analysis of the many-to-many orthologs; these are less strictly defined than the "oneto-one" orthologs but can still be assigned to a single ancestral gene, thus implying duplications after speciation. An example of such an orthologous group is the epsilon subunit of the adenosine triphosphate-synthase complex. This subunit is encoded by two genes in both Anopheles and Drosophila; a phylogenetic tree of the protein sequences supports the interpretation that they shared a singlecopy ancestral gene that was present at the time of speciation and was duplicated independently later (fig. <ref type="figure" target="#fig_0">S3</ref>).</p><p>The many-to-many orthologous groups reveal many uneven expansions or reductions; often a single protein in one of the two organisms has several counterparts in the other. By this measure, recent gene duplications seem to have occurred considerably more often in Anopheles than in Drosophila (fig. <ref type="figure" target="#fig_1">S4</ref>). Although this observation can partly be explained by assembly artifacts due to the two haplotypes in Anopheles (table <ref type="table" target="#tab_4">S1</ref>, footnote b), numerous family expansions are unequivocal. Arthropod-specific genes encoding cuticular proteins, for example, are particularly dynamic in terms of duplications: A few of the genes present in the common ancestor sometimes gave rise to groups of 10 or more genes in one of the two species, partially balanced by losses in other branches of the family; however, overall the number of cuticle genes in Anopheles as compared to Drosophila is higher by one-third (Table <ref type="table" target="#tab_4">1</ref>).</p><p>For an unbiased view of broadly defined protein families and their expansions, we have tabulated differences in family sizes derived via single-linkage clustering (table <ref type="table" target="#tab_6">S2</ref>). The most notable difference is a family of 27 hypothetical Anopheles proteins with no counterpart in Drosophila. Only a manual search for homology provided evidence for a distant similarity to helicases of the DexD subfamily <ref type="bibr" target="#b76">(19)</ref>. Although cluster analysis reveals that several uncharacterized protein families contribute to the phenotypic variations, a clearer picture of functional differences emerges through the comparison of known domain families (Table <ref type="table" target="#tab_4">1</ref>) <ref type="bibr" target="#b62">(5)</ref>. The most obvious one is a large expansion of mosquito proteins containing a domain resembling the COOH-terminus of the beta and gamma chains of fibrinogen (FBN) (Table <ref type="table" target="#tab_4">1</ref> and table <ref type="table" target="#tab_6">S2</ref>). FBN domains were found originally in human blood coagulation proteins but in invertebrates are thought to be involved mostly in the innate immune system <ref type="bibr" target="#b77">(20)</ref><ref type="bibr">(21)</ref><ref type="bibr">(22)</ref><ref type="bibr">(23)</ref><ref type="bibr">(24)</ref>. In order to quantify the expansion of the FBN family, we reconstructed the genes (many of those predicted appeared to be truncated artificially), identified additional members in genomic DNA (table <ref type="table" target="#tab_4">S1</ref>, footnote e), and removed likely pseudogenes and allelic variants. A phylogenetic tree of the resulting 58 Anopheles and 13 Drosophila FBN genes revealed that they largely belong to two distinct species-specific clades (Fig. <ref type="figure" target="#fig_0">3</ref>) and sur-  <ref type="table" target="#tab_4">1</ref>), indicating the overall similarity of domain content of the two proteomes. Nevertheless, small differences in family sizes can become biologically significant when a broader context is studied, such as metabolic pathways or multipathway systems such as immunity <ref type="bibr" target="#b69">(12)</ref> or the management of oxidative stress.</p><p>A significant load of reactive oxygen species (ROS) is created by the tracheal respiratory system of insects and their exposure to ionizing ultraviolet radiation. Hematophagy represents an additional challenge, because blood meal-derived heme also results in ROS production. Therefore, we performed a species comparison with special emphasis on three biochemical pathways (fig. <ref type="figure">S5</ref>).</p><p>The abundant thiol tripeptide glutathione (GSH) can directly scavenge ROS but also functions as an oxidizable substrate for enzymes such as glutathione-dependent peroxidases and glutaredoxins, permitting efficient neutralization of peroxides and disulfide reduction. GSH also permits detoxification by glutathione S-transferases (GSTs) <ref type="bibr">(25)</ref>. Because the key enzyme for regeneration of GSH, glutathione reductase (GR), appears to be absent from both Drosophila and Anopheles (26) (Table <ref type="table" target="#tab_6">2</ref>), thioredoxins (Trx's) take over this role and are themselves regenerated by an NADPH-coupled enzyme, TrxR (NADPH, reduced nicotinamide adenine dinucleotide phosphate). Trx can also more directly reduce peroxides via thioredoxin peroxidase enzymes (TPx's). In this pathway, Anopheles not only has a smaller number of Trx genes (three versus seven, as compared to Drosophila) but also lacks the ortholog of the mitochondrial-specific TrxR-2 gene <ref type="bibr">(26)</ref>. The underrepresentation of GSH and Trxutilizing enzymes in Anopheles is unexpected given the challenges resulting from hematophagy. However, microarray experiments indicate that certain mosquito TPx and GST enzymes are highly induced in female mosquitoes after the blood meal <ref type="bibr">(27)</ref>. In the second pathway [the conversion of superoxide anions to hydrogen peroxide and hence to O 2 and H 2 O by the superoxide dismutase (SOD)/catalase system], differences in enzyme numbers are also minor: Anopheles has one less SOD gene and one extra catalase gene.</p><p>Major differences in gene numbers were only observed in the peroxidase (Px) system, which serves to nonspecifically catalyze the oxidation of diverse substrates. A Px isolated from the salivary glands of Anopheles albimanus has been implicated in blood feeding <ref type="bibr">(28)</ref>, and preliminary analysis indicates that Px's are important during the invasion of the mosquito midgut epithelium by malaria parasites <ref type="bibr">(29)</ref>. We identified 18 Px's in Anopheles as compared to only 10 in the Drosophila genome. The expanded family members cluster tightly with the salivary Px of A. albimanus (fig. <ref type="figure" target="#fig_2">S6</ref>). It is thus likely that A. gambiae, and possibly other mosquitoes, have been selected for additional copies of genes encoding such peroxidases as part of the adaptation to the blood-feeding process.</p><p>Gene genesis and gene loss. More remarkable than the expansion or reduction of family sizes is the genesis or loss of entire gene families. A total of 1437 predicted genes in Anopheles have no detectable homology with genes of other species; 522 of these have putative paralogs only within Anopheles, and 575 are supported by expressed sequence tag (EST) matches, including at least 26 genes expressed in the adult female salivary glands. The category of genes unique to either Anopheles or Drosophila probably contains a  <ref type="table" target="#tab_4">S1</ref> for their genomic coordinates) were aligned to 13 Drosophila homologs (prefix CG, and Scabrous), human Fico-lin1 (protein accession number BAA12120), human FBN gamma (protein accession number P02679), Tachypleus tridentatus tachylectin 5A (protein accession number BAA84188), and Biomphalaria glabratas BgMFREP2 (protein accession number AAK13550), and a sequence divergence tree was built (Anopheles genes of known cytogenetic locations are linked to their respective map positions with lines of the same color for each chromosomal location). For Anopheles, only the last five digits of the ENSEMBL gene IDs are indicated. Correlation of sequence divergence, exon/intron organization, and chromosomal location is apparent for the Anopheles members. Of the 20 annotated FBN genes mapping to 39C and 42B of the third chromosome, only two appear to have introns, whereas the majority of the other annotated members have introns. Of the 13 Drosophila members, only two pairs of closely related genes, CG30280/ CG30281 and CG1889/CG1791, map to the same position, 2R-Div 58D2 and X-Div 9A3, respectively. mixture of previously existing genes mutated beyond recognition [numerous cases have been reported for Drosophila <ref type="bibr">(30)</ref>] as well as genes arising through an ongoing high rate of gene genesis <ref type="bibr">(31)</ref>. Only 84 of the 2570 genes unique to Drosophila have functional annotations mapped to Gene Ontology terms; among those are small quickly evolving proteins such as neuropeptides or antibacterial peptides but also a number of proteins implicated in the formation of the chorion or the puparium.</p><p>A simple strategy for identifying gene losses is to search for genes that are present in only one of the two insects but that do have orthologs in other species. Although it is difficult to prove loss at this stage of the sequencing and assembly (table S1, footnote f ), many of the observed cases seem biologically relevant. For example, four Anopheles paralogs without a counterpart in Drosophila are similar to a human gene encoding leukotriene B4 12-hydroxy dehydrogenase, an enzyme that can inactivate the proinflammatory leukotriene B4. It is tempting to speculate that Anopheles has retained or acquired this gene to interfere with inflammatory reactions in the human host. Other genes found in Anopheles have been entirely limited to vertebrates so far (they are absent from Dro-sophila, Caenorhabditis elegans. and Saccharomyces cerevisiae); a specific example is the human cabin1 gene, which encodes a calcineurin-binding intracellular regulatory protein implicated in controlling T cell apoptosis <ref type="bibr">(32,</ref><ref type="bibr">33)</ref>, a process limited to vertebrates. The presence of a clear Anopheles ortholog to cabin1 implies that the functional spectrum and phylogenetic breadth of this gene family are probably much wider than initially reported.</p><p>Multiple losses and gains of genes can also be revealed by analyzing orthology across several species. The observed phylogenetic distribution of the orthologs (Fig. <ref type="figure" target="#fig_1">4</ref>) is largely in agreement with the current consensus on eukaryotic phylogeny, with deviations indicating the prevalence of gene loss in the various species. In particular, any widespread orthologs missing from both Anopheles and Drosophila ( Table 2) are putative insect-specific gene losses and may be associated with distinct features of insect physiology. For example, the absence of several enzymes involved in sterol metabolism ( Table <ref type="table" target="#tab_6">2</ref>) reflects the known inability of insects to synthesize sterols <ref type="bibr">(34 )</ref>. Similarly, the requirement for niacine/nicotinic acid <ref type="bibr">(35)</ref> is reflected by the absence of three enzymes needed in a pathway leading to nicotinate ( Table <ref type="table" target="#tab_6">2</ref>). Another intriguing finding is the absence of the DNA repair enzyme uracil-DNA glycosylase. This enzyme is required in organisms in which genomic DNA is methylated at cytosine residues, because methylation can lead to spontaneous deamination of cytosine to uracil, which then needs to be removed. Drosophila has long been known to have no or only very little DNA methylation <ref type="bibr">(36 )</ref>, and it would seem that it shares this feature with Anopheles, suggesting that either DNA methylation is absent in most if not all insects or that another enzyme family in insects took over the role of uracil-DNA glycosylase.</p><p>A total of 579 orthologs are restricted to Anopheles and Drosophila (they do not even share domains or short motifs with genes in other organisms), and these should help determine insect-specific features. So far, only about 100 of these have been functionally annotated in Drosophila. Many are predicted to code for specific odorant and taste receptors, cuticle proteins, pheromone and pheromone-binding proteins, and insect-specific defense molecules (such as prophenoloxidase and antibacterial proteins and peptides).</p><p>Comparison of pseudogene content. The dynamics of gene content evolution also are (bold text) and 10 Ϫ1 (bold italic text) are indicated. The significance is estimated by means of a chi square test with respect to the total number of genes in the genomes and Dunn-Sidak corrections <ref type="bibr" target="#b123">(66)</ref>. The background of human, pufferfish, and C. elegans family sizes is given. Shown are the total numbers of genes matching a signature, the percent of the total number of genes in that genome, and the rank of the family size as compared to others (in parentheses). Families with considerable fractions of proteins that are viral or transposon-derived are marked in italics at left (see also table <ref type="table" target="#tab_4">S1</ref>, footnote e).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>InterPro name</head><p>A For a more reliable estimate of the prev-alence of pseudogenes in both species, we analyzed the ratio of nonsynonymous (K a ) to synonymous (K s ) substitutions in all intergenic regions with similarity to known proteins (see materials and methods). K a /K s ratios tend to be around one for pseudogenes and are lower for functional genes, because mutations leading to amino acid replacements with functional consequences are selected against <ref type="bibr">(38)</ref>. Our estimates of the number of neutrally evolving pseudogenes range from 439 to 1319 in Anopheles and from 162 to 396 in Drosophila. Although from these ranges we cannot postulate a twofold difference in pseudogene content between the two genomes, the number of pseudogenes in both species is clearly higher than indicated by the ORF disruption counts. In any case, the pseudogene content in Anopheles and Drosophila seems considerably lower than those of the mouse and human genomes, in which the same method identifies (with an associated error margin of Ͻ5%) far more than 10,000 pseudogenes <ref type="bibr">(39)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dynamics of Gene Structure</head><p>Intron gain and loss. Pairwise alignment of the 6089 1:1 orthologous genes provides unequivocal support for the conclusion that Drosophila has experienced a reduction of noncoding regions <ref type="bibr" target="#b62">(5,</ref><ref type="bibr">40)</ref>; equivalent introns in Drosophila have only half the length of Anopheles, whereas exon lengths and intron frequencies are roughly similar (Table <ref type="table" target="#tab_7">3</ref>).</p><p>There are also considerable differences in intron positions. In only 394 out of 5196 orthologous gene pairs having one or more introns, the positioning of all the introns agrees down to the base pair (half of these genes have only one intron). In total, 11,007 out of 20,161 Anopheles introns in 1:1 or- †Apparent lack of a main catabolic route of histidine. Accordingly, mosquitoes excrete a large amount of histidine in the feces after a blood meal <ref type="bibr" target="#b124">(67)</ref>. In addition, insects may not need to degrade much histidine because they use it heavily: histidine constitutes the main pH buffer in the hemolymph of insects. ‡Phosphoarginine, and not phosphocreatine, is the principal reserve of high-energy phosphate compounds in insect muscle <ref type="bibr" target="#b125">(68)</ref>. The normal pathway for creatine synthesis appears absent; alternative routes may remain to be discovered. §Threonine is an essential amino acid in insects.</p><p>thologs have equivalent positions in Drosophila; conversely, almost 10,000 introns have either been lost or gained. The exact number depends on the extent of lateral intron movement ["intron sliding" <ref type="bibr">(41)</ref><ref type="bibr">(42)</ref><ref type="bibr">(43)</ref>].</p><p>Our analysis reveals this effect to be smaller than 1% [when allowing introns to slide up to 10 base pairs (bp) (fig. <ref type="figure">S7</ref> and table <ref type="table" target="#tab_7">S3</ref>)]. Thus, because about 5000 genes were considered in species with 250-million-year (My) divergence time, it follows that about one intron has been gained or lost per gene per 125 My. The intron/exon structure appears to be more conserved when alternative splicing is involved. An example is the Drosophila Dscam gene, which has been reported to encode up to 38,000 proteins through extensive alternative splicing <ref type="bibr">(44)</ref>. This is possible because there are three different cassettes of duplicated exons that can generate exponential combinations of splice variants (44) (Fig. <ref type="figure">5</ref>). Because only one gene product is annotated in both species compared, we used an algorithm for the detection of exon duplications <ref type="bibr">(45)</ref> to confirm that the numbers of exons within the cassettes are at least similar in Anopheles. The intervening nonduplicated exons (black in Fig. <ref type="figure">5</ref>) show a larger degree of intron gain or loss. Although a large-scale study is required, alternative splicing seems to be conserved in both species in several examined cases. For example, all 15 known splice forms in the myosin heavy chain <ref type="bibr">(46)</ref> have counterparts in their Anopheles orthologs, as revealed by genomic structure comparison, alignment of each splice variant, and EST mapping (fig. <ref type="figure">S8</ref>).</p><p>Variability of noncoding regions. Introns are expected to diverge rapidly <ref type="bibr">(47)</ref>, and indeed only 160 (1.7%) of the 9632 introns in equivalent positions showed significant sequence similarity (below the default BLAST threshold of E ϭ 0.01). Similarly, an analysis of 5' and 3' untranslated regions (UTRs) of all 6089 1:1 orthologs (operationally defined as 10,000 bp to the 5' or 3' ends of terminal exons) only revealed sequence homologies in 228 5' UTR regions (3.74%) and 243 3' UTR regions (3.99%). We also searched for homology in 547 intergenic regions between pairs of orthologs that remained closely linked (see below). Of these regions, 57 (10.42%) had sequence similarity that had not been detected in the searches mentioned above.</p><p>Altogether, only 687 matches between corresponding potentially noncoding genomic regions have been observed. However, as many as 55 of these (8%) are similar to proteins; that is, they are likely to encode parts of genes or pseudogenes. In the remaining 632 matches, additional coding sequences and noncoding RNAs are likely to be contained. Thus, less than 3% of the areas compared contain conserved noncoding regions (most of which are short), supporting the fast divergence of noncoding DNA. Overall, fewer noncoding regulatory regions are conserved between the two diptera than between pufferfish and mammals <ref type="bibr" target="#b67">(10,</ref><ref type="bibr">48,</ref><ref type="bibr">49)</ref>. Red circles indicate phylogenetic distributions that deviate from the common consensus of eukaryotic phylogeny, indicating putative losses and/or genes missed during the sequencing and annotation process. The tree shown on top of the figure has some nonbifurcating areas, because the exact location of C. elegans (or yeast/plants) is still under debate <ref type="bibr" target="#b120">(63)</ref>. Closer inspection of the patterns of losses provides some support for grouping C. elegans with arthropods [as stated by the ecdysozoan theory (64)]: For example, the most frequent loss pattern (row 7) is more parsimonious when placing C. elegans with insects, as this requires only single losses, whereas otherwise double losses are required. However, when less emphasis is placed on the parsimony of losses and more emphasis on the amount of shared genes, C. elegans does not group with arthropods (65) (Note that both approaches might be dominated by niche or life-style adaptations that do not always correspond to common ancestry.) Fig. <ref type="figure">5</ref>. Comparison of the gene structures of Dscam genes. Dscam has been reported to encode up to 38,000 distinct proteins in Drosophila through alternative splicing from cassettes of duplicated exons [blue, red, and yellow <ref type="bibr">(44)</ref>]. The structure of the noncassette exons (black) has been modified by intron losses and insertions, but the alternative splicing cassettes are conserved. Thus, Anopheles Dscam is probably able to code for the same or a highly similar number of proteins. The trend of longer introns in Anopheles also applies to Dscam.  <ref type="bibr">(51)</ref>, microsynteny is difficult to define and any assignment is operational. For the detection of conserved gene order within a species, triples of homologous genes have been used previously <ref type="bibr" target="#b62">(5,</ref><ref type="bibr">52,</ref><ref type="bibr">53)</ref>. For comparisons between the two genomes, we chose a set of criteria that should be both more sensitive and more selective at this evolutionary distance. In brief, we first required neighborhood conservation of two homologs, allowing no more than five unrelated genes in the intervening DNA; this resulted in 7992 candidate microsynteny regions. The additional requirement of having at least two orthologous groups (1:1 or manyto-many orthologs) within such a region re-duced the number to 948 confirmed microsynteny blocks. The largest of these contained 8 and 31 homologous genes in Anopheles and Drosophila, respectively, including 7 orthologous groups; others contained up to 12 orthologous groups (Fig. <ref type="figure" target="#fig_2">6</ref>). Most of the microsynteny blocks are much smaller and show substantial variation in gene content as well as evidence of numerous local inversions, translocations, and gene duplications (Fig. <ref type="figure" target="#fig_2">6</ref>). In total, 4099 Anopheles genes (2962 orthologs) and 4244 Drosophila genes (2866 orthologs) were assigned to the 948 confirmed microsynteny blocks. We consider as the best measure of partially retained local neighborhood the fraction of orthologs that remain within confirmed microsynteny blocks; this amounts to about 34% in Anoph-eles, representing a significant level of highly local neighborhood conservation. Again, the fraction is considerably lower than the corresponding one for pufferfish and humans and supports the faster radiation of insects as compared to vertebrates. At the microsynteny level, we did not detect any obvious, recent segmental duplications within the Anopheles genome that would involve more than two orthologous groups (but see table <ref type="table" target="#tab_4">S1</ref>, footnote h, for artificial duplications). Chromosome mapping. We examined the similarity of chromosomal arms in the two species and the degree of long-range conservation of gene arrangements within corresponding arms (macrosynteny). Both Anopheles and Drosophila have five major chromosomal arms (X, 2L, 2R, 3L, and 3R, plus a small chromosome 4 in Drosophila melanogaster). In the genus Drosophila, reassortment of recognizable chromosomal arms occurs by fission and fusion at the centromeres <ref type="bibr">(53)</ref>. To study the degree of common ancestry among the Anopheles and Drosophila chromosomes, we mapped the 6089 1:1 orthologs and the 948 microsynteny blocks onto the chromosomal arms. The statistical significance of the mapping (Fig. <ref type="figure">7</ref>) permitted clear assignments, most of which were confirmed by both data sets, although the microsynteny mapping showed less significance because of fewer data points (Fig. <ref type="figure">7</ref>). The predominant 1:1 homologies between the chromosomal arms of the two diptera have been inferred previously <ref type="bibr">(54)</ref> and, with both genomes completed, can now be confirmed by analysis of homologous protein sequences. In addition, remnants of synteny and the distribution of orthologs (Fig. <ref type="figure">7</ref>) reveal a more detailed and complex relationship. The most conserved pair of chromosomal arms is Dm2L and Ag3R, with 76% of the orthologs and 95% of microsynteny blocks in Dm2L mapping to Ag3R (table S4 and Fig. <ref type="figure">8, A</ref> and<ref type="figure">B</ref>). The remaining genes and blocks represent exchanges with other arms (Fig. <ref type="figure" target="#fig_3">9</ref>), but none of these show a statistically significant signal above a random expectation. The opposite is also significant, in that 67% of the Ag3R orthologs and 83% of its microsynteny blocks map onto Dm2L. For other chromosomal arms, dual correspondences are detected, each with two arms of the other species (Figs. <ref type="figure">7</ref> and<ref type="figure">8</ref>, figs. S9 and S10, table <ref type="table">S4</ref>). Thus, judging by the content of orthologous pairs, the Anopheles 2L chromosome arm harbors approximately 42 and 54% of the gene contents of the Drosophila 2R and 3L chromosome arms, respectively. Other relationships are Ag2R to Dm3R (70%) and DmX (37%), as well as Ag3L to Dm2R (30%) and Dm3L (22%).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Extent of Genome Rearrangements</head><p>Significant portions of the Anopheles X chromosome appear to have been derived from what are presently autosomal Drosophila chromosome segments: the largest representing 11% of Dm3R and 33% of Dm4. (However, smaller fractions from each of the other Drosophila autosomal arms are also found on the Anopheles X chromosome; conversely, some of the Drosophila X chromosomal genes are found dispersed on the various Anopheles autosomal arms.) Such translocations between autosomes and chromosome X are not easy to explain, as the originally autosomal genes need to come under the control of the necessary dosage compensation system to equalize their activity in the homogametic and heterogametic sexes. However, studies in Drosophila have shown that the protein-RNA dosage compensation complex has fewer than 100 entry sites on the X chromosome and spreads from there in cis to "paint" the hyperactivated chromosome <ref type="bibr">(56,</ref><ref type="bibr">57)</ref>. If this mechanism of dosage compensation has been conserved in the Anopheles lineage, it would explain the apparent acceptability of gene migration between the X chromosome and autosomes, because X-inserted autosomal segments would acquire dosage compensation due to neighboring nucleation sites, whereas X chromosome sequences that have translocated to an autosome would lose dosage compensation unless the translocation included one of these sites. We examined the Anopheles genome for the presence of all the components known to be necessary for dosage compensation in Drosophila, namely the five proteins MLE, MOF, MSL-1, MSL-2, and MSL-3 and two noncoding RNAs, roX1 and roX2 [reviewed in <ref type="bibr">(58,</ref><ref type="bibr">59)</ref>]. Single orthologs for four of the five protein components were readily identified within the Anopheles predicted proteome, and an ortholog of the fifth component was identified by homology searches at the level of genomic DNA. Neither noncoding RNA gene from Drosophila showed any evidence of similarity within the Anopheles genome. It remains to be determined whether noncoding RNA components are also present (either highly diverged versions of roX1 and/or roX2 or components of independent origin). However, the basic protein machinery of the dosage compensation complex is conserved between Drosophila and Anopheles, presumably facilitating flexibility in the evolution of the sex chromosome.</p><p>The evidence that significant portions of present-day Anopheles chromosomal arms correspond to an originally nonhomologous arm of Drosophila raises the questions of how such gene migrations were achieved and what the fate of transferred chromosomal segments is. Multicolor mappings and sliding window plots of orthologs (or microsynteny regions) according to their current association in the other species give a visual indication that genes may have predominantly translocated in large segments (Figs. 8C and 9 and fig. <ref type="figure">S10</ref>). From these, genes or blocks of genes then seem to diffuse within the new arm by the normal process of interarm reshuffling.</p><p>For example, the Drosophila chromosomal arm 3L appears to be largely homologous to Ag2L (Fig. <ref type="figure">7</ref>); its telomeric half has only one larger region (72 orthologs) with correspondence to another chromosome (Ag2R). The relations in the centromeric half are more complex, however, with two regions of 124 and 106 orthologs matching to Ag3L; in total, the centromeric half contains roughly equal numbers of orthologs matching Ag3L and Ag2L (fig. <ref type="figure">S10D</ref>). The current picture might be the result of two independent translocation events from Ag3L or a single event followed by an interarm translocation of Ag2L orthologs.</p><p>Within the genus Drosophila, extensive reorganization can be observed in the polytene chromosome complements, although a conserved 1:1 homology between the chromosomal arms of the different species had already been noticed in the 1940s <ref type="bibr">(54)</ref>. Most of the interspecies rearrangements can be attributed to the occurrence of paracentric inversions ( pericentric inversions degrade the integrity of the chromosomes). Additional processes such as simple or Robertsonian translocations (although occurring much less frequently than inversions in Drosophila) presumably would most easily explain major exchanges between chromosomal arms, which our analysis indicated. Finally, transposon-mediated rearrangements involving large chromosomal segments <ref type="bibr">(60,</ref><ref type="bibr">61)</ref> could also have led to the extensive recombinations observed in our interspecies comparisons. The sequencing of additional insect genomes in the future will certainly help elucidate some of these evolutionary consequences.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Expansions of proteins with FBN-like domains in Anopheles.Annotated FBN proteins in Anopheles (40 sequences) and 18 additional FBN sequences deduced from the genome (see tableS1for their genomic coordinates) were aligned to 13 Drosophila homologs (prefix CG, and Scabrous), human Fico-lin1 (protein accession number BAA12120), human FBN gamma (protein accession number P02679), Tachypleus tridentatus tachylectin 5A (protein accession number BAA84188), and Biomphalaria glabratas BgMFREP2 (protein accession number AAK13550), and a sequence divergence tree was built (Anopheles genes of known cytogenetic locations are linked to their respective map positions with lines of the same color for each chromosomal location). For Anopheles, only the last five digits of the ENSEMBL gene IDs are indicated. Correlation of sequence divergence, exon/intron organization, and chromosomal location is apparent for the Anopheles members. Of the 20 annotated FBN genes mapping to 39C and 42B of the third chromosome, only two appear to have introns, whereas the majority of the other annotated members have introns. Of the 13 Drosophila members, only two pairs of closely related genes, CG30280/ CG30281 and CG1889/CG1791, map to the same position, 2R-Div 58D2 and X-Div 9A3, respectively.</figDesc><graphic coords="5,314.94,331.32,252.00,371.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Ortholog taxonomy. The 15 most frequent phylogenetic distributions of orthologous groups (with relevance to insects) are shown.The figure accounts for more than 85% of orthology assignments in the Anopheles proteome. Red circles indicate phylogenetic distributions that deviate from the common consensus of eukaryotic phylogeny, indicating putative losses and/or genes missed during the sequencing and annotation process. The tree shown on top of the figure has some nonbifurcating areas, because the exact location of C. elegans (or yeast/plants) is still under debate<ref type="bibr" target="#b120">(63)</ref>. Closer inspection of the patterns of losses provides some support for grouping C. elegans with arthropods [as stated by the ecdysozoan theory (64)]: For example, the most frequent loss pattern (row 7) is more parsimonious when placing C. elegans with insects, as this requires only single losses, whereas otherwise double losses are required. However, when less emphasis is placed on the parsimony of losses and more emphasis on the amount of shared genes, C. elegans does not group with arthropods (65) (Note that both approaches might be dominated by niche or life-style adaptations that do not always correspond to common ancestry.)</figDesc><graphic coords="8,403.50,444.50,72.00,306.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Microsynteny blocks. Red lines denote 1:1 orthology relations whereas black lines indicate homology only. Identified domain families are shown as InterPro signatures in square brackets, and FlyBase annotations (where available) are given in bold. Groups of more than two homologous genes are colored. (A) A microsynteny block that contains 11 orthologs and illustrates local scrambling within blocks. Apart from gene duplications, inversions and translocations frequently occur, and many external genes have been incorporated (on average, a third of the genes in a block have no local correspondence). (B) One of the longest and most conserved (in terms of gene order) microsynteny blocks containing 13 orthologs in Anopheles chromosome 2R corresponding to a section of Drosophila chromosome 3R.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 9 .</head><label>9</label><figDesc>Fig.9. Homology of chromosomal arms. Each chromosomal arm is marked by a color shown around its name ( pairs of chromosomes with significant homology, such as Dm2L/Ag3R, use the same color). Coloring inside the schematic chromosome arms denotes microsynteny matches to a region in the other species; the color shown is the color of the chromosome containing the matching region in the other species.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>12. J. C. Venter et al., Science 291, 1304 (2001). 13. M. D. Adams et al., Science 287, 2185 (2000). 14. E. W. Myers et al., Science 287, 2196 (2000). 15. R. J. Mural et al., Science 296,</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Average protein size (aa) 200 400 600 800 Drosophila melanogaster Anopheles gambiae Number of proteins Dm Ag 0 A B</head><label></label><figDesc></figDesc><table><row><cell>Center for Tropical Disease Research and Training, University of Notre Dame, Notre Dame, IN 46556 -0369, USA. 15 Labora-tory of Malaria and Vector Research, National Insti-tute of Allergy and Infectious Diseases, 4 Center Drive, MSC 0425, Bethesda, MD 20892-0425, USA. 16 Harvard University, 16 Divinity Avenue, Cambridge, MA 02138, USA.</cell><cell>0 2000 4000 6000 8000 10000 12000 14000 ing to their conservation. (B) For each class, the average protein length is plotted (separately for the two 11.0% 44.2% 15.9% 10.3% 18.6% 13.8% 47.2% 17.9% 10.0% 11.1% 1:1 orthologues Species specific, no significant hits to other species Homologues, best hit in non-insect species Homologues, best hit in insects Many-to-many orthologues, incl. recent duplications Fig. 1. Classification of proteins in Anopheles and Drosophila according to their evolutionary relation-ships. 13,885 Drosophila proteins from a prelimi-nary version of FlyBase re-lease 3 were compared to 12,981 proteins from the Anopheles sequencing project [in both species, only the best-matching transcript per gene was chosen and all entries flagged as "likely transpo-son" or "bacterial-like" (5) were omitted]. Orthology (6) was assigned by testing for triangles of reciprocal best matches in Smith-Waterman searches (61), aided by the information in other fully sequenced eu-karyotic genomes and al-lowing for recent duplica-tions (see materials and methods). (A) Classifica-tion of the proteins accord-species).</cell></row></table><note><p>*These authors contributed equally to this work.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 1 .</head><label>1</label><figDesc>The 20 most significantly differing InterPro families. The 20 most significant expansions or reductions of Anopheles families as compared to Drosophila families are indicated (out of the 200 largest families), sorted by significance. Statistically significant expansions at a P value level of 10 Ϫ3</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 2 .</head><label>2</label><figDesc>Gene losses in insects. The genes shown are absent in both Anopheles and Drosophila but are present in other eukaryotes (in a pattern that implies losses in the insect lineage, or earlier, as opposed to gains in</figDesc><table><row><cell>D</cell><cell>A</cell><cell>P</cell><cell>Y</cell><cell>W</cell><cell>H</cell><cell>M</cell></row></table><note><p>other lineages: Genes must be present in at least one animal but also in fungi or plants). Only genes with functional annotations are shown, limited to clear cases. Eukaryotic genomes are indicated as follows: D, fruit fly (D. melanogaster); A, mosquito (A. gambiae); P, plant (Arabidopsis thaliana); Y, yeast (S, cerevisiae); W, worm (C. elegans); H, human (Homo sapiens); M, mouse (Mus musculus). Enzyme Commission (EC) numbers are indicated in parentheses. *An atypical form of DNA methyltransferase is present in both insects [with similarity to mammalian Dnmt2, for which methyltransferase activity has not yet been detected (36)].</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 3 .</head><label>3</label><figDesc>Gene structure comparison of 6089 orthologous gene pairs.</figDesc><table><row><cell></cell><cell></cell><cell>T H E M O S Q U I T O G E N O M E : A N O P H E L E S G A M B I A E</cell></row><row><cell></cell><cell>Anopheles</cell><cell>Drosophila</cell></row><row><cell>Average protein length (amino acids) Average intron size (bp)* Average coding exon size (bp) Total number of exons Total number of introns Total coding exon length (bp) Total intron length (bp)* Average number of introns per gene</cell><cell>548 1,061 366 27,380 21,279 10,009,635 22,572,174 3.47</cell><cell>649 628 443 30,762 24,605 13,635,856 12,861,230 4.67</cell></row></table><note><p>*Only introns between coding exons are considered.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4" xml:id="foot_0"><p>OCTOBER 2002 VOL 298 SCIENCE www.sciencemag.org</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>www.sciencemag.org SCIENCE VOL 298 4 OCTOBER 2002</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Microsynteny. At this evolutionary distance it can be expected that, in addition to changes in gene (intron/exon) structure, genome structure may vary greatly, to the extent that only small regions of conserved gene neighbor-X X X X X X O O O O O O 280 X X X X X X O O X X X X 254 X X X X X X X X X X X X 244 X X O O X X X X 226 X X X X X X 196 O O X X X X O O O O O O 187 O O X X X X X X 183 O O X X X X X X X X X X X X 158 O O X X X X X X X X 119 fruitfly human mouse worm mosquito plant yeast Number of orthologous groups X X X X 1625 X X X X X X X X X X 1221 X X X X X X X X X X X X X X 1186 X X X X X X X X 925 X X X X X X X X X X X X 612 X X X X X X</p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Supporting Online Material www.sciencemag.org/cgi/content/full/298/5591/149/DC1 Materials and Methods Figs. S1 to S10 Tables <ref type="table">S1 to S5</ref> We have identified 242 Anopheles gambiae genes from 18 gene families implicated in innate immunity and have detected marked diversification relative to Drosophila melanogaster. Immune-related gene families involved in recognition, signal modulation, and effector systems show a marked deficit of orthologs and excessive gene expansions, possibly reflecting selection pressures from different pathogens encountered in these insects' very different life-styles. In contrast, the multifunctional Toll signal transduction pathway is substantially conserved, presumably because of counterselection for developmental stability. Representative expression profiles confirm that sequence diversification is accompanied by specific responses to different immune challenges. Alternative RNA splicing may also contribute to expansion of the immune repertoire.</p><p>Malaria transmission requires survival and development of the Plasmodium parasite in two invaded organisms: the human host and the mosquito vector. Interactions between the immune system of either organism with the parasite can hinder or even abort its development. The mosquito is known to mount robust immune reactions (1), accounting in part for the major parasite losses that occur within the vector. For example, melanotic encapsulation in a refractory strain of A. gambiae, the major vector of </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Aquadro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Weaver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Schaeffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page">305</biblScope>
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">T</forename><surname>Toure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">´</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dandekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Kafatos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page">10769</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Begun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Whitley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page">5960</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Andolfatto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">279</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Thomasova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">´</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page">8179</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Besansky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Powell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Med. Entomol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">125</biblScope>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Drosophila: A Laboratory Handbook</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ashburner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989">1989</date>
+			<publisher>Cold Spring Harbor Laboratory Press</publisher>
+			<biblScope unit="page">74</biblScope>
+			<pubPlace>Plainview, NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Collins</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>unpublished data</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Comeron</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Genet. Dev</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">652</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Hartl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Rev. Genet</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">145</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rizzon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Marais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gouy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Biemont</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">400</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Cornel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Hered</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page">364</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">On the basis of empirical tests, homologous proteins were required to be one of the five best mutual Blast hits within the entire genome, to fall within 15 gene calls of the closest neighboring pair, and to consist of three or more spatial matches</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">The C. elegans Sequencing Consortium</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<biblScope unit="page">2012</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note>Science</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Aparicio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">297</biblScope>
+			<biblScope unit="page">1302</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Salzberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wides</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>unpublished data</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Zdobnov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">298</biblScope>
+			<biblScope unit="page">149</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Apweiler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">37</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Zdobnov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Apweiler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">847</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Rubin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="page">2204</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">The complete hierarchy of InterPro entries is described at www.ebi.ac.uk/interpro; the hierarchy for GO is described at</title>
+		<ptr target="www.geneontology.org" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Gorman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Paskewitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Insect Biochem. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">257</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dimopoulos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page">6619</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Matsushita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fujita</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">180</biblScope>
+			<biblScope unit="page">78</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Le Borgne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bellaiche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schweisguth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">95</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Herman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Clandinin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Zipursky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">437</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ansieau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Leutz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page">4906</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Yeates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Wiegmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Entomol</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page">397</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Clements</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biology of Mosquitoes</title>
+		<imprint>
+			<biblScope unit="volume">I</biblScope>
+			<date type="published" when="1992">1992</date>
+			<publisher>Chapman &amp; Hall</publisher>
+			<pubPlace>Wallingford, UK</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Reproduction</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dimopoulos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page">8814</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ranson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Insect Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">499</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ranson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">298</biblScope>
+			<biblScope unit="page">179</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ranson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">359</biblScope>
+			<biblScope unit="page">295</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Hill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">298</biblScope>
+			<biblScope unit="page">176</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dimopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Levashina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Kafatos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">79</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Christophides</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">298</biblScope>
+			<biblScope unit="page">159</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">234</biblScope>
+			<biblScope unit="page">607</biblScope>
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Moreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Wimmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jacobs-Lorena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">417</biblScope>
+			<biblScope unit="page">452</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page">425</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Abril</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Guigo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">´</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">743</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">H.) and grants U01AI48846 and R01AI44273 (F.H.C.) on behalf of the Anopheles gambiae Genome Consortium, and by the French Ministry of Research. We thank K. Aultman (NIAID) for her insights and effective coordination, D. Lilley (Celera) for competent financial and administrative management, and all members of the sequencing and support teams at the sequencing centers Celera</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename></persName>
+		</author>
+		<imprint>
+			<pubPlace>Genoscope, and TIGR</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Supported in part by NIH grant U01AI50687</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Supporting Online Material www</title>
+		<ptr target="sciencemag.org/cgi/content/full/298/5591/129/DC1" />
+	</analytic>
+	<monogr>
+		<title level="j">Materials and Methods Figs. S</title>
+		<imprint>
+			<date type="published" when="2002-09-06">2002. 6 September 2002</date>
+		</imprint>
+	</monogr>
+	<note>1 to S3 Tables S1 to S5 15 July</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Comparative Genome and Proteome Analysis of Anopheles gambiae and Drosophila melanogaster</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">1 * Christian von Mering, 1 * Ivica Letunic, 1 * David Torrents, 1 Mikita Suyama</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Evgeny</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Zdobnov</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>1 Richard R. Copley, 2</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">George</forename><forename type="middle">K</forename><surname>Christophides</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">George</forename><surname>Dimopoulos</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">4</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">H</forename><surname>Law</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">5</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">A</forename><surname>Wells</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">5</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Aaron</forename><forename type="middle">L</forename><surname>Halpern</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ewan Birney, 6 Rosane Charlab</title>
+		<imprint>
+			<biblScope unit="page">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Christos</forename><surname>Louis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carolina</forename><surname>Barillas-Mury</surname></persName>
+		</author>
+		<imprint>
+			<date>10 Deborah Nusskern, 3</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Gerald</forename><forename type="middle">M</forename><surname>Rubin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">L</forename><surname>Salzberg</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">11</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Granger</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sutton</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title level="m" type="main">9 Ron Wides</title>
+		<author>
+			<persName><forename type="first">Pantelis</forename><surname>Topalis</surname></persName>
+		</author>
+		<imprint>
+			<date>12 Patrick Wincker, 13</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Yandell</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">15</biblScope>
+		</imprint>
+	</monogr>
+	<note>3 Frank H. Collins, 14 Jose Ribeiro</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>William</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Gelbart</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">16</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Kafatos, 1 Peer Bork 1 IPR000477: RNA-directed DNA polymerase</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fotis</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>reverse transcriptase</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">Further manual analysis (see Fig. 3) reveals that the actual numbers are 58 and 13 in Anopheles and Drosophila, respectively</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>H E M O S Q U I T O G E N O M E : A N O P H E L E S G A M B I A E Www</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">sciencemag.org SCIENCE</title>
+		<imprint>
+			<biblScope unit="volume">298</biblScope>
+			<date type="published" when="2002">OCTOBER 2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Gaunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Miles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">748</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Yeates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Wiegmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Entomol</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page">397</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Besansky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Powell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Med. Entomol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">125</biblScope>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ashburner</surname></persName>
+		</author>
+		<title level="m">Drosophila: A Laboratory Handbook</title>
+		<meeting><address><addrLine>Plainview, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cold Spring Harbor Laboratory Press</publisher>
+			<date type="published" when="1989">1989</date>
+			<biblScope unit="page">74</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Holt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">298</biblScope>
+			<biblScope unit="page">129</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Fitch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Syst. Zool</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">99</biblScope>
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Tatusov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Koonin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Lipman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">278</biblScope>
+			<biblScope unit="page">631</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bork</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">398</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Lander</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">409</biblScope>
+			<biblScope unit="page">860</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Aparicio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">297</biblScope>
+			<biblScope unit="page">1301</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ashburner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Genet</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">25</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Christophides</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">298</biblScope>
+			<biblScope unit="page">159</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Monnerat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mem. Inst. Oswaldo Cruz</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page">589</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Affolter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Marty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Vigano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jazwinska</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">3298</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Zdobnov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Apweiler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">847</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Apweiler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">1145</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bateman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">276</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Letunic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">242</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Schmid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Linder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">283</biblScope>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dimopoulos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page">6619</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dimopoulos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page">8814</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Adema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Hertel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Loker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page">8691</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gokudan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page">10086</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kairies</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page">13519</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ranson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">298</biblScope>
+			<biblScope unit="page">179</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Kanzok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">291</biblScope>
+			<biblScope unit="page">643</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Zdobnov</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>data not shown</note>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Valenzuela</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">202</biblScope>
+			<biblScope unit="page">809</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Barillas-Mury</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>unpublished results</note>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Schmid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tautz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page">9746</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">259</biblScope>
+			<biblScope unit="page">1711</biblScope>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Youn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">85</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Youn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Prywes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="page">790</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bloch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">234</biblScope>
+			<biblScope unit="page">2578</biblScope>
+			<date type="published" when="1959">1959</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Dadd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Comprehensive Insect Physiology</title>
+		<editor>
+			<persName><forename type="first">I</forename><surname>Gilbert</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Ed</forename></persName>
+		</editor>
+		<meeting><address><addrLine>Pergamon, Oxford</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1985">1985</date>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="313" to="390" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lyko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Genet</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">169</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Petrov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Genet</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">23</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gojobori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">292</biblScope>
+			<biblScope unit="page">237</biblScope>
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Torrents</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>data not shown</note>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Petrov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Lozovskaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Hartl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">384</biblScope>
+			<biblScope unit="page">346</biblScope>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stoltzfus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Logsdon</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Doolittle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page">10739</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gilbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>De Souza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Long</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page">7698</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">B</forename><surname>Rogozin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lyons-Weiler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Koonin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Genet</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">430</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schmucker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page">671</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Letunic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Copley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bork</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Mol. Genet</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">1561</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Ober</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Emerson</surname><genName>Jr</genName></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell. Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">2957</biblScope>
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Dietmaier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fabry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Genet</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">497</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Aparicio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page">1684</biblScope>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hardison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Genet</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">369</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Thomasova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page">8179</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b108">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bancroft</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Genet</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">89</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b109">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Wolfe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page">9272</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b110">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Wolfe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Shields</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">387</biblScope>
+			<biblScope unit="page">708</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b111">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Muller</surname></persName>
+		</author>
+		<title level="m">The New Systematics</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Huxley</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Ed</forename></persName>
+		</editor>
+		<meeting><address><addrLine>Clarendon, Oxford</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1940">1940</date>
+			<biblScope unit="page" from="185" to="268" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b112">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">N</forename><surname>Bolshakov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">57</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b113">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Kelley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page">513</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b114">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">H</forename><surname>Meller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">54</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b115">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pannuti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Lucchesi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Genet. Dev</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">644</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b116">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schutt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nothiger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Development</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page">667</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b117">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Paro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Goldberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Gehring</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">853</biblScope>
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b118">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hatzopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Monastirioti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yannopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Louis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">3091</biblScope>
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b119">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Waterman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">147</biblScope>
+			<biblScope unit="page">195</biblScope>
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b120">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Blair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ikeo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gojobori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Hedges</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed. Central Evol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">7</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b121">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Aguinaldo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">387</biblScope>
+			<biblScope unit="page">489</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b122">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Korbel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Snel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Huynen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bork</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Genet</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">158</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b123">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Sokal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Rohlf</surname></persName>
+		</author>
+		<title level="m">Biometry: The Principles and Practice of Statistics in Biological Research</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Freeman</publisher>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b124">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Clements</surname></persName>
+		</author>
+		<title level="m">The Biology of Mosquitoes</title>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>Chapman &amp; Hall</publisher>
+			<date type="published" when="1992">1992</date>
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b125">
+	<analytic>
+		<title level="a" type="main">References</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wegener</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Experientia</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page">404</biblScope>
+			<date type="published" when="1996-08-06">1996. 6 August 2002. 6 September 2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b126">
+	<monogr>
+		<title level="m" type="main">Immunity-Related Genes and Gene Families in Anopheles gambiae</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b127">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">George</forename><forename type="middle">K</forename><surname>Christophides</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Evgeny</forename><surname>Zdobnov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carolina</forename><surname>Barillas-Mury</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">1</biblScope>
+		</imprint>
+	</monogr>
+	<note>2 Ewan Birney, 3 Stephanie Blandin</note>
+</biblStruct>
+
+<biblStruct xml:id="b128">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Claudia</forename><surname>Blass</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b129">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Brey</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">4</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b130">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Frank</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Collins</surname></persName>
+		</author>
+		<imprint>
+			<date>5 Alberto Danielli, 1</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b131">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">George</forename><surname>Dimopoulos</surname></persName>
+		</author>
+		<imprint>
+			<date>6 Charles Hetru, 7 Ngo T. Hoa, 8</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b132">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Jules</forename><forename type="middle">A</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">7</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b133">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Stefan</forename><forename type="middle">M</forename><surname>Kanzok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ivica Letunic</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b134">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Elena</forename><forename type="middle">A</forename><surname>Levashina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Thanasis G. Loukeris, 9 Gareth Lycett</title>
+		<imprint>
+			<biblScope unit="page">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b135">
+	<monogr>
+		<title level="m" type="main">1 Kristin Michel, 1 Luis F</title>
+		<author>
+			<persName><forename type="first">Stephan</forename><surname>Meister</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>Moita, 1</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b136">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Hans-Michael</forename><surname>Mu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mike</forename><forename type="middle">A</forename><surname>Osta</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b137">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Susan</forename><forename type="middle">M</forename><surname>Paskewitz</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">10</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b138">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Jean-Marc</forename><surname>Reichhart</surname></persName>
+		</author>
+		<imprint>
+			<date>7 Andrey Rzhetsky, 11 Laurent Troxler, 7</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b139">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kenneth</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Vernick</surname></persName>
+		</author>
+		<imprint>
+			<date>12 Dina Vlachou, 1 Jennifer Volz, 1</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b140">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Mering</forename><surname>Christian Von</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b141">
+	<monogr>
+		<title level="m" type="main">12 Liangbiao Zheng, 8 Peer Bork, 1 Fotis C. Kafatos 1 †</title>
+		<author>
+			<persName><forename type="first">Jiannong</forename><surname>Xu</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Evolution of Mitochondrial and Ribosomal Gene Sequences in Anophelinae (Diptera: Culicidae): Implications for Phylogeny Reconstruction</title>
+				<funder>
+					<orgName type="full">National Institutes of Health</orgName>
+				</funder>
+				<funder ref="#_4REB8mR">
+					<orgName type="full">UNDP/ World Bank/WHO</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">John D. and Catherine T. MacArthur Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2001-01-23">January 23, 2001</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jaroslaw</forename><surname>Krzywinski</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biological Sciences</orgName>
+								<orgName type="institution">University of Notre</orgName>
+								<address>
+									<postCode>46556</postCode>
+									<settlement>Dame Notre Dame</settlement>
+									<region>Indiana</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Richard</forename><forename type="middle">C</forename><surname>Wilkerson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nora</forename><forename type="middle">J</forename><surname>Besansky</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biological Sciences</orgName>
+								<orgName type="institution">University of Notre</orgName>
+								<address>
+									<postCode>46556</postCode>
+									<settlement>Dame Notre Dame</settlement>
+									<region>Indiana</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">†Walter Reed Biosystematics Unit, Museum Support Center</orgName>
+								<orgName type="institution">Smithsonian Institution</orgName>
+								<address>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Evolution of Mitochondrial and Ribosomal Gene Sequences in Anophelinae (Diptera: Culicidae): Implications for Phylogeny Reconstruction</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2001-01-23">January 23, 2001</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">37CD3C966D005CDCE871C2278DC41A99</idno>
+					<idno type="DOI">10.1006/mpev.2000.0894</idno>
+					<note type="submission">Received July 28, 2000;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2024-10-22T14:59+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>cyt b</term>
+					<term>ND5</term>
+					<term>28S rDNA</term>
+					<term>evolution</term>
+					<term>phylogeny</term>
+					<term>mosquitoes</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In this study, two mitochondrial genes, cyt b and ND5, and the D2 expansion segment of the 28S nuclear ribosomal gene were used to reconstruct a phylogeny of the mosquito subfamily Anophelinae. The ingroup consisted of all three genera of Anophelinae and five of six subgenera of Anopheles. Six genera of Culicinae were used as the outgroup. Extreme conservation at the protein level coupled with rapid saturation of synonymous positions probably accounted for the lack of meaningful phylogenetic signal in the cyt b gene. In contrast, abundant variation at all codon positions of the ND5 gene allowed recovery of the basal and most of the recent relationships. Phylogenetic analysis of D2 produced results consistent with those of ND5. Combined analysis indicated well-supported monophyletic Anophelinae (with Chagasia basal), Anopheles ؉ Bironella, and subgeneric clades within the genus Anopheles. Moreover, subgenera Nyssorhynchus and Kerteszia were supported as a monophyletic lineage. The Kishino-Hasegawa test could not reject the monophyly of Anopheles, whereas the recently proposed hypothesis of close affinity of Bironella to the subgenus Anopheles was rejected by the analyses of ND5 and combined data sets. The lack of resolution of Bironella and Anopheles clades, or basal relationships among subgeneric clades within Anopheles, suggests their rapid diversification. Recovery of relationships consistent with morphology and previous molecular studies provides evidence of substantial phylogenetic signal in D2 and ND5 genes at levels of divergence from closely related species to subfamily in mosquitoes.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>It is their vector status that puts mosquitoes (Culicidae) into a focus of particular interest to public health and to the scientific community. Among the most im-portant diseases transmitted by those insects are dengue, filariasis, and malaria. Malaria alone, with an estimated 300 -500 million clinical cases occurring annually, results in up to 3 million deaths every year. All the carriers of human malaria parasites belong to the single genus Anopheles, one of three genera recognized in the Culicidae subfamily Anophelinae. Anopheles is by far the largest, with 427 valid species and nearly worldwide distribution <ref type="bibr" target="#b15">(Harbach, 1994)</ref>. Bironella with 8 species is found in the Australian Region <ref type="bibr" target="#b37">(Tenorio, 1977)</ref>, and Chagasia with only 4 species is Neotropical <ref type="bibr" target="#b21">(Knight and Stone, 1977)</ref>. Within Anopheles, the smallest subgenera are Neotropical: Kerteszia (12 spp.), Lophopodomyia (6 spp.), Nyssorhynchus (29 spp.), and Stethomyia (5 spp.). The largest subgenera are Cellia <ref type="bibr">(197 spp.)</ref>, in the Old World, and Anopheles (178 spp.), with worldwide distribution <ref type="bibr" target="#b15">(Harbach, 1994)</ref>. Traditional approaches to the classification of Anophelinae have emphasized species discovery and taxonomic reviews of local mosquito faunas, at the expense of phylogenetic systematics <ref type="bibr" target="#b27">(Munstermann and Conn, 1997)</ref>. As a result, there lacks a reliable foundation from which to predict features important to malaria transmission or to address basic biological questions, such as sources of anopheline diversification and the influence of biogeographic forces on radiation of the group.</p><p>Only in the last few years has interest in phylogenetic studies of Culicidae grown. A phylogenetic hypothesis for the family based on morphology of fourth instar larvae, pupae, and adults was proposed by <ref type="bibr" target="#b16">Harbach and Kitching (1998)</ref>. These authors found strong evidence supporting monophyly of the subfamily Anophelinae, as well as a sister group relationship of Anopheles ϩ Bironella and its divergence from Chagasia, results congruent with traditional views (e.g., <ref type="bibr" target="#b32">Ross, 1951)</ref> and molecular phylogenies based on nuclear and mitochondrial gene sequences <ref type="bibr" target="#b3">(Besansky and Fahey, 1997;</ref><ref type="bibr" target="#b11">Foley et al., 1998)</ref>. Furthermore, the molecular studies consistently recovered Bironella as basal to Anopheles lineages, in accord with <ref type="bibr" target="#b32">Ross (1951)</ref>. Recently, these results have been challenged by a com-prehensive morphological study in which Bironella and subgenus Stethomyia were recovered as a clade nested within subgenus Anopheles <ref type="bibr" target="#b34">(Sallum et al., 2000)</ref>. Despite the extensive morphological evidence on which the study was based, this particular grouping was poorly supported. However, existing molecular evidence is also weak, due to limited taxon sampling. Only one species represented each subgenus (Anopheles, Cellia, and Nyssorhynchus) studied in <ref type="bibr" target="#b3">Besansky and Fahey (1997)</ref>, and only two subgenera, Anopheles and Cellia, the former represented by only two species, were considered in <ref type="bibr" target="#b11">Foley et al. (1998)</ref>. To elucidate the status of Anopheles, further study of the subfamily using additional data is required.</p><p>In the present study, we have explored three genes as potential markers of mosquito phylogeny: the complete sequence of the D2 expansion segment of nuclear 28S ribosomal DNA and fragments of mitochondrial protein-coding genes cytochrome b (cyt b) and NADH dehydrogenase subunit 5 (ND5). Our aim was to test the utility of these genes by their ability to recover anopheline relationships strongly supported by previous studies. We also evaluated previous phylogenetic hypotheses in a statistical framework, emphasising the question of Anopheles monophyly.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Taxon Sampling</head><p>The taxonomic positions and geographic sources of the 21 species analyzed are given in Table <ref type="table" target="#tab_0">1</ref>. The ingroup comprised 15 species (11 for the cyt b analysis). For four of the largest Anopheles subgenera, at least 2 divergent species were sampled in an effort to represent overall diversity of the group <ref type="bibr" target="#b18">(Hillis, 1998)</ref>. However, due to their rarity, only 1 or zero species from the subgenera Stethomyia and Lophopodomyia, respectively, were available. The outgroup comprised six genera of Culicinae (sensu <ref type="bibr" target="#b16">Harbach and Kitching, 1998)</ref>, among them Aedeomyia and Uranotaenia, which have been hypothesized to form a basal clade relative to all other culicine mosquitoes <ref type="bibr" target="#b16">(Harbach and Kitching, 1998)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PCR Amplification and Sequencing</head><p>Genomic DNA was extracted from individual mosquitoes <ref type="bibr" target="#b6">(Collins et al., 1987)</ref>. For cyt b, a ϳ460-bp fragment representing 40% of the gene in An. gambiae <ref type="bibr" target="#b1">(Beard et al., 1993)</ref>, was amplified with the primers cytbF (5Ј-GGACAAATATCATTTTGAGGAGCAAC-AG-3Ј) and cytbR (5Ј-ATTACTCCTCCTAGCTTATT-AGGAATTG-3Ј) <ref type="bibr" target="#b24">(Lyman et al., 1999)</ref>. For the D2 region, primers CP12 (5Ј-GTGGATCCAGTCGTGTT-GCTTGATAGTGCAG-3Ј) and CP15 (5Ј-GTGAATTCT-TGGTCCGTGTTTCAAGACGGG-3Ј) were used <ref type="bibr" target="#b29">(Porter and Collins, 1996)</ref>. A ϳ620-bp fragment of ND5, rep-resenting a highly variable 3Ј (37%) of the gene in Anopheles, was amplified from degenerate primers whose design was guided by a multiple sequence alignment of Drosophila melanogaster, An. gambiae, An. quadrimaculatus, and Aedes albopictus (Accession Nos.: M37275, L20934, L04272, and X03924, respectively). Their sequences are ND5, 5Ј-GGHYTAACTGT-WWGTTATTCATTTC-3Ј and tRNAPhe, 5Ј-CCMYAA-CATCTTCARTGTYAWRCTC-3Ј (with IUB codes in degenerate positions). PCR amplification conditions for D2 were described previously by <ref type="bibr" target="#b29">Porter and Collins (1996)</ref>. Cyt b and ND5 were amplified in 50 l containing 50 mM KCl, 10 mM Tris-HCl, pH 8.3, 1.5 mM MgCl 2 , 0.2 mM each dNTP, 2.5 units Taq polymerase (GibcoBRL), 50 pmol each primer, and 1 l template DNA (1/100th of the DNA extracted from a single mos- </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sequence Alignment and Phylogenetic Analysis</head><p>Multiple sequence alignment of cyt b and ND5 was achieved with Clustal W 1.7 <ref type="bibr" target="#b38">(Thompson et al., 1994)</ref>. Inference of character homology within D2 was facilitated by secondary structure predictions based on the energy minimization method of <ref type="bibr" target="#b41">Zucker (1989)</ref> as implemented by the MFold program in the GCG Sequence Analysis package (Genetics Computer Group, 1997), using the default folding temperature.</p><p>Basic sequence statistics were calculated with MEGA <ref type="bibr" target="#b23">(Kumar et al., 1993)</ref> and PAUP*4.0b2 <ref type="bibr" target="#b35">(Swofford, 1999)</ref>. Phylogenetic analyses within maximumparsimony (MP) and maximum-likelihood (ML) frameworks were performed with PAUP*. Gaps were treated as missing characters. The minimum-parameter ML models of DNA evolution that best fit each of the data sets were determined by likelihood ratio tests using MODELTEST 2.0 <ref type="bibr" target="#b30">(Posada and Crandall, 1998)</ref>. Other than nucleotide frequencies, for which empirical values were used, ML parameters employed in the subsequent analyses were estimated iteratively from the data using PAUP*'s tree scores option, with the unweighted MP trees used for an initial estimation of the parameters. Heuristic searches were performed using 100 (ML) or 1000 (MP) random replicate addition searches with TBR branch swapping. Bootstrap support was estimated by a heuristic search on 100 (ML) or 500 bootstrap pseudoreplicates (each with 10 random additions; MP) and TBR branch swapping. To assess the extent of conflict between data sets, the incongruence length difference (ILD) test <ref type="bibr" target="#b9">(Farris et al., 1995)</ref> was implemented using PAUP* with randomizations performed 10,000 times. Alternative phylogenetic hypotheses were tested in a statistical perspective using the <ref type="bibr" target="#b19">Kishino-Hasegawa (1989)</ref> test, in which ML trees constrained to match topologies for the hypotheses were compared to unconstrained ML trees. The hypothesis of constant evolutionary rate (molecular clock) was tested using a standard likelihood ratio test. The likelihood of the constrained tree was compared to the likelihood of the same tree with the molecular clock enforced using a 2 distribution with the degrees of freedom equal to the number of taxa Ϫ2 <ref type="bibr" target="#b10">(Felsenstein, 1993)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sequence Alignment and Divergence</head><p>The number of sites compared for each gene is given in Table <ref type="table" target="#tab_1">2</ref>. Sequences of cyt b were equal in length across all taxa examined, whereas one three-nucleotide deletion was observed in the ND5 of Tx. amboinensis. The alignment of both protein-coding genes was unambiguous. As expected, third (nt3) and first (nt1) codon positions were more variable than nt2 positions in both genes (Table <ref type="table" target="#tab_1">2</ref>). However, the proportion of variable sites within the nt1 and nt2 partitions was drastically lower for cyt b than for ND5.</p><p>Substantial variability in length (340 -466 bp) made the alignment of D2 sequences problematic. Results of the automated multiple alignment using Clustal W remained controversial despite implementation of various gap opening/gap extension penalty combinations (2/1, 3/1, 4/1, 5/1, 10/1, 100/1) applied to the complete set of taxa. The final D2 alignment roughly corresponding to the predicted secondary structure models (available on request to J.K.; also see <ref type="bibr" target="#b29">Porter and Collins, 1996)</ref> was achieved by separate alignments of ingroup and outgroup taxa, with a gap opening/gap extension penalty of 10/1. Ingroup and outgroup alignments (561 and 418 characters long, respectively) were then aligned to each other, for a final alignment of 577 For all genes, there was a substantial overlap in the range of sequence divergence within Anophelinae and between anopheline taxa and other mosquitoes, suggesting a high degree of substitutional saturation (Table <ref type="table" target="#tab_2">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Phylogenetic Analysis</head><p>ND5. Because saturation plots of ND5 suggested that the nt3 signal might be randomized with respect to phylogenetic history (data not shown), the influence of this position was examined by applying three alternative weighting schemes under a MP framework: all characters weighted equally, nt3 transitions (Ti) ϭ 0, and nt3 ϭ 0. Four trees were derived with equal weighting [tree length (l) ϭ 958, consistency index excluding uninformative characters (CI) ϭ 0.391, and rescaled consistency index (RC) ϭ 0.168], two trees with nt3(Ti) ϭ 0 (l ϭ 783, CI ϭ 0.363, RC ϭ 0.167), and two trees with nt3 ϭ 0 (l ϭ 415, CI ϭ 0.470, RC ϭ 0.252). In general, the alternative weighting schemes affected the resolution rather than the topology of the resulting trees (Table <ref type="table" target="#tab_3">4</ref>).</p><p>The most appropriate ML substitution model of the ND5 sequences chosen by MODELTEST was the general time-reversible model with among-site rate heterogeneity assumed to follow a discrete approximation of the gamma distribution (GTR ϩ ⌫; <ref type="bibr" target="#b39">Yang, 1994)</ref>. GTR allows for unequal base frequencies and unique probabilities for each of the six possible substitution classes. Under GTR, ML results were largely congruent with MP analyses. One exception was 66% support for nonmonophyly of the genus Anopheles in the ML bootstrap tree, in which An. kompi was basal to all other Anopheles species ϩ Bironella (see Fig. <ref type="figure" target="#fig_0">1</ref>).</p><p>D2. MP analysis resulted in a single tree (l ϭ 647, CI ϭ 0.544, RC ϭ 0.327) with essentially the same topology as the ML tree derived under the HKY85 model <ref type="bibr" target="#b17">(Hasegawa et al., 1985)</ref>, with among-site rate  variation assumed to follow the gamma distribution (HKY85 ϩ ⌫). This model allows for unequal base frequencies and different substitution rates of transitions and transversions. The D2 data resolved some of the relationships within Anopheles, which remained unresolved on the ND5 bootstrap trees: subgenus Anopheles was recovered for the first time, and subgenera Nyssorhynchus and Kerteszia were strongly supported as sister taxa (Table <ref type="table" target="#tab_3">4</ref>).</p><p>Cyt b. One most-parsimonious tree was produced from a MP analysis of all positions weighted equally (l ϭ 326, CI ϭ 0.405, RC ϭ 0.176), 13 with nt3(Ti) ϭ 0 (l ϭ 193, CI ϭ 0.368, RC ϭ 0.178), and 16 with nt3 ϭ 0 (l ϭ 44, CI ϭ 0.523, RC ϭ 0.354). No substantial differences resulted from ML analysis with the GTR model, with among-site rate variation accommodated by assuming some proportion of sites to be invariable, and rates at the remaining sites assumed to follow the gamma distribution (GTR ϩ I ϩ ⌫; <ref type="bibr" target="#b14">Gu et al., 1995;</ref><ref type="bibr">Table 4</ref>). Very poor recovery of morphology-based groups and conflict with the largely congruent D2 and ND5 trees suggests that homoplasy in the cyt b data has obscured the phylogenetic signal, a suggestion supported by saturation plots (not shown). For these reasons we excluded cyt b from the combined phylogenetic analysis, as its main contribution would be noise.</p><p>Combined data. The ILD test <ref type="bibr" target="#b9">(Farris et al., 1995)</ref> showed that ND5 and D2 data sets were combinable, although the significance level was close to rejection of the null hypothesis (P ϭ 0.055). MP analysis of the combined data under all three weighting schemes recovered monophyletic Anophelinae, Anopheles ϩ Bironella, Nyssorhynchus ϩ Kerteszia, and four subgenera of Anopheles: Anopheles, Cellia, Kerteszia, and Nyssorhynchus (Fig. <ref type="figure" target="#fig_0">1</ref>).</p><p>The ML analysis under a GTR ϩ I ϩ ⌫ model yielded a topology different from that of the MP trees with regard to the positions of Bironella and subgenus Stethomyia relative to other subgeneric clades of Anopheles. However, MP and ML bootstrap analyses gave largely congruent results. Two exceptions were the lack of ML bootstrap support for the Anopheles ϩ Bironella clade and the lack of MP support for subgenera Celia ϩ Anopheles as sister taxa (Fig. <ref type="figure" target="#fig_0">1</ref>).</p><p>Hypothesis testing. The present analyses did not recover traditional relationships within Anophelinae, where Anopheles is regarded a monophyletic taxon, nor those proposed by <ref type="bibr" target="#b34">Sallum et al. (2000)</ref> in which Bironella is nested within subgenus Anopheles. According to the Kishino-Hasegawa test, the traditional phylogeny, with Bironella as sister taxon to Anopheles, was not in significant conflict with the most likely trees derived from our data sets (Table <ref type="table" target="#tab_4">5</ref>). Similarly, the alternative hypothesis (Bironella within subgenus  Anopheles) was not significantly different from the unconstrained D2 ML tree, although the P value (0.0503) was very close to the level of rejection. In contrast, ND5 and combined data rejected the position of Bironella among the species of subgenus Anopheles.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dynamics of Sequence Divergence and Phylogenetic Utility</head><p>ND5 is one of the fastest-evolving mitochondrial genes <ref type="bibr" target="#b5">(Clary and Wolstenholme, 1985)</ref> and for this reason its phylogenetic signal is likely to be degraded by multiple changes when more diverged taxa are compared. Parsimony may be an inconsistent estimator of relationships under such conditions due to inability of the method to detect multiple substitutions on long branches. Performance of parsimony, however, can be improved by implementation of more realistic evolutionary models via differential weighting based on the information about potential saturation drawn from the data. Indeed, after elimination of likely saturated sites as judged by saturation plots (nt3 transitions or the entire nt3 partition; data not shown), congruence with previous studies <ref type="bibr" target="#b3">(Besansky and Fahey, 1997;</ref><ref type="bibr" target="#b16">Harbach and Kitching, 1998;</ref><ref type="bibr" target="#b34">Sallum et al., 2000)</ref> regarding basal clades increased, albeit at the expense of decreased resolution at most shallow divergences.</p><p>Substantial phylogenetic information was retrieved from D2 despite the large sequence divergence observed among more distantly related taxa and the short fragment studied. The present analysis was based on conserved sequence fragments, most of which were predicted to be involved in maintaining core stem structure <ref type="bibr" target="#b26">(Michot and Bachellerie, 1987;</ref><ref type="bibr" target="#b29">Porter and Collins, 1996;</ref><ref type="bibr" target="#b33">Ruiz Linares et al., 1991)</ref>. Although D2 provided very high support for Anophelinae and most relationships within Anopheles, this data set did not recover well-supported relationships among Anopheles, Bironella, and Chagasia. Further refinement of the alignment based on secondary structure might help resolve these relationships <ref type="bibr" target="#b20">(Kjer, 1995)</ref>. Alternatively, the basal anopheline lineages might have rapidly diversified from each other, consistent with very short basal branches of the D2 ML tree (data not shown). This possibility is incompatible with the results from the ND5 ML analysis and combined parsimony analysis for the divergence of Chagasia, which was joined to other Anophelinae by a relatively long and well-supported branch. A nonmutually exclusive explanation is that D2 may not have evolved in a clock-like manner, but rather at a very slow rate during the early history of Anophelinae and then at an accelerated rate within several individual ingroup lineages. In support of this, the likelihood ratio test strongly rejected the assumption of a molecular clock (P Ͻ Ͻ 0.01), a result consistent with highly unequal branches in the D2 tree. Increased evolutionary rates and/or different ages of extant lineages studied may explain high observed divergence within Anophelinae relative to the outgroup (Table <ref type="table" target="#tab_2">3</ref>).</p><p>A striking feature of D2 is the conservation of its sequences in closely related species of the subgenera Kerteszia and Nyssorhynchus compared to ND5. For example, there were 32 differences between two species in Nyssorhynchus observed in ND5 and only 5 in the complete D2 sequences. Similarly, the number of differences between An. cruzii and An. bellator, closely related species belonging to the subgenus Kerteszia, was threefold higher in ND5 relative to D2. A practical implication of low variability in D2 is lack of phylogenetic signal strong enough to recover the latter species in a single clade. Strong differences in the number of changes and in the lengths of corresponding branches on ML trees (data not shown) indicate that D2 evolves at a slower rate than ND5 in those lineages. Whether the rate in D2 is slower than that of other genes in mosquitoes is not yet known. There is evidence that this is the case in Drosophila, in which sibling species in the melanogaster group have identical D2 sequences <ref type="bibr" target="#b33">(Ruiz Linares et al., 1991)</ref> but are clearly distinguishable using IGS and ETS regions of the rDNA unit <ref type="bibr" target="#b36">(Tautz et al., 1987)</ref> or protein-coding genes, such as alcohol dehydrogenase <ref type="bibr" target="#b4">(Bodmer and Ashburner, 1984)</ref>.</p><p>Most of the relationships recovered with cyt b were at odds with the accepted taxonomy, earlier hypotheses of mosquito phylogeny, or the results from the other genes employed in this study. Apparently, this is due to lack of phylogenetic information in that gene resulting from extreme conservation of its protein product, dictated by strong functional constraints <ref type="bibr" target="#b25">(Meyer, 1994)</ref>. Whereas synonymous changes became fully saturated, not enough nonsynonymous changes have accumulated (34 variable and 20 parsimony informative of 274 sites; Table <ref type="table" target="#tab_1">2</ref>) to provide meaningful phylogenetic signal. Similarly, studies of relationships in insect families Braconidae (Hymenoptera) <ref type="bibr" target="#b13">(Gimeno et al., 1997)</ref> and Staphylinidae (Coleoptera) <ref type="bibr" target="#b0">(Ballard et al., 1998)</ref> showed no or little phylogenetic utility of cyt b gene fragments. In kissing bugs (Hemiptera: Reduviidae: Triatominae), however, analysis of the same cyt b region as studied here produced highly supported relationships consistent with the accepted taxonomy <ref type="bibr" target="#b24">(Lyman et al., 1999)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Phylogenetic Relationships</head><p>In agreement with the previous studies, Anophelinae was strongly supported by our data as a monophyletic group. The basal split within the subfamily into Chagasia and Anopheles ϩ Bironella clades was also moderately supported by the ND5 and the combined analysis. Chagasia has been traditionally considered an ancient taxon of anophelines, as it shows several characters reminiscent of nonanopheline mosquitoes, such as strongly arched mesonotum, trilobed scutellum, and presence of setae on the postpronotum <ref type="bibr" target="#b2">(Belkin, 1962)</ref>.</p><p>Anopheles was not separated from Bironella as a single clade using present data, which reflects close relationships between both genera. As <ref type="bibr" target="#b2">Belkin (1962)</ref> stated, Bironella "is very similar to Anopheles in the immature stages and differs in the adults only in minor palpal, venational and genitalic characters." Earlier molecular studies based on the white <ref type="bibr" target="#b3">(Besansky and Fahey, 1997)</ref> and mitochondrial COII <ref type="bibr" target="#b11">(Foley et al., 1998)</ref> genes recovered monophyly of Anopheles relative to Bironella. Both studies employed only a limited number of Anopheles subgenera, which could have resulted in easier recovery of the genus. In the case of COII, strong support for monophyletic Anopheles was achieved only after successive approximation weighting. All these studies probably do not represent a genuine conflict about the placement of Bironella, as our topologies were not significantly different from monophyly of Anopheles, the traditional hypothesis (Table <ref type="table" target="#tab_4">5</ref>). The difference between the best tree and the tree with (Bironella ϩ Stethomyia ϩ subgenus Anopheles) constraint was also not significant for the D2 analysis. In contrast, and the combined data rejected the hypothesis of <ref type="bibr" target="#b34">Sallum et al. (2000)</ref> that Bironella and Stethomyia are nested within the subgenus Anopheles. None of the trees inferred from the present data recovered this grouping. Instead, subgenus Anopheles was recovered either as monophyletic using the D2 and combined data or in association with Cellia using the ND5 data. The position of Stethomyia and Bironella nested within subgenus Anopheles is poorly supported and based on homoplasious morphological characters <ref type="bibr" target="#b34">(Sallum et al., 2000)</ref>; thus, it may not reliably represent true relationships within the group. Further molecular evidence based on new white gene data <ref type="bibr" target="#b22">(Krzywinski et al., 2001</ref>) also contradicts the "Bironella within Anopheles" hypothesis and gives additional support for the monophyly of Anopheles. The apparent conflict between traditional phylogeny and our present results most likely reflects insufficient resolving power of the data to give conclusive order to the branches in question <ref type="bibr" target="#b19">(Kishino and Hasegawa, 1989)</ref>.</p><p>This study failed to recover basal relationships within Anopheles, despite the recovery of highly supported subgeneric clades in most cases. <ref type="bibr" target="#b11">Foley et al. (1998)</ref> suggested that subgenus Anopheles is not monophyletic, because in their study An. quadrimaculatus, a member of this subgenus, was placed among Cellia species. However, their observation was poorly supported even after successive approximation weighting and was based on highly A ϩ T-biased (92.8%) nt3 positions that were likely saturated. <ref type="bibr" target="#b7">Cunningham (1997)</ref> showed that the successive approximation approach is strongly influenced by the starting tree, and the method reinforces its topology whether the tree is correct or not. Moreover, the placement of An. quadrimaculatus may be an artifact of a too-distant outgroup, Drosophila yakuba.</p><p>A close relationship between subgenera Anopheles and Cellia was suggested by the white gene study of <ref type="bibr" target="#b3">Besansky and Fahey (1997)</ref> and morphological studies of <ref type="bibr" target="#b34">Sallum et al. (2000)</ref>, a suggestion supported by our results. Weighted parsimony analysis of the ND5 gene clustered subgenera Anopheles and Cellia together and the combined ML analysis recovered both lineages as sister taxa with moderate bootstrap support. In addition, the D2 data and combined analyses revealed close affinities between subgenera Nyssorhynchus and Kerteszia. This relationship was hypothesized by <ref type="bibr" target="#b31">Root (1922)</ref>, and according to some authors (e.g., <ref type="bibr" target="#b8">Edwards, 1932)</ref> Kerteszia was even included in the subgenus Nyssorhynchus. The taxonomic status of Kerteszia was not clear to <ref type="bibr" target="#b40">Zavortink (1973)</ref>, who was the last reviewer of this subgenus, but <ref type="bibr" target="#b28">Peyton et al. (1992)</ref> found numerous diagnostic characters for both taxa, consistent with their present status as independent subgenera. Finally, <ref type="bibr" target="#b34">Sallum et al. (2000)</ref> recovered strongly supported Nyssorhynchus and Kerteszia. Very high bootstrap values for both clades in our study also support their present subgeneric status.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>The present study provides evidence of substantial phylogenetic signal in D2 and, to a lesser extent, in ND5 sequences at levels of divergence from closely related species to subfamily in mosquitoes. Both genes provided results largely congruent with each other and with the combined data; likewise, different methods of analysis resulted in similar topologies. The areas of conflict between the trees were limited to branches that, in general, received very poor support from either data set. Good resolution was achieved when analysis of the combined data sets was conducted. The study revealed, however, several undesirable properties of the data, which can confound phylogenetic reconstruction of more distant relationships or within some ingroup lineages. Those were strong base composition bias, saturation at many sites, and unequal nucleotide frequencies across taxa in ND5 and unequal rates of substitution among lineages together with alignment difficulties resulting from a specific mode of evolution in D2. Adding more species to the analysis may reduce some of the mentioned problems, e.g., with the alignment or with unequal rates in D2. A denser sampling in the lineages with long branches may break them up and lead to a higher resolution of the basal relationships within Anopheles ϩ Bironella. Despite some negative properties, both genes from the sample of taxa studied gave results consistent not only with each other and with the new evidence from the white gene <ref type="bibr" target="#b22">(Krzywinski et al., 2001)</ref> but also largely consistent with earlier studies, proving their usefulness as phylogenetic markers in Anophelinae. Cyt b, on the other hand, appears to lack phylogenetic signal for the relationships other than those among very closely related species.</p><p>The phylogenetic analysis indicated well-supported monophyletic Anophelinae (with Chagasia occupying basal position), Anopheles ϩ Bironella, and subgeneric clades within the genus Anopheles. Moreover, subgenera Nyssorhynchus and Kerteszia were supported as a monophyletic lineage. The Kishino-Hasegawa test could not reject the monophyly of Anopheles, whereas the recently proposed hypothesis of Bironella nested within the subgenus Anopheles was rejected by the analyses of ND5 and combined data sets. The lack of resolution of Bironella and Anopheles clades, as well as basal relationships among subgeneric clades within Anopheles, suggests their rapid diversification. However, to approach a better picture of anopheline evolution, additional information from independent loci is needed. Protein-coding single-copy nuclear genes are promising candidates.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIG. 1 .</head><label>1</label><figDesc>FIG. 1.Phylogenetic relationships within mosquitoes based on combined D2 and ND5 data sets. The ML tree (Ϫln L ϭ 8751.45) was inferred using the GTR model with different rates of substitution for each substitution class (A 7 G ϭ 0.7987, C 7 T ϭ 4.411, A 7 C ϭ 3.232, A 7 T ϭ 3.046, C 7 G ϭ 2.879, G 7 T ϭ 1), among-site rate variation accommodated by assuming a proportion of sites to be invariable (0.1739), and rates at the remaining sites assumed to follow a gamma distribution (␣ ϭ 1.0332). Numbers at nodes represent bootstrap support (Ͼ50%) for the ML analysis (below line) and for three weighting schemes of ND5 data (equal weighting, nt3Ti ϭ 0, and nt3 ϭ 0) for the combined MP analysis (above line). Thick lines represent branches with 100% bootstrap support in all four analyses.</figDesc><graphic coords="5,16.22,39.37,252.21,284.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1 Taxa Examined and Sources of Specimens</head><label>1</label><figDesc></figDesc><table><row><cell>Anophelinae</cell></row><row><cell>Genus Anopheles Meigen</cell></row><row><cell>Subgenus Anopheles Meigen</cell></row><row><cell>quadrimaculatus Say-Colony, Centers for Disease Control</cell></row><row><cell>[CDC], Atlanta, USA</cell></row><row><cell>pseudopunctipennis Theobald-El Rama, Zelaya, Nicaragua;</cell></row><row><cell>R. Wilkerson</cell></row><row><cell>intermedius (Peryassu)-Macapa, Amapa State, Brazil;</cell></row><row><cell>R. Wilkerson</cell></row><row><cell>mattogrossensis Lutz and Neiva-Iquitos, Loreto, Peru;</cell></row><row><cell>T. Klein</cell></row><row><cell>coustani Laveran</cell></row><row><cell>Subgenus Cellia Theobald</cell></row><row><cell>stephensi Liston-DEHLI colony, CDC</cell></row><row><cell>gambiae Giles-PEST colony, CDC</cell></row><row><cell>Subgenus Nyssorhynchus Blanchard</cell></row><row><cell>albimanus Wiedemann</cell></row><row><cell>albitarsis Lynch Arribalzaga-Baradero, Buenos Aires,</cell></row><row><cell>Argentina; R. Wilkerson</cell></row><row><cell>Subgenus Kerteszia Theobald</cell></row><row><cell>bellator Dyar and Knab-Pariquera Acu, Sao Paulo, Brazil;</cell></row><row><cell>R. Wilkerson</cell></row><row><cell>cruzii Dyar and Knab-Pariquera Acu, Sao Paulo, Brazil;</cell></row><row><cell>R. Wilkerson</cell></row><row><cell>neivai Howard, Dyar and Knab</cell></row><row><cell>Subgenus Stethomyia Theobald</cell></row><row><cell>kompi Edwards-Iquitos, Peru; T. Klein</cell></row><row><cell>Genus Bironella Theobald</cell></row><row><cell>gracilis Theobald-?Sepikarca, Papua New Guinea;</cell></row><row><cell>R. Cooper</cell></row><row><cell>Genus Chagasia Cruz</cell></row><row><cell>bathana (Dyar)-Belize; D. Roberts</cell></row><row><cell>Culicinae</cell></row><row><cell>Aedeomyia squamipennis (Lynch Arribalzaga)-Pariquera</cell></row><row><cell>Acu, Sao Paulo, Brazil; R. Wilkerson</cell></row><row><cell>Armigeres subalbatus (Coquillett)-Colony, Univ.</cell></row><row><cell>Notre Dame</cell></row><row><cell>Orthopodomyia alba Baker-Georgia, USA; A. Cornel</cell></row><row><cell>Toxorhynchites amboinensis (Doleschall)-Colony, Univ.</cell></row><row><cell>Notre Dame</cell></row><row><cell>Tx. rutilus (Coquillett)-Colony, Fla. Medical Entomol. Lab</cell></row><row><cell>Uranotaenia sapphirina (Osten Sacken)-Georgia, USA;</cell></row><row><cell>A. Cornel</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE 2 Number of Sites Compared for Mitochondrial cyt b and ND5 and Ribosomal D2 Sequences</head><label>2</label><figDesc></figDesc><table><row><cell></cell><cell></cell><cell cols="7">mtDNA AND rDNA EVOLUTION AND ANOPHELINAE PHYLOGENY</cell><cell></cell><cell>481</cell></row><row><cell></cell><cell></cell><cell></cell><cell>cyt b</cell><cell></cell><cell></cell><cell></cell><cell>ND5</cell><cell></cell><cell>D2</cell><cell></cell></row><row><cell></cell><cell>nt1</cell><cell>nt2</cell><cell>nt3</cell><cell>All sites</cell><cell>nt1</cell><cell>nt2</cell><cell>nt3</cell><cell>All sites</cell><cell>Total</cell><cell>Analyzed</cell></row><row><cell>Total</cell><cell>137</cell><cell>137</cell><cell>137</cell><cell>411</cell><cell>175</cell><cell>175</cell><cell>175</cell><cell>525</cell><cell>576</cell><cell>348</cell></row><row><cell>Variable sites</cell><cell>28</cell><cell>6</cell><cell>103</cell><cell>137</cell><cell>98</cell><cell>66</cell><cell>147</cell><cell>309</cell><cell>399</cell><cell>244</cell></row><row><cell>Informative sites</cell><cell>17</cell><cell>3</cell><cell>82</cell><cell>102</cell><cell>73</cell><cell>47</cell><cell>115</cell><cell>233</cell><cell>280</cell><cell>180</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>TABLE 3 Ranges of Uncorrected Pairwise Sequence Divergences (%) for cyt b, ND5, and D2 Sequences (Completely Excluding Gaps)</head><label>3</label><figDesc></figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>D2</cell></row><row><cell></cell><cell></cell><cell></cell><cell>cyt b</cell><cell></cell><cell></cell><cell>ND5</cell><cell></cell><cell></cell><cell></cell><cell>Analyzed</cell></row><row><cell>Taxa</cell><cell>nt1</cell><cell>nt2</cell><cell>nt3</cell><cell>All sites</cell><cell>nt1</cell><cell>nt2</cell><cell>nt3</cell><cell>All sites</cell><cell>All sites</cell><cell>fragments</cell></row><row><cell>Within Anopheles</cell><cell>1.5-8.1</cell><cell cols="3">0.0-0.0 16.1-34.3 5.8-13.4</cell><cell>1.7-20.1</cell><cell cols="2">0.0-13.8 10.3-36.2</cell><cell>5.1-20.8</cell><cell>0.8-40.3</cell><cell>0.3-37.4</cell></row><row><cell cols="2">Within Anophelinae 0.7-8.1</cell><cell>0.0-0.0</cell><cell cols="2">3.7-34.3 1.5-13.4</cell><cell>1.7-21.8</cell><cell cols="2">0.0-13.8 10.3-39.1</cell><cell>5.1-23.0</cell><cell>0.8-40.9</cell><cell>0.3-37.5</cell></row><row><cell>Within</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>non-anophelines</cell><cell>2.9-8.8</cell><cell cols="4">0.7-2.9 18.2-33.8 8.3-14.5 13.2-26.4</cell><cell cols="5">8.7-19.5 24.5-37.4 15.9-27.2 12.5-26.7 10.3-23.9</cell></row><row><cell>Anophelinae-</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>non-anophelines</cell><cell cols="10">3.7-11.0 1.5-2.2 18.9-33.6 9.0-15.4 14.9-30.5 10.9-19.0 20.1-40.8 15.7-28.0 29.2-45.4 27.5-42.6</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>TABLE 4 Comparative Bootstrap Support for Monophyly of Selected Groups among the Studied Taxa Supported by Alternative Data Partitions Using MP (EW, Equally Weighted; nt3(Ti) ‫؍‬ 0, with nt3 Transitions Excluded; and nt3 ‫؍‬ 0, nt3 Sites Excluded) and ML</head><label>4</label><figDesc></figDesc><table><row><cell></cell><cell></cell><cell>ND5</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>cyt b</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>MP</cell><cell></cell><cell></cell><cell>D2</cell><cell></cell><cell></cell><cell>MP</cell><cell></cell><cell></cell></row><row><cell>Taxa</cell><cell>EW</cell><cell>nt3(Ti) ϭ 0</cell><cell>nt3 ϭ 0</cell><cell>ML</cell><cell>MP</cell><cell>ML</cell><cell>EW</cell><cell>nt3(Ti) ϭ 0</cell><cell>nt3 ϭ 0</cell><cell>ML a</cell></row><row><cell>Anophelinae</cell><cell>Ϫ</cell><cell>64</cell><cell>80</cell><cell>88</cell><cell>100</cell><cell>100</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>67</cell><cell>ϩ</cell></row><row><cell>Anopheles ϩ Bironella</cell><cell>Ϫ</cell><cell>65</cell><cell>53</cell><cell>72</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell></row><row><cell>Genus Anopheles</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell></row><row><cell>Subgenera Anopheles ϩ Cellia</cell><cell>Ϫ</cell><cell>50</cell><cell>61</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell></row><row><cell>Subgenera Kerteszia ϩ Nyssorhynchus</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>100</cell><cell>91</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell></row><row><cell>Subgenus Anopheles</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>81</cell><cell>59</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell></row><row><cell>Subgenus Cellia</cell><cell>89</cell><cell>90</cell><cell>91</cell><cell>91</cell><cell>99</cell><cell>100</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell></row><row><cell>Subgenus Nyssorhynchus</cell><cell>100</cell><cell>100</cell><cell>100</cell><cell>100</cell><cell>99</cell><cell>91</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell></row><row><cell>Subgenus Kerteszia</cell><cell>98</cell><cell>98</cell><cell>98</cell><cell>100</cell><cell>98</cell><cell>100</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell></row><row><cell>An. cruzii ϩ An. bellator</cell><cell>87</cell><cell>71</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>Ϫ</cell><cell>86</cell><cell>86</cell><cell>59</cell><cell>ϩ</cell></row></table><note><p>a Bootstrap support not calculated; ϩ denotes presence of the lineage in the tree; Ϫ denotes lack of the lineage.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>TABLE 5 Results of Kishino-Hasegawa Test for Alternative Hypotheses (Two-Tailed Test at the 5% Significance Level)</head><label>5</label><figDesc></figDesc><table><row><cell></cell><cell cols="2">Genus Anopheles monophyletic</cell><cell></cell><cell cols="2">Bironella within subgenus Anopheles</cell><cell></cell></row><row><cell>Data set</cell><cell>Diff. -ln L</cell><cell>SD</cell><cell>P</cell><cell>Diff. -ln L</cell><cell>SD</cell><cell>P</cell></row><row><cell>ND5</cell><cell>3.513</cell><cell>4.021</cell><cell>0.3827</cell><cell>31.121</cell><cell>13.232</cell><cell>0.0190</cell></row><row><cell>D2</cell><cell>6.254</cell><cell>5.386</cell><cell>0.2463</cell><cell>18.053</cell><cell>9.190</cell><cell>0.0503</cell></row><row><cell>ND5 ϩ D2</cell><cell>1.579</cell><cell>4.809</cell><cell>0.7428</cell><cell>36.281</cell><cell>11.604</cell><cell>0.0018</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>KRZYWINSKI, WILKERSON, AND BESANSKY</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>mtDNA AND rDNA EVOLUTION AND ANOPHELINAE PHYLOGENY</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>We gratefully acknowledge <rs type="person">R. Cooper</rs>, <rs type="person">A. Cornell</rs>, and <rs type="person">D. Roberts</rs> for providing valuable specimens from their collections. We thank <rs type="person">Y. Ling</rs> for technical support. <rs type="person">K. McCracken</rs>, <rs type="person">R. DeSalle</rs>, and several anonymous reviewers (!) made valuable comments on an earlier version of the manuscript. N.B. received support from the <rs type="funder">UNDP/ World Bank/WHO</rs> <rs type="programName">Special Programme and Training in Tropical Diseases</rs>, from the <rs type="funder">John D. and Catherine T. MacArthur Foundation</rs>, from the <rs type="funder">National Institutes of Health</rs>, and from the <rs type="institution">University of Notre Dame</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_4REB8mR">
+					<orgName type="program" subtype="full">Special Programme and Training in Tropical Diseases</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Data sets, partitions, and characters: Philosophies and procedures for analyzing multiple data sets</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W O</forename><surname>Ballard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Thayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Newton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Grimser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Syst. Biol</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="367" to="396" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The mitochondrial genome of the mosquito Anopheles gambiae: DNA, genome organization, and comparisons with mitochondrial sequences of other insects</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Beard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Hamm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Insect Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="103" to="124" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">The Mosquitoes of the South Pacific (Diptera: Culicidae)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Belkin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1962">1962</date>
+			<publisher>Univ. of California Press</publisher>
+			<biblScope unit="volume">1</biblScope>
+			<pubPlace>Berkeley</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Utility of the white gene in estimating phylogenetic relationships among mosquitoes (Diptera: Culicidae)</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Besansky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Fahey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="442" to="454" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Conservation and change in the DNA sequences coding for alcohol dehydrogenase in sibling species of Drosophila</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bodmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ashburner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">309</biblScope>
+			<biblScope unit="page" from="425" to="430" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The mitochondrial DNA molecule of Drosophila yacuba: Nucleotide sequence, gene organization and genetic code</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">O</forename><surname>Clary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Wolstenholme</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="252" to="271" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A ribosomal RNA gene probe differentiates member species of the Anopheles gambiae complex</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Mendez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">O</forename><surname>Rasmussen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Mehaffey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Besansky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Finnerty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Trop. Med. Hyg</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="37" to="41" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Is congruence between data partitions a reliable predictor of phylogenetic accuracy? Empirically testing an iterative procedure for choosing among phylogenetic methods</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Cunningham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Syst. Biol</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="464" to="478" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Diptera fam. Culicidae</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Edwards</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genera Insectorum</title>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Wytsman</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1932">1932</date>
+			<publisher>Desmet-Verteneuil</publisher>
+			<pubPlace>Brussels</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Testing significance of incongruence</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Farris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ka ¨llersjo ¨</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Kluge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bult</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cladistics</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="315" to="319" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">PHYLIP (Phylogeny inference package), version 3.5. Department of Genetics</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Felsenstein</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993">1993</date>
+			<pubPlace>University of Washington, Seattle</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Evolution and systematics of Anopheles: Insights from a molecular phylogeny of Australasian mosquitoes</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Foley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Bryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yeates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saul</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Phylogenet. Evol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="262" to="275" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Program manual for the GCG package</title>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+			<pubPlace>Madison, WI</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Genetics Computer Group</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Phylogenetic relationships of the Alysinae/Opiinae (Hymenoptera: Braconidae) and the utility of cytochrome b, 16S and 28S D2 rRNA</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gimeno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Belshaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L J</forename><surname>Quicke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Insect Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="273" to="284" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Maximum likelihood estimation of the heterogeneity of substitution rate among nucleotide sites</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="546" to="557" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Review of the internal classification of the genus Anopheles (Diptera: Culicidae): The foundation for comparative systematics and phylogenetic research</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Harbach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull. Entomol. Res</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="331" to="342" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Phylogeny and classification of the Culicidae (Diptera)</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Harbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Kitching</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Syst. Entomol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="327" to="370" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Dating the humanape split by a molecular clock of mitochondrial DNA</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hasegawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kishino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="160" to="174" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Taxonomic sampling, phylogenetic accuracy, and investigator bias</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Hillis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Syst. Biol</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="3" to="8" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Evaluation of the maximum likelihood estimate of the evolutionary tree topologies from DNA sequence data, and the branching order in Hominoidea</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kishino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hasegawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="170" to="179" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Use of rRNA secondary structure in phylogenetic studies to identify homologous positions: An example of alignment and data presentation from the frogs</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Kjer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Phylogenet. Evol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="314" to="330" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A Catalog of the Mosquitoes of the World (Diptera: Culicidae)</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Thomas Say Found</title>
+		<meeting><address><addrLine>College Park, MD</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1977">1977</date>
+			<biblScope unit="volume">6</biblScope>
+		</imprint>
+	</monogr>
+	<note>nd ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Toward understanding Anophelinae (Diptera, Culicidae) phylogeny: Insights from nuclear single copy genes and the weight of evidence</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Krzywinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Wilkerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Besansky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Syst. Biol</title>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">MEGA: Molecular evolutionary genetics analysis, version 1.01</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nei</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+		<respStmt>
+			<orgName>Pennsylvania State Univ., University Park</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Mitochondrial DNA sequence variation among triatomine vectors of Chagas&apos; disease</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Lyman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Monteiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Escalante</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cordon-Rosales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Wesson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Dujardin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Beard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Trop. Med. Hyg</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="377" to="386" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Shortcomings of the cytochrome b gene as a molecular marker</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Meyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Ecol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="278" to="280" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Comparisons of large subunit rRNAs reveal some eukaryote-specific elements of secondary structure</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Michot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Bachellerie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochimie</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="11" to="23" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Systematics of mosquito disease vectors (Diptera, Culicidae): Impact of molecular biology and cladistic analysis</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Munstermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Conn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Entomol</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="351" to="369" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Compar-486 KRZYWINSKI, WILKERSON, AND BESANSKY ative analysis of the subgenera Kerteszia and Nyssorhynchus of Anopheles (Diptera: Culicidae)</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Peyton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Wilkerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Harbach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mosquito Syst</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="51" to="69" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Phylogeny of Nearctic members of the Anopheles maculipennis species group derived from the D2 variable region of 28S ribosomal RNA</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Porter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Phylogenet. Evol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="178" to="188" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">MODELTEST: Testing the model of DNA substitution</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Posada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Crandall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="817" to="818" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The classification of American Anopheles mosquitoes</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Root</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Hyg</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="321" to="322" />
+			<date type="published" when="1922">1922</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Conflict with Culex</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Ross</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mosquito News</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="128" to="132" />
+			<date type="published" when="1951">1951</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Secondary structure constraints on the evolution of Drosophila 28S ribosomal RNA expansion segments</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ruiz Linares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Hancock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Dover</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">219</biblScope>
+			<biblScope unit="page" from="381" to="390" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Phylogeny of Anophelinae based on morphological characters</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A M</forename><surname>Sallum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Schultz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Wilkerson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Entomol. Soc. Am</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="745" to="775" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">PAUP*: Phylogenetic analysis using parsimony (and other methods)</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Swofford</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<pubPlace>Sinauer, Sunderland, MA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Version 4.0b2</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Evolutionary divergence of promoters and spacers in the rDNA family of four Drosophila species: Implications for molecular coevolution in multigene families</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tautz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tautz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Webb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Dover</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="page" from="525" to="542" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Revision of the genus Bironella (Diptera: Culicidae)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Tenorio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Med. Entomol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="317" to="361" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">CLUSTAL W: Improving sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Higgins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Gibson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="4673" to="4680" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Maximum likelihood phylogenetic estimation from DNA sequences with variable rates over sites: Approximate methods</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="316" to="324" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Mosquito studies (Diptera, Culicidae) XXIX: A review of the subgenus Kerteszia of Anopheles</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Zavortink</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Am. Entomol. Inst</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1" to="54" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">On finding all suboptimal foldings of an RNA molecule</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zucker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">244</biblScope>
+			<biblScope unit="page" from="48" to="52" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

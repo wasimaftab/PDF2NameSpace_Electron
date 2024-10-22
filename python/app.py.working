@@ -344,7 +344,6 @@ def process_pdfs(folder_path, namespace):
     total_vectors_pushed = 0
     start = time.time()
     for idx, xml_file in enumerate(xml_files):
-        print(f"Processing {xml_file}\n", flush=True)
         # temp_xml_file = os.path.basename(xml_file)
         # tree = ET.parse(xml_folder_path + '/' + temp_xml_file)
         tree = ET.parse(xml_file)
